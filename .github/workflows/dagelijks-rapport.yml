@@ -1,0 +1,36 @@
+name: Dagelijks Bol.com Prijsrapport
+
+on:
+  schedule:
+    - cron: '0 7 * * *'  # Elke dag om 8:00 Nederlandse tijd
+  workflow_dispatch:       # Ook handmatig te starten
+
+jobs:
+  prijsrapport:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Code ophalen
+        uses: actions/checkout@v4
+
+      - name: Node.js instellen
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Dependencies installeren
+        run: npm install
+
+      - name: Rapport genereren
+        env:
+          BOL_CLIENT_ID: ${{ secrets.BOL_CLIENT_ID }}
+          BOL_CLIENT_SECRET: ${{ secrets.BOL_CLIENT_SECRET }}
+        run: node src/index.js
+
+      - name: Rapport opslaan in repo
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add rapport.json
+          git diff --staged --quiet || git commit -m "📊 Rapport $(date +'%Y-%m-%d')"
+          git push
