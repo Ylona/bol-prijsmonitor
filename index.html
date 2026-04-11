@@ -43,13 +43,15 @@
     .sort-label { font-size: 0.8rem; color: var(--grijs); }
     .dl-btn { margin-left: auto; background: var(--groen); color: #fff; border: none; border-radius: 6px; padding: 8px 18px; font-size: 0.8rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 6px; white-space: nowrap; }
     .dl-btn:hover { opacity: .88; }
-    .refresh-btn { background: #fff; color: var(--blauw); border: 1px solid var(--blauw); border-radius: 6px; padding: 8px 18px; font-size: 0.8rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 6px; white-space: nowrap; }
-    .refresh-btn:hover { background: var(--lichtblauw); }
-    .refresh-btn:disabled { opacity: .5; cursor: not-allowed; }
-    .refresh-status { font-size: 0.78rem; padding: 4px 10px; border-radius: 12px; display: none; align-items: center; gap: 5px; }
-    .refresh-status.bezig  { display: flex; background: #fff8e1; color: #856404; }
-    .refresh-status.klaar  { display: flex; background: #e8f5e9; color: #276221; }
-    .refresh-status.fout   { display: flex; background: #fde8e8; color: var(--rood); }
+    .refresh-btn { background: #fff; color: var(--blauw); border: 1px solid var(--blauw); border-radius: 6px; padding: 8px 18px; font-size: 0.8rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 6px; white-space: nowrap; transition: background .15s; }
+    .refresh-btn:hover:not(:disabled) { background: var(--lichtblauw); }
+    .refresh-btn:disabled { opacity: .6; cursor: not-allowed; }
+    .spin { display: inline-block; animation: draaien 1s linear infinite; }
+    @keyframes draaien { to { transform: rotate(360deg); } }
+    .refresh-status { font-size: 0.82rem; padding: 6px 14px; border-radius: 20px; display: none; align-items: center; gap: 6px; font-weight: 500; }
+    .refresh-status.bezig  { display: flex; background: #fff8e1; color: #7a5800; border: 1px solid #ffe082; }
+    .refresh-status.klaar  { display: flex; background: #e8f5e9; color: #1b5e20; border: 1px solid #a5d6a7; }
+    .refresh-status.fout   { display: flex; background: #fde8e8; color: var(--rood);  border: 1px solid #ffcdd2; }
 
     /* Modal */
     .modal-bg { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.45); z-index: 100; align-items: center; justify-content: center; }
@@ -288,8 +290,9 @@ function downloadExcel() {
 laadRapport();
 
 // ── Rapport vernieuwen via GitHub Actions ──
-const REPO  = 'Ylona/bol-prijsmonitor';
+const REPO     = 'Ylona/bol-prijsmonitor';
 const WORKFLOW = 'dagelijks-rapport.yml';
+let pollTimer  = null;
 
 function triggerRefresh() {
   const token = localStorage.getItem('gh_token');
@@ -299,9 +302,9 @@ function triggerRefresh() {
 
 async function voerRefreshUit(token) {
   const btn = document.getElementById('refreshBtn');
-  const status = document.getElementById('refreshStatus');
   btn.disabled = true;
-  zetStatus('bezig', '⏳ Rapport wordt vernieuwd…');
+  btn.innerHTML = '<span class="spin">↻</span> Bezig…';
+  zetStatus('bezig', '⏳ Rapport wordt opgehaald bij bol.com…');
 
   try {
     const res = await fetch(
@@ -318,20 +321,58 @@ async function voerRefreshUit(token) {
     );
 
     if (res.status === 204) {
-      zetStatus('klaar', '✅ Gestart! Het rapport is over ±5 minuten bijgewerkt.');
-      setTimeout(() => { zetStatus(null); btn.disabled = false; }, 8000);
+      // Wacht 5s zodat de run aangemaakt is, dan beginnen met pollen
+      setTimeout(() => pollRunStatus(token), 5000);
     } else if (res.status === 401) {
       localStorage.removeItem('gh_token');
-      zetStatus('fout', '❌ Token ongeldig. Klik opnieuw om een nieuw token in te voeren.');
-      btn.disabled = false;
+      resetRefreshBtn();
+      zetStatus('fout', '❌ Token ongeldig. Klik opnieuw en voer een nieuw token in.');
     } else {
-      zetStatus('fout', `❌ Fout (${res.status}). Probeer het opnieuw.`);
-      btn.disabled = false;
+      resetRefreshBtn();
+      zetStatus('fout', `❌ Kon niet starten (${res.status}). Probeer het opnieuw.`);
     }
   } catch {
+    resetRefreshBtn();
     zetStatus('fout', '❌ Geen verbinding. Controleer internet.');
-    btn.disabled = false;
   }
+}
+
+async function pollRunStatus(token) {
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/runs?per_page=1`,
+      { headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' } }
+    );
+    if (!res.ok) { resetRefreshBtn(); return; }
+    const data = await res.json();
+    const run  = data.workflow_runs?.[0];
+    if (!run) { resetRefreshBtn(); return; }
+
+    if (run.status === 'completed') {
+      if (run.conclusion === 'success') {
+        zetStatus('klaar', '✅ Rapport bijgewerkt! Pagina wordt herladen…');
+        setTimeout(() => location.reload(), 2000);
+      } else {
+        resetRefreshBtn();
+        zetStatus('fout', `❌ Actie mislukt (${run.conclusion}). Probeer het opnieuw.`);
+      }
+    } else {
+      // Nog bezig — laat zien hoe lang al
+      const geleden = Math.round((Date.now() - new Date(run.created_at)) / 1000);
+      zetStatus('bezig', `⏳ Rapport ophalen loopt… (${geleden}s)`);
+      pollTimer = setTimeout(() => pollRunStatus(token), 10000);
+    }
+  } catch {
+    resetRefreshBtn();
+    zetStatus('fout', '❌ Kon status niet ophalen. Herlaad de pagina over een paar minuten.');
+  }
+}
+
+function resetRefreshBtn() {
+  const btn = document.getElementById('refreshBtn');
+  btn.disabled = false;
+  btn.innerHTML = '↻ Rapport vernieuwen';
+  clearTimeout(pollTimer);
 }
 
 function zetStatus(type, tekst) {
