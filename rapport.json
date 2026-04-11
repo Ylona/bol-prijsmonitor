@@ -1,6 +1,6 @@
 {
-  "gegenereerd": "2026-04-11T12:35:37.528Z",
-  "aantalProducten": 48,
+  "gegenereerd": "2026-04-11T12:49:29.977Z",
+  "aantalProducten": 49,
   "producten": [
     {
       "product": "Creation Lamis Ruler Giftset",
@@ -14,6 +14,22 @@
           "retailerId": "1762224",
           "prijs": 13.87,
           "verschil": 1.12,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta - Fair Fight - Eau De Toilette - 100Ml",
+      "ean": "8715658997924",
+      "eigenPrijs": 13.75,
+      "laagsteConcurrent": 13.16,
+      "verschil": 0.59,
+      "concurrenten": [
+        {
+          "retailerNaam": "Koopjesfun.nl",
+          "retailerId": "1762224",
+          "prijs": 13.16,
+          "verschil": 0.59,
           "fulfilment": "FBR"
         }
       ]
