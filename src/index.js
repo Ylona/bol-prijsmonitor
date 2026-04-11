@@ -166,6 +166,7 @@ async function main() {
   console.log(`📦 ${aanbiedingen.length} aanbiedingen — concurrent-prijzen ophalen...`);
 
   const kandidaten = [];
+  const veiligeLijst = [];
 
   // Fase 1: concurrent-prijzen ophalen voor alle producten
   for (const aanbieding of aanbiedingen) {
@@ -181,6 +182,17 @@ async function main() {
 
     if (goedkopere.length > 0) {
       kandidaten.push({ ean, eigenPrijs, referentie, goedkopere });
+    } else {
+      // Dichtstbijzijnde concurrent (goedkoopste aanbieder boven eigen prijs)
+      const andereOffers = offers.filter(o => !o.bestOffer && o.price);
+      const dichtstbij = andereOffers.length > 0 ? Math.min(...andereOffers.map(o => o.price)) : null;
+      veiligeLijst.push({
+        product: referentie,
+        ean,
+        eigenPrijs,
+        dichtstbijzijneConcurrent: dichtstbij,
+        marge: dichtstbij !== null ? parseFloat((dichtstbij - eigenPrijs).toFixed(2)) : null,
+      });
     }
   }
 
@@ -220,7 +232,9 @@ async function main() {
   const uitvoer = {
     gegenereerd: nu.toISOString(),
     aantalProducten: rapport.length,
+    aantalVeilig: veiligeLijst.length,
     producten: rapport,
+    veilig: veiligeLijst,
   };
   await writeFile('rapport.json', JSON.stringify(uitvoer, null, 2), 'utf-8');
 

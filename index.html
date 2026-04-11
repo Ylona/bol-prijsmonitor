@@ -80,6 +80,7 @@
     .badge-rood   { background: #fde8e8; color: var(--rood); }
     .badge-oranje { background: #fef3e2; color: var(--oranje); }
     .badge-blauw  { background: var(--lichtblauw); color: var(--blauw); }
+    .badge-groen  { background: #e8f5e9; color: var(--groen); }
     .concurrent-rij { font-size: 0.8rem; color: #555; line-height: 1.8; }
     .concurrent-rij strong { color: #222; }
     .concurrent-rij .fbr { font-size: 0.68rem; background: #eef; color: #336; border-radius: 3px; padding: 1px 5px; margin-left: 4px; }
@@ -175,6 +176,11 @@ function initialiseer() {
     'Gegenereerd op ' + d.toLocaleDateString('nl-NL', { weekday:'long', year:'numeric', month:'long', day:'numeric' }) +
     ' om ' + d.toLocaleTimeString('nl-NL', { hour:'2-digit', minute:'2-digit' });
 
+  // Tellers op filterknoppen
+  const veiligAantal = (rapport.veilig || []).length;
+  document.querySelector('[data-filter="concurrent"]').textContent = `Heeft concurrent (${rapport.producten.length})`;
+  document.querySelector('[data-filter="veilig"]').textContent     = `Veilig (${veiligAantal})`;
+
   toonStats();
   vulConcurrentDropdown();
   document.querySelectorAll('#filterGroep button').forEach(btn =>
@@ -205,23 +211,20 @@ function vulConcurrentDropdown() {
 // ── Stats ──
 function toonStats() {
   const p = rapport.producten;
+  const v = rapport.veilig || [];
   const n = p.length;
-  if (n === 0) { document.getElementById('stats').innerHTML = ''; return; }
   const grootVerschil = p.filter(x => x.verschil >= 1).length;
-  const maxV = Math.max(...p.map(x => x.verschil));
-  const gemV = p.reduce((s, x) => s + x.verschil, 0) / n;
+  const maxV = n > 0 ? Math.max(...p.map(x => x.verschil)) : 0;
   document.getElementById('stats').innerHTML = `
     <div class="stat rood"><div class="stat-getal">${n}</div><div class="stat-label">Goedkopere concurrent</div></div>
     <div class="stat oranje"><div class="stat-getal">${grootVerschil}</div><div class="stat-label">Verschil ≥ €1,00</div></div>
     <div class="stat"><div class="stat-getal">€${maxV.toFixed(2)}</div><div class="stat-label">Grootste verschil</div></div>
-    <div class="stat"><div class="stat-getal">€${gemV.toFixed(2)}</div><div class="stat-label">Gemiddeld verschil</div></div>`;
+    <div class="stat"><div class="stat-getal">${v.length}</div><div class="stat-label">Veilige producten</div></div>`;
 }
 
 // ── Filter + sorteren ──
 function gefilterdeProducten() {
   let p = rapport.producten;
-  if (actielFilter === 'veilig') return [];
-
   const gekozenConcurrent = document.getElementById('filterConcurrent').value;
   if (gekozenConcurrent) {
     p = p.filter(prod => prod.concurrenten.some(c => c.retailerNaam === gekozenConcurrent));
@@ -242,22 +245,22 @@ function gesorteerd() {
   });
 }
 
+const THEAD_NORMAAL = `<th>Product</th><th>EAN</th><th>Eigen prijs</th><th>Laagste concurrent</th><th>Verschil</th><th>Concurrenten</th>`;
+const THEAD_VEILIG  = `<th>Product</th><th>EAN</th><th>Eigen prijs</th><th>Dichtstbijzijnde concurrent</th><th>Ruimte omhoog</th>`;
+
 // ── Render ──
 function render() {
   if (!rapport) return;
+  if (actielFilter === 'veilig') { renderVeilig(); return; }
+
+  document.querySelector('#tabel thead tr').innerHTML = THEAD_NORMAAL;
+
   const lijst = gesorteerd();
   const tabel = document.getElementById('tabel');
 
   if (lijst.length === 0) {
     tabel.style.display = 'none';
-    if (actielFilter === 'veilig') {
-      toonMsg(
-        'Geen "veilige" producten in het rapport.',
-        'Het rapport bevat alleen producten waarbij een concurrent goedkoper is. Producten zonder goedkopere concurrent worden niet opgeslagen.'
-      );
-    } else {
-      toonMsg('Geen producten gevonden.', '');
-    }
+    toonMsg('Geen producten gevonden.', '');
     return;
   }
 
@@ -280,9 +283,53 @@ function render() {
     </tr>`).join('');
 }
 
+function renderVeilig() {
+  document.querySelector('#tabel thead tr').innerHTML = THEAD_VEILIG;
+
+  const veilig = rapport.veilig;
+  const tabel  = document.getElementById('tabel');
+
+  if (!veilig || veilig.length === 0) {
+    tabel.style.display = 'none';
+    toonMsg(
+      'Geen veilige producten gevonden.',
+      rapport.veilig ? 'Alle producten hebben een goedkopere concurrent.' : 'Draai het rapport opnieuw om veilige producten te zien.'
+    );
+    return;
+  }
+
+  const s = document.getElementById('sorteer').value;
+  const gesorteerdeVeilig = [...veilig].sort((a, b) => {
+    if (s === 'verschil-desc') return (a.marge ?? Infinity) - (b.marge ?? Infinity);
+    if (s === 'verschil-asc')  return (b.marge ?? Infinity) - (a.marge ?? Infinity);
+    if (s === 'prijs-desc')    return b.eigenPrijs - a.eigenPrijs;
+    if (s === 'prijs-asc')     return a.eigenPrijs - b.eigenPrijs;
+    if (s === 'naam-asc')      return a.product.localeCompare(b.product, 'nl');
+    return 0;
+  });
+
+  toonMsg(null);
+  tabel.style.display = 'table';
+  document.getElementById('tbody').innerHTML = gesorteerdeVeilig.map(p => `
+    <tr>
+      <td class="naam">${esc(p.product)}</td>
+      <td><code style="font-size:0.78rem;color:#555">${esc(p.ean)}</code></td>
+      <td class="prijs">€${fmt(p.eigenPrijs)}</td>
+      <td class="prijs">${p.dichtstbijzijneConcurrent !== null
+        ? '€' + fmt(p.dichtstbijzijneConcurrent)
+        : '<span style="color:var(--grijs)">Geen concurrent</span>'}</td>
+      <td>${p.marge !== null ? badgeMarge(p.marge) : '<span style="color:var(--grijs)">—</span>'}</td>
+    </tr>`).join('');
+}
+
 function badgeVerschil(v) {
   const cls = v >= 1 ? 'badge-rood' : v >= 0.25 ? 'badge-oranje' : 'badge-blauw';
   return `<span class="badge ${cls}">-€${fmt(v)}</span>`;
+}
+
+function badgeMarge(v) {
+  const cls = v >= 2 ? 'badge-groen' : v >= 0.5 ? 'badge-oranje' : 'badge-blauw';
+  return `<span class="badge ${cls}">+€${fmt(v)}</span>`;
 }
 
 function toonMsg(titel, sub) {
