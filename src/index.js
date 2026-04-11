@@ -7,10 +7,10 @@ dotenv.config();
 const CLIENT_ID = process.env.BOL_CLIENT_ID;
 const CLIENT_SECRET = process.env.BOL_CLIENT_SECRET;
 
-// Centrale rate-limiter: max 1 call per 200ms (~300/min), retry bij 429
+// Centrale rate-limiter: max 1 call per 100ms (~600/min), retry bij 429
 let lastCallTime = 0;
 async function bolFetch(url, options = {}) {
-  const wacht = Math.max(0, 200 - (Date.now() - lastCallTime));
+  const wacht = Math.max(0, 100 - (Date.now() - lastCallTime));
   if (wacht > 0) await new Promise(r => setTimeout(r, wacht));
   lastCallTime = Date.now();
 

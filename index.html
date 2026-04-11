@@ -106,6 +106,9 @@
     <button data-filter="concurrent">Heeft concurrent</button>
     <button data-filter="veilig">Veilig</button>
   </div>
+  <select id="filterConcurrent" onchange="render()">
+    <option value="">Alle concurrenten</option>
+  </select>
   <span class="sort-label">Sorteren op:</span>
   <select id="sorteer" onchange="render()">
     <option value="verschil-desc">Verschil (groot → klein)</option>
@@ -113,6 +116,7 @@
     <option value="prijs-desc">Prijs (hoog → laag)</option>
     <option value="prijs-asc">Prijs (laag → hoog)</option>
     <option value="naam-asc">Naam (A → Z)</option>
+    <option value="concurrent-asc">Concurrent (A → Z)</option>
   </select>
   <button class="refresh-btn" id="refreshBtn" onclick="triggerRefresh()">↻ Rapport vernieuwen</button>
   <span class="refresh-status" id="refreshStatus"></span>
@@ -172,6 +176,7 @@ function initialiseer() {
     ' om ' + d.toLocaleTimeString('nl-NL', { hour:'2-digit', minute:'2-digit' });
 
   toonStats();
+  vulConcurrentDropdown();
   document.querySelectorAll('#filterGroep button').forEach(btn =>
     btn.addEventListener('click', () => {
       actielFilter = btn.dataset.filter;
@@ -181,6 +186,20 @@ function initialiseer() {
     })
   );
   render();
+}
+
+function vulConcurrentDropdown() {
+  const namen = [...new Set(
+    rapport.producten.flatMap(p => p.concurrenten.map(c => c.retailerNaam))
+  )].sort((a, b) => a.localeCompare(b, 'nl'));
+  const sel = document.getElementById('filterConcurrent');
+  sel.innerHTML = '<option value="">Alle concurrenten</option>';
+  namen.forEach(naam => {
+    const opt = document.createElement('option');
+    opt.value = naam;
+    opt.textContent = naam;
+    sel.appendChild(opt);
+  });
 }
 
 // ── Stats ──
@@ -200,20 +219,25 @@ function toonStats() {
 
 // ── Filter + sorteren ──
 function gefilterdeProducten() {
-  const p = rapport.producten;
-  if (actielFilter === 'concurrent') return p;
-  if (actielFilter === 'veilig')     return [];
-  return p; // 'alle' — JSON bevat alleen producten mét concurrent
+  let p = rapport.producten;
+  if (actielFilter === 'veilig') return [];
+
+  const gekozenConcurrent = document.getElementById('filterConcurrent').value;
+  if (gekozenConcurrent) {
+    p = p.filter(prod => prod.concurrenten.some(c => c.retailerNaam === gekozenConcurrent));
+  }
+  return p;
 }
 
 function gesorteerd() {
   const s = document.getElementById('sorteer').value;
   return [...gefilterdeProducten()].sort((a, b) => {
-    if (s === 'verschil-desc') return b.verschil - a.verschil;
-    if (s === 'verschil-asc')  return a.verschil - b.verschil;
-    if (s === 'prijs-desc')    return b.eigenPrijs - a.eigenPrijs;
-    if (s === 'prijs-asc')     return a.eigenPrijs - b.eigenPrijs;
-    if (s === 'naam-asc')      return a.product.localeCompare(b.product, 'nl');
+    if (s === 'verschil-desc')   return b.verschil - a.verschil;
+    if (s === 'verschil-asc')    return a.verschil - b.verschil;
+    if (s === 'prijs-desc')      return b.eigenPrijs - a.eigenPrijs;
+    if (s === 'prijs-asc')       return a.eigenPrijs - b.eigenPrijs;
+    if (s === 'naam-asc')        return a.product.localeCompare(b.product, 'nl');
+    if (s === 'concurrent-asc')  return a.concurrenten[0]?.retailerNaam.localeCompare(b.concurrenten[0]?.retailerNaam, 'nl') ?? 0;
     return 0;
   });
 }
@@ -241,7 +265,8 @@ function render() {
   tabel.style.display = 'table';
   document.getElementById('tbody').innerHTML = lijst.map(p => `
     <tr>
-      <td class="naam">${esc(p.product)}<span>${esc(p.ean)}</span></td>
+      <td class="naam">${esc(p.product)}</td>
+      <td><code style="font-size:0.78rem;color:#555">${esc(p.ean)}</code></td>
       <td class="prijs">€${fmt(p.eigenPrijs)}</td>
       <td class="prijs">€${fmt(p.laagsteConcurrent)}</td>
       <td>${badgeVerschil(p.verschil)}</td>
@@ -285,6 +310,35 @@ function downloadExcel() {
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, 'Prijsrapport');
   XLSX.writeFile(wb, `prijsrapport-${datum}.xlsx`);
+}
+
+async function herlaadRapport(token) {
+  try {
+    // Cache-busting: timestamp in de URL zodat de browser nooit de oude versie pakt
+    const res = await fetch('rapport.json?t=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error();
+    const nieuw = await res.json();
+    // Controleer of het rapport echt nieuwer is
+    if (nieuw.gegenereerd !== rapport?.gegenereerd) {
+      rapport = nieuw;
+      vulConcurrentDropdown();
+      toonStats();
+      render();
+      const d = new Date(rapport.gegenereerd);
+      document.getElementById('headerDatum').textContent =
+        'Gegenereerd op ' + d.toLocaleDateString('nl-NL', { weekday:'long', year:'numeric', month:'long', day:'numeric' }) +
+        ' om ' + d.toLocaleTimeString('nl-NL', { hour:'2-digit', minute:'2-digit' });
+      resetRefreshBtn();
+      zetStatus('klaar', '✅ Rapport is bijgewerkt!');
+      setTimeout(() => zetStatus(null), 5000);
+    } else {
+      // Rapport nog niet bijgewerkt op Pages — nog even wachten
+      setTimeout(() => herlaadRapport(token), 8000);
+    }
+  } catch {
+    resetRefreshBtn();
+    zetStatus('fout', '❌ Kon rapport niet ophalen. Ververs de pagina handmatig.');
+  }
 }
 
 laadRapport();
@@ -350,8 +404,8 @@ async function pollRunStatus(token) {
 
     if (run.status === 'completed') {
       if (run.conclusion === 'success') {
-        zetStatus('klaar', '✅ Rapport bijgewerkt! Pagina wordt herladen…');
-        setTimeout(() => location.reload(), 2000);
+        zetStatus('bezig', '⏳ Rapport ophalen…');
+        setTimeout(() => herlaadRapport(token), 3000);
       } else {
         resetRefreshBtn();
         zetStatus('fout', `❌ Actie mislukt (${run.conclusion}). Probeer het opnieuw.`);
