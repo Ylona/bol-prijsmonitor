@@ -1,23 +1,7 @@
 {
-  "gegenereerd": "2026-04-11T11:48:37.994Z",
-  "aantalProducten": 50,
+  "gegenereerd": "2026-04-11T12:35:37.528Z",
+  "aantalProducten": 48,
   "producten": [
-    {
-      "product": "Hello Kitty - Giftset - Sweet Leopard Pink - Eau de Parfum + Bodymist - Cadeauset voor Kinderen - Geschenkset",
-      "ean": "8721055496373",
-      "eigenPrijs": 16.95,
-      "laagsteConcurrent": 15.63,
-      "verschil": 1.32,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 15.63,
-          "verschil": 1.32,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
     {
       "product": "Creation Lamis Ruler Giftset",
       "ean": "6291012002678",
@@ -35,49 +19,33 @@
       ]
     },
     {
-      "product": "Hello Kitty - Giftset - Delicate Flower - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
-      "ean": "7640158816950",
-      "eigenPrijs": 15.95,
-      "laagsteConcurrent": 15.14,
-      "verschil": 0.81,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 15.14,
-          "verschil": 0.81,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Creation Lamis Paraverse 100ml Eau de Parfum for women",
-      "ean": "6291012005082",
-      "eigenPrijs": 15.15,
-      "laagsteConcurrent": 14.81,
-      "verschil": 0.34,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 14.81,
-          "verschil": 0.34,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
       "product": "Creation Lamis Catsuit Woman Eau de Parfum For Women 100 ml",
       "ean": "6151010029070",
-      "eigenPrijs": 13.95,
-      "laagsteConcurrent": 13.63,
-      "verschil": 0.32,
+      "eigenPrijs": 13.59,
+      "laagsteConcurrent": 13.06,
+      "verschil": 0.53,
       "concurrenten": [
         {
           "retailerNaam": "Koopjesfun.nl",
           "retailerId": "1762224",
-          "prijs": 13.63,
-          "verschil": 0.32,
+          "prijs": 13.06,
+          "verschil": 0.53,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Creation Lamis Just Perfect Dream for her - Eau de parfum met bloemige noten - 100ml",
+      "ean": "5414666014427",
+      "eigenPrijs": 9.95,
+      "laagsteConcurrent": 9.48,
+      "verschil": 0.47,
+      "concurrenten": [
+        {
+          "retailerNaam": "Juwelium",
+          "retailerId": "1692530",
+          "prijs": 9.48,
+          "verschil": 0.47,
           "fulfilment": "FBR"
         }
       ]
