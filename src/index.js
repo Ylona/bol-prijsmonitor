@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import { writeFile, mkdir } from 'fs/promises';
+import { writeFile, readFile, mkdir } from 'fs/promises';
 import ExcelJS from 'exceljs';
 import * as dotenv from 'dotenv';
 dotenv.config();
@@ -7,7 +7,7 @@ dotenv.config();
 const CLIENT_ID = process.env.BOL_CLIENT_ID;
 const CLIENT_SECRET = process.env.BOL_CLIENT_SECRET;
 
-// Centrale rate-limiter: max 1 call per 100ms (~600/min), retry bij 429
+// Centrale rate-limiter: 100ms tussenpoos = exact 10 req/sec (bol.com limiet)
 let lastCallTime = 0;
 async function bolFetch(url, options = {}) {
   const wacht = Math.max(0, 100 - (Date.now() - lastCallTime));
@@ -17,9 +17,8 @@ async function bolFetch(url, options = {}) {
   const res = await fetch(url, options);
 
   if (res.status === 429) {
-    const retryAfter = parseInt(res.headers.get('Retry-After') || '10', 10);
-    console.log(`⏸️  Rate limit — wacht ${retryAfter}s...`);
-    await new Promise(r => setTimeout(r, retryAfter * 1000));
+    process.stdout.write('⏸');
+    await new Promise(r => setTimeout(r, 2000));
     return bolFetch(url, options);
   }
 
@@ -118,9 +117,26 @@ async function getConcurrenten(token, ean) {
   return await res.json();
 }
 
-// Stap 6: Productnaam ophalen via products/list (searchTerm = EAN)
-// Alleen aangeroepen voor producten met goedkopere concurrent
+// Stap 6: Productnaam ophalen — met dagelijkse cache in naam-cache.json
+let naamCache = {};
+
+async function laadNaamCache() {
+  try {
+    naamCache = JSON.parse(await readFile('naam-cache.json', 'utf-8'));
+    console.log(`📖 Naam-cache: ${Object.keys(naamCache).length} namen geladen`);
+  } catch {
+    naamCache = {};
+  }
+}
+
+const CACHE_DAGEN = 7;
+
 async function getProductNaam(token, ean, fallback) {
+  const gecached = naamCache[ean];
+  if (gecached) {
+    const ouderDan = (Date.now() - gecached.ts) / 86_400_000;
+    if (ouderDan < CACHE_DAGEN) return gecached.naam;
+  }
   const res = await bolFetch('https://api.bol.com/retailer/products/list', {
     method: 'POST',
     headers: {
@@ -132,7 +148,9 @@ async function getProductNaam(token, ean, fallback) {
   });
   if (!res.ok) return fallback;
   const data = await res.json();
-  return data.products?.[0]?.title || fallback;
+  const naam = data.products?.[0]?.title || fallback;
+  naamCache[ean] = { naam, ts: Date.now() };
+  return naam;
 }
 
 // Stap 7: Retailernaam ophalen met cache
@@ -158,6 +176,7 @@ async function main() {
 
   const token = await getAccessToken();
   console.log('✅ Ingelogd bij bol.com API');
+  await laadNaamCache();
 
   const processStatusId = await getEigenaanbiedingen(token);
   const csv = await wachtOpExport(token, processStatusId);
@@ -196,9 +215,15 @@ async function main() {
     }
   }
 
-  console.log(`💡 ${kandidaten.length} product(en) goedkoper — namen ophalen...`);
+  const nieuwInCache = () => Object.keys(naamCache).length;
+  const cacheVoor = nieuwInCache();
+  console.log(`💡 ${kandidaten.length} product(en) goedkoper, ${veiligeLijst.length} veilig — namen ophalen...`);
 
-  // Fase 2: namen + retailernamen alleen ophalen voor producten met goedkopere concurrent
+  // Fase 2: namen ophalen voor alle producten (gecached na eerste run)
+  for (const v of veiligeLijst) {
+    v.product = await getProductNaam(token, v.ean, v.product);
+  }
+
   const rapport = [];
   for (const { ean, eigenPrijs, referentie, goedkopere } of kandidaten) {
     const productNaam = await getProductNaam(token, ean, referentie);
@@ -224,6 +249,11 @@ async function main() {
   }
 
   rapport.sort((a, b) => b.verschil - a.verschil);
+
+  // Naam-cache opslaan (nieuwe namen bijgehouden voor volgende run)
+  const nieuweNamen = Object.keys(naamCache).length - cacheVoor;
+  if (nieuweNamen > 0) console.log(`💾 ${nieuweNamen} nieuwe namen gecached`);
+  await writeFile('naam-cache.json', JSON.stringify(naamCache), 'utf-8');
 
   const nu = new Date();
   const datumLabel = nu.toISOString().slice(0, 10); // bijv. 2026-04-11

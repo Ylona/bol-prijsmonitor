@@ -299,9 +299,11 @@ function renderVeilig() {
   }
 
   const s = document.getElementById('sorteer').value;
+  // null-marge (geen concurrent) altijd onderaan
+  const margeOf = (p, fallback) => p.marge !== null ? p.marge : fallback;
   const gesorteerdeVeilig = [...veilig].sort((a, b) => {
-    if (s === 'verschil-desc') return (a.marge ?? Infinity) - (b.marge ?? Infinity);
-    if (s === 'verschil-asc')  return (b.marge ?? Infinity) - (a.marge ?? Infinity);
+    if (s === 'verschil-desc') return margeOf(a, Infinity) - margeOf(b, Infinity);   // kleinste marge (meest kwetsbaar) bovenaan
+    if (s === 'verschil-asc')  return margeOf(b, -Infinity) - margeOf(a, -Infinity); // grootste marge bovenaan, geen-concurrent onderaan
     if (s === 'prijs-desc')    return b.eigenPrijs - a.eigenPrijs;
     if (s === 'prijs-asc')     return a.eigenPrijs - b.eigenPrijs;
     if (s === 'naam-asc')      return a.product.localeCompare(b.product, 'nl');
