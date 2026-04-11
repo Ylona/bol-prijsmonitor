@@ -1,6 +1,6 @@
 {
-  "gegenereerd": "2026-04-11T10:15:04.510Z",
-  "aantalProducten": 70,
+  "gegenereerd": "2026-04-11T11:27:05.700Z",
+  "aantalProducten": 71,
   "producten": [
     {
       "product": "Creation Lamis Ruler Giftset",
@@ -35,6 +35,22 @@
       ]
     },
     {
+      "product": "Hello Kitty - Giftset - Delicate Flower - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
+      "ean": "7640158816950",
+      "eigenPrijs": 15.95,
+      "laagsteConcurrent": 15.14,
+      "verschil": 0.81,
+      "concurrenten": [
+        {
+          "retailerNaam": "Koopjesfun.nl",
+          "retailerId": "1762224",
+          "prijs": 15.14,
+          "verschil": 0.81,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
       "product": "Omerta - Red Class Elixir de Luxe - Eau De Parfum - 100ML",
       "ean": "8715658370574",
       "eigenPrijs": 13.95,
@@ -46,22 +62,6 @@
           "retailerId": "1762224",
           "prijs": 13.16,
           "verschil": 0.79,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Creation Lamis Paraverse 100ml Eau de Parfum for women",
-      "ean": "6291012005082",
-      "eigenPrijs": 15.95,
-      "laagsteConcurrent": 15.18,
-      "verschil": 0.77,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 15.18,
-          "verschil": 0.77,
           "fulfilment": "FBR"
         }
       ]
@@ -709,6 +709,22 @@
     {
       "product": "Omerta Express Sensualite Frivole 100ml Eau de Parfum",
       "ean": "8715658380238",
+      "eigenPrijs": 13.75,
+      "laagsteConcurrent": 13.56,
+      "verschil": 0.19,
+      "concurrenten": [
+        {
+          "retailerNaam": "Koopjesfun.nl",
+          "retailerId": "1762224",
+          "prijs": 13.56,
+          "verschil": 0.19,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Vibezz Astrolux parfum - Eau de parfum voor haar - 100ml",
+      "ean": "7640158819173",
       "eigenPrijs": 13.75,
       "laagsteConcurrent": 13.56,
       "verschil": 0.19,
