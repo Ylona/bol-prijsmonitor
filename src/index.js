@@ -1,5 +1,6 @@
 import fetch from 'node-fetch';
-import { writeFile } from 'fs/promises';
+import { writeFile, mkdir } from 'fs/promises';
+import ExcelJS from 'exceljs';
 import * as dotenv from 'dotenv';
 dotenv.config();
 
@@ -76,7 +77,7 @@ async function wachtOpExport(token, processStatusId) {
       },
     });
     const status = await res.json();
-    console.log(`⏳ Poging ${i + 1}: status = ${status.status}`);
+    process.stdout.write('.');
 
     if (status.status === 'SUCCESS') {
       const csvRes = await bolFetch(`https://api.bol.com/retailer/offers/export/${status.entityId}`, {
@@ -162,8 +163,7 @@ async function main() {
   const csv = await wachtOpExport(token, processStatusId);
   let aanbiedingen = parseCsv(csv);
   if (testEan) aanbiedingen = aanbiedingen.filter(a => a['ean'] === testEan);
-  console.log(`📦 ${aanbiedingen.length} eigen aanbiedingen gevonden\n`);
-  console.log('🔍 Concurrent-prijzen ophalen (±1 call/product)...\n');
+  console.log(`📦 ${aanbiedingen.length} aanbiedingen — concurrent-prijzen ophalen...`);
 
   const kandidaten = [];
 
@@ -184,7 +184,7 @@ async function main() {
     }
   }
 
-  console.log(`\n💡 ${kandidaten.length} product(en) met goedkopere concurrent — namen en retailers ophalen...\n`);
+  console.log(`💡 ${kandidaten.length} product(en) goedkoper — namen ophalen...`);
 
   // Fase 2: namen + retailernamen alleen ophalen voor producten met goedkopere concurrent
   const rapport = [];
@@ -213,35 +213,67 @@ async function main() {
 
   rapport.sort((a, b) => b.verschil - a.verschil);
 
-  // Rapport printen
-  console.log('═══════════════════════════════════════════════');
-  console.log('📊 DAGELIJKS PRIJSRAPPORT BOL.COM');
-  console.log(`📅 ${new Date().toLocaleDateString('nl-NL')}`);
-  console.log('═══════════════════════════════════════════════\n');
+  const nu = new Date();
+  const datumLabel = nu.toISOString().slice(0, 10); // bijv. 2026-04-11
 
-  if (rapport.length === 0) {
-    console.log('✅ Niemand zit onder jouw prijs. Goed bezig!');
-  } else {
-    console.log(`⚠️  ${rapport.length} product(en) hebben een goedkopere concurrent:\n`);
-    for (const r of rapport) {
-      console.log(`📦 ${r.product} (${r.ean})`);
-      console.log(`   Jouw prijs:         €${r.eigenPrijs.toFixed(2)}`);
-      console.log(`   Laagste concurrent: €${r.laagsteConcurrent.toFixed(2)}`);
-      console.log(`   Verschil:           €${r.verschil.toFixed(2)}`);
-      for (const c of r.concurrenten) {
-        console.log(`   └ ${c.retailerNaam} (${c.fulfilment}): €${c.prijs.toFixed(2)}`);
-      }
-      console.log();
-    }
-  }
-
+  // JSON rapport (overschrijven)
   const uitvoer = {
-    gegenereerd: new Date().toISOString(),
+    gegenereerd: nu.toISOString(),
     aantalProducten: rapport.length,
     producten: rapport,
   };
   await writeFile('rapport.json', JSON.stringify(uitvoer, null, 2), 'utf-8');
-  console.log('💾 Rapport opgeslagen als rapport.json');
+
+  // Excel rapport met datum in bestandsnaam
+  await mkdir('rapporten', { recursive: true });
+  const excelPad = `rapporten/prijsrapport-${datumLabel}.xlsx`;
+
+  const werkboek = new ExcelJS.Workbook();
+  werkboek.creator = 'Bol Prijsmonitor';
+  werkboek.created = nu;
+
+  const blad = werkboek.addWorksheet('Prijsrapport');
+  blad.columns = [
+    { header: 'Product',             key: 'product',        width: 40 },
+    { header: 'EAN',                 key: 'ean',             width: 16 },
+    { header: 'Eigen prijs (€)',     key: 'eigenPrijs',      width: 16 },
+    { header: 'Laagste concurrent (€)', key: 'laagste',     width: 22 },
+    { header: 'Verschil (€)',        key: 'verschil',        width: 14 },
+    { header: 'Concurrent',          key: 'retailerNaam',    width: 28 },
+    { header: 'Concurrent prijs (€)', key: 'concPrijs',     width: 22 },
+    { header: 'Fulfilment',          key: 'fulfilment',      width: 12 },
+  ];
+
+  // Koprij opmaken
+  blad.getRow(1).font = { bold: true };
+  blad.getRow(1).fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FF0056A3' } };
+  blad.getRow(1).font = { bold: true, color: { argb: 'FFFFFFFF' } };
+
+  for (const r of rapport) {
+    for (const c of r.concurrenten) {
+      blad.addRow({
+        product:     r.product,
+        ean:         r.ean,
+        eigenPrijs:  r.eigenPrijs,
+        laagste:     r.laagsteConcurrent,
+        verschil:    r.verschil,
+        retailerNaam: c.retailerNaam,
+        concPrijs:   c.prijs,
+        fulfilment:  c.fulfilment,
+      });
+    }
+  }
+
+  // Prijskolommen als valuta opmaken
+  for (const col of ['eigenPrijs', 'laagste', 'verschil', 'concPrijs']) {
+    blad.getColumn(col).numFmt = '€#,##0.00';
+  }
+
+  await werkboek.xlsx.writeFile(excelPad);
+
+  console.log(`✅ ${rapport.length} product(en) met goedkopere concurrent`);
+  console.log(`📊 Excel: ${excelPad}`);
+  console.log(`📄 JSON:  rapport.json`);
 }
 
 main().catch(console.error);

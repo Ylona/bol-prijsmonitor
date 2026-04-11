@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bol.com Prijsmonitor</title>
+  <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+  <style>
+    :root {
+      --blauw: #0057a8;
+      --lichtblauw: #e8f1fb;
+      --rood: #c0392b;
+      --groen: #27ae60;
+      --oranje: #e67e22;
+      --grijs: #6c757d;
+      --rand: #e0e0e0;
+      --bg: #f4f6f9;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; background: var(--bg); color: #222; font-size: 14px; }
+
+    /* ── Header ── */
+    header { background: var(--blauw); color: #fff; padding: 18px 32px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    header h1 { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.3px; }
+    #headerDatum { font-size: 0.8rem; opacity: 0.75; margin-top: 3px; }
+
+    /* ── Stats ── */
+    .stats { display: flex; gap: 14px; padding: 20px 32px 8px; flex-wrap: wrap; }
+    .stat { background: #fff; border-radius: 8px; padding: 14px 20px; flex: 1; min-width: 140px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+    .stat-getal { font-size: 1.75rem; font-weight: 700; line-height: 1; }
+    .stat-label { font-size: 0.75rem; color: var(--grijs); margin-top: 5px; }
+    .stat.rood  .stat-getal { color: var(--rood); }
+    .stat.oranje .stat-getal { color: var(--oranje); }
+
+    /* ── Controls ── */
+    .controls { padding: 14px 32px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .filter-groep { display: flex; border: 1px solid var(--rand); border-radius: 6px; overflow: hidden; }
+    .filter-groep button { background: #fff; border: none; border-right: 1px solid var(--rand); padding: 7px 16px; cursor: pointer; font-size: 0.8rem; white-space: nowrap; }
+    .filter-groep button:last-child { border-right: none; }
+    .filter-groep button.actief { background: var(--blauw); color: #fff; font-weight: 600; }
+    .filter-groep button:not(.actief):hover { background: var(--lichtblauw); }
+    select { border: 1px solid var(--rand); border-radius: 6px; padding: 7px 10px; font-size: 0.8rem; background: #fff; }
+    .sort-label { font-size: 0.8rem; color: var(--grijs); }
+    .dl-btn { margin-left: auto; background: var(--groen); color: #fff; border: none; border-radius: 6px; padding: 8px 18px; font-size: 0.8rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 6px; white-space: nowrap; }
+    .dl-btn:hover { opacity: .88; }
+
+    /* ── Tabel ── */
+    .tabel-wrapper { padding: 0 32px 40px; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+    thead th { background: var(--blauw); color: #fff; padding: 11px 14px; text-align: left; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .5px; white-space: nowrap; }
+    tbody tr { border-bottom: 1px solid #f2f2f2; transition: background .1s; }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: var(--lichtblauw); }
+    td { padding: 11px 14px; vertical-align: top; }
+    td.naam { max-width: 260px; font-weight: 600; line-height: 1.3; }
+    td.naam span { display: block; font-size: 0.75rem; color: var(--grijs); font-weight: 400; margin-top: 2px; }
+    td.prijs { white-space: nowrap; }
+    .badge { display: inline-block; padding: 2px 9px; border-radius: 20px; font-size: 0.72rem; font-weight: 700; white-space: nowrap; }
+    .badge-rood   { background: #fde8e8; color: var(--rood); }
+    .badge-oranje { background: #fef3e2; color: var(--oranje); }
+    .badge-blauw  { background: var(--lichtblauw); color: var(--blauw); }
+    .concurrent-rij { font-size: 0.8rem; color: #555; line-height: 1.8; }
+    .concurrent-rij strong { color: #222; }
+    .concurrent-rij .fbr { font-size: 0.68rem; background: #eef; color: #336; border-radius: 3px; padding: 1px 5px; margin-left: 4px; }
+
+    /* ── Leeg / laden ── */
+    .msg { text-align: center; padding: 60px 32px; color: var(--grijs); line-height: 1.7; }
+    .msg strong { display: block; font-size: 1rem; margin-bottom: 6px; color: #444; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Bol.com Prijsmonitor</h1>
+    <div id="headerDatum">Laden…</div>
+  </div>
+</header>
+
+<div class="stats" id="stats"></div>
+
+<div class="controls">
+  <div class="filter-groep" id="filterGroep">
+    <button class="actief" data-filter="alle">Alle</button>
+    <button data-filter="concurrent">Heeft concurrent</button>
+    <button data-filter="veilig">Veilig</button>
+  </div>
+  <span class="sort-label">Sorteren op:</span>
+  <select id="sorteer" onchange="render()">
+    <option value="verschil-desc">Verschil (groot → klein)</option>
+    <option value="verschil-asc">Verschil (klein → groot)</option>
+    <option value="prijs-desc">Prijs (hoog → laag)</option>
+    <option value="prijs-asc">Prijs (laag → hoog)</option>
+    <option value="naam-asc">Naam (A → Z)</option>
+  </select>
+  <button class="dl-btn" onclick="downloadExcel()">↓ Excel</button>
+</div>
+
+<div class="tabel-wrapper">
+  <div class="msg" id="msg"><strong>Rapport laden…</strong></div>
+  <table id="tabel" style="display:none">
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>EAN</th>
+        <th>Eigen prijs</th>
+        <th>Laagste concurrent</th>
+        <th>Verschil</th>
+        <th>Concurrenten</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<script>
+let rapport = null;
+let actielFilter = 'alle';
+
+// ── Laden ──
+async function laadRapport() {
+  try {
+    const res = await fetch('rapport.json?t=' + Date.now());
+    if (!res.ok) throw new Error(res.status);
+    rapport = await res.json();
+    initialiseer();
+  } catch {
+    toonMsg('Kon rapport.json niet laden.', 'Open het dashboard via GitHub Pages, niet als lokaal bestand.');
+  }
+}
+
+function initialiseer() {
+  const d = new Date(rapport.gegenereerd);
+  document.getElementById('headerDatum').textContent =
+    'Gegenereerd op ' + d.toLocaleDateString('nl-NL', { weekday:'long', year:'numeric', month:'long', day:'numeric' }) +
+    ' om ' + d.toLocaleTimeString('nl-NL', { hour:'2-digit', minute:'2-digit' });
+
+  toonStats();
+  document.querySelectorAll('#filterGroep button').forEach(btn =>
+    btn.addEventListener('click', () => {
+      actielFilter = btn.dataset.filter;
+      document.querySelectorAll('#filterGroep button').forEach(b => b.classList.remove('actief'));
+      btn.classList.add('actief');
+      render();
+    })
+  );
+  render();
+}
+
+// ── Stats ──
+function toonStats() {
+  const p = rapport.producten;
+  const n = p.length;
+  if (n === 0) { document.getElementById('stats').innerHTML = ''; return; }
+  const grootVerschil = p.filter(x => x.verschil >= 1).length;
+  const maxV = Math.max(...p.map(x => x.verschil));
+  const gemV = p.reduce((s, x) => s + x.verschil, 0) / n;
+  document.getElementById('stats').innerHTML = `
+    <div class="stat rood"><div class="stat-getal">${n}</div><div class="stat-label">Goedkopere concurrent</div></div>
+    <div class="stat oranje"><div class="stat-getal">${grootVerschil}</div><div class="stat-label">Verschil ≥ €1,00</div></div>
+    <div class="stat"><div class="stat-getal">€${maxV.toFixed(2)}</div><div class="stat-label">Grootste verschil</div></div>
+    <div class="stat"><div class="stat-getal">€${gemV.toFixed(2)}</div><div class="stat-label">Gemiddeld verschil</div></div>`;
+}
+
+// ── Filter + sorteren ──
+function gefilterdeProducten() {
+  const p = rapport.producten;
+  if (actielFilter === 'concurrent') return p;
+  if (actielFilter === 'veilig')     return [];
+  return p; // 'alle' — JSON bevat alleen producten mét concurrent
+}
+
+function gesorteerd() {
+  const s = document.getElementById('sorteer').value;
+  return [...gefilterdeProducten()].sort((a, b) => {
+    if (s === 'verschil-desc') return b.verschil - a.verschil;
+    if (s === 'verschil-asc')  return a.verschil - b.verschil;
+    if (s === 'prijs-desc')    return b.eigenPrijs - a.eigenPrijs;
+    if (s === 'prijs-asc')     return a.eigenPrijs - b.eigenPrijs;
+    if (s === 'naam-asc')      return a.product.localeCompare(b.product, 'nl');
+    return 0;
+  });
+}
+
+// ── Render ──
+function render() {
+  if (!rapport) return;
+  const lijst = gesorteerd();
+  const tabel = document.getElementById('tabel');
+
+  if (lijst.length === 0) {
+    tabel.style.display = 'none';
+    if (actielFilter === 'veilig') {
+      toonMsg(
+        'Geen "veilige" producten in het rapport.',
+        'Het rapport bevat alleen producten waarbij een concurrent goedkoper is. Producten zonder goedkopere concurrent worden niet opgeslagen.'
+      );
+    } else {
+      toonMsg('Geen producten gevonden.', '');
+    }
+    return;
+  }
+
+  toonMsg(null);
+  tabel.style.display = 'table';
+  document.getElementById('tbody').innerHTML = lijst.map(p => `
+    <tr>
+      <td class="naam">${esc(p.product)}<span>${esc(p.ean)}</span></td>
+      <td class="prijs">€${fmt(p.eigenPrijs)}</td>
+      <td class="prijs">€${fmt(p.laagsteConcurrent)}</td>
+      <td>${badgeVerschil(p.verschil)}</td>
+      <td>
+        <div class="concurrent-rij">
+          ${p.concurrenten.map(c =>
+            `<strong>${esc(c.retailerNaam)}</strong> — €${fmt(c.prijs)}<span class="fbr">${esc(c.fulfilment)}</span>`
+          ).join('<br>')}
+        </div>
+      </td>
+    </tr>`).join('');
+}
+
+function badgeVerschil(v) {
+  const cls = v >= 1 ? 'badge-rood' : v >= 0.25 ? 'badge-oranje' : 'badge-blauw';
+  return `<span class="badge ${cls}">-€${fmt(v)}</span>`;
+}
+
+function toonMsg(titel, sub) {
+  const el = document.getElementById('msg');
+  if (!titel) { el.style.display = 'none'; return; }
+  el.style.display = 'block';
+  el.innerHTML = `<strong>${esc(titel)}</strong>${sub ? esc(sub) : ''}`;
+}
+
+function fmt(n)  { return Number(n).toFixed(2); }
+function esc(s)  { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+// ── Excel download ──
+function downloadExcel() {
+  if (!rapport) return;
+  const datum = new Date(rapport.gegenereerd).toISOString().slice(0, 10);
+  const rijen = [['Product','EAN','Eigen prijs (€)','Laagste concurrent (€)','Verschil (€)','Concurrent','Concurrent prijs (€)','Fulfilment']];
+  for (const p of rapport.producten) {
+    for (const c of p.concurrenten) {
+      rijen.push([p.product, p.ean, p.eigenPrijs, p.laagsteConcurrent, p.verschil, c.retailerNaam, c.prijs, c.fulfilment]);
+    }
+  }
+  const ws = XLSX.utils.aoa_to_sheet(rijen);
+  ws['!cols'] = [40,16,16,22,14,28,20,12].map(w => ({ wch: w }));
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, 'Prijsrapport');
+  XLSX.writeFile(wb, `prijsrapport-${datum}.xlsx`);
+}
+
+laadRapport();
+</script>
+</body>
+</html>

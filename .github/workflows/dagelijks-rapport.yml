@@ -1,36 +1,42 @@
-name: Dagelijks Bol.com Prijsrapport
+name: Dagelijks prijsrapport
 
 on:
   schedule:
-    - cron: '0 7 * * *'  # Elke dag om 8:00 Nederlandse tijd
-  workflow_dispatch:       # Ook handmatig te starten
+    - cron: '0 5 * * *'   # elke dag om 05:00 UTC (07:00 NL zomertijd)
+  workflow_dispatch:        # ook handmatig te starten
 
 jobs:
-  prijsrapport:
+  rapport:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write       # nodig om bestanden te committen
+      pages: write          # nodig voor GitHub Pages
+      id-token: write       # nodig voor Pages OIDC
+
     steps:
-      - name: Code ophalen
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Node.js instellen
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
 
-      - name: Dependencies installeren
-        run: npm install
+      - name: Afhankelijkheden installeren
+        run: npm ci
 
-      - name: Rapport genereren
+      - name: Prijsrapport draaien
         env:
           BOL_CLIENT_ID: ${{ secrets.BOL_CLIENT_ID }}
           BOL_CLIENT_SECRET: ${{ secrets.BOL_CLIENT_SECRET }}
         run: node src/index.js
 
-      - name: Rapport opslaan in repo
+      - name: Bestanden committen en pushen
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add rapport.json
-          git diff --staged --quiet || git commit -m "📊 Rapport $(date +'%Y-%m-%d')"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rapport.json rapporten/
+          git diff --cached --quiet || git commit -m "Prijsrapport $(date -u +%Y-%m-%d)"
           git push
