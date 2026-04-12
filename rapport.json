@@ -452,6 +452,22 @@
       ]
     },
     {
+      "product": "5145200059016",
+      "ean": "5145200059016",
+      "eigenPrijs": 14.39,
+      "laagsteConcurrent": 14.13,
+      "verschil": 0.26,
+      "concurrenten": [
+        {
+          "retailerNaam": "1762224",
+          "retailerId": "1762224",
+          "prijs": 14.13,
+          "verschil": 0.26,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
       "product": "8721055494263",
       "ean": "8721055494263",
       "eigenPrijs": 5.25,
@@ -3743,8 +3759,8 @@
       "product": "Sentio Miniparfum Cocktail - ESPRESSO MARTINI - Eau de parfum For Her 15ml",
       "ean": "7640158818787",
       "eigenPrijs": 8.75,
-      "dichtstbijzijneConcurrent": 8.99,
-      "marge": 0.24
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "Omerta - Express sensualite Captive - Eau De Toilette - 100ML",
@@ -3785,8 +3801,8 @@
       "product": "Sentio Paradise Miniparfum Miami Nights eau de parfum for women 15 ml",
       "ean": "7640158818831",
       "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 1.01
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "TBY - To Be Strong - 100ml Eau de Toilette voor mannen",
@@ -3827,8 +3843,8 @@
       "product": "SENTIO Merry Christmas Eau De Parfum 15 ML - Miniparfum - Kerst Parfum - Bloemig - Fruitig",
       "ean": "7640158817445",
       "eigenPrijs": 9.75,
-      "dichtstbijzijneConcurrent": 9.95,
-      "marge": 0.2
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "Linn Young - Gold Mine La Seduction - Eau de parfum - 100",
@@ -3883,8 +3899,8 @@
       "product": "Sentio Miniparfum Cocktail - COSMOPOLITAN - Eau de parfum For Her 15ml",
       "ean": "7640158818770",
       "eigenPrijs": 10.45,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 1.05
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "SENTIO May Your Days be Merry & Bright Eau de Parfum 15 Ml - Miniparfum - Zoete geur - Bloemig - Geluk - Cadeau",
