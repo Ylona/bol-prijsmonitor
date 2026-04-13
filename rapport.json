@@ -1,107 +1,11 @@
 {
-  "gegenereerd": "2026-04-13T04:20:02.542Z",
-  "aantalProducten": 133,
-  "aantalVeilig": 769,
+  "gegenereerd": "2026-04-13T06:49:44.529Z",
+  "aantalProducten": 57,
+  "aantalVeilig": 845,
   "producten": [
     {
-      "product": "Dorall Twilight Wilderness - Herenparfum eau de toilette - 100 ml",
-      "ean": "6291012874381",
-      "eigenPrijs": 13.63,
-      "laagsteConcurrent": 12.76,
-      "verschil": 0.87,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.76,
-          "verschil": 0.87,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Hello Kitty - Giftset - Mermaid Mint - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
-      "ean": "8721055493488",
-      "eigenPrijs": 13.8,
-      "laagsteConcurrent": 13.02,
-      "verschil": 0.78,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 13.02,
-          "verschil": 0.78,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Bubble Bliss - Giftset - Unicorn Cherry Blossom Fantasy - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
-      "ean": "8721055494065",
-      "eigenPrijs": 13.85,
-      "laagsteConcurrent": 13.07,
-      "verschil": 0.78,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 13.07,
-          "verschil": 0.78,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time - Call Me Black Edition - Eau de toilette - 100ML",
-      "ean": "8715658350514",
-      "eigenPrijs": 13.15,
-      "laagsteConcurrent": 12.38,
-      "verschil": 0.77,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.38,
-          "verschil": 0.77,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Hello Kitty Choose Your Style Parfum set 6 stuks voor kinderen - 6x15ml - Meisjes",
-      "ean": "7640158816943",
-      "eigenPrijs": 18.26,
-      "laagsteConcurrent": 17.58,
-      "verschil": 0.68,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 17.58,
-          "verschil": 0.68,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta Pure E-motion Eau de Toilette 100ml",
-      "ean": "8715658997436",
-      "eigenPrijs": 12.95,
-      "laagsteConcurrent": 12.29,
-      "verschil": 0.66,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.29,
-          "verschil": 0.66,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Ma Merveilleuse - Eau De Parfum - 100ML",
-      "ean": "8715658997443",
+      "product": "NG Heaven's Body Men Eau de Toilette 100ml -Voor Mannen.",
+      "ean": "8719214753344",
       "eigenPrijs": 12.21,
       "laagsteConcurrent": 11.57,
       "verschil": 0.64,
@@ -116,120 +20,8 @@
       ]
     },
     {
-      "product": "Creation Lamis My Spirit Eau de Parfum For Women 100ml",
-      "ean": "6291012005648",
-      "eigenPrijs": 13.88,
-      "laagsteConcurrent": 13.24,
-      "verschil": 0.64,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 13.24,
-          "verschil": 0.64,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "SENTIO FEESTDAGEN PINK - Happy Holidays - Body Mist 250ml",
-      "ean": "8721055493082",
-      "eigenPrijs": 13.87,
-      "laagsteConcurrent": 13.23,
-      "verschil": 0.64,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 13.23,
-          "verschil": 0.64,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Bubble Bliss Giftset Like a Fairytale-Eau de Parfum",
-      "ean": "8721055494287",
-      "eigenPrijs": 13.88,
-      "laagsteConcurrent": 13.24,
-      "verschil": 0.64,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 13.24,
-          "verschil": 0.64,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "De La Mare Parfum Raggio Di Sole 49 Caramel & Pistachio Eau de Parfum 100 ml",
-      "ean": "8721055498155",
-      "eigenPrijs": 13.95,
-      "laagsteConcurrent": 13.32,
-      "verschil": 0.63,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 13.32,
-          "verschil": 0.63,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Next Generation Touch Desire Eau de Parfum 80ml",
-      "ean": "8719214752699",
-      "eigenPrijs": 12.84,
-      "laagsteConcurrent": 12.21,
-      "verschil": 0.63,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.21,
-          "verschil": 0.63,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Candy Puff - Eau de parfum - 100ML",
-      "ean": "8715658380801",
-      "eigenPrijs": 12.59,
-      "laagsteConcurrent": 11.97,
-      "verschil": 0.62,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.97,
-          "verschil": 0.62,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "SENTIO FEESTDAGEN PINK - Warm Wishes! And Cozy Kisses - Body Mist 250ml",
-      "ean": "8721055492603",
-      "eigenPrijs": 12.42,
-      "laagsteConcurrent": 11.84,
-      "verschil": 0.58,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.84,
-          "verschil": 0.58,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Creation Lamis Catsuit Woman Eau de Parfum For Women 100 ml",
-      "ean": "6151010029070",
+      "product": "Sentio Soft Suede Eau de Parfum 100ml",
+      "ean": "8721055491453",
       "eigenPrijs": 12.9,
       "laagsteConcurrent": 12.33,
       "verschil": 0.57,
@@ -239,150 +31,6 @@
           "retailerId": "1762224",
           "prijs": 12.33,
           "verschil": 0.57,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time - Me Time - Eau de Toilette - 100Ml",
-      "ean": "8715658350705",
-      "eigenPrijs": 12.59,
-      "laagsteConcurrent": 12.02,
-      "verschil": 0.57,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.02,
-          "verschil": 0.57,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta Lovely Sky - Eau de parfum - 100ML",
-      "ean": "8715658380818",
-      "eigenPrijs": 12.05,
-      "laagsteConcurrent": 11.5,
-      "verschil": 0.55,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.5,
-          "verschil": 0.55,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Invasion Third Dimension - Eau De Parfum - 100Ml",
-      "ean": "8715658380368",
-      "eigenPrijs": 12.21,
-      "laagsteConcurrent": 11.67,
-      "verschil": 0.54,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.67,
-          "verschil": 0.54,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Street Looks - Wild Challenge - Eau De Toilette - 100ML",
-      "ean": "8715658330004",
-      "eigenPrijs": 12.99,
-      "laagsteConcurrent": 12.48,
-      "verschil": 0.51,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.48,
-          "verschil": 0.51,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Vibezz-French Marine-Eau de Toilette For Him-100ml",
-      "ean": "7640158819234",
-      "eigenPrijs": 12.71,
-      "laagsteConcurrent": 12.21,
-      "verschil": 0.5,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.21,
-          "verschil": 0.5,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Dorall 24 pure for men eau de toilette herenparfum 100ml",
-      "ean": "5414666010511",
-      "eigenPrijs": 13.28,
-      "laagsteConcurrent": 12.8,
-      "verschil": 0.48,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.8,
-          "verschil": 0.48,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Sentio Chalize Eau De Parfum - 100 ml",
-      "ean": "7640158815694",
-      "eigenPrijs": 12.49,
-      "laagsteConcurrent": 12.02,
-      "verschil": 0.47,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.02,
-          "verschil": 0.47,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time - Out Of Order - Eau De Toilette - 100ML",
-      "ean": "8715658350033",
-      "eigenPrijs": 11.97,
-      "laagsteConcurrent": 11.5,
-      "verschil": 0.47,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.5,
-          "verschil": 0.47,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta Putting Green Eau de Toilette Pour Homme - 100ml",
-      "ean": "8715658998952",
-      "eigenPrijs": 12.29,
-      "laagsteConcurrent": 11.82,
-      "verschil": 0.47,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.82,
-          "verschil": 0.47,
           "fulfilment": "FBR"
         }
       ]
@@ -404,385 +52,81 @@
       ]
     },
     {
-      "product": "Sentio Vintage Forrest Unisex Eau de Parfum 100ml",
-      "ean": "8721055491477",
-      "eigenPrijs": 13.87,
-      "laagsteConcurrent": 13.42,
-      "verschil": 0.45,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 13.42,
-          "verschil": 0.45,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Vibezz Blissful Life parfum - Eau de parfum voor haar - 100ml",
-      "ean": "7640158819180",
-      "eigenPrijs": 12.21,
-      "laagsteConcurrent": 11.77,
-      "verschil": 0.44,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.77,
-          "verschil": 0.44,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Dorall Everscent Eau de Toilette voor dames - 100ml",
-      "ean": "6291012875807",
-      "eigenPrijs": 13.09,
-      "laagsteConcurrent": 12.66,
-      "verschil": 0.43,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.66,
-          "verschil": 0.43,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Sweet Pommy - Eau de parfum - 100ML",
-      "ean": "8715658998563",
-      "eigenPrijs": 12.99,
-      "laagsteConcurrent": 12.59,
-      "verschil": 0.4,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.59,
-          "verschil": 0.4,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta Body Survival For Man - Eau de Toilette voor heren - 100ML",
-      "ean": "8715658998471",
-      "eigenPrijs": 12.21,
-      "laagsteConcurrent": 11.82,
-      "verschil": 0.39,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.82,
-          "verschil": 0.39,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time Silenzia For Men - Eau de Toilette voor heren - 100ml",
-      "ean": "8715658009054",
-      "eigenPrijs": 12.21,
-      "laagsteConcurrent": 11.82,
-      "verschil": 0.39,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.82,
-          "verschil": 0.39,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "NG - Phenom - Eau de Parfum 100ml voor dames",
-      "ean": "8719214753641",
-      "eigenPrijs": 11.87,
-      "laagsteConcurrent": 11.5,
-      "verschil": 0.37,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.5,
-          "verschil": 0.37,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time - Queen Of Space Glorious - Eau De Parfum - 100ML",
-      "ean": "8715658361473",
-      "eigenPrijs": 12.29,
-      "laagsteConcurrent": 11.92,
-      "verschil": 0.37,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.92,
-          "verschil": 0.37,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Next Generation Classic for Woman 100ml Eau de Parfum",
-      "ean": "8719214750961",
-      "eigenPrijs": 11.87,
-      "laagsteConcurrent": 11.5,
-      "verschil": 0.37,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.5,
-          "verschil": 0.37,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Catsuit Man parfum - Heren eau de toilette met munt, lavendel en bergamot",
-      "ean": "8719992723812",
-      "eigenPrijs": 15.14,
-      "laagsteConcurrent": 14.78,
-      "verschil": 0.36,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 14.78,
-          "verschil": 0.36,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Creation Lamis Diable Bleu parfum - Oriëntaalse en houtige eau de parfum voor dames",
-      "ean": "5414666001366",
-      "eigenPrijs": 11.87,
-      "laagsteConcurrent": 11.52,
-      "verschil": 0.35,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.52,
-          "verschil": 0.35,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Sentio Inter Feer men Eau de toilette spray for him 100ml",
-      "ean": "7640158815021",
-      "eigenPrijs": 12.21,
-      "laagsteConcurrent": 11.87,
-      "verschil": 0.34,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.87,
-          "verschil": 0.34,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Hello Kitty Club Eau de Parfum voor Kinderen 50 ml - I'm the rainbow after the storm",
-      "ean": "8721055493358",
-      "eigenPrijs": 11.84,
-      "laagsteConcurrent": 11.5,
-      "verschil": 0.34,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.5,
-          "verschil": 0.34,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Street Looks - La Creation Pour Femme - Eau De Parfum - 100ML",
-      "ean": "8715658013020",
-      "eigenPrijs": 12.05,
-      "laagsteConcurrent": 11.72,
-      "verschil": 0.33,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.72,
-          "verschil": 0.33,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time Cops For Men 2.0 - Eau de Toilette voor heren - 100ML",
-      "ean": "8715658350620",
-      "eigenPrijs": 12.25,
-      "laagsteConcurrent": 11.92,
-      "verschil": 0.33,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.92,
-          "verschil": 0.33,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Sentio Spin Me Round Eau de Parfum For Her 50ml",
-      "ean": "8721055491798",
+      "product": "Hello Kitty - Giftset - Rainbow - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
+      "ean": "8721055493426",
       "eigenPrijs": 12.95,
-      "laagsteConcurrent": 12.63,
-      "verschil": 0.32,
+      "laagsteConcurrent": 12.53,
+      "verschil": 0.42,
       "concurrenten": [
         {
           "retailerNaam": "Koopjesfun.nl",
           "retailerId": "1762224",
-          "prijs": 12.63,
-          "verschil": 0.32,
+          "prijs": 12.53,
+          "verschil": 0.42,
           "fulfilment": "FBR"
         }
       ]
     },
     {
-      "product": "Creation Lamis Ruler Giftset",
-      "ean": "6291012002678",
-      "eigenPrijs": 12.49,
-      "laagsteConcurrent": 12.17,
-      "verschil": 0.32,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.17,
-          "verschil": 0.32,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Sentio Twirl Once More Eau de Parfum For Her 50ml",
-      "ean": "8721055491781",
-      "eigenPrijs": 12.95,
-      "laagsteConcurrent": 12.63,
-      "verschil": 0.32,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.63,
-          "verschil": 0.32,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Hello Kitty Kisses Eau de Parfum voor Kinderen 50ml",
-      "ean": "8721055493273",
-      "eigenPrijs": 13.14,
-      "laagsteConcurrent": 12.83,
-      "verschil": 0.31,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.83,
-          "verschil": 0.31,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time Love You Red 100 ml - Eau de Parfum - Damesparfum",
-      "ean": "8715658360056",
-      "eigenPrijs": 11.81,
+      "product": "Creation Lamis - Espy - Eau de Parfum 100ml",
+      "ean": "5414666016452",
+      "eigenPrijs": 11.87,
       "laagsteConcurrent": 11.5,
-      "verschil": 0.31,
+      "verschil": 0.37,
       "concurrenten": [
         {
           "retailerNaam": "Koopjesfun.nl",
           "retailerId": "1762224",
           "prijs": 11.5,
-          "verschil": 0.31,
+          "verschil": 0.37,
           "fulfilment": "FBR"
         }
       ]
     },
     {
-      "product": "Real Time Mise Eau de Toilette100ml",
-      "ean": "8715658009733",
-      "eigenPrijs": 12.01,
-      "laagsteConcurrent": 11.71,
-      "verschil": 0.3,
+      "product": "Omerta -Meet Me Extreme- 100ml Eau de Toilette for men",
+      "ean": "8715658370420",
+      "eigenPrijs": 11.82,
+      "laagsteConcurrent": 11.5,
+      "verschil": 0.32,
       "concurrenten": [
         {
           "retailerNaam": "Koopjesfun.nl",
           "retailerId": "1762224",
-          "prijs": 11.71,
-          "verschil": 0.3,
+          "prijs": 11.5,
+          "verschil": 0.32,
           "fulfilment": "FBR"
         }
       ]
     },
     {
-      "product": "Omerta - Conclude Oud Orient Perfection - Eau De Parfum - 100ML",
-      "ean": "8715658370550",
-      "eigenPrijs": 12.21,
-      "laagsteConcurrent": 11.92,
-      "verschil": 0.29,
+      "product": "NG Lightness Eau de Parfum 100ml",
+      "ean": "8719214758363",
+      "eigenPrijs": 11.82,
+      "laagsteConcurrent": 11.5,
+      "verschil": 0.32,
       "concurrenten": [
         {
           "retailerNaam": "Koopjesfun.nl",
           "retailerId": "1762224",
-          "prijs": 11.92,
-          "verschil": 0.29,
+          "prijs": 11.5,
+          "verschil": 0.32,
           "fulfilment": "FBR"
         }
       ]
     },
     {
-      "product": "NG Dominatio Woman Eau de Parfum - Damesparfum met frisse en elegante geur - 100ml",
-      "ean": "7438235478494",
-      "eigenPrijs": 12.5,
-      "laagsteConcurrent": 12.21,
-      "verschil": 0.29,
+      "product": "Hello Kitty - Parfum Set Van 6 Stuks - Eau de Parfum Voor Kinderen - 6x15ml",
+      "ean": "8721055493181",
+      "eigenPrijs": 14.29,
+      "laagsteConcurrent": 14.01,
+      "verschil": 0.28,
       "concurrenten": [
         {
           "retailerNaam": "Koopjesfun.nl",
           "retailerId": "1762224",
-          "prijs": 12.21,
-          "verschil": 0.29,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Laverder Fields - Eau de Parfum - 100ml",
-      "ean": "8715658380702",
-      "eigenPrijs": 12.29,
-      "laagsteConcurrent": 12.02,
-      "verschil": 0.27,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.02,
-          "verschil": 0.27,
+          "prijs": 14.01,
+          "verschil": 0.28,
           "fulfilment": "FBR"
         }
       ]
@@ -820,8 +164,8 @@
       ]
     },
     {
-      "product": "NG Axure Sport Eau de Toilette 100ml",
-      "ean": "8719214758325",
+      "product": "Real Time - Black Rose - Eau de parfum - 100ML",
+      "ean": "8715658008354",
       "eigenPrijs": 11.76,
       "laagsteConcurrent": 11.5,
       "verschil": 0.26,
@@ -846,22 +190,6 @@
           "retailerNaam": "Minimarkt W&M",
           "retailerId": "946246",
           "prijs": 4.99,
-          "verschil": 0.26,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Rose Pure - Eau de Parfum - 100ml",
-      "ean": "8715658380696",
-      "eigenPrijs": 12.08,
-      "laagsteConcurrent": 11.82,
-      "verschil": 0.26,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.82,
           "verschil": 0.26,
           "fulfilment": "FBR"
         }
@@ -1156,118 +484,6 @@
       ]
     },
     {
-      "product": "Real Time - Yes Call Me - Eau de parfum - 100ML",
-      "ean": "8715658360964",
-      "eigenPrijs": 14.05,
-      "laagsteConcurrent": 13.79,
-      "verschil": 0.26,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 13.79,
-          "verschil": 0.26,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Hello Kitty - Giftset - Unicorn Cloud - Showergel + Water-Based Parfum - Cadeauset voor Kinderen - Geschenkset",
-      "ean": "7640158816974",
-      "eigenPrijs": 13.88,
-      "laagsteConcurrent": 13.64,
-      "verschil": 0.24,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 13.64,
-          "verschil": 0.24,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta Power Boost For Men Eau de Toilette Spray 100ml",
-      "ean": "8715658370208",
-      "eigenPrijs": 12.37,
-      "laagsteConcurrent": 12.13,
-      "verschil": 0.24,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.13,
-          "verschil": 0.24,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Hello Kitty Giftset 3 x 15ml Eau de Parfum",
-      "ean": "7640158817032",
-      "eigenPrijs": 13.88,
-      "laagsteConcurrent": 13.64,
-      "verschil": 0.24,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 13.64,
-          "verschil": 0.24,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time - Intense Impression For Men - Eau De Toilette - 100ML",
-      "ean": "8715658350361",
-      "eigenPrijs": 12.21,
-      "laagsteConcurrent": 11.97,
-      "verschil": 0.24,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.97,
-          "verschil": 0.24,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time - Night Blue Mission Pour Homme - Eau De Toilette - 100ML",
-      "ean": "8715658002772",
-      "eigenPrijs": 12.21,
-      "laagsteConcurrent": 11.97,
-      "verschil": 0.24,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.97,
-          "verschil": 0.24,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Creation Lamis Golden Wave Women Giftset",
-      "ean": "6291012002623",
-      "eigenPrijs": 12.37,
-      "laagsteConcurrent": 12.13,
-      "verschil": 0.24,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.13,
-          "verschil": 0.24,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
       "product": "Omerta - L'uomo X - Eau De Toilette - 100ML",
       "ean": "8715658370505",
       "eigenPrijs": 9.99,
@@ -1278,6 +494,22 @@
           "retailerNaam": "Bliksma Retail B.V.",
           "retailerId": "1840300",
           "prijs": 9.75,
+          "verschil": 0.24,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Creation Lamis - Golden Wave - Eau de Parfum 100ml",
+      "ean": "5414666011471",
+      "eigenPrijs": 11.74,
+      "laagsteConcurrent": 11.5,
+      "verschil": 0.24,
+      "concurrenten": [
+        {
+          "retailerNaam": "Koopjesfun.nl",
+          "retailerId": "1762224",
+          "prijs": 11.5,
           "verschil": 0.24,
           "fulfilment": "FBR"
         }
@@ -1300,465 +532,49 @@
       ]
     },
     {
-      "product": "Street Looks - Amour Fatale - Eau De Parfum - 100ML",
-      "ean": "8715658012948",
-      "eigenPrijs": 12.05,
-      "laagsteConcurrent": 11.82,
-      "verschil": 0.23,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.82,
-          "verschil": 0.23,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Vibezz-Solitude-Eau de Toilette For Him-100ml",
-      "ean": "7640158819258",
-      "eigenPrijs": 12.71,
-      "laagsteConcurrent": 12.48,
-      "verschil": 0.23,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.48,
-          "verschil": 0.23,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Hello Kitty - Giftset - Sweet Leopard Pink - Eau de Parfum + Bodymist - Cadeauset voor Kinderen - Geschenkset",
-      "ean": "8721055496373",
-      "eigenPrijs": 13.7,
-      "laagsteConcurrent": 13.48,
-      "verschil": 0.22,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 13.48,
-          "verschil": 0.22,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time - Morning Bloom - Eau De Parfum - 100ML",
-      "ean": "8715658361428",
-      "eigenPrijs": 12.59,
-      "laagsteConcurrent": 12.38,
-      "verschil": 0.21,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.38,
-          "verschil": 0.21,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time Canyon night 100 ml eau de toilette spray",
-      "ean": "8715658002796",
-      "eigenPrijs": 12.29,
-      "laagsteConcurrent": 12.08,
-      "verschil": 0.21,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.08,
-          "verschil": 0.21,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time - Blue Touch - Eau De Toilette - 100Ml",
-      "ean": "8715658350446",
-      "eigenPrijs": 13.56,
-      "laagsteConcurrent": 13.35,
-      "verschil": 0.21,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 13.35,
-          "verschil": 0.21,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Vibezz-24K-Eau de Toilette For Him-100ml",
-      "ean": "7640158819265",
-      "eigenPrijs": 12.59,
-      "laagsteConcurrent": 12.38,
-      "verschil": 0.21,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.38,
-          "verschil": 0.21,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time - Racing Horse Gold - Eau de toilette - 100ML",
-      "ean": "8715658350255",
-      "eigenPrijs": 11.69,
-      "laagsteConcurrent": 11.5,
-      "verschil": 0.19,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.5,
-          "verschil": 0.19,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Express sensualite Captive - Eau De Toilette - 100ML",
-      "ean": "8715658999027",
-      "eigenPrijs": 13.75,
-      "laagsteConcurrent": 13.56,
-      "verschil": 0.19,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 13.56,
-          "verschil": 0.19,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time - Tempting Rumors - Eau de Parfum 100ml",
-      "ean": "8715658361619",
-      "eigenPrijs": 12.21,
-      "laagsteConcurrent": 12.02,
-      "verschil": 0.19,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.02,
-          "verschil": 0.19,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time - Sea Beach - Eau De Toilette - 100ML",
-      "ean": "8715658002840",
-      "eigenPrijs": 13.75,
-      "laagsteConcurrent": 13.56,
-      "verschil": 0.19,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 13.56,
-          "verschil": 0.19,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Hello Kitty Graffiti parfum - Eau de parfum voor kinderen - 50 ml",
-      "ean": "7640158816851",
-      "eigenPrijs": 13.33,
-      "laagsteConcurrent": 13.15,
-      "verschil": 0.18,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 13.15,
-          "verschil": 0.18,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Hello Kitty - Giftset - Kisses - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
-      "ean": "8721055493440",
-      "eigenPrijs": 11.68,
-      "laagsteConcurrent": 11.5,
-      "verschil": 0.18,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.5,
-          "verschil": 0.18,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "SENTIO FEESTDAGEN - Kerst Giftset Christmas Tree - Merry Christmas",
-      "ean": "8721055492757",
-      "eigenPrijs": 12.41,
-      "laagsteConcurrent": 12.24,
+      "product": "Creation Lamis My Spirit Eau de Parfum For Women 100ml",
+      "ean": "6291012005648",
+      "eigenPrijs": 13.24,
+      "laagsteConcurrent": 13.07,
       "verschil": 0.17,
       "concurrenten": [
         {
           "retailerNaam": "Koopjesfun.nl",
           "retailerId": "1762224",
-          "prijs": 12.24,
+          "prijs": 13.07,
           "verschil": 0.17,
           "fulfilment": "FBR"
         }
       ]
     },
     {
-      "product": "Real Time - Free Sky For Woman - Eau De Parfum - 100Ml",
-      "ean": "8715658002512",
-      "eigenPrijs": 12.14,
-      "laagsteConcurrent": 11.97,
-      "verschil": 0.17,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.97,
-          "verschil": 0.17,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Dorall -Miss Blossom- Eau de Parfum 100ml",
-      "ean": "6291012878259",
-      "eigenPrijs": 12.38,
-      "laagsteConcurrent": 12.21,
-      "verschil": 0.17,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.21,
-          "verschil": 0.17,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Red Class Elixir de Luxe - Eau De Parfum - 100ML",
-      "ean": "8715658370574",
-      "eigenPrijs": 12.08,
-      "laagsteConcurrent": 11.92,
-      "verschil": 0.16,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.92,
-          "verschil": 0.16,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Street Looks Uptown Babe eau de parfum 100ml",
-      "ean": "8715658340270",
-      "eigenPrijs": 12.29,
-      "laagsteConcurrent": 12.14,
-      "verschil": 0.15,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.14,
-          "verschil": 0.15,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time Coup d'Amour eau de parfum 100 ml.",
-      "ean": "8715658360063",
-      "eigenPrijs": 11.65,
-      "laagsteConcurrent": 11.5,
-      "verschil": 0.15,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.5,
-          "verschil": 0.15,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Linn Young \"Je Suis Sure Et Certaine\" Eau de parfum 100ml",
-      "ean": "8715658400295",
-      "eigenPrijs": 12.99,
-      "laagsteConcurrent": 12.84,
-      "verschil": 0.15,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.84,
-          "verschil": 0.15,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time Wild Action Elixir men edt 100 ml",
-      "ean": "8715658350637",
-      "eigenPrijs": 12.21,
-      "laagsteConcurrent": 12.08,
+      "product": "Dorall 24 pure for men eau de toilette herenparfum 100ml",
+      "ean": "5414666010511",
+      "eigenPrijs": 12.8,
+      "laagsteConcurrent": 12.67,
       "verschil": 0.13,
       "concurrenten": [
         {
           "retailerNaam": "Koopjesfun.nl",
           "retailerId": "1762224",
-          "prijs": 12.08,
+          "prijs": 12.67,
           "verschil": 0.13,
           "fulfilment": "FBR"
         }
       ]
     },
     {
-      "product": "Street Looks - Pure Courage - Eau de Toilette - 100ML",
-      "ean": "8715658013082",
-      "eigenPrijs": 12.14,
-      "laagsteConcurrent": 12.02,
-      "verschil": 0.12,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.02,
-          "verschil": 0.12,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta Liquid Marble Eau de Toilette 100ml",
-      "ean": "8715658370147",
-      "eigenPrijs": 12.08,
-      "laagsteConcurrent": 11.97,
+      "product": "Sentio I Love You Giftset",
+      "ean": "8721055494126",
+      "eigenPrijs": 12.64,
+      "laagsteConcurrent": 12.53,
       "verschil": 0.11,
       "concurrenten": [
         {
           "retailerNaam": "Koopjesfun.nl",
           "retailerId": "1762224",
-          "prijs": 11.97,
+          "prijs": 12.53,
           "verschil": 0.11,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "NG Homme for Men Eau de Toilette 100 ml",
-      "ean": "8718421831425",
-      "eigenPrijs": 11.82,
-      "laagsteConcurrent": 11.72,
-      "verschil": 0.1,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.72,
-          "verschil": 0.1,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Out Of Question - Eau de parfum - 100ML",
-      "ean": "8715658380412",
-      "eigenPrijs": 12.38,
-      "laagsteConcurrent": 12.29,
-      "verschil": 0.09,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.29,
-          "verschil": 0.09,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Sentio Sway With Me Eau de Parfum For Her 50ml",
-      "ean": "8721055491767",
-      "eigenPrijs": 12.17,
-      "laagsteConcurrent": 12.1,
-      "verschil": 0.07,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.1,
-          "verschil": 0.07,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Hello Kitty Club Eau de Parfum voor Kinderen 50 ml - Girls Power",
-      "ean": "8721055493334",
-      "eigenPrijs": 12.95,
-      "laagsteConcurrent": 12.9,
-      "verschil": 0.05,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 12.9,
-          "verschil": 0.05,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Vibezz Astrolux parfum - Eau de parfum voor haar - 100ml",
-      "ean": "7640158819173",
-      "eigenPrijs": 12.02,
-      "laagsteConcurrent": 11.97,
-      "verschil": 0.05,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.97,
-          "verschil": 0.05,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Creation Lamis - Arrivederci - 100 ml - Eau de Toilette - Herenparfum",
-      "ean": "6013905032025",
-      "eigenPrijs": 11.86,
-      "laagsteConcurrent": 11.81,
-      "verschil": 0.05,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.81,
-          "verschil": 0.05,
           "fulfilment": "FBR"
         }
       ]
@@ -2098,41 +914,16 @@
           "fulfilment": "FBR"
         }
       ]
-    },
-    {
-      "product": "Omerta - Happy Love Fun For Women - Eau de parfum - 100ML",
-      "ean": "8715658380399",
-      "eigenPrijs": 11.99,
-      "laagsteConcurrent": 11.97,
-      "verschil": 0.02,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.97,
-          "verschil": 0.02,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Real Time Wild Action Eau de Toilette Spray 100ml",
-      "ean": "8715658350224",
-      "eigenPrijs": 11.51,
-      "laagsteConcurrent": 11.5,
-      "verschil": 0.01,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 11.5,
-          "verschil": 0.01,
-          "fulfilment": "FBR"
-        }
-      ]
     }
   ],
   "veilig": [
+    {
+      "product": "Street Looks - Pure Courage - Eau de Toilette - 100ML",
+      "ean": "8715658013082",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
+    },
     {
       "product": "Sentio - mini parfum - Congrats! - heren - vaderdag - eau de toilette - 15 ml",
       "ean": "8721055490531",
@@ -2253,6 +1044,13 @@
       "marge": 1.05
     },
     {
+      "product": "NG Classic Men Eau de Toilette Spray 100 ml",
+      "ean": "8719214751203",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.84,
+      "marge": 0.89
+    },
+    {
       "product": "NG Burnt Vanilla Eau de Parfum 100ml met 5ml hervulbare tasverstuiver",
       "ean": "6151030387365",
       "eigenPrijs": 14.95,
@@ -2274,11 +1072,25 @@
       "marge": null
     },
     {
+      "product": "Omerta - Vanilla Fun - Eau De Parfum - 100ML",
+      "ean": "8715658999447",
+      "eigenPrijs": 11.49,
+      "dichtstbijzijneConcurrent": 12.05,
+      "marge": 0.56
+    },
+    {
       "product": "Sentio Giftset-Involved pour homme-Eau de Toilette en Showergel",
       "ean": "7640158815618",
       "eigenPrijs": 16.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Real Time - Please Call Me - Eau de parfum - 100ML",
+      "ean": "8715658360971",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.02,
+      "marge": 1.07
     },
     {
       "product": "NG Heavens Body 100ML Dames Eau de Parfum",
@@ -2323,13 +1135,6 @@
       "marge": null
     },
     {
-      "product": "Omerta - Vanilla Fun - Eau De Parfum - 100ML",
-      "ean": "8715658999447",
-      "eigenPrijs": 12.77,
-      "dichtstbijzijneConcurrent": 12.77,
-      "marge": 0
-    },
-    {
       "product": "Sentio Mary Davina Cristal parfum - eau de parfum spray voor dames - 100 ml",
       "ean": "8721055496632",
       "eigenPrijs": 13.59,
@@ -2342,6 +1147,13 @@
       "eigenPrijs": 11.5,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Bubble Bliss Parfum Giftbag Glimmering Grace EDP voor meisjes 50ml",
+      "ean": "8721055494324",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.99,
+      "marge": 1.04
     },
     {
       "product": "NG Touch Eau de Parfum 80ml + 15ml",
@@ -2370,6 +1182,20 @@
       "eigenPrijs": 29.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Sentio Happy Birthday Giftset - Luxe parfum en showergel voor iedereen",
+      "ean": "8721055494140",
+      "eigenPrijs": 13.49,
+      "dichtstbijzijneConcurrent": 13.88,
+      "marge": 0.39
+    },
+    {
+      "product": "Real Time - Oú sont les - Eau de parfum - 100 ml",
+      "ean": "8715658361466",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.62,
+      "marge": 0.67
     },
     {
       "product": "Linn Young - Acqua - Eau de parfum - 100ML",
@@ -2433,6 +1259,13 @@
       "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Bubble Bliss Like a Fairytale - Parfum Set Van 6 Stuks - Eau de Parfum Voor Kinderen - 6x15ml",
+      "ean": "8721055494218",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": 15.49,
+      "marge": 0.54
     },
     {
       "product": "Sentio Rich Tabacco Blend Unisex Eau de Parfum 100ml",
@@ -2559,6 +1392,13 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": 16.04,
       "marge": 1.09
+    },
+    {
+      "product": "Sentio Chalize Eau De Parfum - 100 ml",
+      "ean": "7640158815694",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": 12.02,
+      "marge": 0.07
     },
     {
       "product": "Real Time Liberty Life Manhattan 100ml Eau de Parfum",
@@ -2729,6 +1569,13 @@
       "marge": null
     },
     {
+      "product": "Real Time - Racing Horse Gold - Eau de toilette - 100ML",
+      "ean": "8715658350255",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
+    },
+    {
       "product": "SENTIO FEESTDAGEN PINK - Wonderful - Eau de Parfum 50ml",
       "ean": "8721055492733",
       "eigenPrijs": 13.15,
@@ -2783,6 +1630,13 @@
       "eigenPrijs": 13.09,
       "dichtstbijzijneConcurrent": 13.16,
       "marge": 0.07
+    },
+    {
+      "product": "Omerta - Ma Merveilleuse - Eau De Parfum - 100ML",
+      "ean": "8715658997443",
+      "eigenPrijs": 11.57,
+      "dichtstbijzijneConcurrent": 11.57,
+      "marge": 0
     },
     {
       "product": "NG Predator for Women 100ml + 15ml Eau de Parfum",
@@ -2904,13 +1758,6 @@
       "marge": 1.09
     },
     {
-      "product": "Bubble Bliss Like a Fairytale - Parfum Set Van 6 Stuks - Eau de Parfum Voor Kinderen - 6x15ml",
-      "ean": "8721055494218",
-      "eigenPrijs": 16.42,
-      "dichtstbijzijneConcurrent": 16.42,
-      "marge": 0
-    },
-    {
       "product": "De La Mare Parfum Raggio Di Sole 36 Berry & Amber Plum Eau de Parfum 100 ml",
       "ean": "8721055498131",
       "eigenPrijs": 13.14,
@@ -2974,6 +1821,13 @@
       "marge": null
     },
     {
+      "product": "Hello Kitty Club Eau de Parfum voor Kinderen 50 ml - I'm the rainbow after the storm",
+      "ean": "8721055493358",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
+    },
+    {
       "product": "Real Time - Blooming Flower Nectar - Eau De Parfum - 100ML",
       "ean": "8715658361435",
       "eigenPrijs": 12.71,
@@ -2988,11 +1842,18 @@
       "marge": 0.04
     },
     {
-      "product": "Real Time - Please Call Me - Eau de parfum - 100ML",
-      "ean": "8715658360971",
-      "eigenPrijs": 12.84,
-      "dichtstbijzijneConcurrent": 12.84,
-      "marge": 0
+      "product": "Hello Kitty Kisses Eau de Parfum voor Kinderen 50ml",
+      "ean": "8721055493273",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.83,
+      "marge": 1.88
+    },
+    {
+      "product": "Omerta - Conclude Oud Orient Perfection - Eau De Parfum - 100ML",
+      "ean": "8715658370550",
+      "eigenPrijs": 11.75,
+      "dichtstbijzijneConcurrent": 11.92,
+      "marge": 0.17
     },
     {
       "product": "Bubble Bliss Unicorn Giftbook Parfum Dreamy Glitterwings EDP voor meisjes 50ml",
@@ -3069,6 +1930,13 @@
       "ean": "8719214750114",
       "eigenPrijs": 12.5,
       "dichtstbijzijneConcurrent": 12.5,
+      "marge": 0
+    },
+    {
+      "product": "De La Mare Parfum Raggio Di Sole 49 Caramel & Pistachio Eau de Parfum 100 ml",
+      "ean": "8721055498155",
+      "eigenPrijs": 13.32,
+      "dichtstbijzijneConcurrent": 13.32,
       "marge": 0
     },
     {
@@ -3191,6 +2059,13 @@
       "marge": 1.15
     },
     {
+      "product": "SENTIO FEESTDAGEN PINK - Warm Wishes! And Cozy Kisses - Body Mist 250ml",
+      "ean": "8721055492603",
+      "eigenPrijs": 11.84,
+      "dichtstbijzijneConcurrent": 11.84,
+      "marge": 0
+    },
+    {
       "product": "NG Darkness for Men Eau de Toilette 15ml",
       "ean": "8719214758448",
       "eigenPrijs": 9.99,
@@ -3273,6 +2148,13 @@
       "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "NG Axure Sport Eau de Toilette 100ml",
+      "ean": "8719214758325",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
     },
     {
       "product": "Linn Young -Oud Elixir d'Extase Pink Label Giftset- Eau de parfum 100ml + 30ml",
@@ -3366,11 +2248,25 @@
       "marge": 1.01
     },
     {
+      "product": "Next Generation Touch Desire Eau de Parfum 80ml",
+      "ean": "8719214752699",
+      "eigenPrijs": 12.21,
+      "dichtstbijzijneConcurrent": 12.21,
+      "marge": 0
+    },
+    {
       "product": "MEEKA Shower Foam Pure Bronze 225ml",
       "ean": "8719214754815",
       "eigenPrijs": 12.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Sentio Spin Me Round Eau de Parfum For Her 50ml",
+      "ean": "8721055491798",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.59,
+      "marge": 0.64
     },
     {
       "product": "Sentio Zodiac - Aries - Ram - Eau De Parfum - For Women - 15ml",
@@ -3389,9 +2285,9 @@
     {
       "product": "Real Time Loveliness La Passione - Eau de parfum - 100ML",
       "ean": "8715658360759",
-      "eigenPrijs": 12.14,
-      "dichtstbijzijneConcurrent": 12.14,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
     },
     {
       "product": "Real Time - Kindlooks For Women - Eau de parfum - 100",
@@ -3452,9 +2348,9 @@
     {
       "product": "Creation Lamis Chortle Eau de Parfum for women 100ml",
       "ean": "6291012884939",
-      "eigenPrijs": 12.21,
-      "dichtstbijzijneConcurrent": 12.21,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
     },
     {
       "product": "Bubble Bliss - Fantastic Flamingo - Fluff & Flutter - Eau de Parfum - Voor Kinderen 15ml",
@@ -3492,6 +2388,13 @@
       "marge": 0
     },
     {
+      "product": "Real Time Love You Red 100 ml - Eau de Parfum - Damesparfum",
+      "ean": "8715658360056",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
+    },
+    {
       "product": "Linn Young -Club 420 Gold Giftset- Eau de parfum 100ml + 30ml",
       "ean": "8715658400752",
       "eigenPrijs": 17.95,
@@ -3520,11 +2423,18 @@
       "marge": null
     },
     {
+      "product": "Sentio Inter Feer men Eau de toilette spray for him 100ml",
+      "ean": "7640158815021",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.87,
+      "marge": 0.92
+    },
+    {
       "product": "Hello Kitty Club Eau de Parfum voor Kinderen 50 ml - You Go Girl!",
       "ean": "8721055493341",
       "eigenPrijs": 12.95,
-      "dichtstbijzijneConcurrent": 13.06,
-      "marge": 0.11
+      "dichtstbijzijneConcurrent": 12.95,
+      "marge": 0
     },
     {
       "product": "NG Predator Giftset",
@@ -3618,11 +2528,18 @@
       "marge": 1.09
     },
     {
+      "product": "Omerta Pure E-motion Eau de Toilette 100ml",
+      "ean": "8715658997436",
+      "eigenPrijs": 12.29,
+      "dichtstbijzijneConcurrent": 12.29,
+      "marge": 0
+    },
+    {
       "product": "Hello Kitty - Giftset - Unicorn Rainbow - Showergel + Water-Based Parfum - Cadeauset voor Kinderen - Geschenkset",
       "ean": "7640158816998",
-      "eigenPrijs": 13.43,
-      "dichtstbijzijneConcurrent": 13.43,
-      "marge": 0
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": 12.53,
+      "marge": 0.58
     },
     {
       "product": "MEEKA Summer for Women - 100 ml EDP",
@@ -3637,6 +2554,13 @@
       "eigenPrijs": 10.45,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 1.05
+    },
+    {
+      "product": "Hello Kitty Club Eau de Parfum voor Kinderen 50 ml - Girls Power",
+      "ean": "8721055493334",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.76,
+      "marge": 1.81
     },
     {
       "product": "Sentio Interfeer Eau De Parfum - 100 ml",
@@ -3681,6 +2605,13 @@
       "marge": 1.09
     },
     {
+      "product": "Omerta - Laverder Fields - Eau de Parfum - 100ml",
+      "ean": "8715658380702",
+      "eigenPrijs": 11.75,
+      "dichtstbijzijneConcurrent": 12.02,
+      "marge": 0.27
+    },
+    {
       "product": "Hello Kitty-Coconut Scent-15ml Eau de Parfum",
       "ean": "8721055493112",
       "eigenPrijs": 10.45,
@@ -3707,13 +2638,6 @@
       "eigenPrijs": 10.49,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "Hello Kitty - Giftset - Rainbow - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
-      "ean": "8721055493426",
-      "eigenPrijs": 13.43,
-      "dichtstbijzijneConcurrent": 13.43,
-      "marge": 0
     },
     {
       "product": "Sentio Confirmation Eau De Parfum - 100 ml",
@@ -3786,6 +2710,13 @@
       "marge": null
     },
     {
+      "product": "Real Time Wild Action Eau de Toilette Spray 100ml",
+      "ean": "8715658350224",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
+    },
+    {
       "product": "Luxe Adventskalender Kerstbal",
       "ean": "6151010076081",
       "eigenPrijs": 34.95,
@@ -3830,9 +2761,9 @@
     {
       "product": "Sentio Chalize for Woman giftset geuren 3x 15ml soorten eau de parfum",
       "ean": "8721055492146",
-      "eigenPrijs": 13.88,
-      "dichtstbijzijneConcurrent": 13.88,
-      "marge": 0
+      "eigenPrijs": 12.49,
+      "dichtstbijzijneConcurrent": 12.91,
+      "marge": 0.42
     },
     {
       "product": "Bubble Bliss - Fantastic Flamingo - Pretty in Pink - Eau de Parfum - Voor Kinderen 15ml",
@@ -3844,9 +2775,9 @@
     {
       "product": "Bubble Bliss Fantastic Flamingo - Parfum Set Van 6 Stuks - Eau de Parfum Voor Kinderen - 6x15ml",
       "ean": "8721055493914",
-      "eigenPrijs": 17.58,
-      "dichtstbijzijneConcurrent": 17.58,
-      "marge": 0
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 16.42,
+      "marge": 0.47
     },
     {
       "product": "Linn Young - OSO Perfect Exalted - Eau De Parfum - 100ML for women",
@@ -3865,9 +2796,9 @@
     {
       "product": "Hello Kitty Delicate Flower Eau de Parfum voor Kinderen 50ml",
       "ean": "7640158816875",
-      "eigenPrijs": 12.12,
-      "dichtstbijzijneConcurrent": 12.12,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
     },
     {
       "product": "Real Time - Journee Joyeuse - Eau De Parfum - 100ML",
@@ -3886,9 +2817,16 @@
     {
       "product": "Hello Kitty Rainbow Eau de Parfum voor Kinderen 50ml",
       "ean": "8721055493297",
-      "eigenPrijs": 12.98,
-      "dichtstbijzijneConcurrent": 12.98,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.2,
+      "marge": 1.25
+    },
+    {
+      "product": "Hello Kitty - Giftset - Unicorn Cloud - Showergel + Water-Based Parfum - Cadeauset voor Kinderen - Geschenkset",
+      "ean": "7640158816974",
+      "eigenPrijs": 13.59,
+      "dichtstbijzijneConcurrent": 13.64,
+      "marge": 0.05
     },
     {
       "product": "Sentio Feestdagen 2 May Your Days be Merry & Bright - Eau de Parfum in kerstbal - 30ml",
@@ -3898,11 +2836,25 @@
       "marge": 0.55
     },
     {
+      "product": "Street Looks - La Creation Pour Femme - Eau De Parfum - 100ML",
+      "ean": "8715658013020",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.72,
+      "marge": 0.77
+    },
+    {
       "product": "NG Spectre Fragrances Bruyant For Men eau de toilette 100ml",
       "ean": "8719214757489",
       "eigenPrijs": 10.49,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 1.01
+    },
+    {
+      "product": "Street Looks - Wild Challenge - Eau De Toilette - 100ML",
+      "ean": "8715658330004",
+      "eigenPrijs": 11.49,
+      "dichtstbijzijneConcurrent": 12.48,
+      "marge": 0.99
     },
     {
       "product": "Vibezz-Violet Journey-Eau de Parfum For Her-100ml",
@@ -3949,9 +2901,9 @@
     {
       "product": "Creation Lamis Paraverse 100ml Eau de Parfum for women",
       "ean": "6291012005082",
-      "eigenPrijs": 13.91,
-      "dichtstbijzijneConcurrent": 13.91,
-      "marge": 0
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": 13.07,
+      "marge": 1.12
     },
     {
       "product": "TBY - To Be Edgy - 100ml Eau de Parfum voor vrouwen",
@@ -3972,6 +2924,13 @@
       "ean": "8715658340287",
       "eigenPrijs": 11.6,
       "dichtstbijzijneConcurrent": 11.6,
+      "marge": 0
+    },
+    {
+      "product": "Omerta Lovely Sky - Eau de parfum - 100ML",
+      "ean": "8715658380818",
+      "eigenPrijs": 11.5,
+      "dichtstbijzijneConcurrent": 11.5,
       "marge": 0
     },
     {
@@ -4001,6 +2960,13 @@
       "eigenPrijs": 10.49,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 1.01
+    },
+    {
+      "product": "Omerta Power Boost For Men Eau de Toilette Spray 100ml",
+      "ean": "8715658370208",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.13,
+      "marge": 1.18
     },
     {
       "product": "Omerta - The Winner Takes It All Elixir Absolu - 100ml Eau de Toilette for men",
@@ -4050,6 +3016,13 @@
       "eigenPrijs": 10.49,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 1.01
+    },
+    {
+      "product": "Omerta - Red Class Elixir de Luxe - Eau De Parfum - 100ML",
+      "ean": "8715658370574",
+      "eigenPrijs": 11.25,
+      "dichtstbijzijneConcurrent": 11.92,
+      "marge": 0.67
     },
     {
       "product": "Omerta - L'uomo X Extereme - Eau De Toilette - 100ML",
@@ -4108,6 +3081,13 @@
       "marge": null
     },
     {
+      "product": "Vibezz-French Marine-Eau de Toilette For Him-100ml",
+      "ean": "7640158819234",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.21,
+      "marge": 1.26
+    },
+    {
       "product": "Georges Mezotti-Blue Rain For Men Le Parfum 125ml",
       "ean": "8715658410164",
       "eigenPrijs": 17.95,
@@ -4124,9 +3104,9 @@
     {
       "product": "SENTIO FEESTDAGEN PINK - Family Magical - Eau de Parfum 50ml",
       "ean": "8721055492740",
-      "eigenPrijs": 13.76,
-      "dichtstbijzijneConcurrent": 13.76,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.98,
+      "marge": 2.03
     },
     {
       "product": "Street Looks Sensual Goddess Eau de parfum for women 100ml",
@@ -4164,11 +3144,18 @@
       "marge": null
     },
     {
+      "product": "Hello Kitty Giftset 3 x 15ml Eau de Parfum",
+      "ean": "7640158817032",
+      "eigenPrijs": 12.95,
+      "dichtstbijzijneConcurrent": 13.64,
+      "marge": 0.69
+    },
+    {
       "product": "Omerta La Donna X Eau De Parfum voor haar 100ML",
       "ean": "5145200059016",
-      "eigenPrijs": 13.42,
-      "dichtstbijzijneConcurrent": 13.42,
-      "marge": 0
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": 12.52,
+      "marge": 0.57
     },
     {
       "product": "Georges Mezotti-Brown Track For Men Eau de Toilette Spray 100ml",
@@ -4255,13 +3242,6 @@
       "marge": null
     },
     {
-      "product": "Real Time - Black Rose - Eau de parfum - 100ML",
-      "ean": "8715658008354",
-      "eigenPrijs": 11.76,
-      "dichtstbijzijneConcurrent": 11.76,
-      "marge": 0
-    },
-    {
       "product": "Linn Young - Intense Nights Unisex - Eau de Parfum 100ml",
       "ean": "8715658401476",
       "eigenPrijs": 15.95,
@@ -4299,9 +3279,9 @@
     {
       "product": "Vibezz Il Capitano - Eau de Toilette voor heren - 100ml",
       "ean": "7640158819241",
-      "eigenPrijs": 13.35,
-      "dichtstbijzijneConcurrent": 13.35,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.59,
+      "marge": 1.64
     },
     {
       "product": "Creation Lamis Identity Spirit Eau de Toilette 100ml for men",
@@ -4344,6 +3324,13 @@
       "eigenPrijs": 28.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Street Looks Uptown Babe eau de parfum 100ml",
+      "ean": "8715658340270",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.14,
+      "marge": 1.19
     },
     {
       "product": "Real Time - Sexy Dentelle For Woman - Eau de parfum - 100ML",
@@ -4500,6 +3487,13 @@
       "marge": 0.24
     },
     {
+      "product": "Omerta - Express sensualite Captive - Eau De Toilette - 100ML",
+      "ean": "8715658999027",
+      "eigenPrijs": 12.95,
+      "dichtstbijzijneConcurrent": 13.56,
+      "marge": 0.61
+    },
+    {
       "product": "Dorall -Isle Of Love- Eau de Toilette spray 100ml for women",
       "ean": "6291012877818",
       "eigenPrijs": 8.95,
@@ -4512,6 +3506,13 @@
       "eigenPrijs": 16.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Sentio Sway With Me Eau de Parfum For Her 50ml",
+      "ean": "8721055491767",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.1,
+      "marge": 1.15
     },
     {
       "product": "Sentio - Floricci Geschenkset - 100ml Eau de Parfum + 150ml Showergel",
@@ -4705,9 +3706,9 @@
     {
       "product": "Hello Kitty Unicorn Parfum set 6 stuks voor kinderen - 6x15ml - Meisjes",
       "ean": "7640158816929",
-      "eigenPrijs": 15.93,
-      "dichtstbijzijneConcurrent": 15.93,
-      "marge": 0
+      "eigenPrijs": 14.49,
+      "dichtstbijzijneConcurrent": 14.73,
+      "marge": 0.24
     },
     {
       "product": "Sentio Blomicci Poudre miniparfum eau de parfum for woman 15ml",
@@ -4759,24 +3760,10 @@
       "marge": null
     },
     {
-      "product": "Bubble Bliss Parfum Giftbag Glimmering Grace EDP voor meisjes 50ml",
-      "ean": "8721055494324",
-      "eigenPrijs": 12.62,
-      "dichtstbijzijneConcurrent": 12.62,
-      "marge": 0
-    },
-    {
       "product": "Linn Young - Homerun Sports - Eau De Toilette - 100ML",
       "ean": "8715658998679",
       "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": 15.95,
-      "marge": 0
-    },
-    {
-      "product": "Omerta -Meet Me Extreme- 100ml Eau de Toilette for men",
-      "ean": "8715658370420",
-      "eigenPrijs": 11.82,
-      "dichtstbijzijneConcurrent": 11.82,
       "marge": 0
     },
     {
@@ -4815,6 +3802,13 @@
       "marge": 1.01
     },
     {
+      "product": "Omerta Liquid Marble Eau de Toilette 100ml",
+      "ean": "8715658370147",
+      "eigenPrijs": 11.49,
+      "dichtstbijzijneConcurrent": 11.97,
+      "marge": 0.48
+    },
+    {
       "product": "Sentio Gold Fever Mini tasverstuiver homme 15ml edt",
       "ean": "7640158815281",
       "eigenPrijs": 9.75,
@@ -4845,9 +3839,9 @@
     {
       "product": "Omerta - Fair Fight - Eau De Toilette - 100Ml",
       "ean": "8715658997924",
-      "eigenPrijs": 12.21,
-      "dichtstbijzijneConcurrent": 12.21,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
     },
     {
       "product": "Sentio Blomicci Blanche miniparfum eau de parfum for woman 15ml",
@@ -4861,6 +3855,13 @@
       "ean": "8721055492795",
       "eigenPrijs": 8.25,
       "dichtstbijzijneConcurrent": 8.25,
+      "marge": 0
+    },
+    {
+      "product": "SENTIO FEESTDAGEN PINK - Happy Holidays - Body Mist 250ml",
+      "ean": "8721055493082",
+      "eigenPrijs": 13.23,
+      "dichtstbijzijneConcurrent": 13.23,
       "marge": 0
     },
     {
@@ -4890,6 +3891,13 @@
       "eigenPrijs": 10.49,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 1.01
+    },
+    {
+      "product": "SENTIO FEESTDAGEN - Kerst Giftset Christmas Tree - Merry Christmas",
+      "ean": "8721055492757",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.54,
+      "marge": 0.59
     },
     {
       "product": "Hello Kitty - Giftset - Mermaid Pink - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
@@ -4962,6 +3970,13 @@
       "marge": 1.05
     },
     {
+      "product": "Street Looks - Amour Fatale - Eau De Parfum - 100ML",
+      "ean": "8715658012948",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.82,
+      "marge": 0.87
+    },
+    {
       "product": "Linn Young - Mixed Emotions Sparkling Pour Femme - Eau De Parfum - 100ML",
       "ean": "8715658400240",
       "eigenPrijs": 15.95,
@@ -4974,6 +3989,13 @@
       "eigenPrijs": 10.45,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 1.05
+    },
+    {
+      "product": "Vibezz Astrolux parfum - Eau de parfum voor haar - 100ml",
+      "ean": "7640158819173",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.97,
+      "marge": 1.02
     },
     {
       "product": "Sentio Bella Strada Eau De Parfum - 100 ml",
@@ -5009,6 +4031,13 @@
       "eigenPrijs": 12,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Hello Kitty Graffiti parfum - Eau de parfum voor kinderen - 50 ml",
+      "ean": "7640158816851",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
     },
     {
       "product": "De La Mare Cookies parfum - Koekjes Geur voor vrouwen eau de parfum - 15 ml",
@@ -5051,6 +4080,13 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Real Time - Morning Bloom - Eau De Parfum - 100ML",
+      "ean": "8715658361428",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.08,
+      "marge": 1.13
     },
     {
       "product": "Georges Mezotti Base Track High Society - Eau de Toilette - 100 ml",
@@ -5102,11 +4138,25 @@
       "marge": 1.05
     },
     {
+      "product": "NG Homme for Men Eau de Toilette 100 ml",
+      "ean": "8718421831425",
+      "eigenPrijs": 11.69,
+      "dichtstbijzijneConcurrent": 11.72,
+      "marge": 0.03
+    },
+    {
       "product": "Sentio Zodiac - Libra - Weegschaal - Eau De Parfum - For Women - 15ml",
       "ean": "7640158816547",
       "eigenPrijs": 10.45,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 1.05
+    },
+    {
+      "product": "Creation Lamis Diable Bleu parfum - Oriëntaalse en houtige eau de parfum voor dames",
+      "ean": "5414666001366",
+      "eigenPrijs": 11.25,
+      "dichtstbijzijneConcurrent": 11.52,
+      "marge": 0.27
     },
     {
       "product": "Sentio Zodiac - Sagitarius - Boogschutter - Eau De Parfum - For Women - 15ml",
@@ -5121,6 +4171,13 @@
       "eigenPrijs": 34.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Real Time Coup d'Amour eau de parfum 100 ml.",
+      "ean": "8715658360063",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
     },
     {
       "product": "Sentio Zodiac - Taurus - Stier - Eau De Parfum - For Women - 15ml",
@@ -5195,15 +4252,29 @@
     {
       "product": "Real Time - Smart Lady For Women - Eau de parfum - 100ML",
       "ean": "8715658360995",
-      "eigenPrijs": 13.35,
-      "dichtstbijzijneConcurrent": 13.35,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.48,
+      "marge": 1.53
     },
     {
       "product": "Dorall Win Over parfum - Eau de Toilette voor haar - 100ml",
       "ean": "6291012874428",
-      "eigenPrijs": 12.48,
-      "dichtstbijzijneConcurrent": 12.48,
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.87,
+      "marge": 0.92
+    },
+    {
+      "product": "Creation Lamis - Arrivederci - 100 ml - Eau de Toilette - Herenparfum",
+      "ean": "6013905032025",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.81,
+      "marge": 0.86
+    },
+    {
+      "product": "Creation Lamis Catsuit Woman Eau de Parfum For Women 100 ml",
+      "ean": "6151010029070",
+      "eigenPrijs": 12.33,
+      "dichtstbijzijneConcurrent": 12.33,
       "marge": 0
     },
     {
@@ -5219,6 +4290,13 @@
       "eigenPrijs": 10.45,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 1.05
+    },
+    {
+      "product": "NG - Phenom - Eau de Parfum 100ml voor dames",
+      "ean": "8719214753641",
+      "eigenPrijs": 11.49,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.01
     },
     {
       "product": "NG Crystal Pink Eau de Parfum 100 ml",
@@ -5244,13 +4322,6 @@
     {
       "product": "NG Woody Soul Unisex eau de parfum 100ml",
       "ean": "8719214759551",
-      "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": 12.5,
-      "marge": 0
-    },
-    {
-      "product": "NG Classic Men Eau de Toilette Spray 100 ml",
-      "ean": "8719214751203",
       "eigenPrijs": 12.5,
       "dichtstbijzijneConcurrent": 12.5,
       "marge": 0
@@ -5291,11 +4362,11 @@
       "marge": 1.05
     },
     {
-      "product": "Sentio I Love You Giftset",
-      "ean": "8721055494126",
-      "eigenPrijs": 12.64,
-      "dichtstbijzijneConcurrent": 12.64,
-      "marge": 0
+      "product": "Sentio Vintage Forrest Unisex Eau de Parfum 100ml",
+      "ean": "8721055491477",
+      "eigenPrijs": 12.95,
+      "dichtstbijzijneConcurrent": 13.42,
+      "marge": 0.47
     },
     {
       "product": "Sentio Opal Glow Unisex Eau de Parfum 100ml",
@@ -5347,6 +4418,13 @@
       "marge": null
     },
     {
+      "product": "Real Time - Queen Of Space Glorious - Eau De Parfum - 100ML",
+      "ean": "8715658361473",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.92,
+      "marge": 0.97
+    },
+    {
       "product": "Sentio - mini parfum - Best Friend Ever - heren - vaderdag - eau de toilette - 15 ml",
       "ean": "8721055490524",
       "eigenPrijs": 7.25,
@@ -5368,13 +4446,6 @@
       "marge": null
     },
     {
-      "product": "Real Time - Oú sont les - Eau de parfum - 100 ml",
-      "ean": "8715658361466",
-      "eigenPrijs": 12.29,
-      "dichtstbijzijneConcurrent": 12.29,
-      "marge": 0
-    },
-    {
       "product": "Linn Young -Dryade Giftset- Eau de parfum 100ml + 30ml",
       "ean": "8715658400745",
       "eigenPrijs": 17.95,
@@ -5384,9 +4455,23 @@
     {
       "product": "Real Time Queen of Space parfum - Eau de parfum voor elegante vrouwen - 100ml",
       "ean": "8715658360896",
-      "eigenPrijs": 13.79,
-      "dichtstbijzijneConcurrent": 13.79,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.99,
+      "marge": 2.04
+    },
+    {
+      "product": "Real Time Cops For Men 2.0 - Eau de Toilette voor heren - 100ML",
+      "ean": "8715658350620",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
+    },
+    {
+      "product": "Real Time Wild Action Elixir men edt 100 ml",
+      "ean": "8715658350637",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.08,
+      "marge": 1.13
     },
     {
       "product": "Real Time - Miss Sexy - Pour Femme Eau de Parfum 100ml",
@@ -5429,6 +4514,20 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Real Time - Intense Impression For Men - Eau De Toilette - 100ML",
+      "ean": "8715658350361",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.97,
+      "marge": 1.02
+    },
+    {
+      "product": "Real Time Canyon night 100 ml eau de toilette spray",
+      "ean": "8715658002796",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.08,
+      "marge": 1.13
     },
     {
       "product": "Real Time Challenging Life Eau de Toilette 100ml",
@@ -5487,6 +4586,20 @@
       "marge": null
     },
     {
+      "product": "Real Time - Tempting Rumors - Eau de Parfum 100ml",
+      "ean": "8715658361619",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.02,
+      "marge": 1.07
+    },
+    {
+      "product": "Real Time - Night Blue Mission Pour Homme - Eau De Toilette - 100ML",
+      "ean": "8715658002772",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.97,
+      "marge": 1.02
+    },
+    {
       "product": "Real Time - Life In Motion For Women - Eau de parfum - 100ML",
       "ean": "8715658002734",
       "eigenPrijs": 12.19,
@@ -5510,9 +4623,9 @@
     {
       "product": "Sentio Love & Casual for Him Eau de Toilette Spray 100 ml",
       "ean": "8721055493723",
-      "eigenPrijs": 13.87,
-      "dichtstbijzijneConcurrent": 13.87,
-      "marge": 0
+      "eigenPrijs": 12.95,
+      "dichtstbijzijneConcurrent": 13.06,
+      "marge": 0.11
     },
     {
       "product": "Linn Young - Outerspace Invasion - Eau de parfum - 100ML",
@@ -5557,6 +4670,13 @@
       "marge": null
     },
     {
+      "product": "Hello Kitty - Giftset - Mermaid Mint - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
+      "ean": "8721055493488",
+      "eigenPrijs": 13.02,
+      "dichtstbijzijneConcurrent": 13.02,
+      "marge": 0
+    },
+    {
       "product": "Colorful Shoe Shoe Pack",
       "ean": "8720938379253",
       "eigenPrijs": 17.45,
@@ -5578,6 +4698,13 @@
       "marge": 0
     },
     {
+      "product": "Real Time - Blue Touch - Eau De Toilette - 100Ml",
+      "ean": "8715658350446",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 13.35,
+      "marge": 2.4
+    },
+    {
       "product": "Linn Young - Wild Adventure Absolu - Eau de toilette - 100ML",
       "ean": "8715658390558",
       "eigenPrijs": 15.95,
@@ -5590,6 +4717,13 @@
       "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Linn Young \"Je Suis Sure Et Certaine\" Eau de parfum 100ml",
+      "ean": "8715658400295",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": 12.84,
+      "marge": 0.89
     },
     {
       "product": "Dorall geschenkset Giftset Majestic Sandal 105mledt sh+Body",
@@ -5617,6 +4751,13 @@
       "ean": "8721055495970",
       "eigenPrijs": 12.9,
       "dichtstbijzijneConcurrent": 12.9,
+      "marge": 0
+    },
+    {
+      "product": "Omerta - Candy Puff - Eau de parfum - 100ML",
+      "ean": "8715658380801",
+      "eigenPrijs": 11.97,
+      "dichtstbijzijneConcurrent": 11.97,
       "marge": 0
     },
     {
@@ -5727,9 +4868,9 @@
     {
       "product": "Creation Lamis Diva Essence Eau de Parfum For Women 100ml",
       "ean": "6291012005662",
-      "eigenPrijs": 14.45,
-      "dichtstbijzijneConcurrent": 14.45,
-      "marge": 0
+      "eigenPrijs": 12.95,
+      "dichtstbijzijneConcurrent": 13.64,
+      "marge": 0.69
     },
     {
       "product": "NG Spectre Fragrances NARIGUEZ for her eau de parfum 100ml",
@@ -5809,11 +4950,39 @@
       "marge": null
     },
     {
+      "product": "Real Time - Sea Beach - Eau De Toilette - 100ML",
+      "ean": "8715658002840",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.72,
+      "marge": 0.77
+    },
+    {
+      "product": "Omerta Body Survival For Man - Eau de Toilette voor heren - 100ML",
+      "ean": "8715658998471",
+      "eigenPrijs": 11.49,
+      "dichtstbijzijneConcurrent": 11.82,
+      "marge": 0.33
+    },
+    {
       "product": "Green Nature - Aloe Vera - Voetencreme - Zorgt voor een fris gevoel - Verzorging van gespannen voeten - Droge voeten",
       "ean": "8719214751098",
       "eigenPrijs": 11.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Creation Lamis Ruler Giftset",
+      "ean": "6291012002678",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": 12.17,
+      "marge": 0.22
+    },
+    {
+      "product": "Vibezz-24K-Eau de Toilette For Him-100ml",
+      "ean": "7640158819265",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.29,
+      "marge": 1.34
     },
     {
       "product": "SENTIO What Happens Under The Mistletoe Stays Under The Mistletoe Eau de Parfum - Miniparfum 15 Ml- Houtachtige Geur - Saffraan - Kerst - Kerst Geur",
@@ -5851,11 +5020,18 @@
       "marge": 0
     },
     {
+      "product": "Hello Kitty Choose Your Style Parfum set 6 stuks voor kinderen - 6x15ml - Meisjes",
+      "ean": "7640158816943",
+      "eigenPrijs": 17.58,
+      "dichtstbijzijneConcurrent": 17.58,
+      "marge": 0
+    },
+    {
       "product": "Bubble Bliss Flamingo Giftbook Parfum Pink & Proud EDP voor meisjes 50ml",
       "ean": "8721055492184",
-      "eigenPrijs": 12.17,
-      "dichtstbijzijneConcurrent": 12.17,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
     },
     {
       "product": "Linn Yong Last Frontier Eau de Toilette Spray 100ml",
@@ -5907,11 +5083,25 @@
       "marge": 0
     },
     {
+      "product": "Real Time - Call Me Black Edition - Eau de toilette - 100ML",
+      "ean": "8715658350514",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.72,
+      "marge": 0.77
+    },
+    {
       "product": "Sentio - TINA - Body Mist 250ml",
       "ean": "8721055499916",
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Catsuit Man parfum - Heren eau de toilette met munt, lavendel en bergamot",
+      "ean": "8719992723812",
+      "eigenPrijs": 14.75,
+      "dichtstbijzijneConcurrent": 14.78,
+      "marge": 0.03
     },
     {
       "product": "NG Home Perfume - Predator - Set van 3st",
@@ -5940,6 +5130,13 @@
       "eigenPrijs": 17,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Real Time - Out Of Order - Eau De Toilette - 100ML",
+      "ean": "8715658350033",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
     },
     {
       "product": "Geurverspreider Vivance aromatische canvas bergamot, lavendel oliën met stokjes 100 ml",
@@ -6117,6 +5314,20 @@
       "marge": null
     },
     {
+      "product": "Bubble Bliss - Giftset - Unicorn Cherry Blossom Fantasy - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
+      "ean": "8721055494065",
+      "eigenPrijs": 13.07,
+      "dichtstbijzijneConcurrent": 13.07,
+      "marge": 0
+    },
+    {
+      "product": "Omerta - Sweet Pommy - Eau de parfum - 100ML",
+      "ean": "8715658998563",
+      "eigenPrijs": 12.49,
+      "dichtstbijzijneConcurrent": 12.59,
+      "marge": 0.1
+    },
+    {
       "product": "Creascents Geurolie Sicilian Bergamot 750 Ml Transparant",
       "ean": "8720935400080",
       "eigenPrijs": 12.95,
@@ -6136,6 +5347,13 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Next Generation Classic for Woman 100ml Eau de Parfum",
+      "ean": "8719214750961",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
     },
     {
       "product": "Linn Young -Dryade Paris- Eau de Parfum 100ml",
@@ -6182,9 +5400,9 @@
     {
       "product": "Omerta - Angelina - Eau De Parfum - 100ML",
       "ean": "8715658997764",
-      "eigenPrijs": 12.29,
-      "dichtstbijzijneConcurrent": 12.29,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.62,
+      "marge": 0.67
     },
     {
       "product": "Linn Young - Just For Me - Eau de parfum - 100ML",
@@ -6194,11 +5412,32 @@
       "marge": 0
     },
     {
+      "product": "Real Time Mise Eau de Toilette100ml",
+      "ean": "8715658009733",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.71,
+      "marge": 0.76
+    },
+    {
+      "product": "Dorall Twilight Wilderness - Herenparfum eau de toilette - 100 ml",
+      "ean": "6291012874381",
+      "eigenPrijs": 12.76,
+      "dichtstbijzijneConcurrent": 12.76,
+      "marge": 0
+    },
+    {
       "product": "Real Time Submarine Operation X Eau de Toilette 100ml",
       "ean": "8715658350071",
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Hello Kitty - Giftset - Sweet Leopard Pink - Eau de Parfum + Bodymist - Cadeauset voor Kinderen - Geschenkset",
+      "ean": "8721055496373",
+      "eigenPrijs": 13.45,
+      "dichtstbijzijneConcurrent": 13.48,
+      "marge": 0.03
     },
     {
       "product": "Creation Lamis Overdrive Eau de Parfum 100ml",
@@ -6259,9 +5498,9 @@
     {
       "product": "SENTIO FEESTDAGEN PINK - Holly Jolly Magic - Eau de Parfum 50ml",
       "ean": "8721055492719",
-      "eigenPrijs": 12.13,
-      "dichtstbijzijneConcurrent": 12.13,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.51,
+      "marge": 0.56
     },
     {
       "product": "NG DOMINATIO 80ml + 15ml Eau De Toilette",
@@ -6285,6 +5524,13 @@
       "marge": 1.05
     },
     {
+      "product": "Real Time Silenzia For Men - Eau de Toilette voor heren - 100ml",
+      "ean": "8715658009054",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.82,
+      "marge": 0.87
+    },
+    {
       "product": "Sentio Single Lady Eau de Parfum For Women 15ml",
       "ean": "7640158815205",
       "eigenPrijs": 10.45,
@@ -6297,6 +5543,13 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": 14.95,
       "marge": 0
+    },
+    {
+      "product": "NG Dominatio Woman Eau de Parfum - Damesparfum met frisse en elegante geur - 100ml",
+      "ean": "7438235478494",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": 12.21,
+      "marge": 0.26
     },
     {
       "product": "NG Home Perfume - Bella Vida - Set van 3st",
@@ -6315,9 +5568,9 @@
     {
       "product": "Hello Kitty Googly Line Eau de Parfum voor Kinderen 50ml",
       "ean": "7640158816899",
-      "eigenPrijs": 12.98,
-      "dichtstbijzijneConcurrent": 12.98,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.2,
+      "marge": 1.25
     },
     {
       "product": "NG-Crystal Pink-Eau de Parfum for Women 15ml",
@@ -6439,11 +5692,25 @@
       "marge": 0
     },
     {
+      "product": "Vibezz Blissful Life parfum - Eau de parfum voor haar - 100ml",
+      "ean": "7640158819180",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.77,
+      "marge": 0.82
+    },
+    {
       "product": "Sentio Zodiac - Aquarius - Waterman - Eau De Parfum - For Women - 15ml",
       "ean": "7640158816585",
       "eigenPrijs": 10.45,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 1.05
+    },
+    {
+      "product": "Real Time - Free Sky For Woman - Eau De Parfum - 100Ml",
+      "ean": "8715658002512",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.97,
+      "marge": 1.02
     },
     {
       "product": "NG Spectre Fragrances Gold Generation MEN For Men eau de toilette 100ml",
@@ -6462,9 +5729,9 @@
     {
       "product": "Dorall Quaint damesparfum eau de toilette 100 ml",
       "ean": "6291012905399",
-      "eigenPrijs": 12.7,
-      "dichtstbijzijneConcurrent": 12.7,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.96,
+      "marge": 1.01
     },
     {
       "product": "Linn Young - Top Charms - Eau de parfum - 100ML",
@@ -6507,13 +5774,6 @@
       "eigenPrijs": 10.49,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 1.01
-    },
-    {
-      "product": "Sentio Happy Birthday Giftset - Luxe parfum en showergel voor iedereen",
-      "ean": "8721055494140",
-      "eigenPrijs": 14.78,
-      "dichtstbijzijneConcurrent": 14.78,
-      "marge": 0
     },
     {
       "product": "Dorall -Always On My Mind- Eau de Toilette spray 100ml for women",
@@ -6579,6 +5839,13 @@
       "marge": 0
     },
     {
+      "product": "Dorall Everscent Eau de Toilette voor dames - 100ml",
+      "ean": "6291012875807",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.66,
+      "marge": 1.71
+    },
+    {
       "product": "Linn Young - Her Desire L'Absolu Women - Le parfum - 100ML",
       "ean": "8715658401650",
       "eigenPrijs": 15.95,
@@ -6642,18 +5909,25 @@
       "marge": 0
     },
     {
+      "product": "Omerta Putting Green Eau de Toilette Pour Homme - 100ml",
+      "ean": "8715658998952",
+      "eigenPrijs": 11.82,
+      "dichtstbijzijneConcurrent": 11.82,
+      "marge": 0
+    },
+    {
       "product": "Hello Kitty - Giftset - Delicate Flower - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
       "ean": "7640158816950",
-      "eigenPrijs": 14.15,
-      "dichtstbijzijneConcurrent": 14.15,
-      "marge": 0
+      "eigenPrijs": 12.95,
+      "dichtstbijzijneConcurrent": 13.43,
+      "marge": 0.48
     },
     {
       "product": "De La Mare Parfum Raggio Di Sole 73 Vanilla & Orchid Eau de Parfum 100 ml",
       "ean": "8721055498179",
-      "eigenPrijs": 13.32,
-      "dichtstbijzijneConcurrent": 13.32,
-      "marge": 0
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": 12.58,
+      "marge": 0.63
     },
     {
       "product": "Therme Geurstokjes Hammam 100 ml",
@@ -6693,9 +5967,9 @@
     {
       "product": "Vibezz-Infusion Noir-Eau de Parfum For Her-100ml",
       "ean": "7640158819203",
-      "eigenPrijs": 12.38,
-      "dichtstbijzijneConcurrent": 12.38,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.72,
+      "marge": 0.77
     },
     {
       "product": "Sentio Parfum Universal For Woman Eau de Parfum for her 35ml",
@@ -6742,9 +6016,9 @@
     {
       "product": "NG Embodiment of Style Women Eau de Parfum Spray 100 ml",
       "ean": "8719214752576",
-      "eigenPrijs": 12.33,
-      "dichtstbijzijneConcurrent": 12.33,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.59,
+      "marge": 0.64
     },
     {
       "product": "Linn Young Coeur Noble - Eau de parfum - 100 ml",
@@ -6782,6 +6056,13 @@
       "marge": null
     },
     {
+      "product": "Omerta - Rose Pure - Eau de Parfum - 100ml",
+      "ean": "8715658380696",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.82,
+      "marge": 0.87
+    },
+    {
       "product": "Green Nature Aloe Vera pakket 4st.",
       "ean": "6151029227221",
       "eigenPrijs": 26.95,
@@ -6796,6 +6077,13 @@
       "marge": 0.06
     },
     {
+      "product": "Omerta - Happy Love Fun For Women - Eau de parfum - 100ML",
+      "ean": "8715658380399",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
+    },
+    {
       "product": "Creation Lamis Just Perfect Dream Giftset",
       "ean": "6291012002616",
       "eigenPrijs": 17.95,
@@ -6808,6 +6096,13 @@
       "eigenPrijs": 17.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Creation Lamis Golden Wave Women Giftset",
+      "ean": "6291012002623",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": 12.13,
+      "marge": 0.18
     },
     {
       "product": "Creation Lamis - Catsuit Woman - Voordeelverpakking 3 stuks.",
@@ -6852,13 +6147,6 @@
       "marge": 0
     },
     {
-      "product": "Hello Kitty - Parfum Set Van 6 Stuks - Eau de Parfum Voor Kinderen - 6x15ml",
-      "ean": "8721055493181",
-      "eigenPrijs": 14.29,
-      "dichtstbijzijneConcurrent": 14.29,
-      "marge": 0
-    },
-    {
       "product": "NG Delusional parfum - Eau de parfum voor de sensuele vrouw - 100 ml",
       "ean": "8719214750657",
       "eigenPrijs": 9.99,
@@ -6892,6 +6180,13 @@
       "eigenPrijs": 10.45,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Sentio Twirl Once More Eau de Parfum For Her 50ml",
+      "ean": "8721055491781",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.63,
+      "marge": 1.68
     },
     {
       "product": "Linn Young Je suis Sure et Ceraine Bouquet de Fleurs 100ml",
@@ -6938,9 +6233,9 @@
     {
       "product": "Creation Lamis Fatal Snake Magical Giftset",
       "ean": "6291012871731",
-      "eigenPrijs": 12.68,
-      "dichtstbijzijneConcurrent": 12.68,
-      "marge": 0
+      "eigenPrijs": 11.49,
+      "dichtstbijzijneConcurrent": 11.75,
+      "marge": 0.26
     },
     {
       "product": "Atelier Privee Mistical France parfum - Unisex eau de parfum met rozengeur - 100ml",
@@ -6948,6 +6243,13 @@
       "eigenPrijs": 11.1,
       "dichtstbijzijneConcurrent": 11.2,
       "marge": 0.1
+    },
+    {
+      "product": "Bubble Bliss Giftset Like a Fairytale-Eau de Parfum",
+      "ean": "8721055494287",
+      "eigenPrijs": 13.24,
+      "dichtstbijzijneConcurrent": 13.24,
+      "marge": 0
     },
     {
       "product": "Next Generation Home Perfume Bella Vida Spray - 200ml",
@@ -6980,9 +6282,9 @@
     {
       "product": "SENTIO FEESTDAGEN PINK - Enchanting Glow - Eau de Parfum 50ml",
       "ean": "8721055492726",
-      "eigenPrijs": 13.15,
-      "dichtstbijzijneConcurrent": 13.15,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.28,
+      "marge": 1.33
     },
     {
       "product": "Green Nature Aloe Vera Hand Cream 100ml",
@@ -7027,6 +6329,13 @@
       "marge": 0.51
     },
     {
+      "product": "Vibezz-Solitude-Eau de Toilette For Him-100ml",
+      "ean": "7640158819258",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.38,
+      "marge": 1.43
+    },
+    {
       "product": "NG goldigger men set edt 100 ml + shower gel 50 ml + after shave 50 ml",
       "ean": "8719214755843",
       "eigenPrijs": 15.75,
@@ -7039,6 +6348,13 @@
       "eigenPrijs": 12.5,
       "dichtstbijzijneConcurrent": 12.5,
       "marge": 0
+    },
+    {
+      "product": "Hello Kitty - Giftset - Kisses - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
+      "ean": "8721055493440",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
     },
     {
       "product": "Linn Young - Dangerzone - Eau De Parfum - 100ML",
@@ -7097,6 +6413,13 @@
       "marge": 1.09
     },
     {
+      "product": "Real Time - Me Time - Eau de Toilette - 100Ml",
+      "ean": "8715658350705",
+      "eigenPrijs": 12.02,
+      "dichtstbijzijneConcurrent": 12.02,
+      "marge": 0
+    },
+    {
       "product": "Hello Kitty-Once Upon a Time-15ml Eau de Parfum",
       "ean": "8721055493242",
       "eigenPrijs": 10.45,
@@ -7113,9 +6436,9 @@
     {
       "product": "Hello Kitty You're Cute Eau de Parfum voor Kinderen 50ml",
       "ean": "8721055493303",
-      "eigenPrijs": 13.32,
-      "dichtstbijzijneConcurrent": 13.32,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.58,
+      "marge": 1.63
     },
     {
       "product": "Georges Mezotti-Blue Rain Sport For Men Eau de Toilette 125ml",
@@ -7123,6 +6446,13 @@
       "eigenPrijs": 17.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Dorall -Miss Blossom- Eau de Parfum 100ml",
+      "ean": "6291012878259",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 12.21,
+      "marge": 1.26
     },
     {
       "product": "Street Looks - La Creation Pour Homme - Eau de toilette - 100ML",
@@ -7251,13 +6581,6 @@
       "marge": 0
     },
     {
-      "product": "Sentio Soft Suede Eau de Parfum 100ml",
-      "ean": "8721055491453",
-      "eigenPrijs": 12.9,
-      "dichtstbijzijneConcurrent": 12.9,
-      "marge": 0
-    },
-    {
       "product": "Next Generation Next Fragrance Eau de Parfum 100ml",
       "ean": "8719214753313",
       "eigenPrijs": 12.5,
@@ -7277,13 +6600,6 @@
       "eigenPrijs": 11.79,
       "dichtstbijzijneConcurrent": 12.42,
       "marge": 0.63
-    },
-    {
-      "product": "NG Heaven's Body Men Eau de Toilette 100ml -Voor Mannen.",
-      "ean": "8719214753344",
-      "eigenPrijs": 12.21,
-      "dichtstbijzijneConcurrent": 12.21,
-      "marge": 0
     },
     {
       "product": "NG Eau de Toilette L Odeur Men 100 ml",
@@ -7307,13 +6623,6 @@
       "marge": 0
     },
     {
-      "product": "NG Lightness Eau de Parfum 100ml",
-      "ean": "8719214758363",
-      "eigenPrijs": 11.82,
-      "dichtstbijzijneConcurrent": 11.82,
-      "marge": 0
-    },
-    {
       "product": "NG Nightly Desire Eau de Toilette 100 ml",
       "ean": "8718421831913",
       "eigenPrijs": 11.5,
@@ -7330,9 +6639,9 @@
     {
       "product": "NG -Next Fragranse For Her- 100ml Eau de Parfum-50ml Showergel-50ml Bodylotion",
       "ean": "8719214755829",
-      "eigenPrijs": 12.26,
-      "dichtstbijzijneConcurrent": 12.26,
-      "marge": 0
+      "eigenPrijs": 11.25,
+      "dichtstbijzijneConcurrent": 11.59,
+      "marge": 0.34
     },
     {
       "product": "Real Time Trespassing Lady Eau de Parfum 100ml",
@@ -7363,11 +6672,11 @@
       "marge": null
     },
     {
-      "product": "Creation Lamis - Espy - Eau de Parfum 100ml",
-      "ean": "5414666016452",
-      "eigenPrijs": 11.87,
-      "dichtstbijzijneConcurrent": 11.87,
-      "marge": 0
+      "product": "Real Time - Yes Call Me - Eau de parfum - 100ML",
+      "ean": "8715658360964",
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.52,
+      "marge": 0.57
     },
     {
       "product": "Omerta - Seduction Pack - set van 3x100ml",
@@ -7382,6 +6691,13 @@
       "eigenPrijs": 12,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Omerta - Invasion Third Dimension - Eau De Parfum - 100Ml",
+      "ean": "8715658380368",
+      "eigenPrijs": 11.67,
+      "dichtstbijzijneConcurrent": 11.67,
+      "marge": 0
     },
     {
       "product": "Geurstokjes Vivance - BLOSSOM VEIL - 200ml met twisted fragrance sticks",
@@ -7447,13 +6763,6 @@
       "marge": 0
     },
     {
-      "product": "Creation Lamis - Golden Wave - Eau de Parfum 100ml",
-      "ean": "5414666011471",
-      "eigenPrijs": 11.74,
-      "dichtstbijzijneConcurrent": 11.74,
-      "marge": 0
-    },
-    {
       "product": "Blue Beach Intense for him by Omerta",
       "ean": "8715658370161",
       "eigenPrijs": 14.49,
@@ -7463,9 +6772,9 @@
     {
       "product": "Omerta - Couture Cat - Eau De Parfum - 100ML",
       "ean": "8715658997733",
-      "eigenPrijs": 12.14,
-      "dichtstbijzijneConcurrent": 12.14,
-      "marge": 0
+      "eigenPrijs": 10.95,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.55
     },
     {
       "product": "Omerta - Free & Mysterious Pour Femme - Eau De Parfum - 100ML",
@@ -7487,6 +6796,13 @@
       "eigenPrijs": 10.49,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 1.01
+    },
+    {
+      "product": "Omerta - Out Of Question - Eau de parfum - 100ML",
+      "ean": "8715658380412",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": 12.29,
+      "marge": 0.34
     },
     {
       "product": "Creation Lamis Arrivederci Giftset",
