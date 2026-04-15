@@ -1,7 +1,7 @@
 {
-  "gegenereerd": "2026-04-14T17:19:38.926Z",
-  "aantalProducten": 44,
-  "aantalVeilig": 865,
+  "gegenereerd": "2026-04-15T04:03:56.636Z",
+  "aantalProducten": 45,
+  "aantalVeilig": 864,
   "producten": [
     {
       "product": "Creation Lamis Just Perfect Dream for her - Eau de parfum met bloemige noten - 100ml",
@@ -164,6 +164,22 @@
       ]
     },
     {
+      "product": "Hello Kitty-Apple-15ml Eau de Parfum",
+      "ean": "7640158816714",
+      "eigenPrijs": 5.25,
+      "laagsteConcurrent": 4.99,
+      "verschil": 0.26,
+      "concurrenten": [
+        {
+          "retailerNaam": "Minimarkt W&M",
+          "retailerId": "946246",
+          "prijs": 4.99,
+          "verschil": 0.26,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
       "product": "Hello Kitty-Coconut-15ml Eau de Parfum",
       "ean": "7640158816615",
       "eigenPrijs": 5.25,
@@ -198,6 +214,22 @@
     {
       "product": "Hello Kitty-Girl Gang-15ml Eau de Parfum",
       "ean": "7640158816790",
+      "eigenPrijs": 5.25,
+      "laagsteConcurrent": 4.99,
+      "verschil": 0.26,
+      "concurrenten": [
+        {
+          "retailerNaam": "Minimarkt W&M",
+          "retailerId": "946246",
+          "prijs": 4.99,
+          "verschil": 0.26,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Hello Kitty-Strawberry-15ml Eau de Parfum",
+      "ean": "7640158816639",
       "eigenPrijs": 5.25,
       "laagsteConcurrent": 4.99,
       "verschil": 0.26,
@@ -319,22 +351,6 @@
           "retailerId": "946246",
           "prijs": 4.99,
           "verschil": 0.26,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Catsuit Man parfum - Heren eau de toilette met munt, lavendel en bergamot",
-      "ean": "8719992723812",
-      "eigenPrijs": 15.75,
-      "laagsteConcurrent": 15.5,
-      "verschil": 0.25,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 15.5,
-          "verschil": 0.25,
           "fulfilment": "FBR"
         }
       ]
@@ -794,6 +810,13 @@
       "marge": null
     },
     {
+      "product": "Amando Noir Eau de Toilette - 50 ml",
+      "ean": "8714319228889",
+      "eigenPrijs": 11.25,
+      "dichtstbijzijneConcurrent": 11.99,
+      "marge": 0.74
+    },
+    {
       "product": "Sentio Involved Eau de Toilette - 100 ml",
       "ean": "7640158814987",
       "eigenPrijs": 12.99,
@@ -1207,13 +1230,6 @@
       "marge": 1
     },
     {
-      "product": "De La Mare Blueberry - Bosbes Geur - For Women Eau de Parfum 15 ml",
-      "ean": "8721055497011",
-      "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": 10.49,
-      "marge": 0
-    },
-    {
       "product": "8721055493600",
       "ean": "8721055493600",
       "eigenPrijs": 14.95,
@@ -1620,13 +1636,6 @@
       "marge": 0
     },
     {
-      "product": "Amando Noir Eau de Toilette - 50 ml",
-      "ean": "8714319228889",
-      "eigenPrijs": 11.25,
-      "dichtstbijzijneConcurrent": 11.99,
-      "marge": 0.74
-    },
-    {
       "product": "NG Bella Vida Giftset 3pcs - Parfum - Showergel - Bodylotion - voor Dames",
       "ean": "8719214757823",
       "eigenPrijs": 15.95,
@@ -1702,6 +1711,13 @@
       "eigenPrijs": 13.95,
       "dichtstbijzijneConcurrent": 15.95,
       "marge": 2
+    },
+    {
+      "product": "De La Mare Blueberry - Bosbes Geur - For Women Eau de Parfum 15 ml",
+      "ean": "8721055497011",
+      "eigenPrijs": 10.49,
+      "dichtstbijzijneConcurrent": 11,
+      "marge": 0.51
     },
     {
       "product": "Omerta - Conclude Oud Orient Perfection - Eau De Parfum - 100ML",
@@ -4980,6 +4996,13 @@
       "marge": null
     },
     {
+      "product": "Catsuit Man parfum - Heren eau de toilette met munt, lavendel en bergamot",
+      "ean": "8719992723812",
+      "eigenPrijs": 15.5,
+      "dichtstbijzijneConcurrent": 15.5,
+      "marge": 0
+    },
+    {
       "product": "NG Home Perfume - Predator - Set van 3st",
       "ean": "6151028763713",
       "eigenPrijs": 29.95,
@@ -5928,8 +5951,8 @@
       "product": "Real Time Eau de Toilette Kind Looks Man 100ml",
       "ean": "8715658002864",
       "eigenPrijs": 11.25,
-      "dichtstbijzijneConcurrent": 11.25,
-      "marge": 0
+      "dichtstbijzijneConcurrent": 11.94,
+      "marge": 0.69
     },
     {
       "product": "Egyptian Powder HORUS 40gr + luxe borstel",
@@ -6116,9 +6139,9 @@
     {
       "product": "SENTIO Happy New Year Eau de Parfum 15 ml - Miniparfum - Kerst - Nieuw Jaar - Cacao - Fruitig Geur - Houtaard",
       "ean": "7640158817452",
-      "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": 10.49,
-      "marge": 0
+      "eigenPrijs": 9.99,
+      "dichtstbijzijneConcurrent": 10.75,
+      "marge": 0.76
     },
     {
       "product": "Creation Lamis Fatal Snake Magical Giftset",
@@ -6147,13 +6170,6 @@
       "eigenPrijs": 12.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "Hello Kitty-Apple-15ml Eau de Parfum",
-      "ean": "7640158816714",
-      "eigenPrijs": 5.25,
-      "dichtstbijzijneConcurrent": 5.25,
-      "marge": 0
     },
     {
       "product": "Georges Mezotti - L'or - Eau De Parfum - 100ML",
@@ -6203,13 +6219,6 @@
       "eigenPrijs": 9.99,
       "dichtstbijzijneConcurrent": 10.93,
       "marge": 0.94
-    },
-    {
-      "product": "Hello Kitty-Strawberry-15ml Eau de Parfum",
-      "ean": "7640158816639",
-      "eigenPrijs": 5.25,
-      "dichtstbijzijneConcurrent": 5.25,
-      "marge": 0
     },
     {
       "product": "Sentio Miniparfum Cocktail - PINA COLADA - Eau de parfum For Her 15ml",
@@ -6376,8 +6385,8 @@
       "product": "De La Mare Pistachio parfum - Pistache geur eau de parfum voor vrouwen - 15 ml",
       "ean": "8721055497028",
       "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": 10.49,
-      "marge": 0
+      "dichtstbijzijneConcurrent": 10.94,
+      "marge": 0.45
     },
     {
       "product": "Linn Young -Rosiale Paris- Giftset 100ml + 30ml Eau de Parfum",
