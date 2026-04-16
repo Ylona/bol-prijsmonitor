@@ -1,7 +1,7 @@
 {
-  "gegenereerd": "2026-04-15T04:03:56.636Z",
+  "gegenereerd": "2026-04-16T04:02:53.529Z",
   "aantalProducten": 45,
-  "aantalVeilig": 864,
+  "aantalVeilig": 863,
   "producten": [
     {
       "product": "Creation Lamis Just Perfect Dream for her - Eau de parfum met bloemige noten - 100ml",
@@ -20,8 +20,376 @@
       ]
     },
     {
-      "product": "Bubble Bliss - Like a Fairytale - Lovely Lily - Eau de Parfum - Prinsessen Voor Kinderen 15ml",
-      "ean": "8721055494225",
+      "product": "Omerta - Pink Shoe - Eau de Parfum 100ml",
+      "ean": "8715658380931",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta Love Feathers - Eau de parfum - 100ML",
+      "ean": "8715658999430",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta - Big Release The Mood - EDT men - 100ml",
+      "ean": "8715658370086",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta - Golden challenge EDT men 100 ml",
+      "ean": "8720938379345",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta - Invasion - Eau De Parfum - 100Ml",
+      "ean": "8715658380351",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta - L'uomo X - Eau De Toilette - 100ML",
+      "ean": "8715658370505",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta - Oh So Black For Women - Eau De Parfum - 100ML",
+      "ean": "8715658380221",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta - Twice so nice - Eau de parfum - 100ml",
+      "ean": "8720938379352",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta -Royal X Red- 100ml Eau de Toilette for men",
+      "ean": "8715658370369",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta Clouds of Love Eau de Parfum 100ml",
+      "ean": "8715658999638",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta - Conclude Oud Extreme Attraction - Eau De Parfum - 100ML",
+      "ean": "8715658370543",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta -Ladies World- Eau de Parfum 100ml",
+      "ean": "8715658380757",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta -Lazy Nights- Eau de Parfum 100ml",
+      "ean": "8715658380405",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta -Shoe Red- Eau de Parfum 100ml",
+      "ean": "8715658380672",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta Sensible Man 100ml Eau de Toilette",
+      "ean": "8715658999249",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta - Love Dust - Eau De Parfum - 100ML",
+      "ean": "8715658380115",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta - Express Sensualite Energy - Eau De Parfum - 100ML",
+      "ean": "8715658998839",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta - Golden Challenge Ladies World - Eau De Parfum - 100ML",
+      "ean": "8715658997993",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta -Shoe Blue- Eau de Parfum 100ml",
+      "ean": "8715658380665",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta -Golden Challenge Elixer- 100ml Eau de Toilette for men",
+      "ean": "8715658370437",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta Invasion Awakening - Vrouwelijke eau de parfum - 100ml",
+      "ean": "8715658380658",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta Meet Me On The Wild Site Eau de Toilette 100ml",
+      "ean": "8715658370062",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta - La Donna X - Eau De Parfum - for women - 100ML",
+      "ean": "8715658380580",
+      "eigenPrijs": 9.79,
+      "laagsteConcurrent": 9.5,
+      "verschil": 0.29,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.5,
+          "verschil": 0.29,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Bubble Bliss - Unicorn Sprinkles - Discover - Lika a Unicorn - eau de parfum - voor kinderen 15ml",
+      "ean": "8721055493860",
       "eigenPrijs": 5.25,
       "laagsteConcurrent": 4.99,
       "verschil": 0.26,
@@ -36,8 +404,8 @@
       ]
     },
     {
-      "product": "Bubble Bliss - Unicorn Sprinkles - Discover - Lika a Unicorn - eau de parfum - voor kinderen 15ml",
-      "ean": "8721055493860",
+      "product": "Bubble Bliss - Like a Fairytale - Lovely Lily - Eau de Parfum - Prinsessen Voor Kinderen 15ml",
+      "ean": "8721055494225",
       "eigenPrijs": 5.25,
       "laagsteConcurrent": 4.99,
       "verschil": 0.26,
@@ -354,374 +722,6 @@
           "fulfilment": "FBR"
         }
       ]
-    },
-    {
-      "product": "Omerta - L'uomo X - Eau De Toilette - 100ML",
-      "ean": "8715658370505",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.75,
-      "verschil": 0.24,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.75,
-          "verschil": 0.24,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta Meet Me On The Wild Site Eau de Toilette 100ml",
-      "ean": "8715658370062",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.75,
-      "verschil": 0.24,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.75,
-          "verschil": 0.24,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Pink Shoe - Eau de Parfum 100ml",
-      "ean": "8715658380931",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta Love Feathers - Eau de parfum - 100ML",
-      "ean": "8715658999430",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Big Release The Mood - EDT men - 100ml",
-      "ean": "8715658370086",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Golden challenge EDT men 100 ml",
-      "ean": "8720938379345",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Invasion - Eau De Parfum - 100Ml",
-      "ean": "8715658380351",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Oh So Black For Women - Eau De Parfum - 100ML",
-      "ean": "8715658380221",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Twice so nice - Eau de parfum - 100ml",
-      "ean": "8720938379352",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta -Royal X Red- 100ml Eau de Toilette for men",
-      "ean": "8715658370369",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta Clouds of Love Eau de Parfum 100ml",
-      "ean": "8715658999638",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Conclude Oud Extreme Attraction - Eau De Parfum - 100ML",
-      "ean": "8715658370543",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta -Ladies World- Eau de Parfum 100ml",
-      "ean": "8715658380757",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta -Lazy Nights- Eau de Parfum 100ml",
-      "ean": "8715658380405",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta -Shoe Red- Eau de Parfum 100ml",
-      "ean": "8715658380672",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta Sensible Man 100ml Eau de Toilette",
-      "ean": "8715658999249",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Love Dust - Eau De Parfum - 100ML",
-      "ean": "8715658380115",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Express Sensualite Energy - Eau De Parfum - 100ML",
-      "ean": "8715658998839",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - Golden Challenge Ladies World - Eau De Parfum - 100ML",
-      "ean": "8715658997993",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta -Shoe Blue- Eau de Parfum 100ml",
-      "ean": "8715658380665",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta -Golden Challenge Elixer- 100ml Eau de Toilette for men",
-      "ean": "8715658370437",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta Invasion Awakening - Vrouwelijke eau de parfum - 100ml",
-      "ean": "8715658380658",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Omerta - La Donna X - Eau De Parfum - for women - 100ML",
-      "ean": "8715658380580",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
     }
   ],
   "veilig": [
@@ -736,8 +736,8 @@
       "product": "Sentio - mini parfum - Congrats! - heren - vaderdag - eau de toilette - 15 ml",
       "ean": "8721055490531",
       "eigenPrijs": 8.45,
-      "dichtstbijzijneConcurrent": 9,
-      "marge": 0.55
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 3.05
     },
     {
       "product": "NG Lightness Eau de Parfum 100ml met 5ml hervulbare tasverstuiver",
@@ -812,9 +812,9 @@
     {
       "product": "Amando Noir Eau de Toilette - 50 ml",
       "ean": "8714319228889",
-      "eigenPrijs": 11.25,
-      "dichtstbijzijneConcurrent": 11.99,
-      "marge": 0.74
+      "eigenPrijs": 10.89,
+      "dichtstbijzijneConcurrent": 11.2,
+      "marge": 0.31
     },
     {
       "product": "Sentio Involved Eau de Toilette - 100 ml",
@@ -915,15 +915,15 @@
       "marge": 1
     },
     {
-      "product": "8721055493549",
-      "ean": "8721055493549",
+      "product": "Omerta - Vanilla Fun - Eau De Parfum - 100ML",
+      "ean": "8715658999447",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 1
     },
     {
-      "product": "NG Mrs. Unique Eau de Parfum 100ml met 5ml hervulbare tasverstuiver",
-      "ean": "6151030588595",
+      "product": "8721055493549",
+      "ean": "8721055493549",
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
@@ -948,6 +948,13 @@
       "eigenPrijs": 12.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Sentio Attractive Life Eau De Parfum - 100 ml",
+      "ean": "7640158814802",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": 16.04,
+      "marge": 1.09
     },
     {
       "product": "Sentio Flare parfum - Sensuele eau de parfum met frisse en bloemige tonen - 100 ml",
@@ -1064,9 +1071,9 @@
     {
       "product": "Bubble Bliss Like a Fairytale - Parfum Set Van 6 Stuks - Eau de Parfum Voor Kinderen - 6x15ml",
       "ean": "8721055494218",
-      "eigenPrijs": 13.85,
+      "eigenPrijs": 18.95,
       "dichtstbijzijneConcurrent": 22.95,
-      "marge": 9.1
+      "marge": 4
     },
     {
       "product": "Sentio Rich Tabacco Blend Unisex Eau de Parfum 100ml",
@@ -1079,8 +1086,8 @@
       "product": "Therme Geurstokjes Mystic Rose - 100 ml",
       "ean": "8714319236983",
       "eigenPrijs": 14.75,
-      "dichtstbijzijneConcurrent": 15.42,
-      "marge": 0.67
+      "dichtstbijzijneConcurrent": 15.51,
+      "marge": 0.76
     },
     {
       "product": "NG Home Predator Geurstokjes 200ml",
@@ -1193,20 +1200,6 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "Omerta - Vanilla Fun - Eau De Parfum - 100ML",
-      "ean": "8715658999447",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 1
-    },
-    {
-      "product": "Sentio Attractive Life Eau De Parfum - 100 ml",
-      "ean": "7640158814802",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 16.04,
-      "marge": 1.09
     },
     {
       "product": "Sentio Chalize Eau De Parfum - 100 ml",
@@ -1405,13 +1398,6 @@
       "marge": 0.09
     },
     {
-      "product": "Linn - Young Oui Je T'Aime Mon Amour - Eau De Parfum - 100Ml",
-      "ean": "8715658400417",
-      "eigenPrijs": 14.75,
-      "dichtstbijzijneConcurrent": 14.75,
-      "marge": 0
-    },
-    {
       "product": "SENTIO DE LA MARE YAKIRA BODYMIST 250ML FROSTED LYCHEE FRESH SPARKLING/28",
       "ean": "8721055498469",
       "eigenPrijs": 13.95,
@@ -1499,8 +1485,8 @@
       "product": "Sentio Mary Davina Cristal parfum - eau de parfum spray voor dames - 100 ml",
       "ean": "8721055496632",
       "eigenPrijs": 13.69,
-      "dichtstbijzijneConcurrent": 14.75,
-      "marge": 1.06
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "Azira - ALMAS ABSOLU - Eau de Parfum Unisex",
@@ -1529,6 +1515,13 @@
       "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": 15.95,
       "marge": 0
+    },
+    {
+      "product": "NG Mrs. Unique Eau de Parfum 100ml met 5ml hervulbare tasverstuiver",
+      "ean": "6151030588595",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "NG Femme L'odeur du NG Giftset",
@@ -1622,6 +1615,13 @@
       "marge": null
     },
     {
+      "product": "Linn - Young Oui Je T'Aime Mon Amour - Eau De Parfum - 100Ml",
+      "ean": "8715658400417",
+      "eigenPrijs": 10.49,
+      "dichtstbijzijneConcurrent": 10.49,
+      "marge": 0
+    },
+    {
       "product": "NG Heavens Body 100ML Dames Eau de Parfum",
       "ean": "8719214751920",
       "eigenPrijs": 11.49,
@@ -1713,13 +1713,6 @@
       "marge": 2
     },
     {
-      "product": "De La Mare Blueberry - Bosbes Geur - For Women Eau de Parfum 15 ml",
-      "ean": "8721055497011",
-      "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": 11,
-      "marge": 0.51
-    },
-    {
       "product": "Omerta - Conclude Oud Orient Perfection - Eau De Parfum - 100ML",
       "ean": "8715658370550",
       "eigenPrijs": 14.95,
@@ -1758,8 +1751,8 @@
       "product": "Sentio Mary Davina Liora parfum - Eau de parfum spray voor dames - 100 ml",
       "ean": "8721055496656",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 17.5,
-      "marge": 2.55
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "Dorall geschenkset /Giftset Manipulare for men 100ml + 15ml edt + 50ml aftershave balm + 50ml shower gel",
@@ -2385,13 +2378,6 @@
       "marge": 0
     },
     {
-      "product": "Atelier Privee Mistical France Unisex - Dreamy Tonka - Eau de Parfum - 100ml",
-      "ean": "8721055495789",
-      "eigenPrijs": 12,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "Real Time Liberty Life Long Island 100ml Eau de Parfum",
       "ean": "8715658361626",
       "eigenPrijs": 14.95,
@@ -2619,8 +2605,8 @@
       "product": "Sentio Mary Davina Eau de Parfum Spray 100 ml",
       "ean": "8721055490234",
       "eigenPrijs": 11.95,
-      "dichtstbijzijneConcurrent": 13,
-      "marge": 1.05
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "Creation Lamis Just Perfect Dream Giftset",
@@ -3277,8 +3263,8 @@
       "product": "Sentio Wishing You The Best miniparfum eau de parfum for woman 15ml",
       "ean": "7640158817780",
       "eigenPrijs": 10.45,
-      "dichtstbijzijneConcurrent": 11.49,
-      "marge": 1.04
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 1.05
     },
     {
       "product": "Street Looks - Black Passion - Eau De Parfum - 100Ml",
@@ -4058,6 +4044,13 @@
       "marge": 1.05
     },
     {
+      "product": "De La Mare Blueberry - Bosbes Geur - For Women Eau de Parfum 15 ml",
+      "ean": "8721055497011",
+      "eigenPrijs": 10.49,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 1.01
+    },
+    {
       "product": "Luxe Adventskalender Kerstboom",
       "ean": "6151009790714",
       "eigenPrijs": 34.95,
@@ -4579,8 +4572,8 @@
       "product": "Colorful Shoe Shoe Pack",
       "ean": "8720938379253",
       "eigenPrijs": 17.45,
-      "dichtstbijzijneConcurrent": 17.5,
-      "marge": 0.05
+      "dichtstbijzijneConcurrent": 17.45,
+      "marge": 0
     },
     {
       "product": "Next Generation Classic Woman Elegance Eau de Parfum 100ml",
@@ -4887,8 +4880,8 @@
       "product": "SENTIO What Happens Under The Mistletoe Stays Under The Mistletoe Eau de Parfum - Miniparfum 15 Ml- Houtachtige Geur - Saffraan - Kerst - Kerst Geur",
       "ean": "7640158817469",
       "eigenPrijs": 8.99,
-      "dichtstbijzijneConcurrent": 9.98,
-      "marge": 0.99
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 2.51
     },
     {
       "product": "Linn Young - Breek Free Absolu - Eau de parfum - 100ML",
@@ -4907,9 +4900,9 @@
     {
       "product": "Amando Mystery Eau de Toilette voor mannen - Kruidige vanille parfum - 50 ml",
       "ean": "8714319228827",
-      "eigenPrijs": 10.75,
-      "dichtstbijzijneConcurrent": 11,
-      "marge": 0.25
+      "eigenPrijs": 9.99,
+      "dichtstbijzijneConcurrent": 10.7,
+      "marge": 0.71
     },
     {
       "product": "Next Generation Femme L'Odeur Du NG parfum - Eau de parfum voor dames - 100ml",
@@ -4950,8 +4943,8 @@
       "product": "NG - Next Generation - Elinné miniparfum eau de parfum 15ml",
       "ean": "8719214759179",
       "eigenPrijs": 7.95,
-      "dichtstbijzijneConcurrent": 8.5,
-      "marge": 0.55
+      "dichtstbijzijneConcurrent": 10.34,
+      "marge": 2.39
     },
     {
       "product": "Omerta - Oud & Class Pack - set van 3x100ml",
@@ -5069,8 +5062,8 @@
       "product": "NG-Dominatio-Eau de Parfum For Women 15ml",
       "ean": "8719214750770",
       "eigenPrijs": 8.45,
-      "dichtstbijzijneConcurrent": 9,
-      "marge": 0.55
+      "dichtstbijzijneConcurrent": 10.34,
+      "marge": 1.89
     },
     {
       "product": "Sentio DLM Eau De Parfum - 100 ml",
@@ -5348,8 +5341,8 @@
     {
       "product": "Creation Lamis Overdrive Eau de Parfum 100ml",
       "ean": "6291012000261",
-      "eigenPrijs": 9.99,
-      "dichtstbijzijneConcurrent": 9.99,
+      "eigenPrijs": 9.79,
+      "dichtstbijzijneConcurrent": 9.79,
       "marge": 0
     },
     {
@@ -5950,9 +5943,9 @@
     {
       "product": "Real Time Eau de Toilette Kind Looks Man 100ml",
       "ean": "8715658002864",
-      "eigenPrijs": 11.25,
+      "eigenPrijs": 10.89,
       "dichtstbijzijneConcurrent": 11.94,
-      "marge": 0.69
+      "marge": 1.05
     },
     {
       "product": "Egyptian Powder HORUS 40gr + luxe borstel",
@@ -5979,8 +5972,8 @@
       "product": "Omerta - Signature Pack - set van 3x100ml",
       "ean": "8720938379314",
       "eigenPrijs": 16.89,
-      "dichtstbijzijneConcurrent": 16.95,
-      "marge": 0.06
+      "dichtstbijzijneConcurrent": 16.89,
+      "marge": 0
     },
     {
       "product": "Omerta - Happy Love Fun For Women - Eau de parfum - 100ML",
@@ -6006,9 +5999,9 @@
     {
       "product": "Creation Lamis Golden Wave Women Giftset",
       "ean": "6291012002623",
-      "eigenPrijs": 13.95,
+      "eigenPrijs": 14.75,
       "dichtstbijzijneConcurrent": 15,
-      "marge": 1.05
+      "marge": 0.25
     },
     {
       "product": "Creation Lamis - Catsuit Woman - Voordeelverpakking 3 stuks.",
@@ -6041,9 +6034,9 @@
     {
       "product": "Creation Lamis Golden Wave for Men Giftset",
       "ean": "6291012002661",
-      "eigenPrijs": 13.95,
+      "eigenPrijs": 14.75,
       "dichtstbijzijneConcurrent": 15,
-      "marge": 1.05
+      "marge": 0.25
     },
     {
       "product": "Omerta - Wild energy Pack - set van 3x100ml",
@@ -6140,8 +6133,8 @@
       "product": "SENTIO Happy New Year Eau de Parfum 15 ml - Miniparfum - Kerst - Nieuw Jaar - Cacao - Fruitig Geur - Houtaard",
       "ean": "7640158817452",
       "eigenPrijs": 9.99,
-      "dichtstbijzijneConcurrent": 10.75,
-      "marge": 0.76
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 1.51
     },
     {
       "product": "Creation Lamis Fatal Snake Magical Giftset",
@@ -6231,8 +6224,8 @@
       "product": "Sentio Peachy Twist Unisex Eau de Parfum 100ml",
       "ean": "8721055491378",
       "eigenPrijs": 11.95,
-      "dichtstbijzijneConcurrent": 13,
-      "marge": 1.05
+      "dichtstbijzijneConcurrent": 14.79,
+      "marge": 2.84
     },
     {
       "product": "Atelier Privee Mistical France Unisex - Dark Valor - Eau de Parfum - 100ml",
@@ -6307,15 +6300,15 @@
     {
       "product": "Omerta - Silver Ocean Blue - EDT men - 100 ml",
       "ean": "8715658370017",
-      "eigenPrijs": 9.99,
-      "dichtstbijzijneConcurrent": 9.99,
+      "eigenPrijs": 9.79,
+      "dichtstbijzijneConcurrent": 9.79,
       "marge": 0
     },
     {
       "product": "NG Dark Elixir Men Eau de Toilette 100 ml",
       "ean": "8719214757229",
-      "eigenPrijs": 9.99,
-      "dichtstbijzijneConcurrent": 9.99,
+      "eigenPrijs": 9.79,
+      "dichtstbijzijneConcurrent": 9.79,
       "marge": 0
     },
     {
@@ -6385,8 +6378,8 @@
       "product": "De La Mare Pistachio parfum - Pistache geur eau de parfum voor vrouwen - 15 ml",
       "ean": "8721055497028",
       "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": 10.94,
-      "marge": 0.45
+      "dichtstbijzijneConcurrent": 10.95,
+      "marge": 0.46
     },
     {
       "product": "Linn Young -Rosiale Paris- Giftset 100ml + 30ml Eau de Parfum",
@@ -6399,8 +6392,8 @@
       "product": "Omerta Black & Silver Man Eau de Toilette 100ml",
       "ean": "8715658998464",
       "eigenPrijs": 9.99,
-      "dichtstbijzijneConcurrent": 9.99,
-      "marge": 0
+      "dichtstbijzijneConcurrent": 12.99,
+      "marge": 3
     },
     {
       "product": "Linn Young Admiration Eternal Uomo L'assoluto - Eau de Toilette voor heren - 100ML",
@@ -6699,7 +6692,7 @@
     {
       "product": "Creation Lamis - Golden Wave - Eau de Parfum 100ml",
       "ean": "5414666011471",
-      "eigenPrijs": 10.95,
+      "eigenPrijs": 14.5,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
