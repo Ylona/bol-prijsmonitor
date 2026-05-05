@@ -1,7 +1,7 @@
 {
-  "gegenereerd": "2026-05-05T09:29:06.181Z",
-  "aantalProducten": 51,
-  "aantalVeilig": 938,
+  "gegenereerd": "2026-05-05T09:34:59.087Z",
+  "aantalProducten": 52,
+  "aantalVeilig": 937,
   "producten": [
     {
       "product": "Creation Lamis Just Perfect Dream for her - Eau de parfum met bloemige noten - 100ml",
@@ -758,6 +758,22 @@
     {
       "product": "Street Looks - Fleurette - Eau de parfum - 100ML",
       "ean": "8715658013006",
+      "eigenPrijs": 14.29,
+      "laagsteConcurrent": 14.2,
+      "verschil": 0.09,
+      "concurrenten": [
+        {
+          "retailerNaam": "Koopjesfun.nl",
+          "retailerId": "1762224",
+          "prijs": 14.2,
+          "verschil": 0.09,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Omerta - Invasion Third Dimension - Eau De Parfum - 100Ml",
+      "ean": "8715658380368",
       "eigenPrijs": 14.29,
       "laagsteConcurrent": 14.2,
       "verschil": 0.09,
@@ -6684,8 +6700,8 @@
       "product": "NG Delusional parfum - Eau de parfum voor de sensuele vrouw - 100 ml",
       "ean": "8719214750657",
       "eigenPrijs": 9.99,
-      "dichtstbijzijneConcurrent": 10.79,
-      "marge": 0.8
+      "dichtstbijzijneConcurrent": 10.69,
+      "marge": 0.7
     },
     {
       "product": "Omerta - Night Out Pack - set van 3x100ml",
@@ -7195,8 +7211,8 @@
       "product": "NG Nightly Desire Eau de Toilette 100 ml",
       "ean": "8718421831913",
       "eigenPrijs": 12.65,
-      "dichtstbijzijneConcurrent": 12.72,
-      "marge": 0.07
+      "dichtstbijzijneConcurrent": 12.66,
+      "marge": 0.01
     },
     {
       "product": "NG -Wild Men Giftset- 100ml Eau de Toilette-50ml Showergel-50ml Aftershave balm",
@@ -7267,13 +7283,6 @@
       "eigenPrijs": 12.75,
       "dichtstbijzijneConcurrent": 13.85,
       "marge": 1.1
-    },
-    {
-      "product": "Omerta - Invasion Third Dimension - Eau De Parfum - 100Ml",
-      "ean": "8715658380368",
-      "eigenPrijs": 14.29,
-      "dichtstbijzijneConcurrent": 14.34,
-      "marge": 0.05
     },
     {
       "product": "Georges Mezotti - Blue Rain - For Men 3 x 125ml",
