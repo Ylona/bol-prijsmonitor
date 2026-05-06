@@ -118,7 +118,7 @@ async function getEigenaanbiedingen(token) {
       'Accept': 'application/vnd.retailer.v10+json',
       'Content-Type': 'application/vnd.retailer.v10+json',
     },
-    body: JSON.stringify({ format: 'CSV' }),
+    body: JSON.stringify({ format: 'CSV', countryCode: COUNTRY }),
   });
   if (!response.ok) {
     const text = await response.text();
@@ -286,8 +286,19 @@ async function main() {
   let aanbiedingen = parseCsv(csv);
   if (aanbiedingen.length > 0) {
     const kolommen = Object.keys(aanbiedingen[0]);
+    console.log(`📋 CSV-kolommen: ${kolommen.join(', ')}`);
     const heeftOfferId = kolommen.some(k => k.toLowerCase().includes('offer') && k.toLowerCase().includes('id'));
-    if (!heeftOfferId) console.warn(`⚠️  CSV-kolommen: ${kolommen.join(', ')}\n   Geen offerId-kolom gevonden — prijsaanpassing via dashboard werkt niet.`);
+    if (!heeftOfferId) console.warn(`⚠️  Geen offerId-kolom gevonden — prijsaanpassing via dashboard werkt niet.`);
+
+    // Filter op land als de CSV een countryCode-kolom bevat
+    const landKolom = kolommen.find(k => /country|countrycode|land/i.test(k));
+    if (landKolom) {
+      const voor = aanbiedingen.length;
+      aanbiedingen = aanbiedingen.filter(a => (a[landKolom] || '').toUpperCase() === COUNTRY);
+      console.log(`🌍 Land gefilterd op ${COUNTRY}: ${aanbiedingen.length} van ${voor} aanbiedingen`);
+    } else {
+      console.log(`⚠️  Geen landkolom in CSV — alle aanbiedingen verwerkt (mix van NL/BE mogelijk)`);
+    }
   }
   if (testEan) aanbiedingen = aanbiedingen.filter(a => a['ean'] === testEan);
   console.log(`📦 ${aanbiedingen.length} aanbiedingen — concurrent-prijzen ophalen...`);
