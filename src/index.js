@@ -170,7 +170,7 @@ function parseCsv(csv) {
 
 // Stap 5: Concurrent-aanbiedingen ophalen per EAN (1 call per product)
 async function getConcurrenten(token, ean) {
-  const res = await bolFetch(`https://api.bol.com/retailer/products/${ean}/offers?country=${COUNTRY}`, {
+  const res = await bolFetch(`https://api.bol.com/retailer/products/${ean}/offers?country-code=${COUNTRY}`, {
     headers: {
       'Authorization': `Bearer ${token}`,
       'Accept': 'application/vnd.retailer.v10+json',
