@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-05-06T09:07:30.606Z",
+  "gegenereerd": "2026-05-06T09:47:43.256Z",
   "aantalProducten": 42,
   "aantalVeilig": 947,
   "producten": [
@@ -1142,6 +1142,14 @@
       "eigenPrijs": 16.95,
       "dichtstbijzijneConcurrent": 16.95,
       "marge": 0
+    },
+    {
+      "product": "HORUS - Egyptian Powder - Bronzer - 17gr",
+      "ean": "8719214750121",
+      "offerId": "904c9b20-6332-02bf-e053-828b620a6815",
+      "eigenPrijs": 12.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "Real Time Wild Action Eau de Toilette Spray 100ml",
@@ -5360,14 +5368,6 @@
       "marge": null
     },
     {
-      "product": "HORUS - Egyptian Powder - Bronzer - 17gr",
-      "ean": "8719214750121",
-      "offerId": "904c9b20-6332-02bf-e053-828b620a6815",
-      "eigenPrijs": 12.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "NG Home Perfume Dominatio - Geurstokjes, Refill & Roomspray set van 3",
       "ean": "6151028564525",
       "offerId": "d202b34b-fda6-45a8-af72-0bcba056212f",
@@ -6764,8 +6764,8 @@
       "ean": "8721055492719",
       "offerId": "2f127bdd-d1c2-4edf-8214-bb568ef750f7",
       "eigenPrijs": 13.95,
-      "dichtstbijzijneConcurrent": 14.95,
-      "marge": 1
+      "dichtstbijzijneConcurrent": 14.78,
+      "marge": 0.83
     },
     {
       "product": "NG DOMINATIO 80ml + 15ml Eau De Toilette",
@@ -8084,8 +8084,8 @@
       "ean": "8719214755829",
       "offerId": "f3ab74f0-ccba-4410-9e03-bc1785033e38",
       "eigenPrijs": 13.25,
-      "dichtstbijzijneConcurrent": 13.51,
-      "marge": 0.26
+      "dichtstbijzijneConcurrent": 13.41,
+      "marge": 0.16
     },
     {
       "product": "Real Time Trespassing Lady Eau de Parfum 100ml",
