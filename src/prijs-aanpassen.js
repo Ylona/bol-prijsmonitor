@@ -2,8 +2,9 @@ import fetch from 'node-fetch';
 import * as dotenv from 'dotenv';
 dotenv.config();
 
-const CLIENT_ID  = process.env.BOL_CLIENT_ID;
-const CLIENT_SECRET = process.env.BOL_CLIENT_SECRET;
+const COUNTRY = (process.env.COUNTRY || 'NL').toUpperCase();
+const CLIENT_ID  = process.env[`BOL_CLIENT_ID_${COUNTRY}`] || (COUNTRY === 'NL' ? process.env.BOL_CLIENT_ID : null);
+const CLIENT_SECRET = process.env[`BOL_CLIENT_SECRET_${COUNTRY}`] || (COUNTRY === 'NL' ? process.env.BOL_CLIENT_SECRET : null);
 const WIJZIGINGEN = JSON.parse(process.env.WIJZIGINGEN || '[]');
 
 let lastCallTime = 0;
@@ -77,7 +78,7 @@ async function main() {
     return;
   }
 
-  console.log(`🔧 ${WIJZIGINGEN.length} prijs(wijziging(en)) aanpassen op bol.com...\n`);
+  console.log(`🔧 ${WIJZIGINGEN.length} prijs(wijziging(en)) aanpassen op bol.com (${COUNTRY})...\n`);
   const token = await getAccessToken();
   console.log('✅ Ingelogd bij bol.com\n');
 

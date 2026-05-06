@@ -57,6 +57,8 @@
     .refresh-btn:hover:not(:disabled) { background: var(--lichtblauw); }
     .refresh-btn:disabled { opacity: .6; cursor: not-allowed; }
     .spin { display: inline-block; animation: draaien 1s linear infinite; }
+    .land-selector { background: rgba(255,255,255,.15); color: #fff; border: 1px solid rgba(255,255,255,.4); border-radius: 6px; padding: 6px 14px; font-size: 0.9rem; cursor: pointer; font-family: inherit; }
+    .land-selector option { background: #fff; color: #222; }
     @keyframes draaien { to { transform: rotate(360deg); } }
     .refresh-status { font-size: 0.82rem; padding: 6px 14px; border-radius: 20px; display: none; align-items: center; gap: 6px; font-weight: 500; }
     .refresh-status.bezig  { display: flex; background: #fff8e1; color: #7a5800; border: 1px solid #ffe082; }
@@ -145,6 +147,10 @@
     <h1>Bol.com Prijsmonitor</h1>
     <div id="headerDatum">Laden…</div>
   </div>
+  <select class="land-selector" id="landSelector" onchange="wisselLand(this.value)">
+    <option value="NL">🇳🇱 Nederland</option>
+    <option value="BE">🇧🇪 België</option>
+  </select>
 </header>
 
 <div class="stats" id="stats"></div>
@@ -219,16 +225,41 @@
 let rapport = null;
 let actielFilter = 'alle';
 let pendingActie = 'refresh';
+let activeLand = localStorage.getItem('actief_land') || 'NL';
+
+document.getElementById('landSelector').value = activeLand;
+
+function wisselLand(land) {
+  activeLand = land;
+  localStorage.setItem('actief_land', land);
+  laadLandState();
+  if (localStorage.getItem(`cache_melding_${activeLand}`)) {
+    document.getElementById('cacheMelding').classList.add('zichtbaar');
+  } else {
+    document.getElementById('cacheMelding').classList.remove('zichtbaar');
+  }
+  rapport = null;
+  actielFilter = 'alle';
+  document.querySelectorAll('#filterGroep button').forEach(b => b.classList.remove('actief'));
+  document.querySelector('[data-filter="alle"]').classList.add('actief');
+  document.getElementById('testmodeBanner').classList.remove('zichtbaar');
+  document.getElementById('stats').innerHTML = '';
+  document.getElementById('msg').style.display = 'block';
+  document.getElementById('msg').innerHTML = '<strong>Rapport laden…</strong>';
+  document.getElementById('tabel').style.display = 'none';
+  updateOpslaanBar();
+  laadRapport();
+}
 
 function toonCacheMelding() {
-  localStorage.setItem('cache_melding', '1');
+  localStorage.setItem(`cache_melding_${activeLand}`, '1');
   document.getElementById('cacheMelding').classList.add('zichtbaar');
 }
 function verbergCacheMelding() {
-  localStorage.removeItem('cache_melding');
+  localStorage.removeItem(`cache_melding_${activeLand}`);
   document.getElementById('cacheMelding').classList.remove('zichtbaar');
 }
-if (localStorage.getItem('cache_melding')) {
+if (localStorage.getItem(`cache_melding_${activeLand}`)) {
   document.getElementById('cacheMelding').classList.add('zichtbaar');
 }
 
@@ -238,11 +269,15 @@ if (IS_LOKAAL) {
   document.getElementById('lokaalRefreshBtn').style.display = 'flex';
 }
 
-// ── Prijs-overrides (opgeslagen in localStorage) ──
-let prijsOverrides = JSON.parse(localStorage.getItem('prijs_overrides') || '{}');
+// ── Prijs-overrides en opgeslagen-staat, per land apart in localStorage ──
+let prijsOverrides = {};
+let prijzenOpgeslagen = {};
 
-// ── Opgeslagen-maar-nog-niet-gerefresht (oranje prijzen) ──
-let prijzenOpgeslagen = JSON.parse(localStorage.getItem('prijzen_opgeslagen') || '{}');
+function laadLandState() {
+  prijsOverrides = JSON.parse(localStorage.getItem(`prijs_overrides_${activeLand}`) || '{}');
+  prijzenOpgeslagen = JSON.parse(localStorage.getItem(`prijzen_opgeslagen_${activeLand}`) || '{}');
+}
+laadLandState();
 
 function verwerkOpslaanSucces(wijzigingen) {
   for (const w of wijzigingen) {
@@ -250,16 +285,16 @@ function verwerkOpslaanSucces(wijzigingen) {
     if (p) p.eigenPrijs = w.prijs;
     prijzenOpgeslagen[w.ean] = w.prijs;
   }
-  localStorage.setItem('prijzen_opgeslagen', JSON.stringify(prijzenOpgeslagen));
+  localStorage.setItem(`prijzen_opgeslagen_${activeLand}`, JSON.stringify(prijzenOpgeslagen));
 }
 
 function clearOpgeslagen() {
   prijzenOpgeslagen = {};
-  localStorage.removeItem('prijzen_opgeslagen');
+  localStorage.removeItem(`prijzen_opgeslagen_${activeLand}`);
 }
 
 function bewaarPrijsOverrides() {
-  localStorage.setItem('prijs_overrides', JSON.stringify(prijsOverrides));
+  localStorage.setItem(`prijs_overrides_${activeLand}`, JSON.stringify(prijsOverrides));
   updateOpslaanBar();
 }
 
@@ -415,16 +450,16 @@ async function bevestigOpslaanLokaal(wijzigingen, status) {
     const res  = await fetch('/api/prijs-aanpassen', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ wijzigingen }),
+      body: JSON.stringify({ wijzigingen, land: activeLand }),
     });
     const data = await res.json();
     if (data.ok) {
       verwerkOpslaanSucces(wijzigingen);
-      // Persisteer nieuwe prijzen in rapport.json op de server
+      // Persisteer nieuwe prijzen in rapport-{land}.json op de server
       fetch('/api/patch-rapport', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ wijzigingen }),
+        body: JSON.stringify({ wijzigingen, land: activeLand }),
       }).catch(() => {});
       prijsOverrides = {};
       bewaarPrijsOverrides();
@@ -460,7 +495,7 @@ async function bevestigOpslaanGitHub(wijzigingen, status) {
           'Accept': 'application/vnd.github+json',
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ ref: 'main', inputs: { wijzigingen: JSON.stringify(wijzigingen) } }),
+        body: JSON.stringify({ ref: 'main', inputs: { wijzigingen: JSON.stringify(wijzigingen), land: activeLand } }),
       }
     );
     if (res.status === 204) {
@@ -532,10 +567,14 @@ async function lokaalVernieuwen() {
   zetStatus('bezig', '⏳ Testdata wordt gegenereerd…');
 
   try {
-    const res = await fetch('/api/vernieuwen', { method: 'POST' });
+    const res = await fetch('/api/vernieuwen', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ land: activeLand }),
+    });
     const data = await res.json();
     if (data.ok) {
-      const nieuw = await (await fetch('rapport.json?t=' + Date.now(), { cache: 'no-store' })).json();
+      const nieuw = await (await fetch(`rapport-${activeLand}.json?t=` + Date.now(), { cache: 'no-store' })).json();
       rapport = nieuw;
       vulConcurrentDropdown();
       toonStats();
@@ -560,12 +599,17 @@ async function lokaalVernieuwen() {
 // ── Laden ──
 async function laadRapport() {
   try {
-    const res = await fetch('rapport.json?t=' + Date.now());
+    const res = await fetch(`rapport-${activeLand}.json?t=` + Date.now());
     if (!res.ok) throw new Error(res.status);
     rapport = await res.json();
     initialiseer();
   } catch {
-    toonMsg('Kon rapport.json niet laden.', 'Start de lokale server via: npm run serve');
+    toonMsg(
+      `Geen rapport gevonden voor ${activeLand}.`,
+      activeLand === 'BE'
+        ? 'Klik "Rapport vernieuwen" om het eerste rapport voor België op te halen.'
+        : 'Start de lokale server via: npm run serve'
+    );
   }
 }
 
@@ -773,12 +817,12 @@ function downloadExcel() {
   ws['!cols'] = [40,16,16,22,14,28,20,12].map(w => ({ wch: w }));
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, 'Prijsrapport');
-  XLSX.writeFile(wb, `prijsrapport-${datum}.xlsx`);
+  XLSX.writeFile(wb, `prijsrapport-${activeLand}-${datum}.xlsx`);
 }
 
 async function herlaadRapport(token) {
   try {
-    const res = await fetch('rapport.json?t=' + Date.now(), { cache: 'no-store' });
+    const res = await fetch(`rapport-${activeLand}.json?t=` + Date.now(), { cache: 'no-store' });
     if (!res.ok) throw new Error();
     const nieuw = await res.json();
     if (nieuw.gegenereerd !== rapport?.gegenereerd) {
@@ -829,7 +873,7 @@ async function voerRefreshUit(token) {
       {
         method: 'POST',
         headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ref: 'main' }),
+        body: JSON.stringify({ ref: 'main', inputs: { country: activeLand } }),
       }
     );
     if (res.status === 204) {

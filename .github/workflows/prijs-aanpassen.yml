@@ -6,6 +6,10 @@ on:
       wijzigingen:
         description: 'JSON-array met prijswijzigingen'
         required: true
+      land:
+        description: 'Land (NL of BE)'
+        required: false
+        default: 'NL'
 
 jobs:
   aanpassen:
@@ -16,9 +20,21 @@ jobs:
         with:
           node-version: '20'
       - run: npm ci
-      - name: Prijzen aanpassen op bol.com
+      - name: Prijzen aanpassen NL
+        if: ${{ github.event.inputs.land == 'NL' || github.event.inputs.land == '' }}
         env:
-          BOL_CLIENT_ID: ${{ secrets.BOL_CLIENT_ID }}
-          BOL_CLIENT_SECRET: ${{ secrets.BOL_CLIENT_SECRET }}
+          COUNTRY: NL
+          BOL_CLIENT_ID_NL: ${{ secrets.BOL_CLIENT_ID_NL }}
+          BOL_CLIENT_SECRET_NL: ${{ secrets.BOL_CLIENT_SECRET_NL }}
+          BOL_CLIENT_ID: ${{ secrets.BOL_CLIENT_ID_NL }}
+          BOL_CLIENT_SECRET: ${{ secrets.BOL_CLIENT_SECRET_NL }}
+          WIJZIGINGEN: ${{ inputs.wijzigingen }}
+        run: node src/prijs-aanpassen.js
+      - name: Prijzen aanpassen BE
+        if: ${{ github.event.inputs.land == 'BE' }}
+        env:
+          COUNTRY: BE
+          BOL_CLIENT_ID_BE: ${{ secrets.BOL_CLIENT_ID_BE }}
+          BOL_CLIENT_SECRET_BE: ${{ secrets.BOL_CLIENT_SECRET_BE }}
           WIJZIGINGEN: ${{ inputs.wijzigingen }}
         run: node src/prijs-aanpassen.js

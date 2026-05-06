@@ -4,9 +4,13 @@ import ExcelJS from 'exceljs';
 import * as dotenv from 'dotenv';
 dotenv.config();
 
-const CLIENT_ID = process.env.BOL_CLIENT_ID;
-const CLIENT_SECRET = process.env.BOL_CLIENT_SECRET;
+const COUNTRY = (process.env.COUNTRY || 'NL').toUpperCase();
+const CLIENT_ID = process.env[`BOL_CLIENT_ID_${COUNTRY}`] || (COUNTRY === 'NL' ? process.env.BOL_CLIENT_ID : null);
+const CLIENT_SECRET = process.env[`BOL_CLIENT_SECRET_${COUNTRY}`] || (COUNTRY === 'NL' ? process.env.BOL_CLIENT_SECRET : null);
 const TEST_MODE = process.env.TEST_MODE === 'true';
+
+const RAPPORT_PAD    = `rapport-${COUNTRY}.json`;
+const NAAM_CACHE_PAD = `naam-cache-${COUNTRY}.json`;
 
 // Vaste testartikelen (noodback als rapport.json nog geen offer IDs bevat)
 const TESTARTIKELEN_FALLBACK = [
@@ -166,7 +170,7 @@ function parseCsv(csv) {
 
 // Stap 5: Concurrent-aanbiedingen ophalen per EAN (1 call per product)
 async function getConcurrenten(token, ean) {
-  const res = await bolFetch(`https://api.bol.com/retailer/products/${ean}/offers?country=NL`, {
+  const res = await bolFetch(`https://api.bol.com/retailer/products/${ean}/offers?country=${COUNTRY}`, {
     headers: {
       'Authorization': `Bearer ${token}`,
       'Accept': 'application/vnd.retailer.v10+json',
@@ -181,7 +185,7 @@ let naamCache = {};
 
 async function laadNaamCache() {
   try {
-    naamCache = JSON.parse(await readFile('naam-cache.json', 'utf-8'));
+    naamCache = JSON.parse(await readFile(NAAM_CACHE_PAD, 'utf-8'));
     console.log(`📖 Naam-cache: ${Object.keys(naamCache).length} namen geladen`);
   } catch {
     naamCache = {};
@@ -203,7 +207,7 @@ async function getProductNaam(token, ean, fallback) {
       'Accept': 'application/vnd.retailer.v10+json',
       'Content-Type': 'application/vnd.retailer.v10+json',
     },
-    body: JSON.stringify({ countryCode: 'NL', searchTerm: ean }),
+    body: JSON.stringify({ countryCode: COUNTRY, searchTerm: ean }),
   });
   if (!res.ok) return fallback;
   const data = await res.json();
@@ -230,7 +234,7 @@ async function getRetailerNaam(token, retailerId) {
 // Hoofdprogramma
 async function main() {
   const testEan = process.env.TEST_EAN || null;
-  console.log('🎣 Bol.com prijsmonitor gestart...\n');
+  console.log(`🎣 Bol.com prijsmonitor gestart (${COUNTRY})...\n`);
 
   if (TEST_MODE) {
     console.log('🧪 Testmodus actief — bestaand rapport wordt gebruikt als bron.\n');
@@ -239,34 +243,35 @@ async function main() {
     let testVeilig    = TESTVEILIG_FALLBACK;
 
     try {
-      const bestaand = JSON.parse(await readFile('rapport.json', 'utf-8'));
+      const bestaand = JSON.parse(await readFile(RAPPORT_PAD, 'utf-8'));
       const echteProducten = (bestaand.producten || []).filter(p => p.offerId && !p.offerId.startsWith('test-'));
       const echteVeilig    = (bestaand.veilig    || []).filter(p => p.offerId && !p.offerId.startsWith('test-'));
 
       if (echteProducten.length > 0) {
         testProducten = echteProducten.slice(0, 3);
         testVeilig    = echteVeilig.slice(0, 2);
-        console.log(`✅ ${testProducten.length} echte producten + ${testVeilig.length} veilige geladen uit rapport.json`);
+        console.log(`✅ ${testProducten.length} echte producten + ${testVeilig.length} veilige geladen uit ${RAPPORT_PAD}`);
       } else {
-        console.log('⚠️  Geen echte offer IDs gevonden in rapport.json — nep-testartikelen gebruikt.');
+        console.log(`⚠️  Geen echte offer IDs gevonden in ${RAPPORT_PAD} — nep-testartikelen gebruikt.`);
         console.log('   Draai éénmalig "node src/index.js" (zonder TEST_MODE) om echte offer IDs op te slaan.');
       }
     } catch {
-      console.log('⚠️  Geen rapport.json gevonden — nep-testartikelen gebruikt.');
+      console.log(`⚠️  Geen ${RAPPORT_PAD} gevonden — nep-testartikelen gebruikt.`);
     }
 
     const nu = new Date();
     const uitvoer = {
       gegenereerd: nu.toISOString(),
       testModus: true,
+      land: COUNTRY,
       aantalProducten: testProducten.length,
       aantalVeilig: testVeilig.length,
       producten: testProducten,
       veilig: testVeilig,
     };
-    await writeFile('rapport.json', JSON.stringify(uitvoer, null, 2), 'utf-8');
+    await writeFile(RAPPORT_PAD, JSON.stringify(uitvoer, null, 2), 'utf-8');
     console.log(`✅ Testrapport gegenereerd: ${testProducten.length} producten met concurrent, ${testVeilig.length} veilig`);
-    console.log('📄 rapport.json klaar — open het dashboard via: npm run serve');
+    console.log(`📄 ${RAPPORT_PAD} klaar — open het dashboard via: npm run serve`);
     return;
   }
 
@@ -361,7 +366,7 @@ async function main() {
   // Naam-cache opslaan (nieuwe namen bijgehouden voor volgende run)
   const nieuweNamen = Object.keys(naamCache).length - cacheVoor;
   if (nieuweNamen > 0) console.log(`💾 ${nieuweNamen} nieuwe namen gecached`);
-  await writeFile('naam-cache.json', JSON.stringify(naamCache), 'utf-8');
+  await writeFile(NAAM_CACHE_PAD, JSON.stringify(naamCache), 'utf-8');
 
   const nu = new Date();
   const datumLabel = nu.toISOString().slice(0, 10); // bijv. 2026-04-11
@@ -369,16 +374,17 @@ async function main() {
   // JSON rapport (overschrijven)
   const uitvoer = {
     gegenereerd: nu.toISOString(),
+    land: COUNTRY,
     aantalProducten: rapport.length,
     aantalVeilig: veiligeLijst.length,
     producten: rapport,
     veilig: veiligeLijst,
   };
-  await writeFile('rapport.json', JSON.stringify(uitvoer, null, 2), 'utf-8');
+  await writeFile(RAPPORT_PAD, JSON.stringify(uitvoer, null, 2), 'utf-8');
 
-  // Excel rapport met datum in bestandsnaam
+  // Excel rapport met datum en land in bestandsnaam
   await mkdir('rapporten', { recursive: true });
-  const excelPad = `rapporten/prijsrapport-${datumLabel}.xlsx`;
+  const excelPad = `rapporten/prijsrapport-${COUNTRY}-${datumLabel}.xlsx`;
 
   const werkboek = new ExcelJS.Workbook();
   werkboek.creator = 'Bol Prijsmonitor';
@@ -425,7 +431,7 @@ async function main() {
 
   console.log(`✅ ${rapport.length} product(en) met goedkopere concurrent`);
   console.log(`📊 Excel: ${excelPad}`);
-  console.log(`📄 JSON:  rapport.json`);
+  console.log(`📄 JSON:  ${RAPPORT_PAD}`);
 }
 
 main().catch(console.error);

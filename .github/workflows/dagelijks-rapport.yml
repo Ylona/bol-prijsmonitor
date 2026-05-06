@@ -1,7 +1,12 @@
 name: Dagelijks prijsrapport
 
 on:
-  workflow_dispatch:        # alleen handmatig te starten
+  workflow_dispatch:
+    inputs:
+      country:
+        description: 'Land om te vernieuwen (NL, BE, of leeg voor allebei)'
+        required: false
+        default: ''
 
 jobs:
   rapport:
@@ -25,17 +30,32 @@ jobs:
       - name: Afhankelijkheden installeren
         run: npm ci
 
-      - name: Prijsrapport draaien
+      - name: Rapport NL draaien
+        if: ${{ github.event.inputs.country == '' || github.event.inputs.country == 'NL' }}
         env:
-          BOL_CLIENT_ID: ${{ secrets.BOL_CLIENT_ID }}
-          BOL_CLIENT_SECRET: ${{ secrets.BOL_CLIENT_SECRET }}
+          COUNTRY: NL
+          BOL_CLIENT_ID_NL: ${{ secrets.BOL_CLIENT_ID_NL }}
+          BOL_CLIENT_SECRET_NL: ${{ secrets.BOL_CLIENT_SECRET_NL }}
+          BOL_CLIENT_ID: ${{ secrets.BOL_CLIENT_ID_NL }}
+          BOL_CLIENT_SECRET: ${{ secrets.BOL_CLIENT_SECRET_NL }}
+        run: node src/index.js
+
+      - name: Rapport BE draaien
+        if: ${{ github.event.inputs.country == '' || github.event.inputs.country == 'BE' }}
+        env:
+          COUNTRY: BE
+          BOL_CLIENT_ID_BE: ${{ secrets.BOL_CLIENT_ID_BE }}
+          BOL_CLIENT_SECRET_BE: ${{ secrets.BOL_CLIENT_SECRET_BE }}
         run: node src/index.js
 
       - name: Bestanden committen en pushen
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add rapport.json rapporten/ naam-cache.json
+          git add rapporten/
+          for f in rapport-NL.json rapport-BE.json naam-cache-NL.json naam-cache-BE.json; do
+            [ -f "$f" ] && git add "$f" || true
+          done
           git diff --cached --quiet || git commit -m "Prijsrapport $(date -u +%Y-%m-%d)"
           git pull --rebase=false origin main -X ours
           git push
