@@ -121,7 +121,8 @@
     /* ── Inline prijs bewerken ── */
     .prijs-bewerkbaar { cursor: pointer; padding: 1px 4px; border-radius: 3px; border-bottom: 1px dashed transparent; transition: background .1s, border-color .1s; display: inline-block; }
     .prijs-bewerkbaar:hover { background: var(--lichtblauw); border-color: var(--grijs); }
-    .prijs-bewerkbaar.aangepast { color: var(--blauw); font-weight: 600; }
+    .prijs-bewerkbaar.aangepast  { color: var(--blauw);   font-weight: 600; }
+    .prijs-bewerkbaar.opgeslagen { color: var(--oranje);  font-weight: 600; }
     input.prijs-input { width: 76px; border: 1.5px solid var(--blauw); border-radius: 4px; padding: 2px 6px; font-size: 0.875rem; text-align: right; outline: none; font-family: inherit; }
 
     /* ── Leeg / laden ── */
@@ -239,6 +240,23 @@ if (IS_LOKAAL) {
 
 // ── Prijs-overrides (opgeslagen in localStorage) ──
 let prijsOverrides = JSON.parse(localStorage.getItem('prijs_overrides') || '{}');
+
+// ── Opgeslagen-maar-nog-niet-gerefresht (oranje prijzen) ──
+let prijzenOpgeslagen = JSON.parse(localStorage.getItem('prijzen_opgeslagen') || '{}');
+
+function verwerkOpslaanSucces(wijzigingen) {
+  for (const w of wijzigingen) {
+    const p = alleProducten().find(x => x.ean === w.ean);
+    if (p) p.eigenPrijs = w.prijs;
+    prijzenOpgeslagen[w.ean] = w.prijs;
+  }
+  localStorage.setItem('prijzen_opgeslagen', JSON.stringify(prijzenOpgeslagen));
+}
+
+function clearOpgeslagen() {
+  prijzenOpgeslagen = {};
+  localStorage.removeItem('prijzen_opgeslagen');
+}
 
 function bewaarPrijsOverrides() {
   localStorage.setItem('prijs_overrides', JSON.stringify(prijsOverrides));
@@ -374,6 +392,7 @@ function sluitOpslaanModal() {
 }
 
 let prijsPollTimer = null;
+let pendingWijzigingen = [];
 
 async function bevestigOpslaan() {
   const wijzigingen = bouwWijzigingen();
@@ -382,6 +401,7 @@ async function bevestigOpslaan() {
   document.getElementById('opslaanModalBtns').style.display = 'none';
   const status = document.getElementById('opslaanModalStatus');
 
+  pendingWijzigingen = wijzigingen;
   if (IS_LOKAAL) {
     await bevestigOpslaanLokaal(wijzigingen, status);
   } else {
@@ -399,11 +419,7 @@ async function bevestigOpslaanLokaal(wijzigingen, status) {
     });
     const data = await res.json();
     if (data.ok) {
-      // Update eigenPrijs in memory zodat dashboard direct klopt
-      for (const w of wijzigingen) {
-        const p = alleProducten().find(x => x.ean === w.ean);
-        if (p) p.eigenPrijs = w.prijs;
-      }
+      verwerkOpslaanSucces(wijzigingen);
       // Persisteer nieuwe prijzen in rapport.json op de server
       fetch('/api/patch-rapport', {
         method: 'POST',
@@ -484,6 +500,7 @@ async function pollPrijsUpdate(token) {
     if (run.status === 'completed') {
       clearTimeout(prijsPollTimer);
       if (run.conclusion === 'success') {
+        verwerkOpslaanSucces(pendingWijzigingen);
         prijsOverrides = {};
         bewaarPrijsOverrides();
         toonStats();
@@ -559,6 +576,12 @@ function initialiseer() {
     ' om ' + d.toLocaleTimeString('nl-NL', { hour:'2-digit', minute:'2-digit' });
 
   if (rapport.testModus || IS_LOKAAL) document.getElementById('testmodeBanner').classList.add('zichtbaar');
+
+  // Herstel opgeslagen prijzen in memory na page reload
+  for (const [ean, prijs] of Object.entries(prijzenOpgeslagen)) {
+    const p = alleProducten().find(x => x.ean === ean);
+    if (p) p.eigenPrijs = prijs;
+  }
 
   document.querySelector('[data-filter="concurrent"]').textContent = `Heeft concurrent (${rapport.producten.length})`;
   document.querySelector('[data-filter="veilig"]').textContent     = `Veilig (${(rapport.veilig || []).length})`;
@@ -649,11 +672,12 @@ function render() {
     const eigenPrijs = prijsOverrides[p.ean] ?? p.eigenPrijs;
     const verschil   = parseFloat((eigenPrijs - p.laagsteConcurrent).toFixed(2));
     const aangepast  = !!prijsOverrides[p.ean];
+    const opgeslagen = !aangepast && !!prijzenOpgeslagen[p.ean];
     return `
     <tr>
       <td class="naam">${esc(p.product)}</td>
       <td><code style="font-size:0.78rem;color:#555">${esc(p.ean)}</code></td>
-      <td class="prijs"><span class="prijs-bewerkbaar${aangepast ? ' aangepast' : ''}" data-ean="${esc(p.ean)}" data-oorspronkelijk="${p.eigenPrijs}" onclick="startBewerking(this)" title="Klik om eigen prijs aan te passen">€${fmt(eigenPrijs)}</span></td>
+      <td class="prijs"><span class="prijs-bewerkbaar${aangepast ? ' aangepast' : opgeslagen ? ' opgeslagen' : ''}" data-ean="${esc(p.ean)}" data-oorspronkelijk="${p.eigenPrijs}" onclick="startBewerking(this)" title="Klik om eigen prijs aan te passen">€${fmt(eigenPrijs)}</span></td>
       <td class="prijs">€${fmt(p.laagsteConcurrent)}</td>
       <td>${badgeVerschil(verschil)}</td>
       <td><div class="concurrent-rij">${p.concurrenten.map(c =>
@@ -697,11 +721,12 @@ function renderVeilig() {
     const marge = p.dichtstbijzijneConcurrent !== null
       ? parseFloat((p.dichtstbijzijneConcurrent - eigenPrijs).toFixed(2)) : null;
     const aangepast = !!prijsOverrides[p.ean];
+    const opgeslagen = !aangepast && !!prijzenOpgeslagen[p.ean];
     return `
     <tr>
       <td class="naam">${esc(p.product)}</td>
       <td><code style="font-size:0.78rem;color:#555">${esc(p.ean)}</code></td>
-      <td class="prijs"><span class="prijs-bewerkbaar${aangepast ? ' aangepast' : ''}" data-ean="${esc(p.ean)}" data-oorspronkelijk="${p.eigenPrijs}" onclick="startBewerking(this)" title="Klik om eigen prijs aan te passen">€${fmt(eigenPrijs)}</span></td>
+      <td class="prijs"><span class="prijs-bewerkbaar${aangepast ? ' aangepast' : opgeslagen ? ' opgeslagen' : ''}" data-ean="${esc(p.ean)}" data-oorspronkelijk="${p.eigenPrijs}" onclick="startBewerking(this)" title="Klik om eigen prijs aan te passen">€${fmt(eigenPrijs)}</span></td>
       <td class="prijs">${p.dichtstbijzijneConcurrent !== null ? '€' + fmt(p.dichtstbijzijneConcurrent) : '<span style="color:var(--grijs)">Geen concurrent</span>'}</td>
       <td>${marge !== null ? badgeMarge(marge) : '<span style="color:var(--grijs)">—</span>'}</td>
     </tr>`;
@@ -766,6 +791,7 @@ async function herlaadRapport(token) {
         'Gegenereerd op ' + d.toLocaleDateString('nl-NL', { weekday:'long', year:'numeric', month:'long', day:'numeric' }) +
         ' om ' + d.toLocaleTimeString('nl-NL', { hour:'2-digit', minute:'2-digit' });
       verbergCacheMelding();
+      clearOpgeslagen();
       resetRefreshBtn();
       zetStatus('klaar', '✅ Rapport is bijgewerkt!');
       setTimeout(() => zetStatus(null), 5000);
