@@ -1,0 +1,24 @@
+name: Prijs aanpassen op bol.com
+
+on:
+  workflow_dispatch:
+    inputs:
+      wijzigingen:
+        description: 'JSON-array met prijswijzigingen'
+        required: true
+
+jobs:
+  aanpassen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci
+      - name: Prijzen aanpassen op bol.com
+        env:
+          BOL_CLIENT_ID: ${{ secrets.BOL_CLIENT_ID }}
+          BOL_CLIENT_SECRET: ${{ secrets.BOL_CLIENT_SECRET }}
+          WIJZIGINGEN: ${{ inputs.wijzigingen }}
+        run: node src/prijs-aanpassen.js

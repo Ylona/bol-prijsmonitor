@@ -17,12 +17,22 @@
       --bg: #f4f6f9;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; background: var(--bg); color: #222; font-size: 14px; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; background: var(--bg); color: #222; font-size: 14px; padding-bottom: 72px; }
 
     /* ── Header ── */
     header { background: var(--blauw); color: #fff; padding: 18px 32px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
     header h1 { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.3px; }
     #headerDatum { font-size: 0.8rem; opacity: 0.75; margin-top: 3px; }
+
+    /* ── Testmodus banner ── */
+    .testmode-banner { background: #fff8e1; border-left: 4px solid var(--oranje); padding: 8px 32px; font-size: 0.82rem; color: #7a5800; display: none; }
+    .testmode-banner.zichtbaar { display: block; }
+
+    /* ── Cache-melding banner ── */
+    .cache-melding { background: #fff3e0; border-left: 4px solid #fb8c00; padding: 8px 32px; font-size: 0.82rem; color: #7a5800; display: none; justify-content: space-between; align-items: center; gap: 16px; }
+    .cache-melding.zichtbaar { display: flex; }
+    .cache-melding button { background: none; border: none; color: #7a5800; font-size: 1rem; cursor: pointer; line-height: 1; padding: 0 4px; opacity: .6; }
+    .cache-melding button:hover { opacity: 1; }
 
     /* ── Stats ── */
     .stats { display: flex; gap: 14px; padding: 20px 32px 8px; flex-wrap: wrap; }
@@ -53,17 +63,40 @@
     .refresh-status.klaar  { display: flex; background: #e8f5e9; color: #1b5e20; border: 1px solid #a5d6a7; }
     .refresh-status.fout   { display: flex; background: #fde8e8; color: var(--rood);  border: 1px solid #ffcdd2; }
 
-    /* Modal */
+    /* ── Modals (gedeeld) ── */
     .modal-bg { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.45); z-index: 100; align-items: center; justify-content: center; }
     .modal-bg.open { display: flex; }
-    .modal { background: #fff; border-radius: 10px; padding: 28px 32px; width: 420px; max-width: 95vw; box-shadow: 0 8px 32px rgba(0,0,0,.18); }
-    .modal h2 { font-size: 1rem; margin-bottom: 8px; }
-    .modal p  { font-size: 0.82rem; color: var(--grijs); margin-bottom: 16px; line-height: 1.6; }
-    .modal input { width: 100%; border: 1px solid var(--rand); border-radius: 6px; padding: 9px 12px; font-size: 0.875rem; font-family: monospace; margin-bottom: 16px; }
+    .modal { background: #fff; border-radius: 10px; padding: 28px 32px; width: 440px; max-width: 95vw; box-shadow: 0 8px 32px rgba(0,0,0,.18); }
+    .modal.breed { width: 620px; }
+    .modal h2 { font-size: 1.05rem; margin-bottom: 8px; }
+    .modal > p { font-size: 0.82rem; color: var(--grijs); margin-bottom: 16px; line-height: 1.6; }
+    .modal input[type=password] { width: 100%; border: 1px solid var(--rand); border-radius: 6px; padding: 9px 12px; font-size: 0.875rem; font-family: monospace; margin-bottom: 16px; }
     .modal-btns { display: flex; gap: 10px; justify-content: flex-end; }
     .modal-btns button { border: none; border-radius: 6px; padding: 8px 18px; font-size: 0.82rem; font-weight: 600; cursor: pointer; }
     .btn-annuleer { background: #f0f0f0; color: #444; }
     .btn-opslaan  { background: var(--blauw); color: #fff; }
+    .btn-opslaan:disabled { opacity: .6; cursor: not-allowed; }
+
+    /* ── Bevestig-tabel (in opslaan-modal) ── */
+    .bevestig-tabel { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-bottom: 14px; }
+    .bevestig-tabel th { background: var(--lichtblauw); padding: 7px 10px; text-align: left; font-size: 0.72rem; text-transform: uppercase; letter-spacing: .4px; color: var(--blauw); white-space: nowrap; }
+    .bevestig-tabel td { padding: 8px 10px; border-bottom: 1px solid #f2f2f2; vertical-align: middle; }
+    .bevestig-tabel tr:last-child td { border-bottom: none; }
+    .bevestig-tabel .td-naam { max-width: 220px; font-weight: 500; }
+    .bevestig-tabel .td-prijs { white-space: nowrap; }
+    .modal-status { font-size: 0.85rem; padding: 8px 0 4px; min-height: 28px; line-height: 1.5; }
+    .modal-status a { color: var(--blauw); }
+
+    /* ── Opslaan-bar (vast onderaan) ── */
+    .opslaan-bar { position: fixed; bottom: 0; left: 0; right: 0; background: #fff; border-top: 2px solid var(--blauw); padding: 12px 32px; display: none; align-items: center; gap: 14px; box-shadow: 0 -2px 12px rgba(0,0,0,.12); z-index: 50; }
+    .opslaan-bar.zichtbaar { display: flex; }
+    .opslaan-bar-info { flex: 1; font-size: 0.9rem; color: #333; }
+    .opslaan-bar-info strong { color: var(--blauw); }
+    .reset-link { background: none; border: none; color: var(--grijs); font-size: 0.8rem; cursor: pointer; text-decoration: underline; padding: 4px 2px; white-space: nowrap; }
+    .reset-link:hover { color: var(--rood); }
+    .opslaan-knop { background: var(--blauw); color: #fff; border: none; border-radius: 7px; padding: 11px 28px; font-size: 0.95rem; font-weight: 700; cursor: pointer; white-space: nowrap; }
+    .opslaan-knop:hover:not(:disabled) { opacity: .88; }
+    .opslaan-knop:disabled { opacity: .6; cursor: not-allowed; }
 
     /* ── Tabel ── */
     .tabel-wrapper { padding: 0 32px 40px; overflow-x: auto; }
@@ -85,12 +118,26 @@
     .concurrent-rij strong { color: #222; }
     .concurrent-rij .fbr { font-size: 0.68rem; background: #eef; color: #336; border-radius: 3px; padding: 1px 5px; margin-left: 4px; }
 
+    /* ── Inline prijs bewerken ── */
+    .prijs-bewerkbaar { cursor: pointer; padding: 1px 4px; border-radius: 3px; border-bottom: 1px dashed transparent; transition: background .1s, border-color .1s; display: inline-block; }
+    .prijs-bewerkbaar:hover { background: var(--lichtblauw); border-color: var(--grijs); }
+    .prijs-bewerkbaar.aangepast { color: var(--blauw); font-weight: 600; }
+    input.prijs-input { width: 76px; border: 1.5px solid var(--blauw); border-radius: 4px; padding: 2px 6px; font-size: 0.875rem; text-align: right; outline: none; font-family: inherit; }
+
     /* ── Leeg / laden ── */
     .msg { text-align: center; padding: 60px 32px; color: var(--grijs); line-height: 1.7; }
     .msg strong { display: block; font-size: 1rem; margin-bottom: 6px; color: #444; }
   </style>
 </head>
 <body>
+
+<div class="testmode-banner" id="testmodeBanner">
+  🧪 Lokale testmodus — beperkte set producten voor lokaal testen. Opslaan gaat via de lokale server, niet via GitHub Actions.
+</div>
+<div class="cache-melding" id="cacheMelding">
+  <span>⏱ De getoonde prijzen zijn mogelijk verouderd — klik "Rapport vernieuwen" om live prijzen van bol.com op te halen. Dit kan tot 10 minuten duren.</span>
+  <button onclick="verbergCacheMelding()" title="Sluiten">✕</button>
+</div>
 
 <header>
   <div>
@@ -120,11 +167,12 @@
     <option value="concurrent-asc">Concurrent (A → Z)</option>
   </select>
   <button class="refresh-btn" id="refreshBtn" onclick="triggerRefresh()">↻ Rapport vernieuwen</button>
+  <button class="refresh-btn" id="lokaalRefreshBtn" onclick="lokaalVernieuwen()" style="display:none">↻ Testdata vernieuwen</button>
   <span class="refresh-status" id="refreshStatus"></span>
   <button class="dl-btn" onclick="downloadExcel()">↓ Excel</button>
 </div>
 
-<!-- Token modal -->
+<!-- GitHub token modal -->
 <div class="modal-bg" id="modalBg">
   <div class="modal">
     <h2>GitHub token invoeren</h2>
@@ -132,7 +180,21 @@
     <input type="password" id="tokenInput" placeholder="github_pat_..." autocomplete="off">
     <div class="modal-btns">
       <button class="btn-annuleer" onclick="sluitModal()">Annuleren</button>
-      <button class="btn-opslaan" onclick="slaTokenOp()">Opslaan & vernieuwen</button>
+      <button class="btn-opslaan" onclick="slaTokenOp()">Opslaan & doorgaan</button>
+    </div>
+  </div>
+</div>
+
+<!-- Bevestig prijswijzigingen modal -->
+<div class="modal-bg" id="opslaanModalBg">
+  <div class="modal breed">
+    <h2>Prijswijzigingen opslaan op bol.com</h2>
+    <p>De volgende prijzen worden definitief aangepast op bol.com. Dit kan niet ongedaan worden gemaakt.</p>
+    <div id="opslaanTabelWrapper"></div>
+    <div class="modal-status" id="opslaanModalStatus"></div>
+    <div class="modal-btns" id="opslaanModalBtns">
+      <button class="btn-annuleer" onclick="sluitOpslaanModal()">Annuleren</button>
+      <button class="btn-opslaan" id="bevestigBtn" onclick="bevestigOpslaan()">✓ Bevestig &amp; sla op op bol.com</button>
     </div>
   </div>
 </div>
@@ -140,23 +202,343 @@
 <div class="tabel-wrapper">
   <div class="msg" id="msg"><strong>Rapport laden…</strong></div>
   <table id="tabel" style="display:none">
-    <thead>
-      <tr>
-        <th>Product</th>
-        <th>EAN</th>
-        <th>Eigen prijs</th>
-        <th>Laagste concurrent</th>
-        <th>Verschil</th>
-        <th>Concurrenten</th>
-      </tr>
-    </thead>
+    <thead><tr></tr></thead>
     <tbody id="tbody"></tbody>
   </table>
+</div>
+
+<!-- Opslaan-bar onderaan (verschijnt bij prijswijzigingen) -->
+<div class="opslaan-bar" id="opslaanBar">
+  <span class="opslaan-bar-info" id="opslaanBarInfo"></span>
+  <button class="reset-link" onclick="resetAllePrijzen()">↺ Reset alle wijzigingen</button>
+  <button class="opslaan-knop" onclick="toonOpslaanModal()">Opslaan op bol.com →</button>
 </div>
 
 <script>
 let rapport = null;
 let actielFilter = 'alle';
+let pendingActie = 'refresh';
+
+function toonCacheMelding() {
+  localStorage.setItem('cache_melding', '1');
+  document.getElementById('cacheMelding').classList.add('zichtbaar');
+}
+function verbergCacheMelding() {
+  localStorage.removeItem('cache_melding');
+  document.getElementById('cacheMelding').classList.remove('zichtbaar');
+}
+if (localStorage.getItem('cache_melding')) {
+  document.getElementById('cacheMelding').classList.add('zichtbaar');
+}
+
+const IS_LOKAAL = ['localhost', '127.0.0.1'].includes(window.location.hostname);
+if (IS_LOKAAL) {
+  document.getElementById('refreshBtn').style.display = 'none';
+  document.getElementById('lokaalRefreshBtn').style.display = 'flex';
+}
+
+// ── Prijs-overrides (opgeslagen in localStorage) ──
+let prijsOverrides = JSON.parse(localStorage.getItem('prijs_overrides') || '{}');
+
+function bewaarPrijsOverrides() {
+  localStorage.setItem('prijs_overrides', JSON.stringify(prijsOverrides));
+  updateOpslaanBar();
+}
+
+function updateOpslaanBar() {
+  const bar  = document.getElementById('opslaanBar');
+  const info = document.getElementById('opslaanBarInfo');
+  const n    = Object.keys(prijsOverrides).length;
+  if (n > 0) {
+    bar.classList.add('zichtbaar');
+    info.innerHTML = `<strong>${n} prijs${n === 1 ? '' : 'wijziging'} aangepast</strong> — klik Opslaan om door te sturen naar bol.com`;
+  } else {
+    bar.classList.remove('zichtbaar');
+  }
+}
+
+function resetAllePrijzen() {
+  if (!Object.keys(prijsOverrides).length) return;
+  prijsOverrides = {};
+  bewaarPrijsOverrides();
+  toonStats();
+  render();
+}
+
+function startBewerking(span) {
+  const ean = span.dataset.ean;
+  const oorspronkelijk = parseFloat(span.dataset.oorspronkelijk);
+  const huidig = prijsOverrides[ean] ?? oorspronkelijk;
+
+  const input = document.createElement('input');
+  input.type = 'number';
+  input.step = '0.01';
+  input.min = '0.01';
+  input.className = 'prijs-input';
+  input.value = huidig.toFixed(2);
+  span.replaceWith(input);
+  input.focus();
+  input.select();
+
+  let opgeslagen = false;
+
+  function bewaar() {
+    if (opgeslagen) return;
+    opgeslagen = true;
+    const val = parseFloat(input.value.replace(',', '.'));
+    if (!isNaN(val) && val > 0 && Math.abs(val - oorspronkelijk) > 0.001) {
+      prijsOverrides[ean] = val;
+    } else {
+      delete prijsOverrides[ean];
+    }
+    bewaarPrijsOverrides();
+    toonStats();
+    render();
+  }
+
+  input.addEventListener('blur', bewaar);
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter') { input.blur(); }
+    if (e.key === 'Escape') { opgeslagen = true; render(); }
+  });
+}
+
+// ── Helpers voor opslaan-flow ──
+function alleProducten() {
+  return [...(rapport?.producten || []), ...(rapport?.veilig || [])];
+}
+
+function bouwWijzigingen() {
+  return Object.entries(prijsOverrides)
+    .map(([ean, prijs]) => {
+      const p = alleProducten().find(x => x.ean === ean);
+      if (!p?.offerId) return null;
+      return { offerId: p.offerId, ean, product: p.product, oudePrijs: p.eigenPrijs, prijs };
+    })
+    .filter(Boolean);
+}
+
+function toonOpslaanModal() {
+  if (!IS_LOKAAL) {
+    const token = localStorage.getItem('gh_token');
+    if (!token) { pendingActie = 'opslaan'; openModal(); return; }
+  }
+
+  const wijzigingen = bouwWijzigingen();
+  const geenId = Object.keys(prijsOverrides).filter(
+    ean => !alleProducten().find(p => p.ean === ean)?.offerId
+  );
+
+  let html = '';
+
+  if (geenId.length) {
+    html += `<p style="font-size:0.82rem;color:var(--oranje);margin-bottom:10px;">
+      ⚠️ ${geenId.length} product(en) worden overgeslagen (offer ID ontbreekt — genereer een nieuw rapport).
+    </p>`;
+  }
+
+  if (!wijzigingen.length) {
+    html += `<p style="color:var(--rood);font-size:0.85rem;">
+      Geen producten met geldig offer ID gevonden. Genereer eerst een nieuw rapport via "Rapport vernieuwen".
+    </p>`;
+    document.getElementById('opslaanTabelWrapper').innerHTML = html;
+    document.getElementById('opslaanModalStatus').innerHTML = '';
+    document.getElementById('opslaanModalBtns').style.display = 'none';
+  } else {
+    const rijen = wijzigingen.map(w => `
+      <tr>
+        <td class="td-naam">${esc(w.product)}</td>
+        <td class="td-prijs">€${fmt(w.oudePrijs)}</td>
+        <td class="td-prijs" style="font-weight:700">€${fmt(w.prijs)}</td>
+        <td>${badgeWijziging(w.oudePrijs, w.prijs)}</td>
+      </tr>`).join('');
+
+    html += `
+      <table class="bevestig-tabel">
+        <thead><tr><th>Product</th><th>Huidige prijs</th><th>Nieuwe prijs</th><th>Wijziging</th></tr></thead>
+        <tbody>${rijen}</tbody>
+      </table>
+      <p style="font-size:0.78rem;color:var(--grijs)">${IS_LOKAAL ? '⏱ Duurt een paar seconden via lokale server.' : '⏱ Duurt ~30–60 seconden via GitHub Actions.'}</p>`;
+
+    document.getElementById('opslaanTabelWrapper').innerHTML = html;
+    document.getElementById('opslaanModalStatus').innerHTML = '';
+    document.getElementById('opslaanModalBtns').style.display = 'flex';
+    document.getElementById('bevestigBtn').disabled = false;
+  }
+
+  document.getElementById('opslaanModalBg').classList.add('open');
+}
+
+function sluitOpslaanModal() {
+  document.getElementById('opslaanModalBg').classList.remove('open');
+}
+
+let prijsPollTimer = null;
+
+async function bevestigOpslaan() {
+  const wijzigingen = bouwWijzigingen();
+  if (!wijzigingen.length) return;
+
+  document.getElementById('opslaanModalBtns').style.display = 'none';
+  const status = document.getElementById('opslaanModalStatus');
+
+  if (IS_LOKAAL) {
+    await bevestigOpslaanLokaal(wijzigingen, status);
+  } else {
+    await bevestigOpslaanGitHub(wijzigingen, status);
+  }
+}
+
+async function bevestigOpslaanLokaal(wijzigingen, status) {
+  status.innerHTML = `⏳ Prijzen worden bijgewerkt via bol.com API…`;
+  try {
+    const res  = await fetch('/api/prijs-aanpassen', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ wijzigingen }),
+    });
+    const data = await res.json();
+    if (data.ok) {
+      // Update eigenPrijs in memory zodat dashboard direct klopt
+      for (const w of wijzigingen) {
+        const p = alleProducten().find(x => x.ean === w.ean);
+        if (p) p.eigenPrijs = w.prijs;
+      }
+      // Persisteer nieuwe prijzen in rapport.json op de server
+      fetch('/api/patch-rapport', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ wijzigingen }),
+      }).catch(() => {});
+      prijsOverrides = {};
+      bewaarPrijsOverrides();
+      toonStats();
+      render();
+      sluitOpslaanModal();
+      zetStatus('klaar', '✅ Prijzen bijgewerkt op bol.com!');
+      setTimeout(() => zetStatus(null), 6000);
+    } else {
+      status.innerHTML = '❌ Aanpassen mislukt. Bekijk de server-terminal voor details.';
+      document.getElementById('opslaanModalBtns').style.display = 'flex';
+      document.getElementById('bevestigBtn').disabled = false;
+    }
+  } catch {
+    status.innerHTML = '❌ Kon server niet bereiken. Draait <code>npm run serve</code> nog?';
+    document.getElementById('opslaanModalBtns').style.display = 'flex';
+    document.getElementById('bevestigBtn').disabled = false;
+  }
+}
+
+async function bevestigOpslaanGitHub(wijzigingen, status) {
+  const token = localStorage.getItem('gh_token');
+  if (!token) { sluitOpslaanModal(); pendingActie = 'opslaan'; openModal(); return; }
+
+  status.innerHTML = '⏳ Workflow starten op GitHub Actions…';
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${REPO}/actions/workflows/prijs-aanpassen.yml/dispatches`,
+      {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Accept': 'application/vnd.github+json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ ref: 'main', inputs: { wijzigingen: JSON.stringify(wijzigingen) } }),
+      }
+    );
+    if (res.status === 204) {
+      status.innerHTML = '⏳ GitHub Actions draait — prijzen worden bijgewerkt…';
+      setTimeout(() => pollPrijsUpdate(token), 6000);
+    } else if (res.status === 401) {
+      localStorage.removeItem('gh_token');
+      status.innerHTML = '❌ Token ongeldig. Sluit dit venster en probeer opnieuw.';
+      document.getElementById('opslaanModalBtns').style.display = 'flex';
+    } else {
+      status.innerHTML = `❌ Kon workflow niet starten (HTTP ${res.status}). Probeer opnieuw.`;
+      document.getElementById('opslaanModalBtns').style.display = 'flex';
+      document.getElementById('bevestigBtn').disabled = false;
+    }
+  } catch {
+    status.innerHTML = '❌ Geen verbinding. Controleer internet.';
+    document.getElementById('opslaanModalBtns').style.display = 'flex';
+    document.getElementById('bevestigBtn').disabled = false;
+  }
+}
+
+async function pollPrijsUpdate(token) {
+  const status = document.getElementById('opslaanModalStatus');
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${REPO}/actions/workflows/prijs-aanpassen.yml/runs?per_page=1`,
+      { headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' } }
+    );
+    if (!res.ok) {
+      status.innerHTML = `❌ Kon status niet ophalen. Bekijk <a href="https://github.com/${REPO}/actions" target="_blank">GitHub Actions</a>.`;
+      return;
+    }
+    const data = await res.json();
+    const run = data.workflow_runs?.[0];
+    if (!run) { status.innerHTML = '⏳ Workflow gestart — even geduld…'; prijsPollTimer = setTimeout(() => pollPrijsUpdate(token), 8000); return; }
+
+    if (run.status === 'completed') {
+      clearTimeout(prijsPollTimer);
+      if (run.conclusion === 'success') {
+        prijsOverrides = {};
+        bewaarPrijsOverrides();
+        toonStats();
+        render();
+        sluitOpslaanModal();
+        toonCacheMelding();
+        zetStatus('klaar', '✅ Prijzen succesvol bijgewerkt op bol.com!');
+        setTimeout(() => zetStatus(null), 8000);
+      } else {
+        status.innerHTML = `❌ Workflow mislukt (${run.conclusion}). Bekijk <a href="https://github.com/${REPO}/actions" target="_blank">GitHub Actions</a> voor details.`;
+        document.getElementById('opslaanModalBtns').style.display = 'flex';
+        document.getElementById('bevestigBtn').disabled = false;
+      }
+    } else {
+      const geleden = Math.round((Date.now() - new Date(run.created_at)) / 1000);
+      status.innerHTML = `⏳ Prijzen worden bijgewerkt via GitHub Actions… (${geleden}s)`;
+      prijsPollTimer = setTimeout(() => pollPrijsUpdate(token), 8000);
+    }
+  } catch {
+    status.innerHTML = `❌ Kon status niet ophalen. Bekijk <a href="https://github.com/${REPO}/actions" target="_blank">GitHub Actions</a>.`;
+  }
+}
+
+// ── Lokaal vernieuwen (alleen op localhost) ──
+async function lokaalVernieuwen() {
+  const btn = document.getElementById('lokaalRefreshBtn');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spin">↻</span> Bezig…';
+  zetStatus('bezig', '⏳ Testdata wordt gegenereerd…');
+
+  try {
+    const res = await fetch('/api/vernieuwen', { method: 'POST' });
+    const data = await res.json();
+    if (data.ok) {
+      const nieuw = await (await fetch('rapport.json?t=' + Date.now(), { cache: 'no-store' })).json();
+      rapport = nieuw;
+      vulConcurrentDropdown();
+      toonStats();
+      render();
+      const d = new Date(rapport.gegenereerd);
+      document.getElementById('headerDatum').textContent =
+        'Gegenereerd op ' + d.toLocaleDateString('nl-NL', { weekday:'long', year:'numeric', month:'long', day:'numeric' }) +
+        ' om ' + d.toLocaleTimeString('nl-NL', { hour:'2-digit', minute:'2-digit' });
+      zetStatus('klaar', '✅ Testdata vernieuwd!');
+      setTimeout(() => zetStatus(null), 4000);
+    } else {
+      zetStatus('fout', '❌ Genereren mislukt. Bekijk de server-terminal voor details.');
+    }
+  } catch {
+    zetStatus('fout', '❌ Kon server niet bereiken. Draait npm run serve nog?');
+  }
+
+  btn.disabled = false;
+  btn.innerHTML = '↻ Testdata vernieuwen';
+}
 
 // ── Laden ──
 async function laadRapport() {
@@ -166,7 +548,7 @@ async function laadRapport() {
     rapport = await res.json();
     initialiseer();
   } catch {
-    toonMsg('Kon rapport.json niet laden.', 'Open het dashboard via GitHub Pages, niet als lokaal bestand.');
+    toonMsg('Kon rapport.json niet laden.', 'Start de lokale server via: npm run serve');
   }
 }
 
@@ -176,11 +558,12 @@ function initialiseer() {
     'Gegenereerd op ' + d.toLocaleDateString('nl-NL', { weekday:'long', year:'numeric', month:'long', day:'numeric' }) +
     ' om ' + d.toLocaleTimeString('nl-NL', { hour:'2-digit', minute:'2-digit' });
 
-  // Tellers op filterknoppen
-  const veiligAantal = (rapport.veilig || []).length;
-  document.querySelector('[data-filter="concurrent"]').textContent = `Heeft concurrent (${rapport.producten.length})`;
-  document.querySelector('[data-filter="veilig"]').textContent     = `Veilig (${veiligAantal})`;
+  if (rapport.testModus || IS_LOKAAL) document.getElementById('testmodeBanner').classList.add('zichtbaar');
 
+  document.querySelector('[data-filter="concurrent"]').textContent = `Heeft concurrent (${rapport.producten.length})`;
+  document.querySelector('[data-filter="veilig"]').textContent     = `Veilig (${(rapport.veilig || []).length})`;
+
+  updateOpslaanBar();
   toonStats();
   vulConcurrentDropdown();
   document.querySelectorAll('#filterGroep button').forEach(btn =>
@@ -202,22 +585,24 @@ function vulConcurrentDropdown() {
   sel.innerHTML = '<option value="">Alle concurrenten</option>';
   namen.forEach(naam => {
     const opt = document.createElement('option');
-    opt.value = naam;
-    opt.textContent = naam;
+    opt.value = naam; opt.textContent = naam;
     sel.appendChild(opt);
   });
 }
 
-// ── Stats ──
+// ── Stats (met override-prijzen) ──
 function toonStats() {
+  if (!rapport) return;
   const p = rapport.producten;
   const v = rapport.veilig || [];
-  const n = p.length;
-  const grootVerschil = p.filter(x => x.verschil >= 1).length;
-  const maxV = n > 0 ? Math.max(...p.map(x => x.verschil)) : 0;
+  const verschillen = p.map(x => {
+    const ep = prijsOverrides[x.ean] ?? x.eigenPrijs;
+    return parseFloat((ep - x.laagsteConcurrent).toFixed(2));
+  });
+  const maxV = p.length > 0 ? Math.max(...verschillen) : 0;
   document.getElementById('stats').innerHTML = `
-    <div class="stat rood"><div class="stat-getal">${n}</div><div class="stat-label">Goedkopere concurrent</div></div>
-    <div class="stat oranje"><div class="stat-getal">${grootVerschil}</div><div class="stat-label">Verschil ≥ €1,00</div></div>
+    <div class="stat rood"><div class="stat-getal">${p.length}</div><div class="stat-label">Goedkopere concurrent</div></div>
+    <div class="stat oranje"><div class="stat-getal">${verschillen.filter(d => d >= 1).length}</div><div class="stat-label">Verschil ≥ €1,00</div></div>
     <div class="stat"><div class="stat-getal">€${maxV.toFixed(2)}</div><div class="stat-label">Grootste verschil</div></div>
     <div class="stat"><div class="stat-getal">${v.length}</div><div class="stat-label">Veilige producten</div></div>`;
 }
@@ -225,20 +610,20 @@ function toonStats() {
 // ── Filter + sorteren ──
 function gefilterdeProducten() {
   let p = rapport.producten;
-  const gekozenConcurrent = document.getElementById('filterConcurrent').value;
-  if (gekozenConcurrent) {
-    p = p.filter(prod => prod.concurrenten.some(c => c.retailerNaam === gekozenConcurrent));
-  }
+  const gc = document.getElementById('filterConcurrent').value;
+  if (gc) p = p.filter(prod => prod.concurrenten.some(c => c.retailerNaam === gc));
   return p;
 }
 
 function gesorteerd() {
   const s = document.getElementById('sorteer').value;
+  const epOf = p => prijsOverrides[p.ean] ?? p.eigenPrijs;
+  const vOf  = p => epOf(p) - p.laagsteConcurrent;
   return [...gefilterdeProducten()].sort((a, b) => {
-    if (s === 'verschil-desc')   return b.verschil - a.verschil;
-    if (s === 'verschil-asc')    return a.verschil - b.verschil;
-    if (s === 'prijs-desc')      return b.eigenPrijs - a.eigenPrijs;
-    if (s === 'prijs-asc')       return a.eigenPrijs - b.eigenPrijs;
+    if (s === 'verschil-desc')   return vOf(b) - vOf(a);
+    if (s === 'verschil-asc')    return vOf(a) - vOf(b);
+    if (s === 'prijs-desc')      return epOf(b) - epOf(a);
+    if (s === 'prijs-asc')       return epOf(a) - epOf(b);
     if (s === 'naam-asc')        return a.product.localeCompare(b.product, 'nl');
     if (s === 'concurrent-asc')  return a.concurrenten[0]?.retailerNaam.localeCompare(b.concurrenten[0]?.retailerNaam, 'nl') ?? 0;
     return 0;
@@ -248,90 +633,93 @@ function gesorteerd() {
 const THEAD_NORMAAL = `<th>Product</th><th>EAN</th><th>Eigen prijs</th><th>Laagste concurrent</th><th>Verschil</th><th>Concurrenten</th>`;
 const THEAD_VEILIG  = `<th>Product</th><th>EAN</th><th>Eigen prijs</th><th>Dichtstbijzijnde concurrent</th><th>Ruimte omhoog</th>`;
 
-// ── Render ──
 function render() {
   if (!rapport) return;
   if (actielFilter === 'veilig') { renderVeilig(); return; }
 
   document.querySelector('#tabel thead tr').innerHTML = THEAD_NORMAAL;
-
   const lijst = gesorteerd();
   const tabel = document.getElementById('tabel');
 
-  if (lijst.length === 0) {
-    tabel.style.display = 'none';
-    toonMsg('Geen producten gevonden.', '');
-    return;
-  }
+  if (!lijst.length) { tabel.style.display = 'none'; toonMsg('Geen producten gevonden.', ''); return; }
 
   toonMsg(null);
   tabel.style.display = 'table';
-  document.getElementById('tbody').innerHTML = lijst.map(p => `
+  document.getElementById('tbody').innerHTML = lijst.map(p => {
+    const eigenPrijs = prijsOverrides[p.ean] ?? p.eigenPrijs;
+    const verschil   = parseFloat((eigenPrijs - p.laagsteConcurrent).toFixed(2));
+    const aangepast  = !!prijsOverrides[p.ean];
+    return `
     <tr>
       <td class="naam">${esc(p.product)}</td>
       <td><code style="font-size:0.78rem;color:#555">${esc(p.ean)}</code></td>
-      <td class="prijs">€${fmt(p.eigenPrijs)}</td>
+      <td class="prijs"><span class="prijs-bewerkbaar${aangepast ? ' aangepast' : ''}" data-ean="${esc(p.ean)}" data-oorspronkelijk="${p.eigenPrijs}" onclick="startBewerking(this)" title="Klik om eigen prijs aan te passen">€${fmt(eigenPrijs)}</span></td>
       <td class="prijs">€${fmt(p.laagsteConcurrent)}</td>
-      <td>${badgeVerschil(p.verschil)}</td>
-      <td>
-        <div class="concurrent-rij">
-          ${p.concurrenten.map(c =>
-            `<strong>${esc(c.retailerNaam)}</strong> — €${fmt(c.prijs)}<span class="fbr">${esc(c.fulfilment)}</span>`
-          ).join('<br>')}
-        </div>
-      </td>
-    </tr>`).join('');
+      <td>${badgeVerschil(verschil)}</td>
+      <td><div class="concurrent-rij">${p.concurrenten.map(c =>
+        `<strong>${esc(c.retailerNaam)}</strong> — €${fmt(c.prijs)}<span class="fbr">${esc(c.fulfilment)}</span>`
+      ).join('<br>')}</div></td>
+    </tr>`;
+  }).join('');
 }
 
 function renderVeilig() {
   document.querySelector('#tabel thead tr').innerHTML = THEAD_VEILIG;
-
   const veilig = rapport.veilig;
   const tabel  = document.getElementById('tabel');
 
-  if (!veilig || veilig.length === 0) {
+  if (!veilig?.length) {
     tabel.style.display = 'none';
-    toonMsg(
-      'Geen veilige producten gevonden.',
-      rapport.veilig ? 'Alle producten hebben een goedkopere concurrent.' : 'Draai het rapport opnieuw om veilige producten te zien.'
-    );
+    toonMsg('Geen veilige producten gevonden.',
+      rapport.veilig ? 'Alle producten hebben een goedkopere concurrent.' : 'Draai het rapport opnieuw.');
     return;
   }
 
   const s = document.getElementById('sorteer').value;
-  // null-marge (geen concurrent) altijd onderaan
-  const margeOf = (p, fallback) => p.marge !== null ? p.marge : fallback;
+  const epOf = p => prijsOverrides[p.ean] ?? p.eigenPrijs;
+  const margeOf = (p, fb) => {
+    const m = p.dichtstbijzijneConcurrent !== null ? p.dichtstbijzijneConcurrent - epOf(p) : null;
+    return m !== null ? m : fb;
+  };
   const gesorteerdeVeilig = [...veilig].sort((a, b) => {
-    if (s === 'verschil-desc') return margeOf(a, Infinity) - margeOf(b, Infinity);   // kleinste marge (meest kwetsbaar) bovenaan
-    if (s === 'verschil-asc')  return margeOf(b, -Infinity) - margeOf(a, -Infinity); // grootste marge bovenaan, geen-concurrent onderaan
-    if (s === 'prijs-desc')    return b.eigenPrijs - a.eigenPrijs;
-    if (s === 'prijs-asc')     return a.eigenPrijs - b.eigenPrijs;
+    if (s === 'verschil-desc') return margeOf(a, Infinity)  - margeOf(b, Infinity);
+    if (s === 'verschil-asc')  return margeOf(b, -Infinity) - margeOf(a, -Infinity);
+    if (s === 'prijs-desc')    return epOf(b) - epOf(a);
+    if (s === 'prijs-asc')     return epOf(a) - epOf(b);
     if (s === 'naam-asc')      return a.product.localeCompare(b.product, 'nl');
     return 0;
   });
 
   toonMsg(null);
   tabel.style.display = 'table';
-  document.getElementById('tbody').innerHTML = gesorteerdeVeilig.map(p => `
+  document.getElementById('tbody').innerHTML = gesorteerdeVeilig.map(p => {
+    const eigenPrijs = epOf(p);
+    const marge = p.dichtstbijzijneConcurrent !== null
+      ? parseFloat((p.dichtstbijzijneConcurrent - eigenPrijs).toFixed(2)) : null;
+    const aangepast = !!prijsOverrides[p.ean];
+    return `
     <tr>
       <td class="naam">${esc(p.product)}</td>
       <td><code style="font-size:0.78rem;color:#555">${esc(p.ean)}</code></td>
-      <td class="prijs">€${fmt(p.eigenPrijs)}</td>
-      <td class="prijs">${p.dichtstbijzijneConcurrent !== null
-        ? '€' + fmt(p.dichtstbijzijneConcurrent)
-        : '<span style="color:var(--grijs)">Geen concurrent</span>'}</td>
-      <td>${p.marge !== null ? badgeMarge(p.marge) : '<span style="color:var(--grijs)">—</span>'}</td>
-    </tr>`).join('');
+      <td class="prijs"><span class="prijs-bewerkbaar${aangepast ? ' aangepast' : ''}" data-ean="${esc(p.ean)}" data-oorspronkelijk="${p.eigenPrijs}" onclick="startBewerking(this)" title="Klik om eigen prijs aan te passen">€${fmt(eigenPrijs)}</span></td>
+      <td class="prijs">${p.dichtstbijzijneConcurrent !== null ? '€' + fmt(p.dichtstbijzijneConcurrent) : '<span style="color:var(--grijs)">Geen concurrent</span>'}</td>
+      <td>${marge !== null ? badgeMarge(marge) : '<span style="color:var(--grijs)">—</span>'}</td>
+    </tr>`;
+  }).join('');
 }
 
 function badgeVerschil(v) {
   const cls = v >= 1 ? 'badge-rood' : v >= 0.25 ? 'badge-oranje' : 'badge-blauw';
   return `<span class="badge ${cls}">-€${fmt(v)}</span>`;
 }
-
 function badgeMarge(v) {
   const cls = v >= 2 ? 'badge-groen' : v >= 0.5 ? 'badge-oranje' : 'badge-blauw';
   return `<span class="badge ${cls}">+€${fmt(v)}</span>`;
+}
+function badgeWijziging(oud, nieuw) {
+  const diff = nieuw - oud;
+  const cls  = diff < 0 ? 'badge-groen' : 'badge-rood';
+  return `<span class="badge ${cls}">${diff < 0 ? '-' : '+'}€${fmt(Math.abs(diff))}</span>`;
 }
 
 function toonMsg(titel, sub) {
@@ -341,8 +729,8 @@ function toonMsg(titel, sub) {
   el.innerHTML = `<strong>${esc(titel)}</strong>${sub ? esc(sub) : ''}`;
 }
 
-function fmt(n)  { return Number(n).toFixed(2); }
-function esc(s)  { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function fmt(n) { return Number(n).toFixed(2); }
+function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 
 // ── Excel download ──
 function downloadExcel() {
@@ -350,8 +738,10 @@ function downloadExcel() {
   const datum = new Date(rapport.gegenereerd).toISOString().slice(0, 10);
   const rijen = [['Product','EAN','Eigen prijs (€)','Laagste concurrent (€)','Verschil (€)','Concurrent','Concurrent prijs (€)','Fulfilment']];
   for (const p of rapport.producten) {
+    const ep = prijsOverrides[p.ean] ?? p.eigenPrijs;
+    const v  = parseFloat((ep - p.laagsteConcurrent).toFixed(2));
     for (const c of p.concurrenten) {
-      rijen.push([p.product, p.ean, p.eigenPrijs, p.laagsteConcurrent, p.verschil, c.retailerNaam, c.prijs, c.fulfilment]);
+      rijen.push([p.product, p.ean, ep, p.laagsteConcurrent, v, c.retailerNaam, c.prijs, c.fulfilment]);
     }
   }
   const ws = XLSX.utils.aoa_to_sheet(rijen);
@@ -363,11 +753,9 @@ function downloadExcel() {
 
 async function herlaadRapport(token) {
   try {
-    // Cache-busting: timestamp in de URL zodat de browser nooit de oude versie pakt
     const res = await fetch('rapport.json?t=' + Date.now(), { cache: 'no-store' });
     if (!res.ok) throw new Error();
     const nieuw = await res.json();
-    // Controleer of het rapport echt nieuwer is
     if (nieuw.gegenereerd !== rapport?.gegenereerd) {
       rapport = nieuw;
       vulConcurrentDropdown();
@@ -377,11 +765,11 @@ async function herlaadRapport(token) {
       document.getElementById('headerDatum').textContent =
         'Gegenereerd op ' + d.toLocaleDateString('nl-NL', { weekday:'long', year:'numeric', month:'long', day:'numeric' }) +
         ' om ' + d.toLocaleTimeString('nl-NL', { hour:'2-digit', minute:'2-digit' });
+      verbergCacheMelding();
       resetRefreshBtn();
       zetStatus('klaar', '✅ Rapport is bijgewerkt!');
       setTimeout(() => zetStatus(null), 5000);
     } else {
-      // Rapport nog niet bijgewerkt op Pages — nog even wachten
       setTimeout(() => herlaadRapport(token), 8000);
     }
   } catch {
@@ -399,7 +787,7 @@ let pollTimer  = null;
 
 function triggerRefresh() {
   const token = localStorage.getItem('gh_token');
-  if (!token) { openModal(); return; }
+  if (!token) { pendingActie = 'refresh'; openModal(); return; }
   voerRefreshUit(token);
 }
 
@@ -414,17 +802,11 @@ async function voerRefreshUit(token) {
       `https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/dispatches`,
       {
         method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${token}`,
-          'Accept': 'application/vnd.github+json',
-          'Content-Type': 'application/json',
-        },
+        headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
         body: JSON.stringify({ ref: 'main' }),
       }
     );
-
     if (res.status === 204) {
-      // Wacht 5s zodat de run aangemaakt is, dan beginnen met pollen
       setTimeout(() => pollRunStatus(token), 5000);
     } else if (res.status === 401) {
       localStorage.removeItem('gh_token');
@@ -460,7 +842,6 @@ async function pollRunStatus(token) {
         zetStatus('fout', `❌ Actie mislukt (${run.conclusion}). Probeer het opnieuw.`);
       }
     } else {
-      // Nog bezig — laat zien hoe lang al
       const geleden = Math.round((Date.now() - new Date(run.created_at)) / 1000);
       zetStatus('bezig', `⏳ Rapport ophalen loopt… (${geleden}s)`);
       pollTimer = setTimeout(() => pollRunStatus(token), 10000);
@@ -499,12 +880,18 @@ function slaTokenOp() {
   if (!token) return;
   localStorage.setItem('gh_token', token);
   sluitModal();
-  voerRefreshUit(token);
+  if (pendingActie === 'opslaan') {
+    toonOpslaanModal();
+  } else {
+    voerRefreshUit(token);
+  }
 }
 
-// Sluit modal bij klik buiten het venster
 document.getElementById('modalBg').addEventListener('click', e => {
   if (e.target === document.getElementById('modalBg')) sluitModal();
+});
+document.getElementById('opslaanModalBg').addEventListener('click', e => {
+  if (e.target === document.getElementById('opslaanModalBg')) sluitOpslaanModal();
 });
 </script>
 </body>

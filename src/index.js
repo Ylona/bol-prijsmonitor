@@ -6,6 +6,65 @@ dotenv.config();
 
 const CLIENT_ID = process.env.BOL_CLIENT_ID;
 const CLIENT_SECRET = process.env.BOL_CLIENT_SECRET;
+const TEST_MODE = process.env.TEST_MODE === 'true';
+
+// Vaste testartikelen (noodback als rapport.json nog geen offer IDs bevat)
+const TESTARTIKELEN_FALLBACK = [
+  {
+    product: 'Zebra F-301 Balpen Zwart – 12 stuks',
+    ean: '4901681021963',
+    offerId: 'test-offer-001',
+    eigenPrijs: 9.95,
+    laagsteConcurrent: 8.49,
+    verschil: 1.46,
+    concurrenten: [
+      { retailerNaam: 'Kantoorland BV',  retailerId: 'T001', prijs: 8.49, verschil: 1.46, fulfilment: 'FBR' },
+      { retailerNaam: 'OfficeShop.nl',   retailerId: 'T002', prijs: 8.99, verschil: 0.96, fulfilment: 'FBB' },
+    ],
+  },
+  {
+    product: 'Post-it Super Sticky Notes 76×76mm – 12 blokken',
+    ean: '0051141909784',
+    offerId: 'test-offer-002',
+    eigenPrijs: 14.99,
+    laagsteConcurrent: 13.45,
+    verschil: 1.54,
+    concurrenten: [
+      { retailerNaam: 'Paperworld.nl', retailerId: 'T003', prijs: 13.45, verschil: 1.54, fulfilment: 'FBR' },
+    ],
+  },
+  {
+    product: 'Maped Comfort Schaar 21 cm – Ergonomisch',
+    ean: '3154147468509',
+    offerId: 'test-offer-003',
+    eigenPrijs: 6.49,
+    laagsteConcurrent: 5.99,
+    verschil: 0.50,
+    concurrenten: [
+      { retailerNaam: 'Knutselpaleis',       retailerId: 'T004', prijs: 5.99, verschil: 0.50, fulfilment: 'FBB' },
+      { retailerNaam: 'Schoolspullen.nl',    retailerId: 'T005', prijs: 6.25, verschil: 0.24, fulfilment: 'FBR' },
+    ],
+  },
+];
+
+const TESTVEILIG_FALLBACK = [
+  {
+    product: 'Staedtler Mars Lumograph Potlood HB – Set 12 stuks',
+    ean: '4007817321065',
+    offerId: 'test-offer-004',
+    eigenPrijs: 4.95,
+    dichtstbijzijneConcurrent: 5.29,
+    marge: 0.34,
+  },
+  {
+    product: 'Bic Cristal Balpen Blauw – 50 stuks',
+    ean: '3086123397216',
+    offerId: 'test-offer-005',
+    eigenPrijs: 12.99,
+    dichtstbijzijneConcurrent: 14.50,
+    marge: 1.51,
+  },
+];
 
 // Centrale rate-limiter: 100ms tussenpoos = exact 10 req/sec (bol.com limiet)
 let lastCallTime = 0;
@@ -172,6 +231,45 @@ async function getRetailerNaam(token, retailerId) {
 async function main() {
   const testEan = process.env.TEST_EAN || null;
   console.log('🎣 Bol.com prijsmonitor gestart...\n');
+
+  if (TEST_MODE) {
+    console.log('🧪 Testmodus actief — bestaand rapport wordt gebruikt als bron.\n');
+
+    let testProducten = TESTARTIKELEN_FALLBACK;
+    let testVeilig    = TESTVEILIG_FALLBACK;
+
+    try {
+      const bestaand = JSON.parse(await readFile('rapport.json', 'utf-8'));
+      const echteProducten = (bestaand.producten || []).filter(p => p.offerId && !p.offerId.startsWith('test-'));
+      const echteVeilig    = (bestaand.veilig    || []).filter(p => p.offerId && !p.offerId.startsWith('test-'));
+
+      if (echteProducten.length > 0) {
+        testProducten = echteProducten.slice(0, 3);
+        testVeilig    = echteVeilig.slice(0, 2);
+        console.log(`✅ ${testProducten.length} echte producten + ${testVeilig.length} veilige geladen uit rapport.json`);
+      } else {
+        console.log('⚠️  Geen echte offer IDs gevonden in rapport.json — nep-testartikelen gebruikt.');
+        console.log('   Draai éénmalig "node src/index.js" (zonder TEST_MODE) om echte offer IDs op te slaan.');
+      }
+    } catch {
+      console.log('⚠️  Geen rapport.json gevonden — nep-testartikelen gebruikt.');
+    }
+
+    const nu = new Date();
+    const uitvoer = {
+      gegenereerd: nu.toISOString(),
+      testModus: true,
+      aantalProducten: testProducten.length,
+      aantalVeilig: testVeilig.length,
+      producten: testProducten,
+      veilig: testVeilig,
+    };
+    await writeFile('rapport.json', JSON.stringify(uitvoer, null, 2), 'utf-8');
+    console.log(`✅ Testrapport gegenereerd: ${testProducten.length} producten met concurrent, ${testVeilig.length} veilig`);
+    console.log('📄 rapport.json klaar — open het dashboard via: npm run serve');
+    return;
+  }
+
   if (testEan) console.log(`🧪 Testmodus: alleen EAN ${testEan}\n`);
 
   const token = await getAccessToken();
@@ -181,6 +279,11 @@ async function main() {
   const processStatusId = await getEigenaanbiedingen(token);
   const csv = await wachtOpExport(token, processStatusId);
   let aanbiedingen = parseCsv(csv);
+  if (aanbiedingen.length > 0) {
+    const kolommen = Object.keys(aanbiedingen[0]);
+    const heeftOfferId = kolommen.some(k => k.toLowerCase().includes('offer') && k.toLowerCase().includes('id'));
+    if (!heeftOfferId) console.warn(`⚠️  CSV-kolommen: ${kolommen.join(', ')}\n   Geen offerId-kolom gevonden — prijsaanpassing via dashboard werkt niet.`);
+  }
   if (testEan) aanbiedingen = aanbiedingen.filter(a => a['ean'] === testEan);
   console.log(`📦 ${aanbiedingen.length} aanbiedingen — concurrent-prijzen ophalen...`);
 
@@ -193,6 +296,9 @@ async function main() {
     const eigenPrijs = parseFloat(aanbieding['bundlePricesPrice']);
     const referentie = aanbieding['referenceCode'] || ean;
 
+    const offerIdKey = Object.keys(aanbieding).find(k => k.toLowerCase().replace(/[-_\s]/g, '') === 'offerid');
+    const offerId = offerIdKey ? aanbieding[offerIdKey] : '';
+
     if (!ean || isNaN(eigenPrijs)) continue;
 
     const concurrentData = await getConcurrenten(token, ean);
@@ -200,7 +306,7 @@ async function main() {
     const goedkopere = offers.filter(o => o.price && o.price < eigenPrijs && !o.bestOffer);
 
     if (goedkopere.length > 0) {
-      kandidaten.push({ ean, eigenPrijs, referentie, goedkopere });
+      kandidaten.push({ ean, offerId, eigenPrijs, referentie, goedkopere });
     } else {
       // Dichtstbijzijnde concurrent (goedkoopste aanbieder boven eigen prijs)
       const andereOffers = offers.filter(o => !o.bestOffer && o.price);
@@ -208,6 +314,7 @@ async function main() {
       veiligeLijst.push({
         product: referentie,
         ean,
+        offerId,
         eigenPrijs,
         dichtstbijzijneConcurrent: dichtstbij,
         marge: dichtstbij !== null ? parseFloat((dichtstbij - eigenPrijs).toFixed(2)) : null,
@@ -225,7 +332,7 @@ async function main() {
   }
 
   const rapport = [];
-  for (const { ean, eigenPrijs, referentie, goedkopere } of kandidaten) {
+  for (const { ean, offerId, eigenPrijs, referentie, goedkopere } of kandidaten) {
     const productNaam = await getProductNaam(token, ean, referentie);
     const laagste = Math.min(...goedkopere.map(o => o.price));
     const concurrentenMetNaam = [];
@@ -241,6 +348,7 @@ async function main() {
     rapport.push({
       product: productNaam,
       ean,
+      offerId,
       eigenPrijs,
       laagsteConcurrent: laagste,
       verschil: parseFloat((eigenPrijs - laagste).toFixed(2)),

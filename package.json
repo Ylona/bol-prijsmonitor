@@ -7,6 +7,8 @@
   "scripts": {
     "start": "node src/index.js",
     "test:ean": "cross-env TEST_EAN=6291012002678 node src/index.js",
+    "test-mode": "cross-env TEST_MODE=true node src/index.js",
+    "serve": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
