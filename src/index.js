@@ -182,6 +182,8 @@ async function getConcurrenten(token, ean) {
 
 // Stap 6: Productnaam ophalen — met dagelijkse cache in naam-cache.json
 let naamCache = {};
+let naamCacheNieuwSindsOpslaan = 0;
+const CACHE_TUSSENTIJDS_INTERVAL = 50;
 
 async function laadNaamCache() {
   try {
@@ -213,6 +215,11 @@ async function getProductNaam(token, ean, fallback) {
   const data = await res.json();
   const naam = data.products?.[0]?.title || fallback;
   naamCache[ean] = { naam, ts: Date.now() };
+  naamCacheNieuwSindsOpslaan++;
+  if (naamCacheNieuwSindsOpslaan % CACHE_TUSSENTIJDS_INTERVAL === 0) {
+    await writeFile(NAAM_CACHE_PAD, JSON.stringify(naamCache), 'utf-8');
+    process.stdout.write('💾');
+  }
   return naam;
 }
 
