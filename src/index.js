@@ -118,7 +118,7 @@ async function getEigenaanbiedingen(token) {
       'Accept': 'application/vnd.retailer.v10+json',
       'Content-Type': 'application/vnd.retailer.v10+json',
     },
-    body: JSON.stringify({ format: 'CSV', countryCode: COUNTRY }),
+    body: JSON.stringify({ format: 'CSV' }),
   });
   if (!response.ok) {
     const text = await response.text();
