@@ -225,6 +225,7 @@
 <script>
 let rapport = null;
 let naamCacheData = {};
+let retailerCacheData = {};
 let actielFilter = 'alle';
 let pendingActie = 'refresh';
 let activeLand = localStorage.getItem('actief_land') || 'NL';
@@ -242,6 +243,7 @@ function wisselLand(land) {
   }
   rapport = null;
   naamCacheData = {};
+  retailerCacheData = {};
   actielFilter = 'alle';
   document.querySelectorAll('#filterGroep button').forEach(b => b.classList.remove('actief'));
   document.querySelector('[data-filter="alle"]').classList.add('actief');
@@ -599,23 +601,32 @@ async function lokaalVernieuwen() {
   btn.innerHTML = '↻ Testdata vernieuwen';
 }
 
-// ── Namen uit naam-cache toepassen ──
+// ── Namen uit naam-cache en retailer-cache toepassen ──
 async function laadEnPasNaamCacheToe() {
   try {
-    const res = await fetch(`naam-cache-${activeLand}.json?t=` + Date.now());
-    if (res.ok) {
-      naamCacheData = await res.json();
-      pasNaamCacheToe();
-    }
+    const t = Date.now();
+    const [naamRes, retailerRes] = await Promise.all([
+      fetch(`naam-cache-${activeLand}.json?t=` + t),
+      fetch(`retailer-cache-${activeLand}.json?t=` + t),
+    ]);
+    if (naamRes.ok) naamCacheData = await naamRes.json();
+    if (retailerRes.ok) retailerCacheData = await retailerRes.json();
+    pasNaamCacheToe();
   } catch { /* stil negeren */ }
 }
 
 function pasNaamCacheToe() {
-  if (!rapport || !Object.keys(naamCacheData).length) return;
+  if (!rapport) return;
   for (const p of [...(rapport.producten || []), ...(rapport.veilig || [])]) {
-    const gecached = naamCacheData[p.ean];
-    if (gecached?.naam && gecached.naam !== p.ean) {
-      p.product = gecached.naam;
+    const gecachedNaam = naamCacheData[p.ean];
+    if (gecachedNaam?.naam && gecachedNaam.naam !== p.ean) {
+      p.product = gecachedNaam.naam;
+    }
+    for (const c of (p.concurrenten || [])) {
+      const gecachedRetailer = retailerCacheData[String(c.retailerId)];
+      if (gecachedRetailer?.naam && gecachedRetailer.naam !== String(c.retailerId)) {
+        c.retailerNaam = gecachedRetailer.naam;
+      }
     }
   }
   render();

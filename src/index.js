@@ -9,8 +9,9 @@ const CLIENT_ID = process.env[`BOL_CLIENT_ID_${COUNTRY}`] || (COUNTRY === 'NL' ?
 const CLIENT_SECRET = process.env[`BOL_CLIENT_SECRET_${COUNTRY}`] || (COUNTRY === 'NL' ? process.env.BOL_CLIENT_SECRET : null);
 const TEST_MODE = process.env.TEST_MODE === 'true';
 
-const RAPPORT_PAD    = `rapport-${COUNTRY}.json`;
-const NAAM_CACHE_PAD = `naam-cache-${COUNTRY}.json`;
+const RAPPORT_PAD       = `rapport-${COUNTRY}.json`;
+const NAAM_CACHE_PAD    = `naam-cache-${COUNTRY}.json`;
+const RETAILER_CACHE_PAD = `retailer-cache-${COUNTRY}.json`;
 
 // Vaste testartikelen (noodback als rapport.json nog geen offer IDs bevat)
 const TESTARTIKELEN_FALLBACK = [
@@ -223,18 +224,40 @@ async function getProductNaam(token, ean, fallback) {
   return naam;
 }
 
-// Stap 7: Retailernaam ophalen met cache
+// Stap 7: Retailernaam ophalen met persistente cache
 const retailerCache = new Map();
+let retailerCacheDisk = {};
+
+async function laadRetailerCache() {
+  try {
+    retailerCacheDisk = JSON.parse(await readFile(RETAILER_CACHE_PAD, 'utf-8'));
+    console.log(`📖 Retailer-cache: ${Object.keys(retailerCacheDisk).length} namen geladen`);
+  } catch {
+    retailerCacheDisk = {};
+  }
+}
+
 async function getRetailerNaam(token, retailerId) {
-  if (retailerCache.has(retailerId)) return retailerCache.get(retailerId);
+  const idStr = String(retailerId);
+  if (retailerCache.has(idStr)) return retailerCache.get(idStr);
+
+  const gecached = retailerCacheDisk[idStr];
+  if (gecached?.naam && gecached.naam !== idStr) {
+    retailerCache.set(idStr, gecached.naam);
+    return gecached.naam;
+  }
+
   const res = await bolFetch(`https://api.bol.com/retailer/retailers/${retailerId}`, {
     headers: {
       'Authorization': `Bearer ${token}`,
       'Accept': 'application/vnd.retailer.v10+json',
     },
   });
-  const naam = res.ok ? (await res.json()).displayName || retailerId : String(retailerId);
-  retailerCache.set(retailerId, naam);
+  const naam = res.ok ? (await res.json()).displayName || idStr : idStr;
+  retailerCache.set(idStr, naam);
+  if (naam !== idStr) {
+    retailerCacheDisk[idStr] = { naam, ts: Date.now() };
+  }
   return naam;
 }
 
@@ -287,6 +310,7 @@ async function main() {
   const token = await getAccessToken();
   console.log('✅ Ingelogd bij bol.com API');
   await laadNaamCache();
+  await laadRetailerCache();
 
   const processStatusId = await getEigenaanbiedingen(token);
   const csv = await wachtOpExport(token, processStatusId);
@@ -385,6 +409,11 @@ async function main() {
   const nieuweNamen = Object.keys(naamCache).length - cacheVoor;
   if (nieuweNamen > 0) console.log(`💾 ${nieuweNamen} nieuwe namen gecached`);
   await writeFile(NAAM_CACHE_PAD, JSON.stringify(naamCache), 'utf-8');
+
+  // Retailer-cache opslaan
+  const nieuweRetailers = Object.keys(retailerCacheDisk).length;
+  if (nieuweRetailers > 0) console.log(`💾 ${nieuweRetailers} retailernamen gecached`);
+  await writeFile(RETAILER_CACHE_PAD, JSON.stringify(retailerCacheDisk), 'utf-8');
 
   const nu = new Date();
   const datumLabel = nu.toISOString().slice(0, 10); // bijv. 2026-04-11
