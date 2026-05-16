@@ -45,11 +45,16 @@ createServer(async (req, res) => {
     });
     child.stdout.on('data', d => process.stdout.write(d));
     child.stderr.on('data', d => process.stderr.write(d));
+    let gestuurd = false;
     child.on('close', code => {
+      if (gestuurd) return;
+      gestuurd = true;
       res.writeHead(200, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ ok: code === 0 }));
     });
     child.on('error', err => {
+      if (gestuurd) return;
+      gestuurd = true;
       res.writeHead(500, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ ok: false, fout: err.message }));
     });
@@ -93,11 +98,16 @@ createServer(async (req, res) => {
     });
     child.stdout.on('data', d => process.stdout.write(d));
     child.stderr.on('data', d => process.stderr.write(d));
+    let gestuurd = false;
     child.on('close', code => {
+      if (gestuurd) return;
+      gestuurd = true;
       res.writeHead(200, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ ok: code === 0 }));
     });
     child.on('error', err => {
+      if (gestuurd) return;
+      gestuurd = true;
       res.writeHead(500, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ ok: false, fout: err.message }));
     });

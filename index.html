@@ -432,6 +432,8 @@ function sluitOpslaanModal() {
 }
 
 let prijsPollTimer = null;
+let prijsPollPogingen = 0;
+const POLL_MAX_POGINGEN = 40; // 40 × 8s = ~5 minuten
 let pendingWijzigingen = [];
 
 async function bevestigOpslaan() {
@@ -505,6 +507,7 @@ async function bevestigOpslaanGitHub(wijzigingen, status) {
     );
     if (res.status === 204) {
       status.innerHTML = '⏳ GitHub Actions draait — prijzen worden bijgewerkt…';
+      prijsPollPogingen = 0;
       setTimeout(() => pollPrijsUpdate(token), 6000);
     } else if (res.status === 401) {
       localStorage.removeItem('gh_token');
@@ -524,6 +527,14 @@ async function bevestigOpslaanGitHub(wijzigingen, status) {
 
 async function pollPrijsUpdate(token) {
   const status = document.getElementById('opslaanModalStatus');
+
+  if (++prijsPollPogingen > POLL_MAX_POGINGEN) {
+    status.innerHTML = `⏳ Workflow duurt langer dan verwacht. Bekijk <a href="https://github.com/${REPO}/actions" target="_blank">GitHub Actions</a> voor de status.`;
+    document.getElementById('opslaanModalBtns').style.display = 'flex';
+    document.getElementById('bevestigBtn').disabled = false;
+    return;
+  }
+
   try {
     const res = await fetch(
       `https://api.github.com/repos/${REPO}/actions/workflows/prijs-aanpassen.yml/runs?per_page=1`,
@@ -584,6 +595,7 @@ async function lokaalVernieuwen() {
       vulConcurrentDropdown();
       toonStats();
       render();
+      laadEnPasNaamCacheToe();
       const d = new Date(rapport.gegenereerd);
       document.getElementById('headerDatum').textContent =
         'Gegenereerd op ' + d.toLocaleDateString('nl-NL', { weekday:'long', year:'numeric', month:'long', day:'numeric' }) +
@@ -679,16 +691,18 @@ function initialiseer() {
   updateOpslaanBar();
   toonStats();
   vulConcurrentDropdown();
-  document.querySelectorAll('#filterGroep button').forEach(btn =>
-    btn.addEventListener('click', () => {
-      actielFilter = btn.dataset.filter;
-      document.querySelectorAll('#filterGroep button').forEach(b => b.classList.remove('actief'));
-      btn.classList.add('actief');
-      render();
-    })
-  );
   render();
 }
+
+// Eenmalige setup van filter-knoppen (buiten initialiseer zodat listeners niet stapelen)
+document.querySelectorAll('#filterGroep button').forEach(btn =>
+  btn.addEventListener('click', () => {
+    actielFilter = btn.dataset.filter;
+    document.querySelectorAll('#filterGroep button').forEach(b => b.classList.remove('actief'));
+    btn.classList.add('actief');
+    render();
+  })
+);
 
 function vulConcurrentDropdown() {
   const namen = [...new Set(

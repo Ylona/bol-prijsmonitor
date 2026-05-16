@@ -177,7 +177,10 @@ async function getConcurrenten(token, ean) {
       'Accept': 'application/vnd.retailer.v10+json',
     },
   });
-  if (!res.ok) return { offers: [] };
+  if (!res.ok) {
+    console.warn(`⚠️  getConcurrenten EAN ${ean}: HTTP ${res.status}`);
+    return { offers: [] };
+  }
   return await res.json();
 }
 
