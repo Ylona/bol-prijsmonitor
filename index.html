@@ -196,7 +196,7 @@
 </div>
 
 <!-- Bevestig prijswijzigingen modal -->
-<div class="modal-bg" id="opslaanModalBg">
+<div class="modal-bg" id="opslaanModalBg" onclick="opslaanModalBgKlik(event)">
   <div class="modal breed">
     <h2>Prijswijzigingen opslaan op bol.com</h2>
     <p>De volgende prijzen worden definitief aangepast op bol.com. Dit kan niet ongedaan worden gemaakt.</p>
@@ -431,12 +431,27 @@ function toonOpslaanModal() {
 
 function sluitOpslaanModal() {
   document.getElementById('opslaanModalBg').classList.remove('open');
+  clearTimeout(prijsPollTimer);
+  // Als de actie al verstuurd was maar nooit bevestigd terugkwam: reset overrides
+  if (opslaanVerstuurd) {
+    prijsOverrides = {};
+    bewaarPrijsOverrides();
+    toonStats();
+    render();
+    opslaanVerstuurd = false;
+  }
+}
+
+function opslaanModalBgKlik(e) {
+  // Sluit modal alleen bij klik op de donkere overlay, niet op de modal zelf
+  if (e.target === document.getElementById('opslaanModalBg')) sluitOpslaanModal();
 }
 
 let prijsPollTimer = null;
 let prijsPollPogingen = 0;
 const POLL_MAX_POGINGEN = 40; // 40 × 8s = ~5 minuten
 let pendingWijzigingen = [];
+let opslaanVerstuurd = false; // true zodra actie naar bol.com/GitHub is verstuurd
 
 async function bevestigOpslaan() {
   const wijzigingen = bouwWijzigingen();
@@ -455,6 +470,7 @@ async function bevestigOpslaan() {
 
 async function bevestigOpslaanLokaal(wijzigingen, status) {
   status.innerHTML = `⏳ Prijzen worden bijgewerkt via bol.com API…`;
+  opslaanVerstuurd = true;
   try {
     const res  = await fetch('/api/prijs-aanpassen', {
       method: 'POST',
@@ -474,6 +490,7 @@ async function bevestigOpslaanLokaal(wijzigingen, status) {
       bewaarPrijsOverrides();
       toonStats();
       render();
+      opslaanVerstuurd = false; // succes: sluitOpslaanModal hoeft niet opnieuw te resetten
       sluitOpslaanModal();
       zetStatus('klaar', '✅ Prijzen bijgewerkt op bol.com!');
       setTimeout(() => zetStatus(null), 6000);
@@ -509,6 +526,7 @@ async function bevestigOpslaanGitHub(wijzigingen, status) {
     );
     if (res.status === 204) {
       status.innerHTML = '⏳ GitHub Actions draait — prijzen worden bijgewerkt…';
+      opslaanVerstuurd = true;
       prijsPollPogingen = 0;
       setTimeout(() => pollPrijsUpdate(token), 6000);
     } else if (res.status === 401) {
@@ -558,6 +576,7 @@ async function pollPrijsUpdate(token) {
         bewaarPrijsOverrides();
         toonStats();
         render();
+        opslaanVerstuurd = false; // succes: sluitOpslaanModal hoeft niet opnieuw te resetten
         sluitOpslaanModal();
         toonCacheMelding();
         zetStatus('klaar', '✅ Prijzen succesvol bijgewerkt op bol.com!');
@@ -840,6 +859,7 @@ function renderVeilig() {
 }
 
 function badgeVerschil(v) {
+  if (v < 0) return `<span class="badge badge-groen">+€${fmt(Math.abs(v))}</span>`;
   const cls = v >= 1 ? 'badge-rood' : v >= 0.25 ? 'badge-oranje' : 'badge-blauw';
   return `<span class="badge ${cls}">-€${fmt(v)}</span>`;
 }
