@@ -176,6 +176,7 @@
   <button class="refresh-btn" id="refreshBtn" onclick="triggerRefresh()">↻ Rapport vernieuwen</button>
   <button class="refresh-btn" id="lokaalRefreshBtn" onclick="lokaalVernieuwen()" style="display:none">↻ Testdata vernieuwen</button>
   <span class="refresh-status" id="refreshStatus"></span>
+  <button class="refresh-btn" id="namenCacheBtn" onclick="namenUitCacheLaden()">↺ Namen bijwerken</button>
   <button class="dl-btn" onclick="downloadExcel()">↓ Excel</button>
 </div>
 
@@ -223,6 +224,7 @@
 
 <script>
 let rapport = null;
+let naamCacheData = {};
 let actielFilter = 'alle';
 let pendingActie = 'refresh';
 let activeLand = localStorage.getItem('actief_land') || 'NL';
@@ -239,6 +241,7 @@ function wisselLand(land) {
     document.getElementById('cacheMelding').classList.remove('zichtbaar');
   }
   rapport = null;
+  naamCacheData = {};
   actielFilter = 'alle';
   document.querySelectorAll('#filterGroep button').forEach(b => b.classList.remove('actief'));
   document.querySelector('[data-filter="alle"]').classList.add('actief');
@@ -596,6 +599,37 @@ async function lokaalVernieuwen() {
   btn.innerHTML = '↻ Testdata vernieuwen';
 }
 
+// ── Namen uit naam-cache toepassen ──
+async function laadEnPasNaamCacheToe() {
+  try {
+    const res = await fetch(`naam-cache-${activeLand}.json?t=` + Date.now());
+    if (res.ok) {
+      naamCacheData = await res.json();
+      pasNaamCacheToe();
+    }
+  } catch { /* stil negeren */ }
+}
+
+function pasNaamCacheToe() {
+  if (!rapport || !Object.keys(naamCacheData).length) return;
+  for (const p of [...(rapport.producten || []), ...(rapport.veilig || [])]) {
+    const gecached = naamCacheData[p.ean];
+    if (gecached?.naam && gecached.naam !== p.ean) {
+      p.product = gecached.naam;
+    }
+  }
+  render();
+}
+
+async function namenUitCacheLaden() {
+  const knop = document.getElementById('namenCacheBtn');
+  knop.disabled = true;
+  knop.innerHTML = '<span class="spin">↻</span> Namen laden…';
+  await laadEnPasNaamCacheToe();
+  knop.disabled = false;
+  knop.textContent = '↺ Namen bijwerken';
+}
+
 // ── Laden ──
 async function laadRapport() {
   try {
@@ -603,6 +637,7 @@ async function laadRapport() {
     if (!res.ok) throw new Error(res.status);
     rapport = await res.json();
     initialiseer();
+    laadEnPasNaamCacheToe();
   } catch {
     toonMsg(
       `Geen rapport gevonden voor ${activeLand}.`,
