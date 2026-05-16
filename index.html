@@ -69,7 +69,9 @@
     .modal-bg { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.45); z-index: 100; align-items: center; justify-content: center; }
     .modal-bg.open { display: flex; }
     .modal { background: #fff; border-radius: 10px; padding: 28px 32px; width: 440px; max-width: 95vw; box-shadow: 0 8px 32px rgba(0,0,0,.18); }
-    .modal.breed { width: 620px; }
+    .modal.breed { width: 620px; max-height: 90vh; display: flex; flex-direction: column; }
+    .modal.breed #opslaanTabelWrapper { overflow-y: auto; flex: 1 1 auto; min-height: 0; }
+    .modal.breed .modal-btns { border-top: 1px solid var(--rand); padding-top: 14px; margin-top: 4px; }
     .modal h2 { font-size: 1.05rem; margin-bottom: 8px; }
     .modal > p { font-size: 0.82rem; color: var(--grijs); margin-bottom: 16px; line-height: 1.6; }
     .modal input[type=password] { width: 100%; border: 1px solid var(--rand); border-radius: 6px; padding: 9px 12px; font-size: 0.875rem; font-family: monospace; margin-bottom: 16px; }
