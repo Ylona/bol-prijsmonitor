@@ -1,26 +1,9 @@
 {
-  "gegenereerd": "2026-05-16T06:43:08.990Z",
+  "gegenereerd": "2026-05-16T07:30:52.245Z",
   "land": "NL",
-  "aantalProducten": 148,
-  "aantalVeilig": 841,
+  "aantalProducten": 146,
+  "aantalVeilig": 843,
   "producten": [
-    {
-      "product": "Creation Lamis Catsuit Man - Topparfum voor de zelfverzekerde man - 3 stuks",
-      "ean": "8719326174709",
-      "offerId": "885c788c-abd1-61c8-e053-828b620ae142",
-      "eigenPrijs": 24.95,
-      "laagsteConcurrent": 24.43,
-      "verschil": 0.52,
-      "concurrenten": [
-        {
-          "retailerNaam": "Koopjesfun.nl",
-          "retailerId": "1762224",
-          "prijs": 24.43,
-          "verschil": 0.52,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
     {
       "product": "Creation Lamis Just Perfect Dream for her - Eau de parfum met bloemige noten - 100ml",
       "ean": "5414666014427",
@@ -51,23 +34,6 @@
           "retailerId": "1762224",
           "prijs": 14.8,
           "verschil": 0.39,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Creation Lamis Overdrive Eau de Parfum 100ml",
-      "ean": "6291012000261",
-      "offerId": "702a6553-951f-4255-bcef-779cf37d6c93",
-      "eigenPrijs": 9.79,
-      "laagsteConcurrent": 9.45,
-      "verschil": 0.34,
-      "concurrenten": [
-        {
-          "retailerNaam": "Dorsh",
-          "retailerId": "1556816",
-          "prijs": 9.45,
-          "verschil": 0.34,
           "fulfilment": "FBR"
         }
       ]
@@ -867,23 +833,6 @@
           "retailerId": "1762224",
           "prijs": 13.7,
           "verschil": 0.25,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Azira - Dream Oasis - Eau de Parfum Unisex",
-      "ean": "8721349102706",
-      "offerId": "60ae84a0-99ef-4aca-b371-dadcc3f0bb29",
-      "eigenPrijs": 14.25,
-      "laagsteConcurrent": 14.01,
-      "verschil": 0.24,
-      "concurrenten": [
-        {
-          "retailerNaam": "Dorsh",
-          "retailerId": "1556816",
-          "prijs": 14.01,
-          "verschil": 0.24,
           "fulfilment": "FBR"
         }
       ]
@@ -2402,6 +2351,23 @@
       ]
     },
     {
+      "product": "Sentio Love & Casual for Him Eau de Toilette Spray 100 ml",
+      "ean": "8721055493723",
+      "offerId": "a2e01d57-ec5d-448b-92bc-9fca556adbf6",
+      "eigenPrijs": 12.19,
+      "laagsteConcurrent": 12.12,
+      "verschil": 0.07,
+      "concurrenten": [
+        {
+          "retailerNaam": "Koopjesfun.nl",
+          "retailerId": "1762224",
+          "prijs": 12.12,
+          "verschil": 0.07,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
       "product": "Real Time Loveliness La Passione - Eau de parfum - 100ML",
       "ean": "8715658360759",
       "offerId": "8ae4084e-5308-4372-877b-da88c7f240c5",
@@ -2579,6 +2545,14 @@
       "marge": 1
     },
     {
+      "product": "Azira - Dream Oasis - Eau de Parfum Unisex",
+      "ean": "8721349102706",
+      "offerId": "60ae84a0-99ef-4aca-b371-dadcc3f0bb29",
+      "eigenPrijs": 14.25,
+      "dichtstbijzijneConcurrent": 14.25,
+      "marge": 0
+    },
+    {
       "product": "Sentio Big Kisses XOXO parfum - Eau de parfum voor vrouwen - 15ml",
       "ean": "7640158816318",
       "offerId": "3d9bf045-a402-45ce-8c20-4cd8c981a719",
@@ -2641,14 +2615,6 @@
       "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "Sentio Love & Casual for Him Eau de Toilette Spray 100 ml",
-      "ean": "8721055493723",
-      "offerId": "a2e01d57-ec5d-448b-92bc-9fca556adbf6",
-      "eigenPrijs": 12.19,
-      "dichtstbijzijneConcurrent": 12.22,
-      "marge": 0.03
     },
     {
       "product": "Hello Kitty-Cotton Candy Scent-15ml Eau de Parfum",
@@ -7771,6 +7737,14 @@
       "marge": null
     },
     {
+      "product": "Creation Lamis Overdrive Eau de Parfum 100ml",
+      "ean": "6291012000261",
+      "offerId": "702a6553-951f-4255-bcef-779cf37d6c93",
+      "eigenPrijs": 9.79,
+      "dichtstbijzijneConcurrent": 9.79,
+      "marge": 0
+    },
+    {
       "product": "TBY - To Be Awesome - 100ml Eau de Toilette voor vmannen",
       "ean": "8719214756482",
       "offerId": "a604b54c-2f8a-4fc9-9f84-80c75e41608c",
@@ -8945,6 +8919,14 @@
       "eigenPrijs": 12.5,
       "dichtstbijzijneConcurrent": 12.5,
       "marge": 0
+    },
+    {
+      "product": "Creation Lamis Catsuit Man - Topparfum voor de zelfverzekerde man - 3 stuks",
+      "ean": "8719326174709",
+      "offerId": "885c788c-abd1-61c8-e053-828b620ae142",
+      "eigenPrijs": 23.39,
+      "dichtstbijzijneConcurrent": 24.43,
+      "marge": 1.04
     },
     {
       "product": "SENTIO Love & Joy Eau de Parfum 15 ml - Miniparfum - Love - Citrus - Fruitig - Unisex",
