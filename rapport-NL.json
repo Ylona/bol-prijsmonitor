@@ -1,8 +1,8 @@
 {
-  "gegenereerd": "2026-05-17T09:29:07.862Z",
+  "gegenereerd": "2026-05-17T09:34:33.793Z",
   "land": "NL",
-  "aantalProducten": 70,
-  "aantalVeilig": 919,
+  "aantalProducten": 71,
+  "aantalVeilig": 918,
   "producten": [
     {
       "product": "Omerta - Wild Poppy - Eau De Parfum - 100ML",
@@ -238,6 +238,23 @@
           "retailerId": "1556816",
           "prijs": 9.45,
           "verschil": 0.34,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "Sentio What Happens Under The Mistletoe Stays Under The Mistletoe - Eau de parfum",
+      "ean": "8721055492795",
+      "offerId": "fff6b7a9-5310-46b6-ba77-57f6b2dc9df8",
+      "eigenPrijs": 8.25,
+      "laagsteConcurrent": 7.92,
+      "verschil": 0.33,
+      "concurrenten": [
+        {
+          "retailerNaam": "Dorsh",
+          "retailerId": "1556816",
+          "prijs": 7.92,
+          "verschil": 0.33,
           "fulfilment": "FBR"
         }
       ]
@@ -5739,14 +5756,6 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "Sentio What Happens Under The Mistletoe Stays Under The Mistletoe - Eau de parfum",
-      "ean": "8721055492795",
-      "offerId": "fff6b7a9-5310-46b6-ba77-57f6b2dc9df8",
-      "eigenPrijs": 8.25,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 3.25
     },
     {
       "product": "Linn Young - Club 420 Pink Exclusive Women - Eau de parfum - 100ML",
