@@ -196,7 +196,7 @@
 </div>
 
 <!-- Bevestig prijswijzigingen modal -->
-<div class="modal-bg" id="opslaanModalBg" onclick="opslaanModalBgKlik(event)">
+<div class="modal-bg" id="opslaanModalBg">
   <div class="modal breed">
     <h2>Prijswijzigingen opslaan op bol.com</h2>
     <p>De volgende prijzen worden definitief aangepast op bol.com. Dit kan niet ongedaan worden gemaakt.</p>
@@ -430,9 +430,11 @@ function toonOpslaanModal() {
 }
 
 function sluitOpslaanModal() {
-  document.getElementById('opslaanModalBg').classList.remove('open');
+  const bg = document.getElementById('opslaanModalBg');
+  if (!bg.classList.contains('open')) return;
+  bg.classList.remove('open');
   clearTimeout(prijsPollTimer);
-  // Als de actie al verstuurd was maar nooit bevestigd terugkwam: reset overrides
+  prijsPollTimer = null;
   if (opslaanVerstuurd) {
     prijsOverrides = {};
     bewaarPrijsOverrides();
@@ -440,11 +442,6 @@ function sluitOpslaanModal() {
     render();
     opslaanVerstuurd = false;
   }
-}
-
-function opslaanModalBgKlik(e) {
-  // Sluit modal alleen bij klik op de donkere overlay, niet op de modal zelf
-  if (e.target === document.getElementById('opslaanModalBg')) sluitOpslaanModal();
 }
 
 let prijsPollTimer = null;
@@ -546,6 +543,8 @@ async function bevestigOpslaanGitHub(wijzigingen, status) {
 }
 
 async function pollPrijsUpdate(token) {
+  if (!document.getElementById('opslaanModalBg').classList.contains('open')) return;
+
   const status = document.getElementById('opslaanModalStatus');
 
   if (++prijsPollPogingen > POLL_MAX_POGINGEN) {
@@ -592,7 +591,9 @@ async function pollPrijsUpdate(token) {
       prijsPollTimer = setTimeout(() => pollPrijsUpdate(token), 8000);
     }
   } catch {
-    status.innerHTML = `❌ Kon status niet ophalen. Bekijk <a href="https://github.com/${REPO}/actions" target="_blank">GitHub Actions</a>.`;
+    if (document.getElementById('opslaanModalBg').classList.contains('open')) {
+      prijsPollTimer = setTimeout(() => pollPrijsUpdate(token), 8000);
+    }
   }
 }
 
@@ -1043,7 +1044,7 @@ document.getElementById('modalBg').addEventListener('click', e => {
   if (e.target === document.getElementById('modalBg')) sluitModal();
 });
 document.getElementById('opslaanModalBg').addEventListener('click', e => {
-  if (e.target === document.getElementById('opslaanModalBg')) sluitOpslaanModal();
+  if (e.target === e.currentTarget) sluitOpslaanModal();
 });
 </script>
 </body>

@@ -353,13 +353,23 @@ async function main() {
 
     const concurrentData = await getConcurrenten(token, ean);
     const offers = concurrentData.offers || [];
-    const goedkopere = offers.filter(o => o.price && o.price < eigenPrijs);
+
+    // Eigen offer herkennen via offerId; valt terug op prijs als offerId ontbreekt
+    const eigenOffer = offers.find(o => offerId && o.offerId === offerId);
+    const heeftKoopblok = eigenOffer?.bestOffer === true;
+
+    // Concurrenten = alles goedkoper, of even duur maar jij hebt het koopblok niet
+    const goedkopere = offers.filter(o =>
+      o.price &&
+      o.offerId !== offerId &&
+      (o.price < eigenPrijs || (o.price === eigenPrijs && !heeftKoopblok))
+    );
 
     if (goedkopere.length > 0) {
       kandidaten.push({ ean, offerId, eigenPrijs, referentie, goedkopere });
     } else {
-      // Dichtstbijzijnde concurrent boven eigen prijs (eigen aanbieding valt af want prijs <= eigenPrijs)
-      const andereOffers = offers.filter(o => o.price && o.price > eigenPrijs);
+      // Dichtstbijzijnde concurrent boven eigen prijs
+      const andereOffers = offers.filter(o => o.price && o.offerId !== offerId && o.price > eigenPrijs);
       const dichtstbij = andereOffers.length > 0 ? Math.min(...andereOffers.map(o => o.price)) : null;
       veiligeLijst.push({
         product: referentie,
