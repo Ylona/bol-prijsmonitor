@@ -368,8 +368,8 @@ async function main() {
     if (goedkopere.length > 0) {
       kandidaten.push({ ean, offerId, eigenPrijs, referentie, goedkopere });
     } else {
-      // Dichtstbijzijnde concurrent boven eigen prijs
-      const andereOffers = offers.filter(o => o.price && o.offerId !== offerId && o.price > eigenPrijs);
+      // Dichtstbijzijnde concurrent: eerst kijken of iemand even duur is, anders de goedkoopste erboven
+      const andereOffers = offers.filter(o => o.price && o.offerId !== offerId && o.price >= eigenPrijs);
       const dichtstbij = andereOffers.length > 0 ? Math.min(...andereOffers.map(o => o.price)) : null;
       veiligeLijst.push({
         product: referentie,
