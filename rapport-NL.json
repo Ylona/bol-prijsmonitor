@@ -1,8 +1,8 @@
 {
-  "gegenereerd": "2026-05-20T04:31:23.973Z",
+  "gegenereerd": "2026-05-20T12:33:42.876Z",
   "land": "NL",
-  "aantalProducten": 60,
-  "aantalVeilig": 929,
+  "aantalProducten": 59,
+  "aantalVeilig": 930,
   "producten": [
     {
       "product": "Omerta - Wild Poppy - Eau De Parfum - 100ML",
@@ -947,18 +947,18 @@
       ]
     },
     {
-      "product": "Sentio What Happens Under The Mistletoe Stays Under The Mistletoe - Eau de parfum",
-      "ean": "8721055492795",
-      "offerId": "fff6b7a9-5310-46b6-ba77-57f6b2dc9df8",
-      "eigenPrijs": 7.25,
-      "laagsteConcurrent": 7.02,
-      "verschil": 0.23,
+      "product": "Azira - Dream Oasis - Eau de Parfum Unisex",
+      "ean": "8721349102706",
+      "offerId": "60ae84a0-99ef-4aca-b371-dadcc3f0bb29",
+      "eigenPrijs": 14.25,
+      "laagsteConcurrent": 14.25,
+      "verschil": 0,
       "concurrenten": [
         {
           "retailerNaam": "Dorsh",
           "retailerId": "1556816",
-          "prijs": 7.02,
-          "verschil": 0.23,
+          "prijs": 14.25,
+          "verschil": 0,
           "fulfilment": "FBR"
         }
       ]
@@ -968,14 +968,14 @@
       "ean": "8721349102720",
       "offerId": "9d232c2e-a4a5-4617-8e45-61f6282b1b88",
       "eigenPrijs": 14.05,
-      "laagsteConcurrent": 13.84,
-      "verschil": 0.21,
+      "laagsteConcurrent": 14.05,
+      "verschil": 0,
       "concurrenten": [
         {
           "retailerNaam": "Dorsh",
           "retailerId": "1556816",
-          "prijs": 13.84,
-          "verschil": 0.21,
+          "prijs": 14.05,
+          "verschil": 0,
           "fulfilment": "FBR"
         }
       ]
@@ -985,14 +985,14 @@
       "ean": "6291012000261",
       "offerId": "702a6553-951f-4255-bcef-779cf37d6c93",
       "eigenPrijs": 9.79,
-      "laagsteConcurrent": 9.61,
-      "verschil": 0.18,
+      "laagsteConcurrent": 9.79,
+      "verschil": 0,
       "concurrenten": [
         {
           "retailerNaam": "Dorsh",
           "retailerId": "1556816",
-          "prijs": 9.61,
-          "verschil": 0.18,
+          "prijs": 9.79,
+          "verschil": 0,
           "fulfilment": "FBR"
         }
       ]
@@ -1002,31 +1002,14 @@
       "ean": "8719214757229",
       "offerId": "32c903e5-4ebc-4ce5-9e18-fa30f53e0c0f",
       "eigenPrijs": 9.79,
-      "laagsteConcurrent": 9.64,
-      "verschil": 0.15,
+      "laagsteConcurrent": 9.79,
+      "verschil": 0,
       "concurrenten": [
         {
           "retailerNaam": "Dorsh",
           "retailerId": "1556816",
-          "prijs": 9.64,
-          "verschil": 0.15,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "Azira - Dream Oasis - Eau de Parfum Unisex",
-      "ean": "8721349102706",
-      "offerId": "60ae84a0-99ef-4aca-b371-dadcc3f0bb29",
-      "eigenPrijs": 14.25,
-      "laagsteConcurrent": 14.12,
-      "verschil": 0.13,
-      "concurrenten": [
-        {
-          "retailerNaam": "Dorsh",
-          "retailerId": "1556816",
-          "prijs": 14.12,
-          "verschil": 0.13,
+          "prijs": 9.79,
+          "verschil": 0,
           "fulfilment": "FBR"
         }
       ]
@@ -1178,6 +1161,14 @@
       "marge": 1.01
     },
     {
+      "product": "Eau de Toilette-Liquid-Steel-100 ML - Mannen",
+      "ean": "8715658999799",
+      "offerId": "9ed7f141-a9bb-f30e-e053-4782010a35b6",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "Omerta - Clouds of Love Man - Eau de Toilette - 100 ml inclusief hervulbare tasverstuiver (willekeurige kleur)",
       "ean": "6151016584573",
       "offerId": "0c931035-0af7-4fd2-ae72-a2052b6ec451",
@@ -1312,14 +1303,6 @@
       "eigenPrijs": 9.95,
       "dichtstbijzijneConcurrent": 9.99,
       "marge": 0.04
-    },
-    {
-      "product": "SENTIO All I Want For Is XMAS Is You! Eau de Parfum - Miniparfum 15 ml - Houtachtige Geur - Cacao geur - Vanille - Tabak Geur",
-      "ean": "7640158817483",
-      "offerId": "14302d0f-6de2-4cdd-b555-7e1db26efc85",
-      "eigenPrijs": 9.25,
-      "dichtstbijzijneConcurrent": 9.25,
-      "marge": 0
     },
     {
       "product": "Sentio Inter Feer Eau de Parfum For Women 15ml",
@@ -1526,8 +1509,8 @@
       "ean": "8715658997795",
       "offerId": "091d40db-d2e3-4022-bea6-5ca77276b8a2",
       "eigenPrijs": 13.15,
-      "dichtstbijzijneConcurrent": 13.19,
-      "marge": 0.04
+      "dichtstbijzijneConcurrent": 13.29,
+      "marge": 0.14
     },
     {
       "product": "Hello Kitty Club Eau de Parfum voor Kinderen 50 ml - Girls Power",
@@ -1784,6 +1767,14 @@
       "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Real Time - Intense Impression For Men - Eau De Toilette - 100ML",
+      "ean": "8715658350361",
+      "offerId": "0f64b56d-a15e-470c-9842-631cfca4f07b",
+      "eigenPrijs": 13.46,
+      "dichtstbijzijneConcurrent": 13.46,
+      "marge": 0
     },
     {
       "product": "Omerta - Invasion - Eau de Parfum - 100 ml inclusief hervulbare tasverstuiver (willekeurige kleur)",
@@ -2090,6 +2081,30 @@
       "marge": 0
     },
     {
+      "product": "NG Femme Brilliant Eau de Parfum 100 ml - Next Generation",
+      "ean": "8719214755003",
+      "offerId": "9739bca0-4698-4a7b-b8e7-23bdcd9dda4e",
+      "eigenPrijs": 12.5,
+      "dichtstbijzijneConcurrent": 12.5,
+      "marge": 0
+    },
+    {
+      "product": "SENTIO All I Want For Is XMAS Is You! Eau de Parfum - Miniparfum 15 ml - Houtachtige Geur - Cacao geur - Vanille - Tabak Geur",
+      "ean": "7640158817483",
+      "offerId": "14302d0f-6de2-4cdd-b555-7e1db26efc85",
+      "eigenPrijs": 9.25,
+      "dichtstbijzijneConcurrent": 9.25,
+      "marge": 0
+    },
+    {
+      "product": "NG Bella Vida Eau de Parfum 80 ml",
+      "ean": "8718421831579",
+      "offerId": "9425d732-a4f8-7dc5-e053-3c82010aee28",
+      "eigenPrijs": 12.5,
+      "dichtstbijzijneConcurrent": 12.5,
+      "marge": 0
+    },
+    {
       "product": "NG Eau de Parfum XII Chic Rouge 100 ml",
       "ean": "8719214752361",
       "offerId": "1127b30c-efb8-4bb9-9863-e222bfb60888",
@@ -2141,9 +2156,9 @@
       "product": "Sentio Eclaire Eau De Parfum - 100 ml",
       "ean": "7640158817735",
       "offerId": "b9818e22-6db3-4ed6-9bc0-1a84aff87734",
-      "eigenPrijs": 12,
+      "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": 16.04,
-      "marge": 4.04
+      "marge": 1.09
     },
     {
       "product": "TBY - To Be Sparkling - 100ml Eau de Parfum voor vrouwen",
@@ -2366,8 +2381,8 @@
       "ean": "8715658002789",
       "offerId": "34439fc4-c7c2-47d0-989c-7e279cc8907f",
       "eigenPrijs": 11.99,
-      "dichtstbijzijneConcurrent": 12.19,
-      "marge": 0.2
+      "dichtstbijzijneConcurrent": 12.29,
+      "marge": 0.3
     },
     {
       "product": "Vibezz Il Capitano - Eau de Toilette voor heren - 100ml",
@@ -2400,14 +2415,6 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "NG Femme Brilliant Eau de Parfum 100 ml - Next Generation",
-      "ean": "8719214755003",
-      "offerId": "9739bca0-4698-4a7b-b8e7-23bdcd9dda4e",
-      "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": 12.5,
-      "marge": 0
     },
     {
       "product": "NG Spectre Fragrances Le Bucheron For Men eau de toilette 100ml (in plastic fles)",
@@ -2472,14 +2479,6 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": 16.04,
       "marge": 1.09
-    },
-    {
-      "product": "Real Time - Intense Impression For Men - Eau De Toilette - 100ML",
-      "ean": "8715658350361",
-      "offerId": "0f64b56d-a15e-470c-9842-631cfca4f07b",
-      "eigenPrijs": 13.46,
-      "dichtstbijzijneConcurrent": 13.46,
-      "marge": 0
     },
     {
       "product": "NG Caught Men Eau de Toilette Spray 100 ml",
@@ -2782,8 +2781,8 @@
       "ean": "8715658002536",
       "offerId": "40cb06d2-6e17-411d-a3cd-7bb9434d088a",
       "eigenPrijs": 12.15,
-      "dichtstbijzijneConcurrent": 12.19,
-      "marge": 0.04
+      "dichtstbijzijneConcurrent": 12.24,
+      "marge": 0.09
     },
     {
       "product": "Hello Kitty Kisses Eau de Parfum voor Kinderen 50ml",
@@ -3925,9 +3924,9 @@
       "product": "Georges Mezotti - Queen of Temptation Passion - Eau de parfum 100ml",
       "ean": "8715658420132",
       "offerId": "a2c18080-2a2a-4604-95a3-096c6bf3d517",
-      "eigenPrijs": 16.95,
+      "eigenPrijs": 17.95,
       "dichtstbijzijneConcurrent": 18.29,
-      "marge": 1.34
+      "marge": 0.34
     },
     {
       "product": "Sentio Paradise Miniparfum Ibiza Vibes eau de parfum for women 15 ml",
@@ -3958,8 +3957,8 @@
       "ean": "8715658401292",
       "offerId": "0e9935f9-9292-47b9-aba2-b0813f3cc50b",
       "eigenPrijs": 14.75,
-      "dichtstbijzijneConcurrent": 14.89,
-      "marge": 0.14
+      "dichtstbijzijneConcurrent": 14.99,
+      "marge": 0.24
     },
     {
       "product": "Hello Kitty Unicorn Parfum set 6 stuks voor kinderen - 6x15ml - Meisjes",
@@ -4397,9 +4396,9 @@
       "product": "De La Mare Blueberry - Bosbes Geur - For Women Eau de Parfum 15 ml",
       "ean": "8721055497011",
       "offerId": "9bf02504-3af5-48d6-a4ef-d984f163da88",
-      "eigenPrijs": 8.25,
+      "eigenPrijs": 8.75,
       "dichtstbijzijneConcurrent": 10,
-      "marge": 1.75
+      "marge": 1.25
     },
     {
       "product": "NG Home - DARK CHERRY - Geurkaars 180gr",
@@ -4637,9 +4636,9 @@
       "product": "Sentio Crevo Eau de Toilette - 100 ml",
       "ean": "7640158816400",
       "offerId": "6189d2f2-197f-41b1-97ee-95a8c65f436e",
-      "eigenPrijs": 12,
+      "eigenPrijs": 12.49,
       "dichtstbijzijneConcurrent": 13.43,
-      "marge": 1.43
+      "marge": 0.94
     },
     {
       "product": "Parfum SENTIO Lucky Numbers 8 Great Eight eau de parfum 15ml",
@@ -4750,8 +4749,8 @@
       "ean": "8715658002734",
       "offerId": "43f0f11c-5b2f-47dd-81e0-7482d5c7e89b",
       "eigenPrijs": 12.19,
-      "dichtstbijzijneConcurrent": 12.19,
-      "marge": 0
+      "dichtstbijzijneConcurrent": 12.27,
+      "marge": 0.08
     },
     {
       "product": "Dorall -Golden Blaze- Eau de Parfum 100ml",
@@ -5146,14 +5145,6 @@
       "marge": null
     },
     {
-      "product": "Eau de Toilette-Liquid-Steel-100 ML - Mannen",
-      "ean": "8715658999799",
-      "offerId": "9ed7f141-a9bb-f30e-e053-4782010a35b6",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "NG - PREDATOR ELEGANCE - Eau de Parfum 100ml",
       "ean": "8719214750114",
       "offerId": "12037b5a-b73b-4be4-a95a-a9d1b100fbf9",
@@ -5310,8 +5301,8 @@
       "ean": "8715658002932",
       "offerId": "80d02dbc-f887-4c51-9c7f-7443cedf9ef8",
       "eigenPrijs": 12.15,
-      "dichtstbijzijneConcurrent": 12.19,
-      "marge": 0.04
+      "dichtstbijzijneConcurrent": 12.29,
+      "marge": 0.14
     },
     {
       "product": "Sentio Banana Dream eau de parfum unisex 15 ml",
@@ -5562,6 +5553,14 @@
       "marge": null
     },
     {
+      "product": "Sentio What Happens Under The Mistletoe Stays Under The Mistletoe - Eau de parfum",
+      "ean": "8721055492795",
+      "offerId": "fff6b7a9-5310-46b6-ba77-57f6b2dc9df8",
+      "eigenPrijs": 7.25,
+      "dichtstbijzijneConcurrent": 7.27,
+      "marge": 0.02
+    },
+    {
       "product": "Linn Young - Club 420 Pink Exclusive Women - Eau de parfum - 100ML",
       "ean": "8715658400714",
       "offerId": "7c7a74c1-aa2b-48d8-9c35-5513b6decca9",
@@ -5750,8 +5749,8 @@
       "ean": "8715658401308",
       "offerId": "2f47cdd1-b26d-4c03-96d0-8e3221754a5a",
       "eigenPrijs": 14.75,
-      "dichtstbijzijneConcurrent": 14.89,
-      "marge": 0.14
+      "dichtstbijzijneConcurrent": 14.99,
+      "marge": 0.24
     },
     {
       "product": "Hello Kitty Delicate Flower Eau de Parfum voor Kinderen 50ml",
@@ -7053,9 +7052,9 @@
       "product": "Sentio Labris Eau De Parfum - 100 ml",
       "ean": "7640158815717",
       "offerId": "aca85904-b257-49dd-9b69-cd132c7037e1",
-      "eigenPrijs": 12,
+      "eigenPrijs": 12.45,
       "dichtstbijzijneConcurrent": 13.71,
-      "marge": 1.71
+      "marge": 1.26
     },
     {
       "product": "Omerta - Daily Fresh Pack - set van 3x100ml",
@@ -7322,14 +7321,6 @@
       "marge": 0
     },
     {
-      "product": "NG Bella Vida Eau de Parfum 80 ml",
-      "ean": "8718421831579",
-      "offerId": "9425d732-a4f8-7dc5-e053-3c82010aee28",
-      "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": 12.5,
-      "marge": 0
-    },
-    {
       "product": "Omerta - Patchouli - Eau de parfum - 100ML",
       "ean": "8715658380795",
       "offerId": "f2ec80ff-d92f-4b92-8c30-8078534ba572",
@@ -7461,9 +7452,9 @@
       "product": "Creation Lamis Catsuit Man 100 ml - Eau de Toilette - Herenparfum",
       "ean": "5414666001953",
       "offerId": "8137feb2-4bb6-37ad-e053-828b620afc45",
-      "eigenPrijs": 12.95,
-      "dichtstbijzijneConcurrent": 13.98,
-      "marge": 1.03
+      "eigenPrijs": 12,
+      "dichtstbijzijneConcurrent": 12,
+      "marge": 0
     },
     {
       "product": "Omerta Putting Green Eau de Toilette Pour Homme - 100ml",
@@ -7517,7 +7508,7 @@
       "product": "Georges Mezotti - Queen of Temptation Seduction - Eau de parfum 100ml",
       "ean": "8715658420156",
       "offerId": "725d5fef-b0e7-4543-afb2-2f4989e95357",
-      "eigenPrijs": 15.96,
+      "eigenPrijs": 17.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -7606,8 +7597,8 @@
       "ean": "8715658002864",
       "offerId": "2cba9740-8035-45e7-a87e-bcce7568f1d3",
       "eigenPrijs": 12.15,
-      "dichtstbijzijneConcurrent": 12.19,
-      "marge": 0.04
+      "dichtstbijzijneConcurrent": 12.27,
+      "marge": 0.12
     },
     {
       "product": "Omerta - Rose Pure - Eau de Parfum - 100ml",
@@ -7710,8 +7701,8 @@
       "ean": "8719214750657",
       "offerId": "81d82070-9607-1675-e053-828b620ae64a",
       "eigenPrijs": 9.99,
-      "dichtstbijzijneConcurrent": 10.19,
-      "marge": 0.2
+      "dichtstbijzijneConcurrent": 10.69,
+      "marge": 0.7
     },
     {
       "product": "Omerta - Silver & White Woman - Eau De Parfum - 100Ml",
@@ -7781,9 +7772,9 @@
       "product": "SENTIO Happy New Year Eau de Parfum 15 ml - Miniparfum - Kerst - Nieuw Jaar - Cacao - Fruitig Geur - Houtaard",
       "ean": "7640158817452",
       "offerId": "deb3635f-2f2f-48e9-84fd-121bf1ae0f87",
-      "eigenPrijs": 9.45,
+      "eigenPrijs": 9.49,
       "dichtstbijzijneConcurrent": 10.75,
-      "marge": 1.3
+      "marge": 1.26
     },
     {
       "product": "Creation Lamis Fatal Snake Magical Giftset",
@@ -8158,16 +8149,16 @@
       "ean": "8718421831227",
       "offerId": "97d94ce6-b055-6f0d-e053-4782010a0606",
       "eigenPrijs": 9.99,
-      "dichtstbijzijneConcurrent": 10.18,
-      "marge": 0.19
+      "dichtstbijzijneConcurrent": 10.68,
+      "marge": 0.69
     },
     {
       "product": "Vibezz-Confermato-Eau de Parfum For Her-100ml",
       "ean": "7640158819197",
       "offerId": "4d781c89-a5f2-4a8b-887c-c22e773eb08f",
       "eigenPrijs": 9.95,
-      "dichtstbijzijneConcurrent": 10.21,
-      "marge": 0.26
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 1.55
     },
     {
       "product": "Sentio Soft Suede Eau de Parfum 100ml",
@@ -8317,9 +8308,9 @@
       "product": "Sentio Pink Grenade Eau De Parfum - 100 ml",
       "ean": "8721055490012",
       "offerId": "370853d4-8027-402c-83d2-630287b8cf7d",
-      "eigenPrijs": 12.25,
+      "eigenPrijs": 12.45,
       "dichtstbijzijneConcurrent": 13.71,
-      "marge": 1.46
+      "marge": 1.26
     },
     {
       "product": "Omerta - Invasion Third Dimension - Eau De Parfum - 100Ml",
