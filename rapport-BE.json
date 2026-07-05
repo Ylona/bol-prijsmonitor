@@ -1,60 +1,9 @@
 {
-  "gegenereerd": "2026-06-26T03:57:42.762Z",
+  "gegenereerd": "2026-07-05T04:31:30.399Z",
   "land": "BE",
-  "aantalProducten": 38,
-  "aantalVeilig": 988,
+  "aantalProducten": 47,
+  "aantalVeilig": 1000,
   "producten": [
-    {
-      "product": "7640158816677",
-      "ean": "7640158816677",
-      "offerId": "ed69baf4-dfc8-4fa4-9696-db9f6fbd58fa",
-      "eigenPrijs": 10.49,
-      "laagsteConcurrent": 3.99,
-      "verschil": 6.5,
-      "concurrenten": [
-        {
-          "retailerNaam": "1349629",
-          "retailerId": "1349629",
-          "prijs": 3.99,
-          "verschil": 6.5,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "7640158816615",
-      "ean": "7640158816615",
-      "offerId": "8bb27d95-a68d-4be3-8df7-ce8050a933c4",
-      "eigenPrijs": 10.49,
-      "laagsteConcurrent": 3.99,
-      "verschil": 6.5,
-      "concurrenten": [
-        {
-          "retailerNaam": "1349629",
-          "retailerId": "1349629",
-          "prijs": 3.99,
-          "verschil": 6.5,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "7640158816813",
-      "ean": "7640158816813",
-      "offerId": "dfe0aab0-1b52-4939-a03e-83311cd1e3bf",
-      "eigenPrijs": 10.49,
-      "laagsteConcurrent": 3.99,
-      "verschil": 6.5,
-      "concurrenten": [
-        {
-          "retailerNaam": "1349629",
-          "retailerId": "1349629",
-          "prijs": 3.99,
-          "verschil": 6.5,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
     {
       "product": "8721055493884",
       "ean": "8721055493884",
@@ -107,9 +56,43 @@
       ]
     },
     {
+      "product": "7640158816677",
+      "ean": "7640158816677",
+      "offerId": "ed69baf4-dfc8-4fa4-9696-db9f6fbd58fa",
+      "eigenPrijs": 10.49,
+      "laagsteConcurrent": 4.99,
+      "verschil": 5.5,
+      "concurrenten": [
+        {
+          "retailerNaam": "1349629",
+          "retailerId": "1349629",
+          "prijs": 4.99,
+          "verschil": 5.5,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
       "product": "7640158816714",
       "ean": "7640158816714",
       "offerId": "2e324194-0ea4-4b72-976a-9756c9a56cde",
+      "eigenPrijs": 10.49,
+      "laagsteConcurrent": 4.99,
+      "verschil": 5.5,
+      "concurrenten": [
+        {
+          "retailerNaam": "1349629",
+          "retailerId": "1349629",
+          "prijs": 4.99,
+          "verschil": 5.5,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "7640158816615",
+      "ean": "7640158816615",
+      "offerId": "8bb27d95-a68d-4be3-8df7-ce8050a933c4",
       "eigenPrijs": 10.49,
       "laagsteConcurrent": 4.99,
       "verschil": 5.5,
@@ -144,6 +127,23 @@
       "product": "8721055493228",
       "ean": "8721055493228",
       "offerId": "3279dc10-2dff-4d30-8773-b2d89cb4d032",
+      "eigenPrijs": 10.49,
+      "laagsteConcurrent": 4.99,
+      "verschil": 5.5,
+      "concurrenten": [
+        {
+          "retailerNaam": "1349629",
+          "retailerId": "1349629",
+          "prijs": 4.99,
+          "verschil": 5.5,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "7640158816813",
+      "ean": "7640158816813",
+      "offerId": "dfe0aab0-1b52-4939-a03e-83311cd1e3bf",
       "eigenPrijs": 10.49,
       "laagsteConcurrent": 4.99,
       "verschil": 5.5,
@@ -396,6 +396,40 @@
       ]
     },
     {
+      "product": "8721055490524",
+      "ean": "8721055490524",
+      "offerId": "fbf7feaf-a027-410f-a0d7-de46525eb0c1",
+      "eigenPrijs": 10.99,
+      "laagsteConcurrent": 8,
+      "verschil": 2.99,
+      "concurrenten": [
+        {
+          "retailerNaam": "FAVK-Shop Outlet",
+          "retailerId": "1736368",
+          "prijs": 8,
+          "verschil": 2.99,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "8719214759179",
+      "ean": "8719214759179",
+      "offerId": "4b1a5e7b-7a76-4fbb-94b1-be41e82fed43",
+      "eigenPrijs": 10.99,
+      "laagsteConcurrent": 8.5,
+      "verschil": 2.49,
+      "concurrenten": [
+        {
+          "retailerNaam": "FAVK-Shop Outlet",
+          "retailerId": "1736368",
+          "prijs": 8.5,
+          "verschil": 2.49,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
       "product": "7640158817360",
       "ean": "7640158817360",
       "offerId": "eec5008f-77b2-4cf9-a398-a4b397beff2a",
@@ -408,6 +442,74 @@
           "retailerId": "1712573",
           "prijs": 9.95,
           "verschil": 2.05,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "8721055490500",
+      "ean": "8721055490500",
+      "offerId": "175a46f7-d01c-421e-988e-d6bb8b56aea7",
+      "eigenPrijs": 10.99,
+      "laagsteConcurrent": 9,
+      "verschil": 1.99,
+      "concurrenten": [
+        {
+          "retailerNaam": "FAVK-Shop Outlet",
+          "retailerId": "1736368",
+          "prijs": 9,
+          "verschil": 1.99,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "8719214750770",
+      "ean": "8719214750770",
+      "offerId": "4377681b-0030-4fe1-bd31-8edf64733243",
+      "eigenPrijs": 10.99,
+      "laagsteConcurrent": 9,
+      "verschil": 1.99,
+      "concurrenten": [
+        {
+          "retailerNaam": "FAVK-Shop Outlet",
+          "retailerId": "1736368",
+          "prijs": 9,
+          "verschil": 1.99,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "8719214759162",
+      "ean": "8719214759162",
+      "offerId": "21a810e2-abbe-451f-84d0-912f9913271a",
+      "eigenPrijs": 10.99,
+      "laagsteConcurrent": 9,
+      "verschil": 1.99,
+      "concurrenten": [
+        {
+          "retailerNaam": "FAVK-Shop Outlet",
+          "retailerId": "1736368",
+          "prijs": 9,
+          "verschil": 1.99,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "8721055497028",
+      "ean": "8721055497028",
+      "offerId": "f0bca256-13a8-43dc-864d-723caff5ed46",
+      "eigenPrijs": 10.99,
+      "laagsteConcurrent": 9,
+      "verschil": 1.99,
+      "concurrenten": [
+        {
+          "retailerNaam": "FAVK-Shop Outlet",
+          "retailerId": "1736368",
+          "prijs": 9,
+          "verschil": 1.99,
           "fulfilment": "FBR"
         }
       ]
@@ -430,18 +532,86 @@
       ]
     },
     {
-      "product": "8715658998631",
-      "ean": "8715658998631",
-      "offerId": "9399267f-ef56-3fe0-e053-3c82010abc36",
-      "eigenPrijs": 15.95,
-      "laagsteConcurrent": 14.95,
-      "verschil": 1,
+      "product": "8719214759193",
+      "ean": "8719214759193",
+      "offerId": "7f80300a-7e01-48d1-bfeb-407131ef6e9f",
+      "eigenPrijs": 10.99,
+      "laagsteConcurrent": 9.5,
+      "verschil": 1.49,
       "concurrenten": [
         {
-          "retailerNaam": "1020534",
-          "retailerId": "1020534",
-          "prijs": 14.95,
-          "verschil": 1,
+          "retailerNaam": "FAVK-Shop Outlet",
+          "retailerId": "1736368",
+          "prijs": 9.5,
+          "verschil": 1.49,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "8721055494843",
+      "ean": "8721055494843",
+      "offerId": "7e7187d8-f29a-4155-8ac8-65e0406d736c",
+      "eigenPrijs": 10.99,
+      "laagsteConcurrent": 9.8,
+      "verschil": 1.19,
+      "concurrenten": [
+        {
+          "retailerNaam": "FAVK-Shop Outlet",
+          "retailerId": "1736368",
+          "prijs": 9.8,
+          "verschil": 1.19,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "8721055494850",
+      "ean": "8721055494850",
+      "offerId": "2323545e-3e54-4ee6-920a-df5c986352fa",
+      "eigenPrijs": 10.99,
+      "laagsteConcurrent": 9.8,
+      "verschil": 1.19,
+      "concurrenten": [
+        {
+          "retailerNaam": "FAVK-Shop Outlet",
+          "retailerId": "1736368",
+          "prijs": 9.8,
+          "verschil": 1.19,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "8721055494874",
+      "ean": "8721055494874",
+      "offerId": "34cc570f-c00f-4924-a290-501e7746ba8a",
+      "eigenPrijs": 10.99,
+      "laagsteConcurrent": 9.8,
+      "verschil": 1.19,
+      "concurrenten": [
+        {
+          "retailerNaam": "FAVK-Shop Outlet",
+          "retailerId": "1736368",
+          "prijs": 9.8,
+          "verschil": 1.19,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "8721055490517",
+      "ean": "8721055490517",
+      "offerId": "c3500fec-5fba-4fa8-a2b2-205d175ddb4d",
+      "eigenPrijs": 9.99,
+      "laagsteConcurrent": 9,
+      "verschil": 0.99,
+      "concurrenten": [
+        {
+          "retailerNaam": "FAVK-Shop Outlet",
+          "retailerId": "1736368",
+          "prijs": 9,
+          "verschil": 0.99,
           "fulfilment": "FBR"
         }
       ]
@@ -464,17 +634,17 @@
       ]
     },
     {
-      "product": "7640158815830",
-      "ean": "7640158815830",
-      "offerId": "d08a22c0-e5f5-413f-b607-3e72aa112cba",
-      "eigenPrijs": 10.49,
-      "laagsteConcurrent": 9.99,
+      "product": "8719214757519",
+      "ean": "8719214757519",
+      "offerId": "27635827-cc46-40c5-8c2b-16d533e5ea5a",
+      "eigenPrijs": 12.75,
+      "laagsteConcurrent": 12.25,
       "verschil": 0.5,
       "concurrenten": [
         {
-          "retailerNaam": "1762513",
-          "retailerId": "1762513",
-          "prijs": 9.99,
+          "retailerNaam": "1316436",
+          "retailerId": "1316436",
+          "prijs": 12.25,
           "verschil": 0.5,
           "fulfilment": "FBR"
         }
@@ -498,52 +668,86 @@
       ]
     },
     {
-      "product": "8719214751654",
-      "ean": "8719214751654",
-      "offerId": "4317eac0-1291-4563-ae26-514a0dc23c35",
-      "eigenPrijs": 11.5,
-      "laagsteConcurrent": 11.1,
-      "verschil": 0.4,
-      "concurrenten": [
-        {
-          "retailerNaam": "sky store",
-          "retailerId": "1831682",
-          "prijs": 11.1,
-          "verschil": 0.4,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8721055493440",
-      "ean": "8721055493440",
-      "offerId": "2ebb1f76-28d2-434b-a882-30d21d5167f6",
-      "eigenPrijs": 13.39,
-      "laagsteConcurrent": 13.16,
-      "verschil": 0.23,
-      "concurrenten": [
-        {
-          "retailerNaam": "1421748",
-          "retailerId": "1421748",
-          "prijs": 13.16,
-          "verschil": 0.23,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
       "product": "8715658002789",
       "ean": "8715658002789",
       "offerId": "218f23f6-dfd0-4d24-9947-eeb0097ef958",
-      "eigenPrijs": 14.59,
+      "eigenPrijs": 14.95,
       "laagsteConcurrent": 14.49,
-      "verschil": 0.1,
+      "verschil": 0.46,
       "concurrenten": [
         {
           "retailerNaam": "ParfumDeo.be",
           "retailerId": "1757725",
           "prijs": 14.49,
-          "verschil": 0.1,
+          "verschil": 0.46,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "8721055497011",
+      "ean": "8721055497011",
+      "offerId": "3e19e0c3-e01f-45d8-996d-84c36511148f",
+      "eigenPrijs": 10.45,
+      "laagsteConcurrent": 10,
+      "verschil": 0.45,
+      "concurrenten": [
+        {
+          "retailerNaam": "FAVK-Shop Outlet",
+          "retailerId": "1736368",
+          "prijs": 10,
+          "verschil": 0.45,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "8721055490326",
+      "ean": "8721055490326",
+      "offerId": "b40a3a53-bbcf-4659-a43c-c8a048184bb6",
+      "eigenPrijs": 10.45,
+      "laagsteConcurrent": 10,
+      "verschil": 0.45,
+      "concurrenten": [
+        {
+          "retailerNaam": "FAVK-Shop Outlet",
+          "retailerId": "1736368",
+          "prijs": 10,
+          "verschil": 0.45,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "7640158815557",
+      "ean": "7640158815557",
+      "offerId": "c31f1051-0d23-4804-acae-dc3404705a6b",
+      "eigenPrijs": 11.75,
+      "laagsteConcurrent": 11.5,
+      "verschil": 0.25,
+      "concurrenten": [
+        {
+          "retailerNaam": "sky store",
+          "retailerId": "1831682",
+          "prijs": 11.5,
+          "verschil": 0.25,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "8715658998419",
+      "ean": "8715658998419",
+      "offerId": "d352a8bf-5ef7-4a73-bdfa-1529b690cf3e",
+      "eigenPrijs": 13.75,
+      "laagsteConcurrent": 13.56,
+      "verschil": 0.19,
+      "concurrenten": [
+        {
+          "retailerNaam": "Beauty by Filou.",
+          "retailerId": "1546283",
+          "prijs": 13.56,
+          "verschil": 0.19,
           "fulfilment": "FBR"
         }
       ]
@@ -598,57 +802,6 @@
           "fulfilment": "FBR"
         }
       ]
-    },
-    {
-      "product": "8721055498308",
-      "ean": "8721055498308",
-      "offerId": "47d568e3-24f8-427f-a059-39594f7a8d03",
-      "eigenPrijs": 10.45,
-      "laagsteConcurrent": 10.45,
-      "verschil": 0,
-      "concurrenten": [
-        {
-          "retailerNaam": "1460921",
-          "retailerId": "1460921",
-          "prijs": 10.45,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8721055498285",
-      "ean": "8721055498285",
-      "offerId": "1a7ba0ac-2695-41ac-b2cc-44481561f993",
-      "eigenPrijs": 10.45,
-      "laagsteConcurrent": 10.45,
-      "verschil": 0,
-      "concurrenten": [
-        {
-          "retailerNaam": "1460921",
-          "retailerId": "1460921",
-          "prijs": 10.45,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8721055498278",
-      "ean": "8721055498278",
-      "offerId": "8a12eb25-3e77-4777-8c77-e38e9219e98d",
-      "eigenPrijs": 10.45,
-      "laagsteConcurrent": 10.45,
-      "verschil": 0,
-      "concurrenten": [
-        {
-          "retailerNaam": "1460921",
-          "retailerId": "1460921",
-          "prijs": 10.45,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        }
-      ]
     }
   ],
   "veilig": [
@@ -659,6 +812,14 @@
       "eigenPrijs": 17.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Sentio Single Lady parfum - Eau de parfum voor de moderne vrouw - 100 ml",
+      "ean": "7640158814925",
+      "offerId": "6f15e7cd-03ec-43b3-9cfa-666cd56da202",
+      "eigenPrijs": 12.95,
+      "dichtstbijzijneConcurrent": 14.49,
+      "marge": 1.54
     },
     {
       "product": "DLM Rose Reverie - 100ml Eau de Parfum",
@@ -677,17 +838,41 @@
       "marge": 7.05
     },
     {
-      "product": "Vibezz GP 24K EDP 50 ml + shower gel 100 ml",
-      "ean": "8721055494461",
-      "offerId": "afd4315a-1050-4962-b9e0-bf77eba5f4bc",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 15,
-      "marge": 0.05
+      "product": "Sentio Mary Davina Cristal parfum - eau de parfum spray voor dames - 100 ml",
+      "ean": "8721055496632",
+      "offerId": "648f3662-c5ba-4683-b475-c72dc1dbae3b",
+      "eigenPrijs": 14.45,
+      "dichtstbijzijneConcurrent": 14.75,
+      "marge": 0.3
+    },
+    {
+      "product": "Sentio Mary Davina Eau de Parfum Spray 100 ml",
+      "ean": "8721055490234",
+      "offerId": "a4819bd3-1a7a-4499-9d6b-a4788cbcb90d",
+      "eigenPrijs": 12.45,
+      "dichtstbijzijneConcurrent": 13,
+      "marge": 0.55
     },
     {
       "product": "Real Time - Tierra Del Fuego - Eau de toilette - 100ML",
       "ean": "8715658350408",
       "offerId": "487003aa-fbac-41c0-9d08-fd14b1045616",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "Omerta - L'uomo X Extereme - Eau De Toilette - 100ML",
+      "ean": "8715658370512",
+      "offerId": "bb67b070-f712-431a-a2df-be25aebaf203",
+      "eigenPrijs": 11.99,
+      "dichtstbijzijneConcurrent": 13.51,
+      "marge": 1.52
+    },
+    {
+      "product": "Real Time Style & Class 100ml Eau de Parfum Pour Femme",
+      "ean": "8715658361640",
+      "offerId": "2a5b6efa-1444-45a3-a761-32f18525d8e0",
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
@@ -709,22 +894,6 @@
       "marge": null
     },
     {
-      "product": "Real Time - Yes Call Me - Eau de parfum - 100ML",
-      "ean": "8715658360964",
-      "offerId": "071b3680-0cb1-4d1e-a93b-3b8634477cef",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "DLM Rustic Oak For men - 100ml Eau de Toilette",
-      "ean": "8721055493662",
-      "offerId": "01e74f12-c37f-470f-b60a-cc33c2b12b6c",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "DLM Pink Dreams - 100ml Eau de Parfum",
       "ean": "8721055493549",
       "offerId": "f93877c1-f4e1-4abb-ba61-675766c0e580",
@@ -741,7 +910,7 @@
       "marge": null
     },
     {
-      "product": "8715658420248",
+      "product": "Georges Mezotti - FATAL STEP ELIXIR - 90ml Eau de Parfum",
       "ean": "8715658420248",
       "offerId": "e788b5c9-b697-4aba-8018-d6dc73311d36",
       "eigenPrijs": 16.95,
@@ -749,18 +918,42 @@
       "marge": null
     },
     {
-      "product": "Clouds of Love Man eau de toilette  100 ML",
-      "ean": "8715658998617",
-      "offerId": "9384d4ba-78f0-3d2f-e053-3c82010aa286",
-      "eigenPrijs": 13.75,
-      "dichtstbijzijneConcurrent": 14.99,
-      "marge": 1.24
+      "product": "Aroma olie - Fragrance Oil 'Exotic Lychee' - 750 ml - Geurolie voor oliebranders",
+      "ean": "7806139167118",
+      "offerId": "e1221c64-68a1-48e7-aab8-44b607b60712",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "Shiatsu feromonen parfum (vrouw) 15 ml",
+      "ean": "4042342003031",
+      "offerId": "103d8504-6031-16e3-b6b3-ee0068ba4500",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "Sentio Giftset-Involved pour homme-Eau de Toilette en Showergel",
       "ean": "7640158815618",
       "offerId": "9c4d8b61-0409-44bc-a79c-7ca4fd9a1b8f",
       "eigenPrijs": 16.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "DLM Rustic Oak For men - 100ml Eau de Toilette",
+      "ean": "8721055493662",
+      "offerId": "01e74f12-c37f-470f-b60a-cc33c2b12b6c",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "Sentio Vintage Forrest Unisex Eau de Parfum 100ml +15ml",
+      "ean": "6151032633620",
+      "offerId": "c7a5da62-73f3-4b01-bfd0-ca131e259507",
+      "eigenPrijs": 17.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -789,28 +982,12 @@
       "marge": null
     },
     {
-      "product": "Sentio Valentijn Parfum - You And Me - Eau de Parfum - Voor dames - 15ml",
-      "ean": "8721055494850",
-      "offerId": "2323545e-3e54-4ee6-920a-df5c986352fa",
-      "eigenPrijs": 9.75,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 1.75
-    },
-    {
-      "product": "Linn Young - Wild Adventure Absolu - Eau de toilette - 100ML",
-      "ean": "8715658390558",
-      "offerId": "5c6cfb1c-9dbb-48f2-a101-bacd8bf6b14e",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "Sentio Valentijn Parfum - My Heart Is Yours - Eau de Parfum - Voor dames - 15ml",
-      "ean": "8721055494874",
-      "offerId": "34cc570f-c00f-4924-a290-501e7746ba8a",
-      "eigenPrijs": 9.75,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 1.75
+      "product": "NG Heaven's Smell Eau de Parfum 100 ml",
+      "ean": "8718421831227",
+      "offerId": "97da0b89-5534-d5fc-e053-4782010a9368",
+      "eigenPrijs": 10.49,
+      "dichtstbijzijneConcurrent": 10.64,
+      "marge": 0.15
     },
     {
       "product": "NG Dominatio Woman Eau de Parfum - Damesparfum met frisse en elegante geur - 100ml",
@@ -827,6 +1004,14 @@
       "eigenPrijs": 11.35,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 0.15
+    },
+    {
+      "product": "Clouds of Love Man eau de toilette  100 ML",
+      "ean": "8715658998617",
+      "offerId": "9384d4ba-78f0-3d2f-e053-3c82010aa286",
+      "eigenPrijs": 13.75,
+      "dichtstbijzijneConcurrent": 14.99,
+      "marge": 1.24
     },
     {
       "product": "Atelier Privee - DREAMY RIVER VULIGNON - 100ml Eau de Parfum Unisex",
@@ -867,6 +1052,14 @@
       "eigenPrijs": 13.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "SENTIO FEESTDAGEN - The Nutcracker - Winter Glow - Eau de Parfum - 50ml",
+      "ean": "8721055492283",
+      "offerId": "93319bdd-7ff5-4d80-aa57-de9b4bd48315",
+      "eigenPrijs": 13.95,
+      "dichtstbijzijneConcurrent": 14.3,
+      "marge": 0.35
     },
     {
       "product": "Georges Mezotti - Crime Perfect Crime - Eau De Toilette - 100ML",
@@ -925,36 +1118,20 @@
       "marge": null
     },
     {
-      "product": "Vibezz-Solitude-Eau de Toilette For Him-100ml",
-      "ean": "7640158819258",
-      "offerId": "71ab8605-8f39-44dd-a6b2-4a1357011c88",
-      "eigenPrijs": 9.99,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "Sentio Chalize Geschenkset - 1 set",
-      "ean": "7640158815755",
-      "offerId": "6a4575f2-ac62-4215-bca1-2a760a7263ab",
-      "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "Hello Kitty - Rose strikjes - Eau de parfum - Voor Kinderen - 15ml",
       "ean": "8721055496557",
       "offerId": "cf95ab7f-21b7-4ece-9d8f-5ddaa780c496",
       "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": 12.5,
-      "marge": 1.51
+      "dichtstbijzijneConcurrent": 12.49,
+      "marge": 1.5
     },
     {
       "product": "Real Time - Life In Motion For Women - Eau de parfum - 100ML",
       "ean": "8715658002734",
       "offerId": "fb68f7b8-cf42-4667-bdd2-f65200c90f6b",
       "eigenPrijs": 12.24,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 12.25,
+      "marge": 0.01
     },
     {
       "product": "Street Looks Uptown Babe eau de parfum 100ml",
@@ -981,6 +1158,14 @@
       "marge": null
     },
     {
+      "product": "NG L'Odeur Women Eau de Parfum Spray 100 ml",
+      "ean": "8719214751654",
+      "offerId": "4317eac0-1291-4563-ae26-514a0dc23c35",
+      "eigenPrijs": 11.1,
+      "dichtstbijzijneConcurrent": 11.1,
+      "marge": 0
+    },
+    {
       "product": "Sentio Flora Nova Sunslit Spring Handtasformaat eau de parfum 15ml",
       "ean": "8721055495109",
       "offerId": "23d7aa35-7210-4f76-9858-f04d89df111d",
@@ -989,20 +1174,20 @@
       "marge": 1.01
     },
     {
+      "product": "Linn Young - Dangerzone - Eau De Parfum - 100ML",
+      "ean": "8715658998631",
+      "offerId": "9399267f-ef56-3fe0-e053-3c82010abc36",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": 14.95,
+      "marge": 0
+    },
+    {
       "product": "Sentio Miniparfum Cocktail - BLUE LAGOON - Eau de parfum For Her 15ml",
       "ean": "7640158818763",
       "offerId": "f91ef591-635e-4d2d-ad88-a0298932a19c",
       "eigenPrijs": 10.99,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 0.51
-    },
-    {
-      "product": "Sentio Mary Davina Eau de Parfum Spray 100 ml",
-      "ean": "8721055490234",
-      "offerId": "a4819bd3-1a7a-4499-9d6b-a4788cbcb90d",
-      "eigenPrijs": 11.75,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
     },
     {
       "product": "Real Time - Lapins - Eau De Parfum - 100Ml",
@@ -1029,12 +1214,20 @@
       "marge": 0.51
     },
     {
+      "product": "DLM-HAVE A X-MAS AS SWEET AS YOU-15ml Eau de Parfum",
+      "ean": "8721349101204",
+      "offerId": "919921d0-7b7b-43ff-aa8f-8ac39b43ec16",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "De La Mare Straccia - Stracciatella Geur - For Women Eau de Parfum 15 ml",
       "ean": "8721055497004",
       "offerId": "09c47c43-c224-429e-adfd-6ae08b422a32",
       "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 14.99,
+      "marge": 4
     },
     {
       "product": "Bubble Bliss - Giftset - You're Flamazing - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
@@ -1053,12 +1246,28 @@
       "marge": null
     },
     {
+      "product": "NG Dominatius Dames Eau de Parfum 100ml",
+      "ean": "8718421831586",
+      "offerId": "c9c6dc67-118d-a4b9-6b30-1bf568ba4500",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "Hello Kitty - Giftset - Rainbow - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
       "ean": "8721055493426",
       "offerId": "60307ab9-d506-4109-88ca-47c2949f246a",
       "eigenPrijs": 13.55,
       "dichtstbijzijneConcurrent": 13.72,
       "marge": 0.17
+    },
+    {
+      "product": "NG Predator for Women - 15ml - Eau de Parfum",
+      "ean": "6151027359313",
+      "offerId": "db622fff-83ef-47fb-9167-4e18acdf6f71",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "Sentio Blomicci Azure miniparfum eau de parfum for woman 15ml",
@@ -1125,6 +1334,14 @@
       "marge": null
     },
     {
+      "product": "Bubble Bliss - Unicorn Sprinkles - Believe - Lika a Unicorn - eau de parfum - voor kinderen 15ml",
+      "ean": "8721055493846",
+      "offerId": "dc4423e9-aede-4c33-89b0-5e098e3f56bc",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "Sentio Quote2 cadeau idee tekst for women - You Are My Nr. 1 - Eau de parfum - 15ml",
       "ean": "7640158816165",
       "offerId": "3d40fc3e-c43a-4a45-9e08-11295c3f9186",
@@ -1133,18 +1350,10 @@
       "marge": 0.51
     },
     {
-      "product": "Sentio - Floricci Geschenkset - 100ml Eau de Parfum + 150ml Showergel",
-      "ean": "8721055492108",
-      "offerId": "92036a21-bcb1-41fb-a7d5-c3b3b614dd8b",
-      "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "Sentio Mary Davina Cristal parfum - eau de parfum spray voor dames - 100 ml",
-      "ean": "8721055496632",
-      "offerId": "648f3662-c5ba-4683-b475-c72dc1dbae3b",
-      "eigenPrijs": 13.65,
+      "product": "DLM-YOU LIGHT UP THE SEASON-15ml Eau de Parfum",
+      "ean": "8721349101228",
+      "offerId": "aba628cb-ecc2-446a-b0f8-deede984575e",
+      "eigenPrijs": 10.99,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -1161,6 +1370,14 @@
       "ean": "8715658400417",
       "offerId": "6cabae42-ae64-482a-93ad-92645c24ed1e",
       "eigenPrijs": 14.75,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "NG Caught Men Eau de Toilette Spray 100 ml",
+      "ean": "8719214750954",
+      "offerId": "82770004-2b48-3935-e053-828b620a118c",
+      "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -1197,20 +1414,12 @@
       "marge": 0.55
     },
     {
-      "product": "Sentio Eclaire Eau De Parfum - 100 ml",
-      "ean": "7640158817735",
-      "offerId": "9d1e56eb-19c4-414c-8c67-2500e02616e2",
-      "eigenPrijs": 11.5,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "Creation Lamis Catsuit Woman Eau de Parfum For Women 100 ml",
       "ean": "6151010029070",
       "offerId": "d797a2a4-be52-472a-ad96-61a9cf7349a3",
       "eigenPrijs": 11.85,
-      "dichtstbijzijneConcurrent": 13.2,
-      "marge": 1.35
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "Sentio Giftset-Blomicci-Parfum en Showergel",
@@ -1245,28 +1454,12 @@
       "marge": 1.01
     },
     {
-      "product": "NG Delusional parfum - Eau de parfum voor de sensuele vrouw - 100 ml",
-      "ean": "8719214750657",
-      "offerId": "81d87772-9c70-662e-e053-828b620a4571",
-      "eigenPrijs": 10.65,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "DLM Lumi Bloom - 100ml Eau de Parfum",
       "ean": "8721055493501",
       "offerId": "53a5c698-4f6e-47b1-981e-1c2e6c281097",
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "Real Time - Blue Fog - Eau De Toilette - 100ML",
-      "ean": "8715658002871",
-      "offerId": "e48dbda6-c4cb-4607-bb6d-e80acdbda098",
-      "eigenPrijs": 13.25,
-      "dichtstbijzijneConcurrent": 13.9,
-      "marge": 0.65
     },
     {
       "product": "Linn Young - Pure Luck Eau De Toilette 100ML",
@@ -1293,6 +1486,14 @@
       "marge": null
     },
     {
+      "product": "Sentio Eclaire Eau De Parfum - 100 ml",
+      "ean": "7640158817735",
+      "offerId": "9d1e56eb-19c4-414c-8c67-2500e02616e2",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "Azira - ALMAS ABSOLU - Eau de Parfum Unisex",
       "ean": "8721349102669",
       "offerId": "2e965757-a67e-4235-9efe-12390db3116e",
@@ -1309,14 +1510,6 @@
       "marge": null
     },
     {
-      "product": "Bubble Bliss - Giftset - Unicorn Cherry Blossom Fantasy - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
-      "ean": "8721055494065",
-      "offerId": "dbda7203-6f99-498a-90ed-cc099bcdb280",
-      "eigenPrijs": 13.39,
-      "dichtstbijzijneConcurrent": 13.56,
-      "marge": 0.17
-    },
-    {
       "product": "SENTIO Merry Christmas And Happy New Year Eau de Parfum 15 ml - Miniparfum - Kerst Parfum - Kerst Cadeau - Frisse Geur - Warm - Frissig",
       "ean": "8721055492658",
       "offerId": "b6baabb4-fbdc-4cfa-b47c-b5f41dab44e7",
@@ -1325,12 +1518,12 @@
       "marge": 0.25
     },
     {
-      "product": "HORUS - Egyptian Powder - Bronzer - 17gr",
-      "ean": "8719214750121",
-      "offerId": "db3f45b2-43a6-46bb-baa2-475fa959f1cf",
-      "eigenPrijs": 12.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "product": "Omerta - Sweet Pommy - Eau de parfum - 100ML",
+      "ean": "8715658998563",
+      "offerId": "70082336-cca5-4cc9-9b90-c073cf935598",
+      "eigenPrijs": 13.45,
+      "dichtstbijzijneConcurrent": 14.34,
+      "marge": 0.89
     },
     {
       "product": "DLM Soft Touch - 100ml Eau de Parfum",
@@ -1341,20 +1534,20 @@
       "marge": null
     },
     {
-      "product": "De La Mare A Gift Of Wellness For Men - Eau de Toilette voor heren - 30 ml",
-      "ean": "8721055496724",
-      "offerId": "5880bb54-890b-4515-a5f2-6b5fed9ec647",
-      "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "product": "Sentio Peachy Twist Unisex Eau de Parfum 100ml",
+      "ean": "8721055491378",
+      "offerId": "89dc21eb-c194-4e8d-9294-45af3b6225f1",
+      "eigenPrijs": 12.75,
+      "dichtstbijzijneConcurrent": 13,
+      "marge": 0.25
     },
     {
-      "product": "Linn Young - Gold Mine - Eau De Parfum - 100ML",
-      "ean": "8715658400110",
-      "offerId": "939979f7-a3a7-1450-e053-3c82010a7753",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 1
+      "product": "Georges Mezotti - FATAL STEP ROSE - 90ml Eau de Parfum",
+      "ean": "8715658420231",
+      "offerId": "1378adc5-d547-45c4-81c3-87d9ad9ea0a0",
+      "eigenPrijs": 16.95,
+      "dichtstbijzijneConcurrent": 18.49,
+      "marge": 1.54
     },
     {
       "product": "Sentio Living Legend Eau de Toilette - 100 ml",
@@ -1413,12 +1606,28 @@
       "marge": null
     },
     {
+      "product": "HYANG - K Beauty - WALNUT WOODS - Eau de Parfum 50ml",
+      "ean": "8721349103772",
+      "offerId": "fbf20919-8e93-4137-b49e-fda815dcc87b",
+      "eigenPrijs": 13.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "Real Time - Kindlooks For Women - Eau de parfum - 100",
       "ean": "8715658002574",
       "offerId": "ea8a3b2a-f4c5-41e1-9bbb-060808d23fec",
       "eigenPrijs": 13.49,
       "dichtstbijzijneConcurrent": 14.59,
       "marge": 1.1
+    },
+    {
+      "product": "Omerta - Candy Puff - Eau de parfum - 100ML",
+      "ean": "8715658380801",
+      "offerId": "d95a1ade-5e10-4031-95b2-5ae4c5018c2c",
+      "eigenPrijs": 12.25,
+      "dichtstbijzijneConcurrent": 13.51,
+      "marge": 1.26
     },
     {
       "product": "Omerta Love Feathers - Eau de parfum - 100ML",
@@ -1453,14 +1662,6 @@
       "marge": null
     },
     {
-      "product": "Bubble Bliss Giftset - GIGGLES & TWINKLES - Showergel + Eau de Parfum voor kinderen",
-      "ean": "8721055499558",
-      "offerId": "893dfb3f-6c67-49b9-9b52-9bb87b1b4ffe",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "Bubble Bliss Giftset - BLOOMING BELLA - Showergel + Eau de Parfum voor kinderen",
       "ean": "8721055499572",
       "offerId": "785f10a5-0d1b-4813-9b28-2c56bdf82482",
@@ -1485,26 +1686,10 @@
       "marge": null
     },
     {
-      "product": "Linn Young Admiration Eternal Intenso Eau de Parfum 100ml",
-      "ean": "8715658401599",
-      "offerId": "e165aa07-ab3c-4fcc-89d0-826a757d4041",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "NG Bella Vida Giftset 3pcs - Parfum - Showergel - Bodylotion - voor Dames",
       "ean": "8719214757823",
       "offerId": "a622f753-5775-4460-8c1a-8eb11c8fbf9a",
       "eigenPrijs": 15.75,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "Green Nature Aloe Vera pakket 6st.",
-      "ean": "6013906086096",
-      "offerId": "a2386a40-5a3c-4ca5-b2e1-202ab010ae1a",
-      "eigenPrijs": 28.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -1573,14 +1758,6 @@
       "marge": null
     },
     {
-      "product": "DE LA MARE YAKIRA FROSTED LYCHEE FRESH SPARKLING/28 EAU DE PARFUM 15ML",
-      "ean": "8721055498315",
-      "offerId": "fb6d08ca-3040-4dee-aaaf-3c53aa160d68",
-      "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 1.01
-    },
-    {
       "product": "SENTIO Joy to the World Eau de Parfum 15 ml - Miniparfum - Kerst - Cadeau - Fris - Frisse geur",
       "ean": "8721055492634",
       "offerId": "7c2bbf7f-9915-464d-a937-32ce29da49a3",
@@ -1589,20 +1766,12 @@
       "marge": 0.25
     },
     {
-      "product": "Next Generation Femme L'Odeur Du NG parfum - Eau de parfum voor dames - 100ml",
-      "ean": "7438235478432",
-      "offerId": "13695bfd-e12f-0c85-96b3-1bf568ba4500",
-      "eigenPrijs": 12.09,
-      "dichtstbijzijneConcurrent": 12.1,
-      "marge": 0.01
-    },
-    {
-      "product": "Omerta - Invasion Third Dimension - Eau De Parfum - 100Ml",
-      "ean": "8715658380368",
-      "offerId": "a729b2c1-9cba-cb31-e053-4782010a237e",
+      "product": "Sentio Clarisse Beaumont Gentle Grace Eau de Parfum 100 ml",
+      "ean": "8721349102256",
+      "offerId": "18169f96-1382-4d39-be82-d8b8266bac3a",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 14.95,
-      "marge": 0
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "Sentio Involved Eau de Toilette - 100 ml",
@@ -1629,6 +1798,14 @@
       "marge": 0.18
     },
     {
+      "product": "De La Mare A Gift Of Wellness For Men - Eau de Toilette voor heren - 30 ml",
+      "ean": "8721055496724",
+      "offerId": "5880bb54-890b-4515-a5f2-6b5fed9ec647",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": 14.99,
+      "marge": 4
+    },
+    {
       "product": "Sentio Oud Wood Eau de Toilette - 100 ml",
       "ean": "7640158816271",
       "offerId": "88219900-548e-4fd6-b293-dd18cfec9cfd",
@@ -1648,9 +1825,9 @@
       "product": "Hello Kitty - Giftset - Sweet Leopard - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
       "ean": "7640158817018",
       "offerId": "d621ed37-7c00-4f6d-960b-e6e1c99c7fec",
-      "eigenPrijs": 12.99,
+      "eigenPrijs": 13.61,
       "dichtstbijzijneConcurrent": 13.61,
-      "marge": 0.62
+      "marge": 0
     },
     {
       "product": "Luxe Kalender met 24 mini Flesjes Eau de Parfum (advent eventueel)",
@@ -1665,14 +1842,6 @@
       "ean": "8720938379284",
       "offerId": "f72b1d1a-754c-4c33-8e21-ad0d3cc66e10",
       "eigenPrijs": 24.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "Green Nature Aloe Vera pakket 7st.",
-      "ean": "6151029223223",
-      "offerId": "1028b8d9-b8fe-479d-86ff-337d43be6049",
-      "eigenPrijs": 29.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -1729,14 +1898,6 @@
       "ean": "8719214757342",
       "offerId": "7dd5c42f-0b0b-4dee-a3bc-4cd53dba166d",
       "eigenPrijs": 12.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "Omerta - Conclude Oud Orient Perfection - Eau De Parfum - 100ML",
-      "ean": "8715658370550",
-      "offerId": "de537207-cbb7-420f-9283-bf07ec8c3f45",
-      "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -1816,17 +1977,9 @@
       "product": "Real Time - Miss Sexy - Pour Femme Eau de Parfum 100ml",
       "ean": "8715658007036",
       "offerId": "563726b3-0d82-4a3f-a443-016edb69b1e7",
-      "eigenPrijs": 14.25,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "Creation Lamis Paraverse 100ml Eau de Parfum for women",
-      "ean": "6291012005082",
-      "offerId": "1c941297-984c-41ae-85dc-7c266164ac5f",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "eigenPrijs": 13,
+      "dichtstbijzijneConcurrent": 14.59,
+      "marge": 1.59
     },
     {
       "product": "Bubble Bliss - Fantastic Flamingo - Fluff & Flutter - Eau de Parfum - Voor Kinderen 15ml",
@@ -1865,11 +2018,11 @@
       "ean": "8719214756031",
       "offerId": "6ffe6fee-19fc-4441-a085-052a973f0e5c",
       "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 12.5,
+      "marge": 1.51
     },
     {
-      "product": "8715658401513",
+      "product": "Linn Young - Sexy To Someone Unisex - Eau de Parfum 100ml",
       "ean": "8715658401513",
       "offerId": "f3dcdd45-bd27-45e8-96c4-35f9409a7cb5",
       "eigenPrijs": 15.95,
@@ -1899,22 +2052,6 @@
       "eigenPrijs": 12.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "NG goldigger men set edt 100 ml + shower gel 50 ml + after shave 50 ml",
-      "ean": "8719214755843",
-      "offerId": "73c8cb99-8891-4aa0-b897-18e52bef1130",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "NG Spectre Fragrances Gold Generation MEN For Men eau de toilette 100ml",
-      "ean": "8719214757519",
-      "offerId": "27635827-cc46-40c5-8c2b-16d533e5ea5a",
-      "eigenPrijs": 12.75,
-      "dichtstbijzijneConcurrent": 13.25,
-      "marge": 0.5
     },
     {
       "product": "Dorall Collection L’Homme geschenkset heren parfum - 115ml edt + 100ml After Shawer",
@@ -1957,7 +2094,7 @@
       "marge": null
     },
     {
-      "product": "8715658380856",
+      "product": "Omerta - OH SO! Scarlet Fire - Eau De Parfum - 100ML",
       "ean": "8715658380856",
       "offerId": "7e23fd22-d97a-49a8-84d5-49c83c633da2",
       "eigenPrijs": 14.95,
@@ -2101,14 +2238,6 @@
       "marge": null
     },
     {
-      "product": "Hello Kitty Club Eau de Parfum voor Kinderen 50 ml - I'm the rainbow after the storm",
-      "ean": "8721055493358",
-      "offerId": "d7fbb734-8663-45be-8d1f-69d9b9c5d4fe",
-      "eigenPrijs": 11.55,
-      "dichtstbijzijneConcurrent": 11.71,
-      "marge": 0.16
-    },
-    {
       "product": "TBY - To Be Passionate - 100ml Eau de Parfum voor vrouwen",
       "ean": "8719214756543",
       "offerId": "ba7fca1a-adfd-48a2-9468-ce9a23fc8180",
@@ -2237,14 +2366,6 @@
       "marge": 0
     },
     {
-      "product": "Sentio - mini parfum - I love You - heren - vaderdag - eau de toilette - 15 ml",
-      "ean": "8721055490517",
-      "offerId": "c3500fec-5fba-4fa8-a2b2-205d175ddb4d",
-      "eigenPrijs": 9.99,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 1.51
-    },
-    {
       "product": "Sentio Parfum Life Like Bella Eau de Parfum for her 35ml",
       "ean": "7640158815793",
       "offerId": "9ae60548-cb2a-4db9-b522-754670b7f58b",
@@ -2265,14 +2386,6 @@
       "ean": "8715658390701",
       "offerId": "ac970318-3c42-42fa-b691-7adc97028000",
       "eigenPrijs": 17.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "Linn Young - The One Beyond - Eau de toilette - 100ML",
-      "ean": "8715658400882",
-      "offerId": "d2f155c3-2069-40a2-8603-ad6e2d139b73",
-      "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -2339,22 +2452,6 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "Real Time - Me Time - Eau de Toilette - 100Ml",
-      "ean": "8715658350705",
-      "offerId": "719cf2f7-28b3-43de-8009-93cb294682f2",
-      "eigenPrijs": 14.75,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "Linn Young \"Oso Perfect Men\" Eau de Toilette 100ml",
-      "ean": "8715658969594",
-      "offerId": "93990e94-974c-2d77-e053-3c82010a1e57",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 1
     },
     {
       "product": "NG Home Perfume - Crystal Pink - Set van 3st",
@@ -2445,14 +2542,6 @@
       "marge": 0.51
     },
     {
-      "product": "Omerta Oh My Dear L'extase parfum - Eau de parfum - 100ML",
-      "ean": "8715658380245",
-      "offerId": "cc78c3f4-51f3-4562-a081-314a7825bc73",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "Omerta Power Boost For Men Eau de Toilette Spray 100ml",
       "ean": "8715658370208",
       "offerId": "76d4cae5-3370-4ab9-b2c0-26c708eac8ff",
@@ -2517,12 +2606,20 @@
       "marge": null
     },
     {
-      "product": "Sentio - mini parfum - Best Friend Ever - heren - vaderdag - eau de toilette - 15 ml",
-      "ean": "8721055490524",
-      "offerId": "fbf7feaf-a027-410f-a0d7-de46525eb0c1",
-      "eigenPrijs": 8.25,
+      "product": "Sentio Bella Strada eau de parfum for woman handtasformaat 15 ml",
+      "ean": "8721055494799",
+      "offerId": "306fdbc5-c0c6-4554-b16e-465c053ad081",
+      "eigenPrijs": 10.49,
       "dichtstbijzijneConcurrent": 11.5,
-      "marge": 3.25
+      "marge": 1.01
+    },
+    {
+      "product": "Sentio Mary Davina eau de parfum for woman handtasformaat 15 ml",
+      "ean": "8721055494744",
+      "offerId": "df10ce52-a698-4a82-8ab1-5a7829388b6b",
+      "eigenPrijs": 10.49,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 1.01
     },
     {
       "product": "Dorall -Extreme Leather- Eau de Toilette Unisex 95ml",
@@ -2557,14 +2654,6 @@
       "marge": null
     },
     {
-      "product": "SENTIO FEESTDAGEN PINK - Warm Wishes! And Cozy Kisses - Body Mist 250ml",
-      "ean": "8721055492603",
-      "offerId": "77750f4f-5b89-41ab-8ca1-ac34f9da901a",
-      "eigenPrijs": 13.19,
-      "dichtstbijzijneConcurrent": 13.35,
-      "marge": 0.16
-    },
-    {
       "product": "Sentio Verjux Pure Urban Unisex Eau de Parfum 100ml",
       "ean": "8721055497554",
       "offerId": "6c4be138-5560-440d-8657-852fd58e21b5",
@@ -2595,14 +2684,6 @@
       "eigenPrijs": 13.45,
       "dichtstbijzijneConcurrent": 13.61,
       "marge": 0.16
-    },
-    {
-      "product": "Sentio - mini parfum - Lucky Numbers 4 Four Ever - eau de parfum - 15ml",
-      "ean": "8721055490364",
-      "offerId": "1752d6e0-022c-405a-b896-3066eeffb58a",
-      "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 0.51
     },
     {
       "product": "Sentio Zodiac - Aquarius - Waterman - Eau De Parfum - For Women - 15ml",
@@ -2657,14 +2738,6 @@
       "ean": "7640158819180",
       "offerId": "33ebb303-663f-4aab-b71f-012a14a703bf",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "Real Time - Hunted For Women - Eau de parfum - 100ML",
-      "ean": "8715658361008",
-      "offerId": "cdf1884b-ed56-4e88-bb63-508e9c62155a",
-      "eigenPrijs": 13,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -2731,6 +2804,22 @@
       "eigenPrijs": 10.95,
       "dichtstbijzijneConcurrent": 11.95,
       "marge": 1
+    },
+    {
+      "product": "DE LA MARE YAKIRA FROSTED LYCHEE FRESH SPARKLING/28 EAU DE PARFUM 15ML",
+      "ean": "8721055498315",
+      "offerId": "fb6d08ca-3040-4dee-aaaf-3c53aa160d68",
+      "eigenPrijs": 10.49,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 1.01
+    },
+    {
+      "product": "DE LA MARE YAKIRA FRESH FRUIT FRUITY SPLASH/ 36 EAU DE PARFUM 15ML",
+      "ean": "8721055498322",
+      "offerId": "3f366550-6898-47b0-9da5-4c167b1a6916",
+      "eigenPrijs": 10.49,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "Omerta -X Emotion- Eau de Parfum 100ml",
@@ -2837,36 +2926,12 @@
       "marge": null
     },
     {
-      "product": "Omerta - L'uomo X Extereme - Eau De Toilette - 100ML",
-      "ean": "8715658370512",
-      "offerId": "bb67b070-f712-431a-a2df-be25aebaf203",
-      "eigenPrijs": 11.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "Linn Young Admiration Eternal Glorious Day - Eau de Toilette voor heren - 100ML",
       "ean": "8715658390954",
       "offerId": "021ad40b-5ece-4dff-86c9-af143eaa81c7",
       "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "NG Wild Men Eau de Toilette Spray voor heren - Kruidige en frisse geur - 100 ml",
-      "ean": "8719214750640",
-      "offerId": "8254115e-b710-78f0-e053-828b620ad0d3",
-      "eigenPrijs": 12.09,
-      "dichtstbijzijneConcurrent": 12.1,
-      "marge": 0.01
-    },
-    {
-      "product": "Sentio Bella Strada eau de parfum for woman handtasformaat 15 ml",
-      "ean": "8721055494799",
-      "offerId": "306fdbc5-c0c6-4554-b16e-465c053ad081",
-      "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 1.01
     },
     {
       "product": "Omerta - Free & Mysterious Pour Femme - Eau De Parfum - 100ML",
@@ -2885,12 +2950,28 @@
       "marge": 1.56
     },
     {
-      "product": "Omerta Omd Oh My Dear 100 ml - Eau De Parfum Spray Damesparfum",
-      "ean": "8715658380030",
-      "offerId": "2f366244-ed66-4b8c-ba4f-6b4bbaf0656b",
-      "eigenPrijs": 11.95,
-      "dichtstbijzijneConcurrent": 13.51,
-      "marge": 1.56
+      "product": "Sentio Flora Nova Dawn Delight Handtasformaat eau de parfum 15ml",
+      "ean": "8721055495079",
+      "offerId": "0b4dde76-e20a-4f02-89cc-eca0c4f33989",
+      "eigenPrijs": 10.49,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 1.01
+    },
+    {
+      "product": "Sentio Flora Nova Petal Passion Handtasformaat eau de parfum 15ml",
+      "ean": "8721055495086",
+      "offerId": "e98a4aa8-ff78-4085-806d-8ed11892011b",
+      "eigenPrijs": 10.49,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 1.01
+    },
+    {
+      "product": "Sentio Flora Nova Floral Fantasy Handtasformaat eau de parfum 15ml",
+      "ean": "8721055495116",
+      "offerId": "b10882c1-a072-4260-b886-d91ecdb687f1",
+      "eigenPrijs": 10.49,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 1.01
     },
     {
       "product": "NG Home - PREDATOR - Geurkaars 180gr",
@@ -2907,14 +2988,6 @@
       "eigenPrijs": 34.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "Omerta - Big The Fragrance Release - Eau De Toilette - 100ML",
-      "ean": "8715658370093",
-      "offerId": "8345b84b-d691-4453-8c1c-8bdf60f3174a",
-      "eigenPrijs": 11.95,
-      "dichtstbijzijneConcurrent": 13.51,
-      "marge": 1.56
     },
     {
       "product": "Real Time - Smart Guy For Men - Eau de toilette - 100ML",
@@ -2957,6 +3030,14 @@
       "marge": null
     },
     {
+      "product": "Hello Kitty - Giftset - Kisses - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
+      "ean": "8721055493440",
+      "offerId": "2ebb1f76-28d2-434b-a882-30d21d5167f6",
+      "eigenPrijs": 13.16,
+      "dichtstbijzijneConcurrent": 13.16,
+      "marge": 0
+    },
+    {
       "product": "Sentio Zodiac - Aries - Ram - Eau De Parfum - For Women - 15ml",
       "ean": "7640158816486",
       "offerId": "e4b285dd-1a40-417b-9ac3-9ffd60db5c66",
@@ -2985,16 +3066,8 @@
       "ean": "8719214753221",
       "offerId": "9e9a1709-66e8-6969-e053-4782010a5973",
       "eigenPrijs": 13.95,
-      "dichtstbijzijneConcurrent": 14.95,
-      "marge": 1
-    },
-    {
-      "product": "Bubble Bliss - PINK PARADISE - Flamingo Body Mist 250ml",
-      "ean": "8721055494379",
-      "offerId": "406fc207-a5a4-449c-97b0-8bf175eddf2f",
-      "eigenPrijs": 13.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 13.95,
+      "marge": 0
     },
     {
       "product": "SENTIO Happy Holidays Eau de Parfum 15 ml - Miniparfum - Kerst parfum - Kerst Cadeau - Fris - Feestdagen",
@@ -3029,12 +3102,36 @@
       "marge": 0.45
     },
     {
+      "product": "NG Delusional parfum - Eau de parfum voor de sensuele vrouw - 100 ml",
+      "ean": "8719214750657",
+      "offerId": "81d87772-9c70-662e-e053-828b620a4571",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "Catsuit Woman - Eau de Toilette - 100 ml",
+      "ean": "5414666001557",
+      "offerId": "6d3d63f2-db6d-4a6a-6b30-237f68ba4500",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": 11.95,
+      "marge": 0
+    },
+    {
       "product": "Sentio Chalize Eau De Parfum - 100 ml",
       "ean": "7640158815694",
       "offerId": "cbe5803e-d366-4fb6-ae54-0a51547d49ea",
       "eigenPrijs": 11.29,
       "dichtstbijzijneConcurrent": 11.84,
       "marge": 0.55
+    },
+    {
+      "product": "Linn Young - Wild Adventure Absolu - Eau de toilette - 100ML",
+      "ean": "8715658390558",
+      "offerId": "5c6cfb1c-9dbb-48f2-a101-bacd8bf6b14e",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "Street Looks - Oh La Chicca - Eau de parfum - 100 ml",
@@ -3069,6 +3166,14 @@
       "marge": null
     },
     {
+      "product": "Real Time - Journee Joyeuse - Eau De Parfum - 100ML",
+      "ean": "8715658360018",
+      "offerId": "5a8cb44a-4163-413b-b8ff-1febfc931338",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "Hello Kitty - Giftset - Mermaid Pink - Showergel + Eau de Parfum - Cadeauset voor Kinderen - Geschenkset",
       "ean": "8721055493464",
       "offerId": "ffc46141-caeb-454b-bc1d-cc02a0710539",
@@ -3077,18 +3182,18 @@
       "marge": 0.73
     },
     {
-      "product": "Next Generation - Verkleurende Magic Lipstick - Groen / Green / Let op dit is géén groene lipstick, maar de lipstick verkleurt naar een roze tint !",
-      "ean": "5414665013711",
-      "offerId": "e848cc5c-a0ef-48d3-8b6c-34601d6be95f",
-      "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "Creation Lamis - Golden Wave Heren - Eau de Toilette 100ml",
       "ean": "6151010095020",
       "offerId": "54425f78-c7fb-456c-863a-b2380e9c2c4c",
       "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "Omerta - Conclude Oud Orient Perfection - Eau De Parfum - 100ML",
+      "ean": "8715658370550",
+      "offerId": "de537207-cbb7-420f-9283-bf07ec8c3f45",
+      "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -3117,28 +3222,12 @@
       "marge": null
     },
     {
-      "product": "Sentio Bodymist Coco Flair - Kokos Geur - 250ml",
-      "ean": "8721055491187",
-      "offerId": "02d11016-bedf-4530-943d-98510540e57a",
-      "eigenPrijs": 13.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "Sentio Bodymist Tropic Charm - Bloemen Geur - 250ml",
       "ean": "8721055491170",
       "offerId": "e427e63c-8b82-4dff-a82e-95e4c92604a7",
       "eigenPrijs": 13.95,
       "dichtstbijzijneConcurrent": 15.95,
       "marge": 2
-    },
-    {
-      "product": "Creation Lamis - Catsuit Man dubbelverpakking - Eau de Toilette - Herenparfum",
-      "ean": "8719992723812",
-      "offerId": "beff2be2-7f01-4353-8e2b-a8a2990f5245",
-      "eigenPrijs": 17.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
     },
     {
       "product": "Sentio Bodymist Dreamy Vanilla - Vanille Geur - 250ml",
@@ -3201,22 +3290,14 @@
       "ean": "8714319236983",
       "offerId": "4c4003ff-6384-42e9-b975-cdb28f8d78b4",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 16.92,
-      "marge": 1.97
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "NG Home Dark Cherry Geurstokjes 200ml",
       "ean": "8718421830480",
       "offerId": "b9d002ee-89b9-4912-a9b2-308c6a10f43c",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "Next Generation - Verkleurende Magic Lipstick - Zwart / Black - LET OP: DIT IS GÉÉN ZWARTE LIPSTICK, DEZE LIPSTICK VERKLEURT NAAR EEN ROZE TINT",
-      "ean": "5414665013872",
-      "offerId": "5df20ba4-ef27-4ea1-a3b4-3e924b01e558",
-      "eigenPrijs": 9.99,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -3237,26 +3318,10 @@
       "marge": 0.15
     },
     {
-      "product": "Creation Lamis - Arrivederci - 100 ml - Eau de Toilette - Herenparfum",
-      "ean": "6013905032025",
-      "offerId": "d051be50-a0af-4bfe-b3f8-01ed010ea5ff",
-      "eigenPrijs": 12.25,
-      "dichtstbijzijneConcurrent": 12.41,
-      "marge": 0.16
-    },
-    {
       "product": "Creation Lamis Ruler Oud Eau de Toilette 100ml for men",
       "ean": "6291012871069",
       "offerId": "e8b7b031-ef66-4794-82ea-48a0e97e296a",
       "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "DE LA MARE YAKIRA FRESH FRUIT FRUITY SPLASH/ 36 EAU DE PARFUM 15ML",
-      "ean": "8721055498322",
-      "offerId": "3f366550-6898-47b0-9da5-4c167b1a6916",
-      "eigenPrijs": 10.49,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -3267,6 +3332,14 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "Savanna Nights - eau de toilette",
+      "ean": "6291012871038",
+      "offerId": "dbe5af5b-ef02-3b9b-6b30-ee0068ba4500",
+      "eigenPrijs": 12.65,
+      "dichtstbijzijneConcurrent": 12.8,
+      "marge": 0.15
     },
     {
       "product": "Omerta Express Sensualite Frivole 100ml Eau de Parfum",
@@ -3293,12 +3366,12 @@
       "marge": null
     },
     {
-      "product": "Sentio Flora Nova Petal Passion Handtasformaat eau de parfum 15ml",
-      "ean": "8721055495086",
-      "offerId": "e98a4aa8-ff78-4085-806d-8ed11892011b",
-      "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 1.01
+      "product": "Green Nature Aloe Vera pakket 6st.",
+      "ean": "6013906086096",
+      "offerId": "a2386a40-5a3c-4ca5-b2e1-202ab010ae1a",
+      "eigenPrijs": 28.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "Sentio Flora Nova Garden Glow Handtasformaat eau de parfum 15ml",
@@ -3309,28 +3382,12 @@
       "marge": 1.01
     },
     {
-      "product": "SENTIO FEESTDAGEN 2 - Joy to the World - Eau de Parfum in Giftbag 50ml",
-      "ean": "8721055492870",
-      "offerId": "aa56cfa0-01b0-427c-97c8-1cf0742052c2",
-      "eigenPrijs": 13.19,
-      "dichtstbijzijneConcurrent": 13.35,
-      "marge": 0.16
-    },
-    {
       "product": "SENTIO FEESTDAGEN PINK - Kerst Giftset Joy To The World",
       "ean": "8721055492832",
       "offerId": "e1488456-60d7-41cb-a932-c4cce19ec5dd",
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": 18.99,
       "marge": 4.04
-    },
-    {
-      "product": "Aroma olie - Fragrance Oil 'Exotic Lychee' - 750 ml - Geurolie voor oliebranders",
-      "ean": "7806139167118",
-      "offerId": "e1221c64-68a1-48e7-aab8-44b607b60712",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
     },
     {
       "product": "Bubble Bliss - Fantastic Flamingo - Pretty in Pink - Eau de Parfum - Voor Kinderen 15ml",
@@ -3453,7 +3510,7 @@
       "marge": null
     },
     {
-      "product": "8719214757458",
+      "product": "NG Spectre Fragrances Your Luxe for her eau de parfum 100ml",
       "ean": "8719214757458",
       "offerId": "5d73180d-b518-47ed-954c-c2683d94a860",
       "eigenPrijs": 13.95,
@@ -3461,7 +3518,7 @@
       "marge": null
     },
     {
-      "product": "8721055499916",
+      "product": "Sentio - TINA - Body Mist 250ml",
       "ean": "8721055499916",
       "offerId": "58a159bf-ce91-4f41-870b-f001d9603919",
       "eigenPrijs": 14.95,
@@ -3469,7 +3526,7 @@
       "marge": null
     },
     {
-      "product": "8715658390534",
+      "product": "Linn Young Mighty Mood Men Giftset Eau de Toilette 100ml + 30ml",
       "ean": "8715658390534",
       "offerId": "61b7c6bc-6e01-4a3f-87a8-b26a5ab60e42",
       "eigenPrijs": 17.95,
@@ -3477,7 +3534,7 @@
       "marge": null
     },
     {
-      "product": "7640158815984",
+      "product": "Sentio Blomicci Blanche miniparfum eau de parfum for woman 15ml",
       "ean": "7640158815984",
       "offerId": "1e798a2f-8119-4d6c-b839-bd210862a5f1",
       "eigenPrijs": 10.99,
@@ -3485,7 +3542,7 @@
       "marge": 0.51
     },
     {
-      "product": "8720938379260",
+      "product": "Omerta - Seduction Pack - set van 3x100ml",
       "ean": "8720938379260",
       "offerId": "29e68ffc-f5b3-4ce2-9af0-f616f2650132",
       "eigenPrijs": 24.95,
@@ -3493,15 +3550,7 @@
       "marge": null
     },
     {
-      "product": "8715658350033",
-      "ean": "8715658350033",
-      "offerId": "9ed8e1b3-40a3-9ea2-e053-4782010a41dd",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8719214751197",
+      "product": "NG Eau de Toilette Goldigger Men 100 ml",
       "ean": "8719214751197",
       "offerId": "62a28c55-d2a3-7fea-6b30-237f68ba4500",
       "eigenPrijs": 14.95,
@@ -3509,7 +3558,7 @@
       "marge": null
     },
     {
-      "product": "8719214757502",
+      "product": "NG Spectre Fragrances Excelsus MEN For Men eau de toilette 100ml",
       "ean": "8719214757502",
       "offerId": "d5779813-447c-46e0-8bc5-88bd21ce9ace",
       "eigenPrijs": 12.95,
@@ -3517,7 +3566,7 @@
       "marge": null
     },
     {
-      "product": "5414666001588",
+      "product": "Fatal Snake Magical - Eau de Parfum 100 ml.",
       "ean": "5414666001588",
       "offerId": "a16c0d7c-fbb3-4851-ad13-838f79d7227e",
       "eigenPrijs": 15.95,
@@ -3525,7 +3574,7 @@
       "marge": null
     },
     {
-      "product": "8719214751920",
+      "product": "NG Heavens Body 100ML Dames Eau de Parfum",
       "ean": "8719214751920",
       "offerId": "97d9e12a-c542-c19b-e053-4782010a16f9",
       "eigenPrijs": 14.95,
@@ -3533,7 +3582,7 @@
       "marge": null
     },
     {
-      "product": "8715658400134",
+      "product": "Linn Young - Gold Mine La Seduction - Eau de parfum - 100",
       "ean": "8715658400134",
       "offerId": "9ead93e5-453e-71c4-e053-4782010a6466",
       "eigenPrijs": 15.95,
@@ -3541,39 +3590,15 @@
       "marge": null
     },
     {
-      "product": "6291012005730",
-      "ean": "6291012005730",
-      "offerId": "6a9f8cb6-25fb-4307-953f-2ad528b47967",
-      "eigenPrijs": 11.25,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 0.25
-    },
-    {
-      "product": "8719214750831",
+      "product": "NG-Golddigger-Eau de Toilette For Men 15ml",
       "ean": "8719214750831",
       "offerId": "da505ee8-fbd9-455d-bfeb-4c54042b216b",
       "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 12.5,
+      "marge": 1.51
     },
     {
-      "product": "8715658350361",
-      "ean": "8715658350361",
-      "offerId": "83626818-5d1a-49b4-a425-48b60cc59ab4",
-      "eigenPrijs": 14.45,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8715658350255",
-      "ean": "8715658350255",
-      "offerId": "58c56662-a492-43e2-8eac-f7860453325f",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "5414665013728",
+      "product": "Next Generation - Verkleurende Magic Lipstick - Blauw / Blue - LET OP: DIT IS GÉÉN BLAUWE LIPSTICK, MAAR DEZE VERKLEURT NAAR EEN ROZE TINT",
       "ean": "5414665013728",
       "offerId": "d69ac8d5-11ca-4b84-8c0f-1ba0a62396eb",
       "eigenPrijs": 10.99,
@@ -3581,7 +3606,7 @@
       "marge": null
     },
     {
-      "product": "8715658350460",
+      "product": "Real Time - British Blend For Men - Eau de toilette - 100ML",
       "ean": "8715658350460",
       "offerId": "bde68417-1e2f-4765-a4ec-96d5777bfa32",
       "eigenPrijs": 14.95,
@@ -3589,7 +3614,7 @@
       "marge": null
     },
     {
-      "product": "6151009394318",
+      "product": "Next Generation Golden Pearl parfum voor vrouwen - Eau de parfum - 100 ml",
       "ean": "6151009394318",
       "offerId": "63d320a1-c3a2-4964-9628-a3a0ca5459d5",
       "eigenPrijs": 14.95,
@@ -3597,7 +3622,7 @@
       "marge": null
     },
     {
-      "product": "8715658401339",
+      "product": "Linn Young -Oud Elixir d'Extase Pink Label Giftset- Eau de parfum 100ml + 30ml",
       "ean": "8715658401339",
       "offerId": "65948516-ae1a-440a-af28-522d62f76086",
       "eigenPrijs": 17.95,
@@ -3605,7 +3630,7 @@
       "marge": null
     },
     {
-      "product": "6291012875814",
+      "product": "Dorall Black Light damesparfum - Eau de toilette met vanille noten - 100ml",
       "ean": "6291012875814",
       "offerId": "c45ff222-3086-41c3-b85b-8d158581f94c",
       "eigenPrijs": 14.95,
@@ -3613,7 +3638,7 @@
       "marge": null
     },
     {
-      "product": "8719214757496",
+      "product": "NG Spectre Fragrances Cheff For Men eau de toilette 100ml",
       "ean": "8719214757496",
       "offerId": "19d0377c-f4f7-4a6e-b31c-e997d3ebc4b9",
       "eigenPrijs": 13.95,
@@ -3621,7 +3646,7 @@
       "marge": null
     },
     {
-      "product": "6151029227221",
+      "product": "Green Nature Aloe Vera pakket 4st.",
       "ean": "6151029227221",
       "offerId": "cbd574e6-a4c0-4b87-b50a-113faa569a0a",
       "eigenPrijs": 26.95,
@@ -3629,15 +3654,7 @@
       "marge": null
     },
     {
-      "product": "8721055493303",
-      "ean": "8721055493303",
-      "offerId": "38af813a-989a-4da3-92d7-30520e4d85a4",
-      "eigenPrijs": 12.29,
-      "dichtstbijzijneConcurrent": 12.44,
-      "marge": 0.15
-    },
-    {
-      "product": "6291012002685",
+      "product": "Creation Lamis Savanna Nights Giftset",
       "ean": "6291012002685",
       "offerId": "a2644394-913a-4f30-ba32-c09f24addd2e",
       "eigenPrijs": 17.95,
@@ -3645,7 +3662,7 @@
       "marge": null
     },
     {
-      "product": "8715658010579",
+      "product": "Georges Mezotti - Silver Men - Eau De Toilette - 100ML",
       "ean": "8715658010579",
       "offerId": "221d8f77-24ee-4c3c-aff3-b28d0691c62f",
       "eigenPrijs": 17.95,
@@ -3653,7 +3670,7 @@
       "marge": 0
     },
     {
-      "product": "8720938379222",
+      "product": "Omerta - Daily Elegance Pack - set van 3x100ml",
       "ean": "8720938379222",
       "offerId": "c6e8b62a-2395-47f3-b8b0-71b858c84ea7",
       "eigenPrijs": 24.95,
@@ -3661,7 +3678,7 @@
       "marge": null
     },
     {
-      "product": "8715658401261",
+      "product": "Linn Young - Oud Elixir d'Extase Black Label - Eau de parfum - 100ML",
       "ean": "8715658401261",
       "offerId": "baf3430c-1819-453d-a85c-6d0bd48d5304",
       "eigenPrijs": 15.95,
@@ -3669,7 +3686,7 @@
       "marge": null
     },
     {
-      "product": "8715658013426",
+      "product": "Real Time - My Flower - Eau De Parfum - 100ML",
       "ean": "8715658013426",
       "offerId": "0f0e5879-78b9-41da-a21c-ec63c07f09a5",
       "eigenPrijs": 14.95,
@@ -3677,7 +3694,7 @@
       "marge": null
     },
     {
-      "product": "8718421830688",
+      "product": "NG Home - DOMINATIO - Geurkaars 180gr",
       "ean": "8718421830688",
       "offerId": "c0a3721c-ee28-47c2-9563-a4a7f9aa9e5d",
       "eigenPrijs": 14.95,
@@ -3685,7 +3702,7 @@
       "marge": null
     },
     {
-      "product": "8719214759681",
+      "product": "NG Perfume Stick - MISS PERFECT - 10gr",
       "ean": "8719214759681",
       "offerId": "55a06d4f-d028-4924-a888-2e72f91f0c49",
       "eigenPrijs": 12.95,
@@ -3693,7 +3710,7 @@
       "marge": null
     },
     {
-      "product": "8715658401001",
+      "product": "Linn Young -Rosiale Paris- Giftset 100ml + 30ml Eau de Parfum",
       "ean": "8715658401001",
       "offerId": "ca7dde56-30b0-4ce8-80d6-3af4381e16c3",
       "eigenPrijs": 17.95,
@@ -3701,7 +3718,7 @@
       "marge": null
     },
     {
-      "product": "8715658969679",
+      "product": "Georges Mezotti - Base Track Pure Senses - Eau de toilette - 100ML",
       "ean": "8715658969679",
       "offerId": "0af6ddae-1120-4c38-840e-a1fcda640d2d",
       "eigenPrijs": 17.25,
@@ -3709,7 +3726,7 @@
       "marge": 0.7
     },
     {
-      "product": "8721055493105",
+      "product": "Hello Kitty Mermaid Parfum set 6 stuks voor kinderen - 6x15ml - Meisjes",
       "ean": "8721055493105",
       "offerId": "6c3878a4-f915-4706-be2d-a15454cebca6",
       "eigenPrijs": 19.79,
@@ -3717,7 +3734,7 @@
       "marge": 0.16
     },
     {
-      "product": "8715658969662",
+      "product": "Georges Mezotti Base Track High Society - Eau de Toilette - 100 ml",
       "ean": "8715658969662",
       "offerId": "0215aa09-d0a4-4fce-ba85-34c553edc512",
       "eigenPrijs": 17.25,
@@ -3725,7 +3742,7 @@
       "marge": 0.7
     },
     {
-      "product": "8715658401520",
+      "product": "Linn Young - Ibiza Kiss Unisex - Eau de Parfum 100ml",
       "ean": "8715658401520",
       "offerId": "be3793f9-aa59-48d3-baec-4649e20a2591",
       "eigenPrijs": 15.95,
@@ -3733,7 +3750,7 @@
       "marge": null
     },
     {
-      "product": "8719214754792",
+      "product": "MEEKA Shower Foam Pure Gold 225ml",
       "ean": "8719214754792",
       "offerId": "29be166f-e8c1-43db-9ee2-e4fdaeed9ace",
       "eigenPrijs": 12.95,
@@ -3741,7 +3758,7 @@
       "marge": null
     },
     {
-      "product": "8719214752569",
+      "product": "NG - VANEZIA - for Women 100 ml Eau de Parfum",
       "ean": "8719214752569",
       "offerId": "5f21cdb0-a21b-4603-8f8e-158867874a11",
       "eigenPrijs": 14.95,
@@ -3749,7 +3766,7 @@
       "marge": null
     },
     {
-      "product": "7640158817247",
+      "product": "Sentio Single Lady Geschenkset - 1 set",
       "ean": "7640158817247",
       "offerId": "9833d88e-73be-4cdd-9556-8d6cb98a9bca",
       "eigenPrijs": 16.95,
@@ -3757,7 +3774,7 @@
       "marge": null
     },
     {
-      "product": "8715658997436",
+      "product": "Omerta Pure E-motion Eau de Toilette 100ml",
       "ean": "8715658997436",
       "offerId": "c5ae89b6-91a6-48ba-b6c2-75c527cbceb7",
       "eigenPrijs": 14.95,
@@ -3765,7 +3782,7 @@
       "marge": null
     },
     {
-      "product": "6291012879218",
+      "product": "Dorall-Hunted- Eau de Toilette 100ml",
       "ean": "6291012879218",
       "offerId": "94ef58a0-b636-6af1-e053-3c82010a315e",
       "eigenPrijs": 14.95,
@@ -3773,7 +3790,7 @@
       "marge": null
     },
     {
-      "product": "8715658390008",
+      "product": "Admiration Black by Linn Young 100 ml - Eau De Toilette Spray",
       "ean": "8715658390008",
       "offerId": "93997ff7-2532-195c-e053-3c82010adaa7",
       "eigenPrijs": 15.95,
@@ -3781,7 +3798,7 @@
       "marge": null
     },
     {
-      "product": "8715658401254",
+      "product": "Linn Young - Breek Free Absolu - Eau de parfum - 100ML",
       "ean": "8715658401254",
       "offerId": "35160aaa-fd1b-4249-9392-62b43b15ec45",
       "eigenPrijs": 14.95,
@@ -3789,7 +3806,7 @@
       "marge": null
     },
     {
-      "product": "6291012873070",
+      "product": "Oriental Oud Al Hayat Eau de Toilette 100ml",
       "ean": "6291012873070",
       "offerId": "7ec55916-8d99-480d-ab29-3340d5799c62",
       "eigenPrijs": 15.95,
@@ -3797,7 +3814,7 @@
       "marge": null
     },
     {
-      "product": "8719214757533",
+      "product": "NG Spectre Fragrances Le Bucheron For Men eau de toilette 100ml (in plastic fles)",
       "ean": "8719214757533",
       "offerId": "05140c0b-6eb1-4a62-a672-175e5f838fb9",
       "eigenPrijs": 13.95,
@@ -3805,7 +3822,7 @@
       "marge": null
     },
     {
-      "product": "6151010076081",
+      "product": "Luxe Adventskalender Kerstbal",
       "ean": "6151010076081",
       "offerId": "37349599-7fe8-4dee-8813-a92485b4565e",
       "eigenPrijs": 34.95,
@@ -3813,7 +3830,7 @@
       "marge": null
     },
     {
-      "product": "8719214754815",
+      "product": "MEEKA Shower Foam Pure Bronze 225ml",
       "ean": "8719214754815",
       "offerId": "d7d33f01-b565-4d14-a043-87e4e12f8106",
       "eigenPrijs": 12.95,
@@ -3821,7 +3838,7 @@
       "marge": null
     },
     {
-      "product": "6291012005648",
+      "product": "Creation Lamis My Spirit Eau de Parfum For Women 100ml",
       "ean": "6291012005648",
       "offerId": "c9e98d28-bee7-4143-921f-8791f7ae8b97",
       "eigenPrijs": 15.95,
@@ -3829,7 +3846,7 @@
       "marge": null
     },
     {
-      "product": "8715658010562",
+      "product": "Georges Mezotti - Expedition Experience Silver Edition - Eau De Toilette - 100ML",
       "ean": "8715658010562",
       "offerId": "bb6839f0-ee83-4079-9286-c6d65bf67af3",
       "eigenPrijs": 17.95,
@@ -3837,7 +3854,7 @@
       "marge": null
     },
     {
-      "product": "8721349101198",
+      "product": "DLM-WISHING YOU A COZY X-MAS-15ml Eau de Parfum",
       "ean": "8721349101198",
       "offerId": "217d6b5f-f9eb-445e-88a9-7693c0a11ef5",
       "eigenPrijs": 10.49,
@@ -3845,7 +3862,7 @@
       "marge": null
     },
     {
-      "product": "8719214750824",
+      "product": "NG-GOLDDIGGER-EAU DE PARFUM FOR WOMAN 15ML",
       "ean": "8719214750824",
       "offerId": "f288e41b-32fb-4206-8fc9-8f32e16c5538",
       "eigenPrijs": 10.99,
@@ -3853,7 +3870,7 @@
       "marge": null
     },
     {
-      "product": "6013900194148",
+      "product": "NG Touch Eau de Parfum 80ml + 15ml",
       "ean": "6013900194148",
       "offerId": "30572b4a-3734-4523-aebf-6b73045ccb5b",
       "eigenPrijs": 16.95,
@@ -3861,7 +3878,7 @@
       "marge": null
     },
     {
-      "product": "6291012874381",
+      "product": "Dorall Twilight Wilderness - Herenparfum eau de toilette - 100 ml",
       "ean": "6291012874381",
       "offerId": "948ca3fb-dd49-40af-a81b-9c4211ef12e1",
       "eigenPrijs": 14.95,
@@ -3869,7 +3886,7 @@
       "marge": null
     },
     {
-      "product": "7438235479408",
+      "product": "NG DOMINATIO MEN 80 ML - Eau De Toilette",
       "ean": "7438235479408",
       "offerId": "93c4dc21-0aeb-515a-e053-3c82010a8876",
       "eigenPrijs": 14.95,
@@ -3877,7 +3894,7 @@
       "marge": null
     },
     {
-      "product": "8715658997764",
+      "product": "Omerta - Angelina - Eau De Parfum - 100ML",
       "ean": "8715658997764",
       "offerId": "9383c76a-b5bb-133b-e053-3c82010a6263",
       "eigenPrijs": 14.95,
@@ -3885,7 +3902,15 @@
       "marge": null
     },
     {
-      "product": "8715658999928",
+      "product": "Real Time - Racing Horse Gold - Eau de toilette - 100ML",
+      "ean": "8715658350255",
+      "offerId": "58c56662-a492-43e2-8eac-f7860453325f",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "Linn Young - Work@holics For Men - Eau De Toilette - 100ML",
       "ean": "8715658999928",
       "offerId": "dc01c644-b68f-40d3-b6a2-21c2ce23f9d0",
       "eigenPrijs": 15.95,
@@ -3893,7 +3918,7 @@
       "marge": null
     },
     {
-      "product": "6291012001268",
+      "product": "Dorall -Majestic Sandal- Eau de Toilette Unisex 95ml",
       "ean": "6291012001268",
       "offerId": "d090b6ac-9f53-4ec8-97af-696e76551d80",
       "eigenPrijs": 14.95,
@@ -3901,7 +3926,7 @@
       "marge": null
     },
     {
-      "product": "8721055492726",
+      "product": "SENTIO FEESTDAGEN PINK - Enchanting Glow - Eau de Parfum 50ml",
       "ean": "8721055492726",
       "offerId": "fec2856f-980f-4690-b5bf-cc6f62081b6b",
       "eigenPrijs": 13.19,
@@ -3909,7 +3934,7 @@
       "marge": 0.15
     },
     {
-      "product": "8715658390930",
+      "product": "Linn Young Admiration Eternal Uomo - Eau de Toilette voor heren - 100ML",
       "ean": "8715658390930",
       "offerId": "f6afc126-7148-48af-9881-d5ca7d15006d",
       "eigenPrijs": 15.95,
@@ -3917,7 +3942,7 @@
       "marge": null
     },
     {
-      "product": "8715658998464",
+      "product": "Omerta Black & Silver Man Eau de Toilette 100ml",
       "ean": "8715658998464",
       "offerId": "5ab34db0-0b1c-4c77-aafe-5405f2eeeb86",
       "eigenPrijs": 11.95,
@@ -3925,7 +3950,7 @@
       "marge": 1.56
     },
     {
-      "product": "8718421831302",
+      "product": "NG Secret Code Sport for Men - 100 ml - Eau de Toilette",
       "ean": "8718421831302",
       "offerId": "95011d3e-d52b-11b1-e053-3c82010ab320",
       "eigenPrijs": 14.95,
@@ -3933,7 +3958,7 @@
       "marge": null
     },
     {
-      "product": "8721055494287",
+      "product": "Bubble Bliss Giftset Like a Fairytale-Eau de Parfum",
       "ean": "8721055494287",
       "offerId": "37df5c95-ebaf-4265-8f10-86644fa23138",
       "eigenPrijs": 13.45,
@@ -3941,7 +3966,7 @@
       "marge": 0.17
     },
     {
-      "product": "8715658999799",
+      "product": "Eau de Toilette-Liquid-Steel-100 ML - Mannen",
       "ean": "8715658999799",
       "offerId": "9ed7e7af-db42-eb89-e053-4782010a08a4",
       "eigenPrijs": 15.95,
@@ -3949,7 +3974,7 @@
       "marge": null
     },
     {
-      "product": "8719214754808",
+      "product": "MEEKA Shower Foam Pure Silver 225ml",
       "ean": "8719214754808",
       "offerId": "afe24faa-4e0c-4375-becd-0a57e7b81bf7",
       "eigenPrijs": 12.95,
@@ -3957,15 +3982,15 @@
       "marge": null
     },
     {
-      "product": "8715658360018",
-      "ean": "8715658360018",
-      "offerId": "5a8cb44a-4163-413b-b8ff-1febfc931338",
-      "eigenPrijs": 14.95,
+      "product": "Sentio Luxe Adventskalender met 24 mini flesjes parfum - Rose Strik",
+      "ean": "8721349107510",
+      "offerId": "5893a50d-02fb-4c87-a740-bf845aa64dc0",
+      "eigenPrijs": 34.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
     {
-      "product": "8721349102317",
+      "product": "SENTIO DE LA MARE YAKIRA BODYMIST 250ML CORAL ISLAND AQUATIC FRUIT/10",
       "ean": "8721349102317",
       "offerId": "82cb8322-044d-4a76-8210-e4adf3770d31",
       "eigenPrijs": 13.95,
@@ -3973,7 +3998,7 @@
       "marge": null
     },
     {
-      "product": "7640158817858",
+      "product": "Sentio Stay Wild Unbound miniparfum eau de parfum for woman 15ml",
       "ean": "7640158817858",
       "offerId": "f4d7c6b7-6ec8-4dff-bbd9-6545f0340119",
       "eigenPrijs": 10.99,
@@ -3981,7 +4006,7 @@
       "marge": null
     },
     {
-      "product": "8721349102614",
+      "product": "Atelier Privee - GOLDEN SAND VULIGNON - 100ml Eau de Parfum Unisex",
       "ean": "8721349102614",
       "offerId": "5c71c912-5069-4339-829f-cf4ecf6cb90b",
       "eigenPrijs": 15.95,
@@ -3989,15 +4014,7 @@
       "marge": null
     },
     {
-      "product": "8721349101556",
-      "ean": "8721349101556",
-      "offerId": "4bb62c9f-0a3d-41dd-ab80-748d9a1eb5a3",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8721349101068",
+      "product": "DLM Kerstmis - X-MAS IS BETTER WITH YOU - 100ml Eau de Parfum",
       "ean": "8721349101068",
       "offerId": "0e548060-0269-4f64-9b36-4751ea0198c6",
       "eigenPrijs": 14.95,
@@ -4005,7 +4022,7 @@
       "marge": null
     },
     {
-      "product": "8719214757359",
+      "product": "NG Spectre Fragrances Cerulean Blue for her eau de parfum 100ml",
       "ean": "8719214757359",
       "offerId": "d26a90d2-7d6f-445a-b83c-fcbf73a835af",
       "eigenPrijs": 12.95,
@@ -4013,7 +4030,7 @@
       "marge": 0.3
     },
     {
-      "product": "8721055499428",
+      "product": "Del La Mare - SUGAR SAVAGE - Body Spray 200ml voor dames",
       "ean": "8721055499428",
       "offerId": "2d7ed74f-633a-4ecc-bd9d-ccf9cc02dfe1",
       "eigenPrijs": 13.95,
@@ -4021,15 +4038,15 @@
       "marge": null
     },
     {
-      "product": "8719214750787",
+      "product": "NG-DOMINATIO-Eau de Toilette For Men 15ml",
       "ean": "8719214750787",
       "offerId": "9389687b-7c1e-4ebc-bf8b-d89c50491566",
       "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 12.5,
+      "marge": 2.01
     },
     {
-      "product": "7640158817902",
+      "product": "Sentio Stay Wild Fearless miniparfum eau de parfum for woman 15ml",
       "ean": "7640158817902",
       "offerId": "fc986e61-e275-4127-8347-b73109b7249a",
       "eigenPrijs": 10.99,
@@ -4037,7 +4054,7 @@
       "marge": null
     },
     {
-      "product": "6151027884877",
+      "product": "NG Home Perfume Dominatio 200ml Spray",
       "ean": "6151027884877",
       "offerId": "d08169cf-60c2-4f92-ae0b-49e948e34d94",
       "eigenPrijs": 12.95,
@@ -4045,15 +4062,7 @@
       "marge": null
     },
     {
-      "product": "8715658370505",
-      "ean": "8715658370505",
-      "offerId": "4092288e-479d-4a5f-8985-7e328cb0c4f6",
-      "eigenPrijs": 11.95,
-      "dichtstbijzijneConcurrent": 13.51,
-      "marge": 1.56
-    },
-    {
-      "product": "8721055493143",
+      "product": "Hello Kitty-Banana Scent-15ml Eau de Parfum",
       "ean": "8721055493143",
       "offerId": "f65a207b-4824-440d-9aa4-f28a62ce6840",
       "eigenPrijs": 10.99,
@@ -4061,7 +4070,7 @@
       "marge": 0.51
     },
     {
-      "product": "8721055493341",
+      "product": "Hello Kitty Club Eau de Parfum voor Kinderen 50 ml - You Go Girl!",
       "ean": "8721055493341",
       "offerId": "b943dc0f-520a-4774-8a1b-80245a1915e8",
       "eigenPrijs": 11.55,
@@ -4069,7 +4078,7 @@
       "marge": 0.15
     },
     {
-      "product": "8721055493945",
+      "product": "Bubble Bliss - Fantastic Flamingo - Feathered Fun - Eau de Parfum - Voor Kinderen 15ml",
       "ean": "8721055493945",
       "offerId": "6d0ea323-7944-452d-8d69-4434238bd47d",
       "eigenPrijs": 10.99,
@@ -4077,7 +4086,7 @@
       "marge": null
     },
     {
-      "product": "7640158815243",
+      "product": "Sentio Patron Pour Homme Eau de Toilette For Men 15ml",
       "ean": "7640158815243",
       "offerId": "26e2795b-fcc8-4544-b43f-05e62c4b6034",
       "eigenPrijs": 10.99,
@@ -4085,7 +4094,7 @@
       "marge": null
     },
     {
-      "product": "7640158816929",
+      "product": "Hello Kitty Unicorn Parfum set 6 stuks voor kinderen - 6x15ml - Meisjes",
       "ean": "7640158816929",
       "offerId": "c8d68818-d1ee-49ef-b664-f31b7bcf346f",
       "eigenPrijs": 20.59,
@@ -4093,7 +4102,7 @@
       "marge": 0.61
     },
     {
-      "product": "8715658380221",
+      "product": "Omerta - Oh So Black For Women - Eau De Parfum - 100ML",
       "ean": "8715658380221",
       "offerId": "6aabd3bb-f6ff-4d80-adb9-7249ffb706b3",
       "eigenPrijs": 11.49,
@@ -4101,15 +4110,23 @@
       "marge": 0.46
     },
     {
-      "product": "8721055490333",
-      "ean": "8721055490333",
-      "offerId": "b6399ec2-1094-40d0-a413-e0e02a82df13",
-      "eigenPrijs": 10.99,
+      "product": "Bubble Bliss - PINK PARADISE - Flamingo Body Mist 250ml",
+      "ean": "8721055494379",
+      "offerId": "406fc207-a5a4-449c-97b0-8bf175eddf2f",
+      "eigenPrijs": 13.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
     {
-      "product": "8721055491866",
+      "product": "Sentio Lucky Numbers 7 Lucky Seven parfum - eau de parfum - 15ml",
+      "ean": "8721055490333",
+      "offerId": "b6399ec2-1094-40d0-a413-e0e02a82df13",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": 14.99,
+      "marge": 4
+    },
+    {
+      "product": "Sentio Arlo Di Hombre Eau de Toilette Spray 100 ml",
       "ean": "8721055491866",
       "offerId": "c27d6c4a-0001-4232-a3c9-139ec244fa1d",
       "eigenPrijs": 14.95,
@@ -4117,18 +4134,10 @@
       "marge": null
     },
     {
-      "product": "6291012905375",
+      "product": "Dorall -DC Empress- Eau de Toilette spray 100ml for women",
       "ean": "6291012905375",
       "offerId": "d950deee-439d-4125-a7f6-fab6c633111f",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8721055498551",
-      "ean": "8721055498551",
-      "offerId": "f474b321-d840-4cbf-a97c-95a5fabdfbf0",
-      "eigenPrijs": 17.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -4165,6 +4174,22 @@
       "marge": 0
     },
     {
+      "product": "8721055492979",
+      "ean": "8721055492979",
+      "offerId": "e6ee4039-5f3c-42e2-a0f1-192639e75078",
+      "eigenPrijs": 34.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "6151032821898",
+      "ean": "6151032821898",
+      "offerId": "7411ee1c-46d0-4d0a-9e68-58212944f0b2",
+      "eigenPrijs": 34.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "7640158818749",
       "ean": "7640158818749",
       "offerId": "d976f378-04b7-4476-88b3-b742adb89d95",
@@ -4189,14 +4214,6 @@
       "marge": null
     },
     {
-      "product": "6291012871038",
-      "ean": "6291012871038",
-      "offerId": "dbe5af5b-ef02-3b9b-6b30-ee0068ba4500",
-      "eigenPrijs": 12.65,
-      "dichtstbijzijneConcurrent": 12.8,
-      "marge": 0.15
-    },
-    {
       "product": "8715658390398",
       "ean": "8715658390398",
       "offerId": "e86ef975-71e0-4aac-bea9-c585bb22cdd8",
@@ -4217,14 +4234,6 @@
       "ean": "7640158816578",
       "offerId": "43eb6330-ae51-4bf4-99f3-d5b47b2332d1",
       "eigenPrijs": 10.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "5414665013698",
-      "ean": "5414665013698",
-      "offerId": "b420aa74-3e9f-43fb-9c21-8c41368cb83d",
-      "eigenPrijs": 10.99,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -4277,14 +4286,6 @@
       "marge": 0.51
     },
     {
-      "product": "8721055497011",
-      "ean": "8721055497011",
-      "offerId": "3e19e0c3-e01f-45d8-996d-84c36511148f",
-      "eigenPrijs": 10.45,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 1.05
-    },
-    {
       "product": "8719214753283",
       "ean": "8719214753283",
       "offerId": "9e9a1187-e3ea-65a7-e053-4782010ac6f7",
@@ -4333,18 +4334,18 @@
       "marge": null
     },
     {
-      "product": "8718421830015",
-      "ean": "8718421830015",
-      "offerId": "a24f671d-07a4-4185-8d16-a1723ac7a16a",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8715658390527",
       "ean": "8715658390527",
       "offerId": "56343b61-4ee0-4c1e-ba9c-4b6eef3e2f82",
       "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "6151034168151",
+      "ean": "6151034168151",
+      "offerId": "006a2164-de83-45b5-9dff-cca21edb13a8",
+      "eigenPrijs": 34.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -4385,6 +4386,14 @@
       "ean": "8719214750053",
       "offerId": "8a379e64-0429-452f-9d78-016e0dc92e8d",
       "eigenPrijs": 16.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8719214757052",
+      "ean": "8719214757052",
+      "offerId": "903b8493-bbd2-4fa6-9c06-bef239e7ae39",
+      "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -4469,6 +4478,22 @@
       "marge": null
     },
     {
+      "product": "8715658361008",
+      "ean": "8715658361008",
+      "offerId": "cdf1884b-ed56-4e88-bb63-508e9c62155a",
+      "eigenPrijs": 13,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721055498308",
+      "ean": "8721055498308",
+      "offerId": "47d568e3-24f8-427f-a059-39594f7a8d03",
+      "eigenPrijs": 9.99,
+      "dichtstbijzijneConcurrent": 10.45,
+      "marge": 0.46
+    },
+    {
       "product": "6151027512541",
       "ean": "6151027512541",
       "offerId": "ee4e0753-bea1-406a-857a-deeea7595e54",
@@ -4491,6 +4516,22 @@
       "eigenPrijs": 17.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "8721055498285",
+      "ean": "8721055498285",
+      "offerId": "1a7ba0ac-2695-41ac-b2cc-44481561f993",
+      "eigenPrijs": 9.99,
+      "dichtstbijzijneConcurrent": 10.45,
+      "marge": 0.46
+    },
+    {
+      "product": "7640158815830",
+      "ean": "7640158815830",
+      "offerId": "d08a22c0-e5f5-413f-b607-3e72aa112cba",
+      "eigenPrijs": 9.99,
+      "dichtstbijzijneConcurrent": 9.99,
+      "marge": 0
     },
     {
       "product": "8721055494256",
@@ -4573,6 +4614,14 @@
       "marge": null
     },
     {
+      "product": "8721055499558",
+      "ean": "8721055499558",
+      "offerId": "893dfb3f-6c67-49b9-9b52-9bb87b1b4ffe",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "8719214750022",
       "ean": "8719214750022",
       "offerId": "3ed42828-e294-4094-9d1d-2a83d28a5d25",
@@ -4597,6 +4646,14 @@
       "marge": null
     },
     {
+      "product": "5414665013698",
+      "ean": "5414665013698",
+      "offerId": "b420aa74-3e9f-43fb-9c21-8c41368cb83d",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "8721055494508",
       "ean": "8721055494508",
       "offerId": "69d040e2-14e5-496c-b004-d364e41cb1af",
@@ -4605,12 +4662,20 @@
       "marge": 0.51
     },
     {
+      "product": "8715658380795",
+      "ean": "8715658380795",
+      "offerId": "38a56716-a300-4704-94e5-098f42698a77",
+      "eigenPrijs": 12.69,
+      "dichtstbijzijneConcurrent": 14.95,
+      "marge": 2.26
+    },
+    {
       "product": "7640158815779",
       "ean": "7640158815779",
       "offerId": "62f5ffe4-0042-46f6-a796-e5ad8ea74890",
       "eigenPrijs": 10.89,
-      "dichtstbijzijneConcurrent": 11,
-      "marge": 0.11
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "7640158817513",
@@ -4621,10 +4686,10 @@
       "marge": null
     },
     {
-      "product": "6151029299235",
-      "ean": "6151029299235",
-      "offerId": "513fa2b8-8965-4afb-b242-a486713fddf1",
-      "eigenPrijs": 17.95,
+      "product": "8715658350705",
+      "ean": "8715658350705",
+      "offerId": "719cf2f7-28b3-43de-8009-93cb294682f2",
+      "eigenPrijs": 14.75,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -4693,6 +4758,14 @@
       "marge": null
     },
     {
+      "product": "6151029299235",
+      "ean": "6151029299235",
+      "offerId": "513fa2b8-8965-4afb-b242-a486713fddf1",
+      "eigenPrijs": 17.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "7640158816004",
       "ean": "7640158816004",
       "offerId": "2b82391f-5bef-478f-9bff-ae42de8404e6",
@@ -4717,22 +4790,6 @@
       "marge": null
     },
     {
-      "product": "8715658420064",
-      "ean": "8715658420064",
-      "offerId": "9754655a-b6a0-4753-9655-816f2d828608",
-      "eigenPrijs": 17.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8721055498155",
-      "ean": "8721055498155",
-      "offerId": "d9b05429-7c45-43dc-ae26-17846e8a69f5",
-      "eigenPrijs": 13.95,
-      "dichtstbijzijneConcurrent": 14.5,
-      "marge": 0.55
-    },
-    {
       "product": "8715658390596",
       "ean": "8715658390596",
       "offerId": "3997bbbb-1b7c-4fe3-b627-6a40d42d843b",
@@ -4741,28 +4798,12 @@
       "marge": null
     },
     {
-      "product": "7640158814888",
-      "ean": "7640158814888",
-      "offerId": "d46a25b5-fe3b-47f2-809f-4519394886cb",
-      "eigenPrijs": 11.95,
-      "dichtstbijzijneConcurrent": 14.49,
-      "marge": 2.54
-    },
-    {
       "product": "8721055492344",
       "ean": "8721055492344",
       "offerId": "a8e1bbb1-3279-4665-93c1-1c2e6aab2049",
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "8719214750770",
-      "ean": "8719214750770",
-      "offerId": "4377681b-0030-4fe1-bd31-8edf64733243",
-      "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 0.51
     },
     {
       "product": "8721055494867",
@@ -4861,6 +4902,14 @@
       "marge": 0.51
     },
     {
+      "product": "8721055493303",
+      "ean": "8721055493303",
+      "offerId": "38af813a-989a-4da3-92d7-30520e4d85a4",
+      "eigenPrijs": 12.29,
+      "dichtstbijzijneConcurrent": 12.44,
+      "marge": 0.15
+    },
+    {
       "product": "7640158815991",
       "ean": "7640158815991",
       "offerId": "13daf507-334f-4977-b871-6a2d64b125e6",
@@ -4893,14 +4942,6 @@
       "marge": 0.15
     },
     {
-      "product": "8721055498452",
-      "ean": "8721055498452",
-      "offerId": "9d5cfaa8-12ab-4220-b605-0b42321a41ed",
-      "eigenPrijs": 13.95,
-      "dichtstbijzijneConcurrent": 14.95,
-      "marge": 1
-    },
-    {
       "product": "7640158816370",
       "ean": "7640158816370",
       "offerId": "621d5131-b70b-461d-8431-cfa997a6e4c3",
@@ -4928,16 +4969,8 @@
       "product": "6291012884946",
       "ean": "6291012884946",
       "offerId": "2806de5d-d4c8-436c-a1ce-1806432942fd",
-      "eigenPrijs": 13.95,
+      "eigenPrijs": 14,
       "dichtstbijzijneConcurrent": 14,
-      "marge": 0.05
-    },
-    {
-      "product": "6291012002661",
-      "ean": "6291012002661",
-      "offerId": "ce475f95-81ec-4e76-991c-73c8de5c7eaa",
-      "eigenPrijs": 12.21,
-      "dichtstbijzijneConcurrent": 12.21,
       "marge": 0
     },
     {
@@ -4957,6 +4990,14 @@
       "marge": 0.51
     },
     {
+      "product": "7640158815755",
+      "ean": "7640158815755",
+      "offerId": "6a4575f2-ac62-4215-bca1-2a760a7263ab",
+      "eigenPrijs": 12.5,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "8721055493068",
       "ean": "8721055493068",
       "offerId": "8dc6adc0-2f0a-426c-b8bc-2c402897a8c9",
@@ -4965,12 +5006,28 @@
       "marge": 0.15
     },
     {
-      "product": "8721055490500",
-      "ean": "8721055490500",
-      "offerId": "175a46f7-d01c-421e-988e-d6bb8b56aea7",
-      "eigenPrijs": 8.25,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 3.25
+      "product": "8721055498155",
+      "ean": "8721055498155",
+      "offerId": "d9b05429-7c45-43dc-ae26-17846e8a69f5",
+      "eigenPrijs": 13.95,
+      "dichtstbijzijneConcurrent": 14.5,
+      "marge": 0.55
+    },
+    {
+      "product": "8719214750121",
+      "ean": "8719214750121",
+      "offerId": "db3f45b2-43a6-46bb-baa2-475fa959f1cf",
+      "eigenPrijs": 12.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721055498452",
+      "ean": "8721055498452",
+      "offerId": "9d5cfaa8-12ab-4220-b605-0b42321a41ed",
+      "eigenPrijs": 13.95,
+      "dichtstbijzijneConcurrent": 14.95,
+      "marge": 1
     },
     {
       "product": "7640158816080",
@@ -4995,14 +5052,6 @@
       "eigenPrijs": 10.99,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 0.51
-    },
-    {
-      "product": "5414666011471",
-      "ean": "5414666011471",
-      "offerId": "83953518-88e4-620a-6b30-237f68ba4500",
-      "eigenPrijs": 12.65,
-      "dichtstbijzijneConcurrent": 12.83,
-      "marge": 0.18
     },
     {
       "product": "7640158818794",
@@ -5069,6 +5118,14 @@
       "marge": null
     },
     {
+      "product": "8715658400882",
+      "ean": "8715658400882",
+      "offerId": "d2f155c3-2069-40a2-8603-ad6e2d139b73",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "8715658370536",
       "ean": "8715658370536",
       "offerId": "a818dea3-4706-451d-8f55-3f1910613a4c",
@@ -5081,14 +5138,6 @@
       "ean": "8718421831913",
       "offerId": "93c4fd42-39d6-72e5-e053-3c82010a6ad4",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "5414666016216",
-      "ean": "5414666016216",
-      "offerId": "3778d58c-c660-4fcd-a747-3ff8fa957d88",
-      "eigenPrijs": 11.75,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -5197,14 +5246,6 @@
       "marge": null
     },
     {
-      "product": "8715658002512",
-      "ean": "8715658002512",
-      "offerId": "ae3cef50-b738-4389-b878-85eec1d771a9",
-      "eigenPrijs": 14.59,
-      "dichtstbijzijneConcurrent": 14.59,
-      "marge": 0
-    },
-    {
       "product": "8715658012450",
       "ean": "8715658012450",
       "offerId": "2c3f013f-fbed-438b-a618-0bf89a10f91f",
@@ -5289,8 +5330,8 @@
       "ean": "8715658009573",
       "offerId": "37855bdc-52b1-4b57-8644-2f7b1c1be283",
       "eigenPrijs": 12.19,
-      "dichtstbijzijneConcurrent": 12.27,
-      "marge": 0.08
+      "dichtstbijzijneConcurrent": 12.75,
+      "marge": 0.56
     },
     {
       "product": "8715658350071",
@@ -5361,8 +5402,8 @@
       "ean": "7640158817780",
       "offerId": "fe8ee2c2-7f53-4df0-a014-da75ee5cb5ca",
       "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 0.51
+      "dichtstbijzijneConcurrent": 11.49,
+      "marge": 0.5
     },
     {
       "product": "8718421831425",
@@ -5384,14 +5425,6 @@
       "product": "8719214751661",
       "ean": "8719214751661",
       "offerId": "13eb0a6f-b91f-48c7-8473-13f068ba4500",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8719214753344",
-      "ean": "8719214753344",
-      "offerId": "ad605aa1-a4e2-45ae-b814-27599edc5004",
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
@@ -5464,9 +5497,9 @@
       "product": "8721055490012",
       "ean": "8721055490012",
       "offerId": "a6fa0c47-c294-4df4-a2ce-15e50305c02c",
-      "eigenPrijs": 11.59,
+      "eigenPrijs": 11.99,
       "dichtstbijzijneConcurrent": 13.22,
-      "marge": 1.63
+      "marge": 1.23
     },
     {
       "product": "8714319236709",
@@ -5541,6 +5574,14 @@
       "marge": 0.51
     },
     {
+      "product": "8715658380368",
+      "ean": "8715658380368",
+      "offerId": "a729b2c1-9cba-cb31-e053-4782010a237e",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": 14.95,
+      "marge": 0
+    },
+    {
       "product": "7640158819227",
       "ean": "7640158819227",
       "offerId": "48e6af02-1d76-4476-855f-8e9a4b668ec1",
@@ -5565,10 +5606,10 @@
       "marge": null
     },
     {
-      "product": "6013900439423",
-      "ean": "6013900439423",
-      "offerId": "fea0969c-6d5f-432a-af2f-5c09ae83c4c7",
-      "eigenPrijs": 14.95,
+      "product": "7640158816400",
+      "ean": "7640158816400",
+      "offerId": "ff086d41-bf9c-4d60-a289-c10777fcf64c",
+      "eigenPrijs": 12,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -5605,12 +5646,28 @@
       "marge": null
     },
     {
-      "product": "6291012002692",
-      "ean": "6291012002692",
-      "offerId": "9e11ebc7-5d0d-41d4-a619-d3cb0f9a7ae3",
-      "eigenPrijs": 12.35,
-      "dichtstbijzijneConcurrent": 12.49,
-      "marge": 0.14
+      "product": "7438235478432",
+      "ean": "7438235478432",
+      "offerId": "13695bfd-e12f-0c85-96b3-1bf568ba4500",
+      "eigenPrijs": 12.09,
+      "dichtstbijzijneConcurrent": 12.1,
+      "marge": 0.01
+    },
+    {
+      "product": "8715658350033",
+      "ean": "8715658350033",
+      "offerId": "9ed8e1b3-40a3-9ea2-e053-4782010a41dd",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "6151033193154",
+      "ean": "6151033193154",
+      "offerId": "de36543a-28c9-43a2-8641-c9df7f81adc4",
+      "eigenPrijs": 34.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8715658400714",
@@ -5619,6 +5676,30 @@
       "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "8715658370093",
+      "ean": "8715658370093",
+      "offerId": "8345b84b-d691-4453-8c1c-8bdf60f3174a",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": 13.51,
+      "marge": 1.56
+    },
+    {
+      "product": "8715658350361",
+      "ean": "8715658350361",
+      "offerId": "83626818-5d1a-49b4-a425-48b60cc59ab4",
+      "eigenPrijs": 14.45,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721055492603",
+      "ean": "8721055492603",
+      "offerId": "77750f4f-5b89-41ab-8ca1-ac34f9da901a",
+      "eigenPrijs": 13.19,
+      "dichtstbijzijneConcurrent": 13.35,
+      "marge": 0.16
     },
     {
       "product": "8721055498834",
@@ -5653,12 +5734,28 @@
       "marge": 0.15
     },
     {
+      "product": "8721349107534",
+      "ean": "8721349107534",
+      "offerId": "6fc6c401-f92f-40fc-a87c-1e47dcc17bb1",
+      "eigenPrijs": 34.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "8721055495024",
       "ean": "8721055495024",
       "offerId": "be500635-42a6-4aa5-bc33-6061eda9f3ab",
       "eigenPrijs": 10.49,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 1.01
+    },
+    {
+      "product": "8721349101211",
+      "ean": "8721349101211",
+      "offerId": "ef3aaf9b-e375-41c2-8a6f-12c6aa3e4236",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8721349101075",
@@ -5701,12 +5798,28 @@
       "marge": null
     },
     {
+      "product": "8715658002871",
+      "ean": "8715658002871",
+      "offerId": "e48dbda6-c4cb-4607-bb6d-e80acdbda098",
+      "eigenPrijs": 13.25,
+      "dichtstbijzijneConcurrent": 13.9,
+      "marge": 0.65
+    },
+    {
       "product": "5414666015233",
       "ean": "5414666015233",
       "offerId": "93835593-e6c1-24c5-e053-3c82010ad504",
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "8715658002512",
+      "ean": "8715658002512",
+      "offerId": "ae3cef50-b738-4389-b878-85eec1d771a9",
+      "eigenPrijs": 14.59,
+      "dichtstbijzijneConcurrent": 14.59,
+      "marge": 0
     },
     {
       "product": "8721055492894",
@@ -5725,14 +5838,6 @@
       "marge": 0.16
     },
     {
-      "product": "8719214759179",
-      "ean": "8719214759179",
-      "offerId": "4b1a5e7b-7a76-4fbb-94b1-be41e82fed43",
-      "eigenPrijs": 7.75,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8721055493983",
       "ean": "8721055493983",
       "offerId": "fe2ec999-a6a2-49cd-9f4e-67131cb56ccf",
@@ -5741,26 +5846,18 @@
       "marge": null
     },
     {
-      "product": "8715658380795",
-      "ean": "8715658380795",
-      "offerId": "38a56716-a300-4704-94e5-098f42698a77",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 14.95,
-      "marge": 0
+      "product": "8721349107923",
+      "ean": "8721349107923",
+      "offerId": "6245d78b-258f-4103-8943-bd47eec1ddfb",
+      "eigenPrijs": 34.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8719214757366",
       "ean": "8719214757366",
       "offerId": "42b0bcd5-54c7-40a9-83cf-58855ac1a203",
       "eigenPrijs": 13.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8721055499992",
-      "ean": "8721055499992",
-      "offerId": "af5c35fc-da48-4f29-b760-0292f85867a6",
-      "eigenPrijs": 17.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -5789,14 +5886,6 @@
       "marge": null
     },
     {
-      "product": "6151032633620",
-      "ean": "6151032633620",
-      "offerId": "c7a5da62-73f3-4b01-bfd0-ca131e259507",
-      "eigenPrijs": 17.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "6291012875173",
       "ean": "6291012875173",
       "offerId": "d19b0339-5ba3-4e06-bfa7-aa9d8e88c4c3",
@@ -5805,10 +5894,10 @@
       "marge": null
     },
     {
-      "product": "8719214750954",
-      "ean": "8719214750954",
-      "offerId": "82770004-2b48-3935-e053-828b620a118c",
-      "eigenPrijs": 11.19,
+      "product": "7640158819258",
+      "ean": "7640158819258",
+      "offerId": "71ab8605-8f39-44dd-a6b2-4a1357011c88",
+      "eigenPrijs": 9.99,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -5861,10 +5950,26 @@
       "marge": null
     },
     {
-      "product": "5414666010511",
-      "ean": "5414666010511",
-      "offerId": "d9506d03-4e54-40d2-8c55-68eadf0baa38",
-      "eigenPrijs": 14.5,
+      "product": "8721055491323",
+      "ean": "8721055491323",
+      "offerId": "33176790-c53a-4745-b179-b50fe6fc1b60",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8715658400707",
+      "ean": "8715658400707",
+      "offerId": "8875abda-a0b7-4061-8b45-251ac0d09374",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 1
+    },
+    {
+      "product": "6013900439423",
+      "ean": "6013900439423",
+      "offerId": "fea0969c-6d5f-432a-af2f-5c09ae83c4c7",
+      "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -5904,9 +6009,9 @@
       "product": "8715658002864",
       "ean": "8715658002864",
       "offerId": "43fbb26e-4c6f-4e5f-a235-919fd2181aa7",
-      "eigenPrijs": 11.25,
+      "eigenPrijs": 13.25,
       "dichtstbijzijneConcurrent": 14.59,
-      "marge": 3.34
+      "marge": 1.34
     },
     {
       "product": "8721055497127",
@@ -5949,10 +6054,26 @@
       "marge": null
     },
     {
+      "product": "8715658380030",
+      "ean": "8715658380030",
+      "offerId": "2f366244-ed66-4b8c-ba4f-6b4bbaf0656b",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": 13.51,
+      "marge": 1.56
+    },
+    {
       "product": "8719214758523",
       "ean": "8719214758523",
       "offerId": "a76a3ddb-4ef6-414f-a430-c5439f5ab677",
       "eigenPrijs": 17.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "6151029223223",
+      "ean": "6151029223223",
+      "offerId": "1028b8d9-b8fe-479d-86ff-337d43be6049",
+      "eigenPrijs": 29.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -5981,6 +6102,14 @@
       "marge": null
     },
     {
+      "product": "8721055491293",
+      "ean": "8721055491293",
+      "offerId": "2ecdd5a3-aa03-4716-b851-a889f0c0ba06",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "8721055493013",
       "ean": "8721055493013",
       "offerId": "dfbcd165-6f87-490d-997a-375ce4b2594f",
@@ -6001,22 +6130,6 @@
       "ean": "5414666009485",
       "offerId": "1342f0cd-b209-8d2f-96b3-1bf568ba4500",
       "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "5414666001953",
-      "ean": "5414666001953",
-      "offerId": "7df58f75-e8d9-4c4a-6b30-237f68ba4500",
-      "eigenPrijs": 12.45,
-      "dichtstbijzijneConcurrent": 13.02,
-      "marge": 0.57
-    },
-    {
-      "product": "8719326174716",
-      "ean": "8719326174716",
-      "offerId": "93829f44-7dd1-0c1d-e053-3c82010a95e6",
-      "eigenPrijs": 27.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -6043,6 +6156,22 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "8721055490364",
+      "ean": "8721055490364",
+      "offerId": "1752d6e0-022c-405a-b896-3066eeffb58a",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.51
+    },
+    {
+      "product": "8719214750640",
+      "ean": "8719214750640",
+      "offerId": "8254115e-b710-78f0-e053-828b620ad0d3",
+      "eigenPrijs": 12.09,
+      "dichtstbijzijneConcurrent": 12.1,
+      "marge": 0.01
     },
     {
       "product": "8721349101181",
@@ -6077,18 +6206,26 @@
       "marge": null
     },
     {
-      "product": "5414665013865",
-      "ean": "5414665013865",
-      "offerId": "18aa8392-598d-4417-ae06-d61bdac2f708",
-      "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8715658390787",
       "ean": "8715658390787",
       "offerId": "27e56635-f2be-4a66-978a-f4eedec27975",
       "eigenPrijs": 17.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "7640158816295",
+      "ean": "7640158816295",
+      "offerId": "d7ddab8a-1761-4961-a7e8-d1f3e8a26a38",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": 13.22,
+      "marge": 1.27
+    },
+    {
+      "product": "6291012899858",
+      "ean": "6291012899858",
+      "offerId": "91fd1ea8-92a2-43b1-9635-dfc312db63fb",
+      "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -6101,20 +6238,12 @@
       "marge": null
     },
     {
-      "product": "6291012002623",
-      "ean": "6291012002623",
-      "offerId": "fba0a5ac-158e-4566-9d95-4a3141719ceb",
-      "eigenPrijs": 12.49,
-      "dichtstbijzijneConcurrent": 12.67,
-      "marge": 0.18
-    },
-    {
-      "product": "6291012899858",
-      "ean": "6291012899858",
-      "offerId": "91fd1ea8-92a2-43b1-9635-dfc312db63fb",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "product": "7640158814826",
+      "ean": "7640158814826",
+      "offerId": "6af9bc6c-df7c-4655-840a-074b2bc1ef26",
+      "eigenPrijs": 11.5,
+      "dichtstbijzijneConcurrent": 13.22,
+      "marge": 1.72
     },
     {
       "product": "8715658999225",
@@ -6123,30 +6252,6 @@
       "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "5414666001557",
-      "ean": "5414666001557",
-      "offerId": "6d3d63f2-db6d-4a6a-6b30-237f68ba4500",
-      "eigenPrijs": 11.95,
-      "dichtstbijzijneConcurrent": 11.95,
-      "marge": 0
-    },
-    {
-      "product": "8715658998563",
-      "ean": "8715658998563",
-      "offerId": "70082336-cca5-4cc9-9b90-c073cf935598",
-      "eigenPrijs": 13.16,
-      "dichtstbijzijneConcurrent": 15.49,
-      "marge": 2.33
-    },
-    {
-      "product": "7640158816295",
-      "ean": "7640158816295",
-      "offerId": "d7ddab8a-1761-4961-a7e8-d1f3e8a26a38",
-      "eigenPrijs": 11.95,
-      "dichtstbijzijneConcurrent": 13.22,
-      "marge": 1.27
     },
     {
       "product": "6291012876583",
@@ -6163,14 +6268,6 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": 15.2,
       "marge": 0.25
-    },
-    {
-      "product": "8721055490326",
-      "ean": "8721055490326",
-      "offerId": "b40a3a53-bbcf-4659-a43c-c8a048184bb6",
-      "eigenPrijs": 10.45,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 1.05
     },
     {
       "product": "8719214750817",
@@ -6301,14 +6398,6 @@
       "marge": null
     },
     {
-      "product": "8721055496533",
-      "ean": "8721055496533",
-      "offerId": "f01b8556-50b3-4364-9d44-5ff09fe3195a",
-      "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": 12.5,
-      "marge": 1.51
-    },
-    {
       "product": "7640158818855",
       "ean": "7640158818855",
       "offerId": "b74da318-d170-40e9-be21-fa504e128c39",
@@ -6325,28 +6414,12 @@
       "marge": 0.51
     },
     {
-      "product": "7640158816424",
-      "ean": "7640158816424",
-      "offerId": "7f417efa-f53b-4361-bb67-1e1f4d2aa532",
-      "eigenPrijs": 11.5,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8721349102720",
       "ean": "8721349102720",
       "offerId": "447ff024-dc1b-48c6-840b-dfd17ce98870",
       "eigenPrijs": 12.95,
       "dichtstbijzijneConcurrent": 13,
       "marge": 0.05
-    },
-    {
-      "product": "7640158816400",
-      "ean": "7640158816400",
-      "offerId": "ff086d41-bf9c-4d60-a289-c10777fcf64c",
-      "eigenPrijs": 12,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
     },
     {
       "product": "8715658370161",
@@ -6377,16 +6450,8 @@
       "ean": "8721055496656",
       "offerId": "c969fb4b-29a9-43af-aa1c-8719ff3f51af",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8721055492283",
-      "ean": "8721055492283",
-      "offerId": "93319bdd-7ff5-4d80-aa57-de9b4bd48315",
-      "eigenPrijs": 13.95,
-      "dichtstbijzijneConcurrent": 14.3,
-      "marge": 0.35
+      "dichtstbijzijneConcurrent": 17.5,
+      "marge": 2.55
     },
     {
       "product": "8715658360063",
@@ -6405,14 +6470,6 @@
       "marge": null
     },
     {
-      "product": "7640158814826",
-      "ean": "7640158814826",
-      "offerId": "6af9bc6c-df7c-4655-840a-074b2bc1ef26",
-      "eigenPrijs": 11.5,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8721055493297",
       "ean": "8721055493297",
       "offerId": "88daab0a-cffa-473e-823a-4a93a915d11a",
@@ -6427,14 +6484,6 @@
       "eigenPrijs": 10.99,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 0.51
-    },
-    {
-      "product": "6291012878259",
-      "ean": "6291012878259",
-      "offerId": "d1f89744-8111-445d-bce2-370f9daddb4b",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
     },
     {
       "product": "8715658380696",
@@ -6459,14 +6508,6 @@
       "eigenPrijs": 12.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "8721055491378",
-      "ean": "8721055491378",
-      "offerId": "89dc21eb-c194-4e8d-9294-45af3b6225f1",
-      "eigenPrijs": 11.75,
-      "dichtstbijzijneConcurrent": 13.99,
-      "marge": 2.24
     },
     {
       "product": "8721055490869",
@@ -6557,14 +6598,6 @@
       "marge": 1.28
     },
     {
-      "product": "8719214759193",
-      "ean": "8719214759193",
-      "offerId": "7f80300a-7e01-48d1-bfeb-407131ef6e9f",
-      "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 0.51
-    },
-    {
       "product": "8719214752699",
       "ean": "8719214752699",
       "offerId": "a8a1d65b-a69a-4978-8d59-1f188b8b19c5",
@@ -6589,26 +6622,10 @@
       "marge": null
     },
     {
-      "product": "6291012884939",
-      "ean": "6291012884939",
-      "offerId": "edfead2e-f399-4b6f-a998-ee4715f0289f",
-      "eigenPrijs": 13.18,
-      "dichtstbijzijneConcurrent": 13.18,
-      "marge": 0
-    },
-    {
       "product": "8715658008699",
       "ean": "8715658008699",
       "offerId": "60ca5566-861b-4d4f-93b2-20ca6442edf4",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8721349101228",
-      "ean": "8721349101228",
-      "offerId": "aba628cb-ecc2-446a-b0f8-deede984575e",
-      "eigenPrijs": 10.49,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -6677,6 +6694,14 @@
       "marge": 0.51
     },
     {
+      "product": "8721055498278",
+      "ean": "8721055498278",
+      "offerId": "8a12eb25-3e77-4777-8c77-e38e9219e98d",
+      "eigenPrijs": 9.99,
+      "dichtstbijzijneConcurrent": 10.45,
+      "marge": 0.46
+    },
+    {
       "product": "8715658009245",
       "ean": "8715658009245",
       "offerId": "aa81b900-c3eb-4184-aaae-3630eb5f225c",
@@ -6697,8 +6722,8 @@
       "ean": "8719214750848",
       "offerId": "430090d2-5068-48e0-8f6d-9bbc3ef18c42",
       "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 12.5,
+      "marge": 1.51
     },
     {
       "product": "7640158817681",
@@ -6723,14 +6748,6 @@
       "eigenPrijs": 10.99,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 0.51
-    },
-    {
-      "product": "8715658400707",
-      "ean": "8715658400707",
-      "offerId": "8875abda-a0b7-4061-8b45-251ac0d09374",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 1
     },
     {
       "product": "8715658360193",
@@ -6765,14 +6782,6 @@
       "marge": 1.54
     },
     {
-      "product": "8721055495826",
-      "ean": "8721055495826",
-      "offerId": "a5379776-2e66-4713-9d72-7b8e86808831",
-      "eigenPrijs": 11,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8715658400899",
       "ean": "8715658400899",
       "offerId": "eeec8e31-9813-4b88-86f2-7a74f3daba04",
@@ -6797,25 +6806,9 @@
       "marge": null
     },
     {
-      "product": "8721055493846",
-      "ean": "8721055493846",
-      "offerId": "dc4423e9-aede-4c33-89b0-5e098e3f56bc",
-      "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8715658013068",
       "ean": "8715658013068",
       "offerId": "588bf1a8-7876-4d4c-953b-627ce1f4a140",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8719214757052",
-      "ean": "8719214757052",
-      "offerId": "903b8493-bbd2-4fa6-9c06-bef239e7ae39",
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
@@ -6869,14 +6862,6 @@
       "marge": null
     },
     {
-      "product": "7640158814925",
-      "ean": "7640158814925",
-      "offerId": "6f15e7cd-03ec-43b3-9cfa-666cd56da202",
-      "eigenPrijs": 12.95,
-      "dichtstbijzijneConcurrent": 14.49,
-      "marge": 1.54
-    },
-    {
       "product": "8721055490340",
       "ean": "8721055490340",
       "offerId": "a02aa9f7-7366-41ab-971a-930afbeeb436",
@@ -6920,7 +6905,7 @@
       "product": "8721349101235",
       "ean": "8721349101235",
       "offerId": "01e6223b-5db3-4afe-9c1c-85cf21a9b5f4",
-      "eigenPrijs": 10.49,
+      "eigenPrijs": 10.99,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -6949,14 +6934,6 @@
       "marge": 1
     },
     {
-      "product": "8719214750749",
-      "ean": "8719214750749",
-      "offerId": "e03454ba-54c4-430c-a50b-2c4c40a5b451",
-      "eigenPrijs": 9.99,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "7640158815717",
       "ean": "7640158815717",
       "offerId": "48fb0a58-2e25-40c5-b5cc-fca98fd40bf9",
@@ -6981,20 +6958,12 @@
       "marge": 1.56
     },
     {
-      "product": "8721055495079",
-      "ean": "8721055495079",
-      "offerId": "0b4dde76-e20a-4f02-89cc-eca0c4f33989",
-      "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 1.01
-    },
-    {
       "product": "8715658009566",
       "ean": "8715658009566",
       "offerId": "e3b077bd-1a99-4dc9-a739-c1c23e58dfdb",
       "eigenPrijs": 14.59,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 14.59,
+      "marge": 0
     },
     {
       "product": "7640158817650",
@@ -7017,14 +6986,6 @@
       "ean": "7640158815878",
       "offerId": "a7b5704f-693a-40cb-b99b-d72e59fcb050",
       "eigenPrijs": 11.25,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "6151027359313",
-      "ean": "6151027359313",
-      "offerId": "db622fff-83ef-47fb-9167-4e18acdf6f71",
-      "eigenPrijs": 10.45,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -7085,22 +7046,6 @@
       "marge": 0.51
     },
     {
-      "product": "8719214759162",
-      "ean": "8719214759162",
-      "offerId": "21a810e2-abbe-451f-84d0-912f9913271a",
-      "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8718421831586",
-      "ean": "8718421831586",
-      "offerId": "c9c6dc67-118d-a4b9-6b30-1bf568ba4500",
-      "eigenPrijs": 12,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8715658380702",
       "ean": "8715658380702",
       "offerId": "9a86e091-d48d-4c3a-8d00-86d6a5a6fa7d",
@@ -7115,14 +7060,6 @@
       "eigenPrijs": 10.99,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 0.51
-    },
-    {
-      "product": "8721055493709",
-      "ean": "8721055493709",
-      "offerId": "5386442f-77e7-4866-b887-e003df05ed79",
-      "eigenPrijs": 12.99,
-      "dichtstbijzijneConcurrent": 14.49,
-      "marge": 1.5
     },
     {
       "product": "7640158816363",
@@ -7160,9 +7097,9 @@
       "product": "8715658997795",
       "ean": "8715658997795",
       "offerId": "f86c2be1-b7cb-4380-87d4-853d9f127ba6",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "eigenPrijs": 13.55,
+      "dichtstbijzijneConcurrent": 14.19,
+      "marge": 0.64
     },
     {
       "product": "5414666005722",
@@ -7240,7 +7177,7 @@
       "product": "8715658013020",
       "ean": "8715658013020",
       "offerId": "ebe059b8-204a-4b9c-b803-0909f247a78c",
-      "eigenPrijs": 13.95,
+      "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -7273,22 +7210,6 @@
       "ean": "6151032725714",
       "offerId": "46877952-b6d1-469d-933f-c5a6075eca90",
       "eigenPrijs": 17.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8721055497028",
-      "ean": "8721055497028",
-      "offerId": "f0bca256-13a8-43dc-864d-723caff5ed46",
-      "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 0.51
-    },
-    {
-      "product": "8721349103772",
-      "ean": "8721349103772",
-      "offerId": "fbf20919-8e93-4137-b49e-fda815dcc87b",
-      "eigenPrijs": 13.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -7389,14 +7310,6 @@
       "marge": 0.26
     },
     {
-      "product": "7640158815557",
-      "ean": "7640158815557",
-      "offerId": "c31f1051-0d23-4804-acae-dc3404705a6b",
-      "eigenPrijs": 11.75,
-      "dichtstbijzijneConcurrent": 12,
-      "marge": 0.25
-    },
-    {
       "product": "7640158816141",
       "ean": "7640158816141",
       "offerId": "21254f11-a414-44d6-a0a5-f481630e0ad7",
@@ -7413,20 +7326,12 @@
       "marge": null
     },
     {
-      "product": "8718421831227",
-      "ean": "8718421831227",
-      "offerId": "97da0b89-5534-d5fc-e053-4782010a9368",
-      "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": 10.64,
-      "marge": 0.15
-    },
-    {
       "product": "8715658002536",
       "ean": "8715658002536",
       "offerId": "d29a3a91-186d-4d5c-bf59-9af91ed5e247",
       "eigenPrijs": 12.24,
-      "dichtstbijzijneConcurrent": 12.67,
-      "marge": 0.43
+      "dichtstbijzijneConcurrent": 13.99,
+      "marge": 1.75
     },
     {
       "product": "8715658401230",
@@ -7449,8 +7354,8 @@
       "ean": "8721055494829",
       "offerId": "e6486794-ecc3-4285-ad44-2fd286407915",
       "eigenPrijs": 9.95,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 1.55
+      "dichtstbijzijneConcurrent": 10,
+      "marge": 0.05
     },
     {
       "product": "8721055491804",
@@ -7475,14 +7380,6 @@
       "eigenPrijs": 11.49,
       "dichtstbijzijneConcurrent": 11.95,
       "marge": 0.46
-    },
-    {
-      "product": "8715658361640",
-      "ean": "8715658361640",
-      "offerId": "2a5b6efa-1444-45a3-a761-32f18525d8e0",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
     },
     {
       "product": "8715658360087",
@@ -7531,14 +7428,6 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "8721055495116",
-      "ean": "8721055495116",
-      "offerId": "b10882c1-a072-4260-b886-d91ecdb687f1",
-      "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 1.01
     },
     {
       "product": "8718421831432",
@@ -7629,14 +7518,6 @@
       "marge": 0.51
     },
     {
-      "product": "4042342003031",
-      "ean": "4042342003031",
-      "offerId": "103d8504-6031-16e3-b6b3-ee0068ba4500",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8721055496502",
       "ean": "8721055496502",
       "offerId": "2bbea15c-e0b8-4410-b077-7de7c64e6df5",
@@ -7685,26 +7566,10 @@
       "marge": 0.51
     },
     {
-      "product": "8721055494744",
-      "ean": "8721055494744",
-      "offerId": "df10ce52-a698-4a82-8ab1-5a7829388b6b",
-      "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 1.01
-    },
-    {
       "product": "8715658401223",
       "ean": "8715658401223",
       "offerId": "63b2cfa4-615b-4ebe-a425-63db9ad34360",
       "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8721349101204",
-      "ean": "8721349101204",
-      "offerId": "919921d0-7b7b-43ff-aa8f-8ac39b43ec16",
-      "eigenPrijs": 10.49,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -7785,16 +7650,8 @@
       "ean": "8721055496717",
       "offerId": "eaee9801-802e-4b07-82ae-613c8277cb4b",
       "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8721055494843",
-      "ean": "8721055494843",
-      "offerId": "7e7187d8-f29a-4155-8ac8-65e0406d736c",
-      "eigenPrijs": 9.75,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 1.75
+      "dichtstbijzijneConcurrent": 14.99,
+      "marge": 4
     },
     {
       "product": "8721055495567",
@@ -7864,17 +7721,9 @@
       "product": "8719214753269",
       "ean": "8719214753269",
       "offerId": "6ef86469-8c5a-4644-88bc-12b4854dc44c",
-      "eigenPrijs": 10.49,
+      "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "8719214758349",
-      "ean": "8719214758349",
-      "offerId": "8a25642b-cd81-456e-8532-9a1be0b6672a",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 15.2,
-      "marge": 0.25
     },
     {
       "product": "8715658401605",
@@ -7981,12 +7830,12 @@
       "marge": 0
     },
     {
-      "product": "8721349101211",
-      "ean": "8721349101211",
-      "offerId": "ef3aaf9b-e375-41c2-8a6f-12c6aa3e4236",
-      "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "product": "8721055492870",
+      "ean": "8721055492870",
+      "offerId": "aa56cfa0-01b0-427c-97c8-1cf0742052c2",
+      "eigenPrijs": 13.19,
+      "dichtstbijzijneConcurrent": 13.35,
+      "marge": 0.16
     },
     {
       "product": "6151031984976",
@@ -8005,10 +7854,26 @@
       "marge": 0.25
     },
     {
+      "product": "8721055494942",
+      "ean": "8721055494942",
+      "offerId": "c5f0677f-7561-4936-b14a-096de3c8cae5",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "8715658350125",
       "ean": "8715658350125",
       "offerId": "21ac8f18-5d2a-4ac4-8d32-53d9271fc5e8",
       "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721055491309",
+      "ean": "8721055491309",
+      "offerId": "81d1ea00-3e5d-492b-ba50-f91228adadd9",
+      "eigenPrijs": 10.99,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -8019,14 +7884,6 @@
       "eigenPrijs": 34.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "8719326174709",
-      "ean": "8719326174709",
-      "offerId": "93829ba9-4e45-0914-e053-3c82010a38aa",
-      "eigenPrijs": 23.19,
-      "dichtstbijzijneConcurrent": 24.25,
-      "marge": 1.06
     },
     {
       "product": "8715658350217",
@@ -8053,12 +7910,36 @@
       "marge": null
     },
     {
-      "product": "7640158816998",
-      "ean": "7640158816998",
-      "offerId": "f8355ea4-7dd4-4a79-8b5a-16063abb3c19",
-      "eigenPrijs": 14.88,
-      "dichtstbijzijneConcurrent": 14.88,
-      "marge": 0
+      "product": "8721055491286",
+      "ean": "8721055491286",
+      "offerId": "5b7aacde-36cb-47f8-8921-f588fe57ee06",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721055494911",
+      "ean": "8721055494911",
+      "offerId": "33968013-e0f8-47af-b592-8725c15bc72e",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721055491279",
+      "ean": "8721055491279",
+      "offerId": "224f6bf7-ae02-4ccd-96dd-d2778ad14ac2",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721055494904",
+      "ean": "8721055494904",
+      "offerId": "4a186cc7-c800-4797-8235-43b54adfa877",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8721055491828",
@@ -8080,9 +7961,9 @@
       "product": "5414666001366",
       "ean": "5414666001366",
       "offerId": "72cb9a7c-c361-4a8a-6b30-237f68ba4500",
-      "eigenPrijs": 12.19,
+      "eigenPrijs": 12.83,
       "dichtstbijzijneConcurrent": 12.83,
-      "marge": 0.64
+      "marge": 0
     },
     {
       "product": "8721349103765",
@@ -8101,12 +7982,12 @@
       "marge": null
     },
     {
-      "product": "8715658998419",
-      "ean": "8715658998419",
-      "offerId": "d352a8bf-5ef7-4a73-bdfa-1529b690cf3e",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "product": "8721055496533",
+      "ean": "8721055496533",
+      "offerId": "f01b8556-50b3-4364-9d44-5ff09fe3195a",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": 12.49,
+      "marge": 1.5
     },
     {
       "product": "8715658410171",
@@ -8121,6 +8002,14 @@
       "ean": "8715658998426",
       "offerId": "16f10772-33d8-4d3e-93da-fee8182e56a9",
       "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "5414666010511",
+      "ean": "5414666010511",
+      "offerId": "d9506d03-4e54-40d2-8c55-68eadf0baa38",
+      "eigenPrijs": 14.5,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -8181,12 +8070,36 @@
       "marge": 1
     },
     {
+      "product": "8721055494928",
+      "ean": "8721055494928",
+      "offerId": "38cff67a-534f-4e9c-b965-33deecf5397b",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "7640158816776",
       "ean": "7640158816776",
       "offerId": "0797bbf6-a850-441c-b7a6-f58dd978b165",
       "eigenPrijs": 10.99,
       "dichtstbijzijneConcurrent": 11.5,
       "marge": 0.51
+    },
+    {
+      "product": "8721055494935",
+      "ean": "8721055494935",
+      "offerId": "c761bdfc-e7d6-4bb9-9cf3-dd16afd43d59",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "6151034199131",
+      "ean": "6151034199131",
+      "offerId": "f423d364-55aa-4e89-a0d8-09909d9ab884",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8719214752354",
@@ -8237,6 +8150,14 @@
       "marge": 0.51
     },
     {
+      "product": "8721055491316",
+      "ean": "8721055491316",
+      "offerId": "74e6016e-7e9d-4722-9063-1e7a98c4e760",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "8715658420132",
       "ean": "8715658420132",
       "offerId": "25db0dd8-7d9a-4781-86e3-8239068ec4ab",
@@ -8249,6 +8170,22 @@
       "ean": "8721055496700",
       "offerId": "82e7c66e-4189-45a6-a03d-25e7c55fdb12",
       "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "5414665013711",
+      "ean": "5414665013711",
+      "offerId": "e848cc5c-a0ef-48d3-8b6c-34601d6be95f",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721055494959",
+      "ean": "8721055494959",
+      "offerId": "012b97c4-e162-43d3-a7d1-4febaff65624",
+      "eigenPrijs": 29.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -8267,14 +8204,6 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": 15.95,
       "marge": 1
-    },
-    {
-      "product": "7640158815816",
-      "ean": "7640158815816",
-      "offerId": "545a40a0-d09d-4ea1-9ca6-320581c21de1",
-      "eigenPrijs": 11.65,
-      "dichtstbijzijneConcurrent": 11.8,
-      "marge": 0.15
     },
     {
       "product": "8721055494041",
@@ -8301,28 +8230,20 @@
       "marge": 6.54
     },
     {
-      "product": "8715658370420",
-      "ean": "8715658370420",
-      "offerId": "c3957eb7-f939-4b64-a04a-3a4fcaba0776",
-      "eigenPrijs": 11.95,
-      "dichtstbijzijneConcurrent": 13.51,
-      "marge": 1.56
+      "product": "6151033525597",
+      "ean": "6151033525597",
+      "offerId": "54d87854-eb83-4603-8c96-4701e73b2350",
+      "eigenPrijs": 34.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8721055496731",
       "ean": "8721055496731",
       "offerId": "b3c36c2b-5329-4b0b-93d1-0c25769357a9",
-      "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8715658380801",
-      "ean": "8715658380801",
-      "offerId": "d95a1ade-5e10-4031-95b2-5ae4c5018c2c",
-      "eigenPrijs": 11.95,
-      "dichtstbijzijneConcurrent": 13.51,
-      "marge": 1.56
+      "eigenPrijs": 11.99,
+      "dichtstbijzijneConcurrent": 14.99,
+      "marge": 3
     },
     {
       "product": "8719214754341",
@@ -8337,6 +8258,14 @@
       "ean": "8715658401476",
       "offerId": "96c183c2-d60b-46b6-86ed-86bba95530f6",
       "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8719214758349",
+      "ean": "8719214758349",
+      "offerId": "8a25642b-cd81-456e-8532-9a1be0b6672a",
+      "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -8381,12 +8310,28 @@
       "marge": null
     },
     {
-      "product": "8715658340287",
-      "ean": "8715658340287",
-      "offerId": "7533d479-f345-47c8-bd16-ebbc423f2c77",
-      "eigenPrijs": 13.5,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "product": "7640158815816",
+      "ean": "7640158815816",
+      "offerId": "545a40a0-d09d-4ea1-9ca6-320581c21de1",
+      "eigenPrijs": 11.49,
+      "dichtstbijzijneConcurrent": 11.8,
+      "marge": 0.31
+    },
+    {
+      "product": "7640158816998",
+      "ean": "7640158816998",
+      "offerId": "f8355ea4-7dd4-4a79-8b5a-16063abb3c19",
+      "eigenPrijs": 14.69,
+      "dichtstbijzijneConcurrent": 14.88,
+      "marge": 0.19
+    },
+    {
+      "product": "8721055493358",
+      "ean": "8721055493358",
+      "offerId": "d7fbb734-8663-45be-8d1f-69d9b9c5d4fe",
+      "eigenPrijs": 11.49,
+      "dichtstbijzijneConcurrent": 11.71,
+      "marge": 0.22
     },
     {
       "product": "8715658400769",
@@ -8413,12 +8358,28 @@
       "marge": null
     },
     {
-      "product": "8715658998471",
-      "ean": "8715658998471",
-      "offerId": "446a443c-ec61-480a-8281-5bda38aafe95",
-      "eigenPrijs": 14.95,
+      "product": "8721055498551",
+      "ean": "8721055498551",
+      "offerId": "f474b321-d840-4cbf-a97c-95a5fabdfbf0",
+      "eigenPrijs": 17.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "6291012005082",
+      "ean": "6291012005082",
+      "offerId": "1c941297-984c-41ae-85dc-7c266164ac5f",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8715658969594",
+      "ean": "8715658969594",
+      "offerId": "93990e94-974c-2d77-e053-3c82010a1e57",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 1
     },
     {
       "product": "8715658360049",
@@ -8441,6 +8402,14 @@
       "ean": "8715658360155",
       "offerId": "f9380f23-94f3-4de1-a3f9-00ba8c96a641",
       "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8715658420064",
+      "ean": "8715658420064",
+      "offerId": "9754655a-b6a0-4753-9655-816f2d828608",
+      "eigenPrijs": 17.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -8493,28 +8462,20 @@
       "marge": 1
     },
     {
-      "product": "7640158814802",
-      "ean": "7640158814802",
-      "offerId": "90f3036f-a9cc-403b-9c84-f491dd3c3f91",
-      "eigenPrijs": 11.75,
-      "dichtstbijzijneConcurrent": 14.49,
-      "marge": 2.74
-    },
-    {
-      "product": "5414666002103",
-      "ean": "5414666002103",
-      "offerId": "81bf18eb-831e-068a-6b30-237f68ba4500",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8715658380818",
       "ean": "8715658380818",
       "offerId": "de3f3aab-bb93-404f-bc48-78cd76ea6776",
       "eigenPrijs": 11.95,
       "dichtstbijzijneConcurrent": 13.51,
       "marge": 1.56
+    },
+    {
+      "product": "8721055499992",
+      "ean": "8721055499992",
+      "offerId": "af5c35fc-da48-4f29-b760-0292f85867a6",
+      "eigenPrijs": 17.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8721349100054",
@@ -8525,20 +8486,20 @@
       "marge": null
     },
     {
-      "product": "8721349102256",
-      "ean": "8721349102256",
-      "offerId": "18169f96-1382-4d39-be82-d8b8266bac3a",
+      "product": "8715658360964",
+      "ean": "8715658360964",
+      "offerId": "071b3680-0cb1-4d1e-a93b-3b8634477cef",
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
     {
-      "product": "8715658420231",
-      "ean": "8715658420231",
-      "offerId": "1378adc5-d547-45c4-81c3-87d9ad9ea0a0",
-      "eigenPrijs": 16.25,
-      "dichtstbijzijneConcurrent": 18.49,
-      "marge": 2.24
+      "product": "8715658380245",
+      "ean": "8715658380245",
+      "offerId": "cc78c3f4-51f3-4562-a081-314a7825bc73",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8715658999195",
@@ -8553,6 +8514,294 @@
       "ean": "7640158819210",
       "offerId": "f0bfe642-2f95-4b90-b219-233bc495e80e",
       "eigenPrijs": 9.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "5414666002103",
+      "ean": "5414666002103",
+      "offerId": "81bf18eb-831e-068a-6b30-237f68ba4500",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8715658340287",
+      "ean": "8715658340287",
+      "offerId": "7533d479-f345-47c8-bd16-ebbc423f2c77",
+      "eigenPrijs": 13.5,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8719214753344",
+      "ean": "8719214753344",
+      "offerId": "ad605aa1-a4e2-45ae-b814-27599edc5004",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8715658400110",
+      "ean": "8715658400110",
+      "offerId": "939979f7-a3a7-1450-e053-3c82010a7753",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 1
+    },
+    {
+      "product": "5414666016216",
+      "ean": "5414666016216",
+      "offerId": "3778d58c-c660-4fcd-a747-3ff8fa957d88",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8719992723812",
+      "ean": "8719992723812",
+      "offerId": "beff2be2-7f01-4353-8e2b-a8a2990f5245",
+      "eigenPrijs": 19.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721349101556",
+      "ean": "8721349101556",
+      "offerId": "4bb62c9f-0a3d-41dd-ab80-748d9a1eb5a3",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "5414666001953",
+      "ean": "5414666001953",
+      "offerId": "7df58f75-e8d9-4c4a-6b30-237f68ba4500",
+      "eigenPrijs": 12.45,
+      "dichtstbijzijneConcurrent": 13.02,
+      "marge": 0.57
+    },
+    {
+      "product": "8719214750749",
+      "ean": "8719214750749",
+      "offerId": "e03454ba-54c4-430c-a50b-2c4c40a5b451",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8715658370505",
+      "ean": "8715658370505",
+      "offerId": "4092288e-479d-4a5f-8985-7e328cb0c4f6",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": 13.51,
+      "marge": 1.56
+    },
+    {
+      "product": "7640158814888",
+      "ean": "7640158814888",
+      "offerId": "d46a25b5-fe3b-47f2-809f-4519394886cb",
+      "eigenPrijs": 13.25,
+      "dichtstbijzijneConcurrent": 14.49,
+      "marge": 1.24
+    },
+    {
+      "product": "7640158814802",
+      "ean": "7640158814802",
+      "offerId": "90f3036f-a9cc-403b-9c84-f491dd3c3f91",
+      "eigenPrijs": 13.25,
+      "dichtstbijzijneConcurrent": 14.49,
+      "marge": 1.24
+    },
+    {
+      "product": "8721055493709",
+      "ean": "8721055493709",
+      "offerId": "5386442f-77e7-4866-b887-e003df05ed79",
+      "eigenPrijs": 12.99,
+      "dichtstbijzijneConcurrent": 14.49,
+      "marge": 1.5
+    },
+    {
+      "product": "8715658401599",
+      "ean": "8715658401599",
+      "offerId": "e165aa07-ab3c-4fcc-89d0-826a757d4041",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8719214755843",
+      "ean": "8719214755843",
+      "offerId": "73c8cb99-8891-4aa0-b897-18e52bef1130",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "5414665013872",
+      "ean": "5414665013872",
+      "offerId": "5df20ba4-ef27-4ea1-a3b4-3e924b01e558",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "5414665013865",
+      "ean": "5414665013865",
+      "offerId": "18aa8392-598d-4417-ae06-d61bdac2f708",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8718421830015",
+      "ean": "8718421830015",
+      "offerId": "a24f671d-07a4-4185-8d16-a1723ac7a16a",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8715658998471",
+      "ean": "8715658998471",
+      "offerId": "446a443c-ec61-480a-8281-5bda38aafe95",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721055495826",
+      "ean": "8721055495826",
+      "offerId": "a5379776-2e66-4713-9d72-7b8e86808831",
+      "eigenPrijs": 11,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.5
+    },
+    {
+      "product": "8721055494065",
+      "ean": "8721055494065",
+      "offerId": "dbda7203-6f99-498a-90ed-cc099bcdb280",
+      "eigenPrijs": 13.56,
+      "dichtstbijzijneConcurrent": 13.56,
+      "marge": 0
+    },
+    {
+      "product": "6291012002623",
+      "ean": "6291012002623",
+      "offerId": "fba0a5ac-158e-4566-9d95-4a3141719ceb",
+      "eigenPrijs": 12.67,
+      "dichtstbijzijneConcurrent": 12.67,
+      "marge": 0
+    },
+    {
+      "product": "6013905032025",
+      "ean": "6013905032025",
+      "offerId": "d051be50-a0af-4bfe-b3f8-01ed010ea5ff",
+      "eigenPrijs": 12.41,
+      "dichtstbijzijneConcurrent": 12.41,
+      "marge": 0
+    },
+    {
+      "product": "7640158816424",
+      "ean": "7640158816424",
+      "offerId": "7f417efa-f53b-4361-bb67-1e1f4d2aa532",
+      "eigenPrijs": 11.5,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "6291012002661",
+      "ean": "6291012002661",
+      "offerId": "ce475f95-81ec-4e76-991c-73c8de5c7eaa",
+      "eigenPrijs": 12.21,
+      "dichtstbijzijneConcurrent": 12.21,
+      "marge": 0
+    },
+    {
+      "product": "6291012002692",
+      "ean": "6291012002692",
+      "offerId": "9e11ebc7-5d0d-41d4-a619-d3cb0f9a7ae3",
+      "eigenPrijs": 12.49,
+      "dichtstbijzijneConcurrent": 12.49,
+      "marge": 0
+    },
+    {
+      "product": "8721055494461",
+      "ean": "8721055494461",
+      "offerId": "afd4315a-1050-4962-b9e0-bf77eba5f4bc",
+      "eigenPrijs": 14.5,
+      "dichtstbijzijneConcurrent": 14.5,
+      "marge": 0
+    },
+    {
+      "product": "6291012005730",
+      "ean": "6291012005730",
+      "offerId": "6a9f8cb6-25fb-4307-953f-2ad528b47967",
+      "eigenPrijs": 11.5,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0
+    },
+    {
+      "product": "6291012884939",
+      "ean": "6291012884939",
+      "offerId": "edfead2e-f399-4b6f-a998-ee4715f0289f",
+      "eigenPrijs": 13.18,
+      "dichtstbijzijneConcurrent": 13.18,
+      "marge": 0
+    },
+    {
+      "product": "8719326174709",
+      "ean": "8719326174709",
+      "offerId": "93829ba9-4e45-0914-e053-3c82010a38aa",
+      "eigenPrijs": 24.25,
+      "dichtstbijzijneConcurrent": 24.25,
+      "marge": 0
+    },
+    {
+      "product": "8721055491187",
+      "ean": "8721055491187",
+      "offerId": "02d11016-bedf-4530-943d-98510540e57a",
+      "eigenPrijs": 13.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "5414666011471",
+      "ean": "5414666011471",
+      "offerId": "83953518-88e4-620a-6b30-237f68ba4500",
+      "eigenPrijs": 12.83,
+      "dichtstbijzijneConcurrent": 12.83,
+      "marge": 0
+    },
+    {
+      "product": "8715658370420",
+      "ean": "8715658370420",
+      "offerId": "c3957eb7-f939-4b64-a04a-3a4fcaba0776",
+      "eigenPrijs": 11.95,
+      "dichtstbijzijneConcurrent": 13.51,
+      "marge": 1.56
+    },
+    {
+      "product": "8719326174716",
+      "ean": "8719326174716",
+      "offerId": "93829f44-7dd1-0c1d-e053-3c82010a95e6",
+      "eigenPrijs": 29.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "6291012878259",
+      "ean": "6291012878259",
+      "offerId": "d1f89744-8111-445d-bce2-370f9daddb4b",
+      "eigenPrijs": 13.5,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721055492108",
+      "ean": "8721055492108",
+      "offerId": "92036a21-bcb1-41fb-a7d5-c3b3b614dd8b",
+      "eigenPrijs": 12.5,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     }
