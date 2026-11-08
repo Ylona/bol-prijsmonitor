@@ -1,56 +1,56 @@
 {
-  "gegenereerd": "2026-10-22T09:49:42.139Z",
+  "gegenereerd": "2026-11-08T08:13:03.224Z",
   "land": "NL",
-  "aantalProducten": 52,
-  "aantalVeilig": 996,
+  "aantalProducten": 40,
+  "aantalVeilig": 1017,
   "producten": [
     {
-      "product": "8715658007036",
-      "ean": "8715658007036",
-      "offerId": "41d63a4b-f592-41cf-a065-e07daedde518",
-      "eigenPrijs": 11.49,
-      "laagsteConcurrent": 10.59,
-      "verschil": 0.9,
+      "product": "8721055496519",
+      "ean": "8721055496519",
+      "offerId": "e63eff60-f563-4bbe-b3cf-2326c9b42e25",
+      "eigenPrijs": 10.99,
+      "laagsteConcurrent": 9.95,
+      "verschil": 1.04,
       "concurrenten": [
         {
-          "retailerNaam": "ParfumDeo.nl",
-          "retailerId": "1757721",
-          "prijs": 10.59,
-          "verschil": 0.9,
+          "retailerNaam": "1763310",
+          "retailerId": "1763310",
+          "prijs": 9.95,
+          "verschil": 1.04,
           "fulfilment": "FBR"
         }
       ]
     },
     {
-      "product": "8721055491354",
-      "ean": "8721055491354",
-      "offerId": "97741a3c-6fc2-46fb-b85b-c97e7757ad7f",
-      "eigenPrijs": 9.85,
-      "laagsteConcurrent": 8.99,
-      "verschil": 0.86,
+      "product": "8721055496502",
+      "ean": "8721055496502",
+      "offerId": "b06caf02-5f3d-4397-8465-c0041a19bad4",
+      "eigenPrijs": 10.99,
+      "laagsteConcurrent": 9.95,
+      "verschil": 1.04,
       "concurrenten": [
         {
-          "retailerNaam": "1716029",
-          "retailerId": "1716029",
-          "prijs": 8.99,
-          "verschil": 0.86,
+          "retailerNaam": "1763310",
+          "retailerId": "1763310",
+          "prijs": 9.95,
+          "verschil": 1.04,
           "fulfilment": "FBR"
         }
       ]
     },
     {
-      "product": "8720938379352",
-      "ean": "8720938379352",
-      "offerId": "f83267f1-2d04-468f-8606-1661c3ff80c5",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.49,
-      "verschil": 0.5,
+      "product": "8721055496526",
+      "ean": "8721055496526",
+      "offerId": "62446c04-3c60-4a35-b863-dfad38357e16",
+      "eigenPrijs": 10.99,
+      "laagsteConcurrent": 9.95,
+      "verschil": 1.04,
       "concurrenten": [
         {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.49,
-          "verschil": 0.5,
+          "retailerNaam": "1763310",
+          "retailerId": "1763310",
+          "prijs": 9.95,
+          "verschil": 1.04,
           "fulfilment": "FBR"
         }
       ]
@@ -93,6 +93,23 @@
       "product": "8715658380665",
       "ean": "8715658380665",
       "offerId": "b6f7302c-9dad-45bc-b4b7-ebb53ed2afa1",
+      "eigenPrijs": 9.99,
+      "laagsteConcurrent": 9.49,
+      "verschil": 0.5,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.49,
+          "verschil": 0.5,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "8715658380931",
+      "ean": "8715658380931",
+      "offerId": "cff333b6-5227-4059-8ac1-d3757f370627",
       "eigenPrijs": 9.99,
       "laagsteConcurrent": 9.49,
       "verschil": 0.5,
@@ -243,23 +260,6 @@
       ]
     },
     {
-      "product": "8715658370543",
-      "ean": "8715658370543",
-      "offerId": "2378d6b7-006d-4343-94a8-2e6d3e4550da",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.49,
-      "verschil": 0.5,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.49,
-          "verschil": 0.5,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
       "product": "8715658380115",
       "ean": "8715658380115",
       "offerId": "9ed98561-5a27-15e3-e053-4782010a5bcf",
@@ -362,6 +362,40 @@
       ]
     },
     {
+      "product": "5145200059016",
+      "ean": "5145200059016",
+      "offerId": "866e02a8-0dbb-46d9-8b77-6b63767ba651",
+      "eigenPrijs": 9.99,
+      "laagsteConcurrent": 9.49,
+      "verschil": 0.5,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.49,
+          "verschil": 0.5,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "8715658370536",
+      "ean": "8715658370536",
+      "offerId": "171442cd-8a69-4d02-b284-c74464b3a0bd",
+      "eigenPrijs": 9.99,
+      "laagsteConcurrent": 9.49,
+      "verschil": 0.5,
+      "concurrenten": [
+        {
+          "retailerNaam": "Bliksma Retail B.V.",
+          "retailerId": "1840300",
+          "prijs": 9.49,
+          "verschil": 0.5,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
       "product": "8715658370086",
       "ean": "8715658370086",
       "offerId": "9ed9916b-0768-1d8c-e053-4782010a3ae2",
@@ -430,26 +464,9 @@
       ]
     },
     {
-      "product": "8715658380931",
-      "ean": "8715658380931",
-      "offerId": "cff333b6-5227-4059-8ac1-d3757f370627",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.5,
-      "verschil": 0.49,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.5,
-          "verschil": 0.49,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8720938379260",
-      "ean": "8720938379260",
-      "offerId": "6a0f67e6-47f9-4c20-b0f0-6b03d8e8b73e",
+      "product": "8720938379314",
+      "ean": "8720938379314",
+      "offerId": "ee0759c8-3cc8-4522-9423-b40dcc839f2e",
       "eigenPrijs": 15.95,
       "laagsteConcurrent": 15.49,
       "verschil": 0.46,
@@ -464,9 +481,9 @@
       ]
     },
     {
-      "product": "8720938379314",
-      "ean": "8720938379314",
-      "offerId": "ee0759c8-3cc8-4522-9423-b40dcc839f2e",
+      "product": "8720938379260",
+      "ean": "8720938379260",
+      "offerId": "6a0f67e6-47f9-4c20-b0f0-6b03d8e8b73e",
       "eigenPrijs": 15.95,
       "laagsteConcurrent": 15.49,
       "verschil": 0.46,
@@ -583,18 +600,35 @@
       ]
     },
     {
-      "product": "8721055495567",
-      "ean": "8721055495567",
-      "offerId": "e996a30d-dedd-4044-95cc-8410ec42b550",
-      "eigenPrijs": 12.5,
-      "laagsteConcurrent": 12.4,
-      "verschil": 0.1,
+      "product": "6291012005518",
+      "ean": "6291012005518",
+      "offerId": "822983b2-330e-44a3-be3b-31f5c6531930",
+      "eigenPrijs": 17.95,
+      "laagsteConcurrent": 17.7,
+      "verschil": 0.25,
       "concurrenten": [
         {
-          "retailerNaam": "1317593",
-          "retailerId": "1317593",
-          "prijs": 12.4,
-          "verschil": 0.1,
+          "retailerNaam": "1845290",
+          "retailerId": "1845290",
+          "prijs": 17.7,
+          "verschil": 0.25,
+          "fulfilment": "FBR"
+        }
+      ]
+    },
+    {
+      "product": "8721349100054",
+      "ean": "8721349100054",
+      "offerId": "1f6f152f-8321-4e5b-aecd-f63c013adba1",
+      "eigenPrijs": 10.59,
+      "laagsteConcurrent": 10.5,
+      "verschil": 0.09,
+      "concurrenten": [
+        {
+          "retailerNaam": "Drogisterijplus.nl",
+          "retailerId": "991185",
+          "prijs": 10.5,
+          "verschil": 0.09,
           "fulfilment": "FBR"
         }
       ]
@@ -603,307 +637,48 @@
       "product": "8721349102256",
       "ean": "8721349102256",
       "offerId": "6d76a77d-949f-48e3-a6b6-2cbb8f6ab09e",
-      "eigenPrijs": 13.35,
-      "laagsteConcurrent": 13.3,
-      "verschil": 0.05,
+      "eigenPrijs": 10.59,
+      "laagsteConcurrent": 10.5,
+      "verschil": 0.09,
       "concurrenten": [
         {
           "retailerNaam": "Drogisterijplus.nl",
           "retailerId": "991185",
-          "prijs": 13.3,
-          "verschil": 0.05,
+          "prijs": 10.5,
+          "verschil": 0.09,
           "fulfilment": "FBR"
         }
       ]
     },
     {
-      "product": "5145200059016",
-      "ean": "5145200059016",
-      "offerId": "866e02a8-0dbb-46d9-8b77-6b63767ba651",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
+      "product": "8721349101242",
+      "ean": "8721349101242",
+      "offerId": "bd39a562-1b58-4c44-8590-67aabedc7be5",
+      "eigenPrijs": 10.59,
+      "laagsteConcurrent": 10.5,
+      "verschil": 0.09,
       "concurrenten": [
         {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
+          "retailerNaam": "Drogisterijplus.nl",
+          "retailerId": "991185",
+          "prijs": 10.5,
+          "verschil": 0.09,
           "fulfilment": "FBR"
         }
       ]
     },
     {
-      "product": "8715658370536",
-      "ean": "8715658370536",
-      "offerId": "171442cd-8a69-4d02-b284-c74464b3a0bd",
-      "eigenPrijs": 9.99,
-      "laagsteConcurrent": 9.95,
-      "verschil": 0.04,
-      "concurrenten": [
-        {
-          "retailerNaam": "Bliksma Retail B.V.",
-          "retailerId": "1840300",
-          "prijs": 9.95,
-          "verschil": 0.04,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8715658401827",
-      "ean": "8715658401827",
-      "offerId": "6163d587-4950-41a8-ba3c-9366d1add34b",
-      "eigenPrijs": 15.95,
-      "laagsteConcurrent": 15.95,
+      "product": "8719214753221",
+      "ean": "8719214753221",
+      "offerId": "9cf3e85f-7eed-1f62-e053-4782010a35a0",
+      "eigenPrijs": 12.49,
+      "laagsteConcurrent": 12.49,
       "verschil": 0,
       "concurrenten": [
         {
-          "retailerNaam": "Seuren Toys Drogist",
-          "retailerId": "1684975",
-          "prijs": 15.95,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        },
-        {
-          "retailerNaam": "Parfum Styling Company Europe ",
-          "retailerId": "1020534",
-          "prijs": 15.95,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8715658969679",
-      "ean": "8715658969679",
-      "offerId": "1326e353-021e-4087-8d02-3c92f20eea1f",
-      "eigenPrijs": 17.95,
-      "laagsteConcurrent": 17.95,
-      "verschil": 0,
-      "concurrenten": [
-        {
-          "retailerNaam": "Parfum Styling Company Europe ",
-          "retailerId": "1020534",
-          "prijs": 17.95,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8715658420156",
-      "ean": "8715658420156",
-      "offerId": "725d5fef-b0e7-4543-afb2-2f4989e95357",
-      "eigenPrijs": 17.95,
-      "laagsteConcurrent": 17.95,
-      "verschil": 0,
-      "concurrenten": [
-        {
-          "retailerNaam": "Parfum Styling Company Europe ",
-          "retailerId": "1020534",
-          "prijs": 17.95,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8715658010579",
-      "ean": "8715658010579",
-      "offerId": "85bf8f85-b651-40f7-ba94-9ff259a4be4d",
-      "eigenPrijs": 17.95,
-      "laagsteConcurrent": 17.95,
-      "verschil": 0,
-      "concurrenten": [
-        {
-          "retailerNaam": "Parfum Styling Company Europe ",
-          "retailerId": "1020534",
-          "prijs": 17.95,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8715658401797",
-      "ean": "8715658401797",
-      "offerId": "3b077fe3-5a3c-4b53-88c6-df073db3bef1",
-      "eigenPrijs": 15.95,
-      "laagsteConcurrent": 15.95,
-      "verschil": 0,
-      "concurrenten": [
-        {
-          "retailerNaam": "Seuren Toys Drogist",
-          "retailerId": "1684975",
-          "prijs": 15.95,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        },
-        {
-          "retailerNaam": "Parfum Styling Company Europe ",
-          "retailerId": "1020534",
-          "prijs": 15.95,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8715658969662",
-      "ean": "8715658969662",
-      "offerId": "35b6f2c9-79a3-47b6-b9ac-d8dd8ea57d1e",
-      "eigenPrijs": 17.95,
-      "laagsteConcurrent": 17.95,
-      "verschil": 0,
-      "concurrenten": [
-        {
-          "retailerNaam": "Parfum Styling Company Europe ",
-          "retailerId": "1020534",
-          "prijs": 17.95,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8715658390374",
-      "ean": "8715658390374",
-      "offerId": "45b41d44-2211-4f3f-91fb-0757e812382d",
-      "eigenPrijs": 15.95,
-      "laagsteConcurrent": 15.95,
-      "verschil": 0,
-      "concurrenten": [
-        {
-          "retailerNaam": "Parfum Styling Company Europe ",
-          "retailerId": "1020534",
-          "prijs": 15.95,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8715658401032",
-      "ean": "8715658401032",
-      "offerId": "551d9a62-721e-496a-a54f-a84bb5b6a168",
-      "eigenPrijs": 15.95,
-      "laagsteConcurrent": 15.95,
-      "verschil": 0,
-      "concurrenten": [
-        {
-          "retailerNaam": "Parfum Styling Company Europe ",
-          "retailerId": "1020534",
-          "prijs": 15.95,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8715658391043",
-      "ean": "8715658391043",
-      "offerId": "9568fe9d-2054-4e85-aa95-6fadbd754c56",
-      "eigenPrijs": 15.95,
-      "laagsteConcurrent": 15.95,
-      "verschil": 0,
-      "concurrenten": [
-        {
-          "retailerNaam": "Seuren Toys Drogist",
-          "retailerId": "1684975",
-          "prijs": 15.95,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        },
-        {
-          "retailerNaam": "Parfum Styling Company Europe ",
-          "retailerId": "1020534",
-          "prijs": 15.95,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8715658401599",
-      "ean": "8715658401599",
-      "offerId": "96e33631-00de-4e40-bc52-d561fd56accd",
-      "eigenPrijs": 15.95,
-      "laagsteConcurrent": 15.95,
-      "verschil": 0,
-      "concurrenten": [
-        {
-          "retailerNaam": "Parfum Styling Company Europe ",
-          "retailerId": "1020534",
-          "prijs": 15.95,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8715658390015",
-      "ean": "8715658390015",
-      "offerId": "9bb6dc6f-a74d-bc05-e053-4782010a282e",
-      "eigenPrijs": 15.95,
-      "laagsteConcurrent": 15.95,
-      "verschil": 0,
-      "concurrenten": [
-        {
-          "retailerNaam": "Parfum Styling Company Europe ",
-          "retailerId": "1020534",
-          "prijs": 15.95,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8715658420163",
-      "ean": "8715658420163",
-      "offerId": "5e0dc7c0-76f2-4704-a443-e5fd6f8eb830",
-      "eigenPrijs": 17.95,
-      "laagsteConcurrent": 17.95,
-      "verschil": 0,
-      "concurrenten": [
-        {
-          "retailerNaam": "Parfum Styling Company Europe ",
-          "retailerId": "1020534",
-          "prijs": 17.95,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8715658420149",
-      "ean": "8715658420149",
-      "offerId": "41040f75-2e8c-4351-84fe-b81fc8f253d8",
-      "eigenPrijs": 17.95,
-      "laagsteConcurrent": 17.95,
-      "verschil": 0,
-      "concurrenten": [
-        {
-          "retailerNaam": "Parfum Styling Company Europe ",
-          "retailerId": "1020534",
-          "prijs": 17.95,
-          "verschil": 0,
-          "fulfilment": "FBR"
-        }
-      ]
-    },
-    {
-      "product": "8715658400721",
-      "ean": "8715658400721",
-      "offerId": "4f4c23a2-641d-4170-90c0-e44c59e319bf",
-      "eigenPrijs": 15.95,
-      "laagsteConcurrent": 15.95,
-      "verschil": 0,
-      "concurrenten": [
-        {
-          "retailerNaam": "Parfum Styling Company Europe ",
-          "retailerId": "1020534",
-          "prijs": 15.95,
+          "retailerNaam": "1748468",
+          "retailerId": "1748468",
+          "prijs": 12.49,
           "verschil": 0,
           "fulfilment": "FBR"
         }
@@ -920,14 +695,6 @@
       "marge": null
     },
     {
-      "product": "8721349104229",
-      "ean": "8721349104229",
-      "offerId": "c238337f-bc8f-48c5-91a6-7f7d8d192564",
-      "eigenPrijs": 11.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "6151020798751",
       "ean": "6151020798751",
       "offerId": "58926116-b40f-4763-85f5-d4b2d888ff51",
@@ -936,9 +703,33 @@
       "marge": null
     },
     {
+      "product": "6151037425473",
+      "ean": "6151037425473",
+      "offerId": "335c23cb-c837-481e-afc3-5ab52a762a46",
+      "eigenPrijs": 29.75,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "7640158816271",
+      "ean": "7640158816271",
+      "offerId": "af152091-7fb8-4e66-9427-89f932003b42",
+      "eigenPrijs": 11.5,
+      "dichtstbijzijneConcurrent": 12.25,
+      "marge": 0.75
+    },
+    {
       "product": "8721055494386",
       "ean": "8721055494386",
       "offerId": "3933d2b7-a372-44b0-a975-89f85a4b5f85",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8715658201571",
+      "ean": "8715658201571",
+      "offerId": "1cc5c7b5-2e86-4ce2-9763-081ee042d004",
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
@@ -984,22 +775,6 @@
       "marge": null
     },
     {
-      "product": "6151038377351",
-      "ean": "6151038377351",
-      "offerId": "bfc5acb1-d94d-47e6-b9c5-16fe2152a13b",
-      "eigenPrijs": 29.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8715658390251",
-      "ean": "8715658390251",
-      "offerId": "9ed83d91-8041-33c5-e053-4782010a958b",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8721055492528",
       "ean": "8721055492528",
       "offerId": "4629e7b9-1844-4e9f-a52c-cd7796e9e2ec",
@@ -1012,14 +787,6 @@
       "ean": "6151030387365",
       "offerId": "3b368c4a-c390-4da9-aa01-cdd19b320d00",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8715658401759",
-      "ean": "8715658401759",
-      "offerId": "3382aa48-bbe9-42ab-85fe-870ea253221c",
-      "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -1048,6 +815,14 @@
       "marge": null
     },
     {
+      "product": "8720938379352",
+      "ean": "8720938379352",
+      "offerId": "f83267f1-2d04-468f-8606-1661c3ff80c5",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "6151016727734",
       "ean": "6151016727734",
       "offerId": "e0c01f59-1588-4f2e-9ecc-b6b6a20abf9f",
@@ -1064,20 +839,12 @@
       "marge": 0
     },
     {
-      "product": "8721349104212",
-      "ean": "8721349104212",
-      "offerId": "e0551030-2179-41cb-bc0b-01bbb0fe8335",
-      "eigenPrijs": 11.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8714319237379",
-      "ean": "8714319237379",
-      "offerId": "909f38d8-476f-4613-b150-7ee73e87735b",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "product": "7438235478494",
+      "ean": "7438235478494",
+      "offerId": "98f28a27-7b85-66ac-e053-4782010afba0",
+      "eigenPrijs": 12.5,
+      "dichtstbijzijneConcurrent": 12.5,
+      "marge": 0
     },
     {
       "product": "8721055499381",
@@ -1112,12 +879,36 @@
       "marge": 0.05
     },
     {
+      "product": "8715658401483",
+      "ean": "8715658401483",
+      "offerId": "be46a66a-0eaa-4c86-a855-f4d9436403ff",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
+    },
+    {
       "product": "7640158816059",
       "ean": "7640158816059",
       "offerId": "558046dd-8e23-4090-8f83-4bd4dc9642dd",
       "eigenPrijs": 8.49,
       "dichtstbijzijneConcurrent": 8.69,
       "marge": 0.2
+    },
+    {
+      "product": "8715658401599",
+      "ean": "8715658401599",
+      "offerId": "96e33631-00de-4e40-bc52-d561fd56accd",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
+    },
+    {
+      "product": "8715658401827",
+      "ean": "8715658401827",
+      "offerId": "6163d587-4950-41a8-ba3c-9366d1add34b",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
     },
     {
       "product": "7640158816899",
@@ -1128,12 +919,84 @@
       "marge": 8
     },
     {
-      "product": "7640158816943",
-      "ean": "7640158816943",
-      "offerId": "9ffb1275-7472-4a60-ac41-1d12a54dc749",
-      "eigenPrijs": 24.95,
-      "dichtstbijzijneConcurrent": 26.95,
-      "marge": 2
+      "product": "8715658390923",
+      "ean": "8715658390923",
+      "offerId": "5e02fd9f-5b5f-4c16-8fc5-98f1689a14dc",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
+    },
+    {
+      "product": "8715658998679",
+      "ean": "8715658998679",
+      "offerId": "9bb70a78-883e-e6e2-e053-4782010a0f89",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8715658401636",
+      "ean": "8715658401636",
+      "offerId": "cbb7f031-3f5c-42ce-9933-92b943be4cb2",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
+    },
+    {
+      "product": "8719214751197",
+      "ean": "8719214751197",
+      "offerId": "39ee7f7b-0df8-048a-6220-402768ba4500",
+      "eigenPrijs": 12.5,
+      "dichtstbijzijneConcurrent": 12.5,
+      "marge": 0
+    },
+    {
+      "product": "8715658400585",
+      "ean": "8715658400585",
+      "offerId": "53755a5a-ac91-406d-869d-63447b807ab0",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
+    },
+    {
+      "product": "8715658969594",
+      "ean": "8715658969594",
+      "offerId": "9bb6ec23-12d6-cf82-e053-4782010af97e",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
+    },
+    {
+      "product": "8715658999195",
+      "ean": "8715658999195",
+      "offerId": "9bb6ef02-c2c8-d496-e053-4782010aa133",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
+    },
+    {
+      "product": "8715658390053",
+      "ean": "8715658390053",
+      "offerId": "9bb6def7-4067-be35-e053-4782010aec2c",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
+    },
+    {
+      "product": "8715658390084",
+      "ean": "8715658390084",
+      "offerId": "9bb6f8b4-e701-dab8-e053-4782010ab717",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
+    },
+    {
+      "product": "8715658997283",
+      "ean": "8715658997283",
+      "offerId": "9bb6db10-f212-bb52-e053-4782010a6de7",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
     },
     {
       "product": "8718421831913",
@@ -1142,6 +1005,14 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": 16,
       "marge": 1.05
+    },
+    {
+      "product": "8715658401759",
+      "ean": "8715658401759",
+      "offerId": "3382aa48-bbe9-42ab-85fe-870ea253221c",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
     },
     {
       "product": "8721055495536",
@@ -1160,12 +1031,28 @@
       "marge": 8
     },
     {
-      "product": "8721055498292",
-      "ean": "8721055498292",
-      "offerId": "e5cb2040-a3c6-4e35-a6cc-e19838fffd6d",
-      "eigenPrijs": 9.99,
-      "dichtstbijzijneConcurrent": 10.3,
-      "marge": 0.31
+      "product": "8721055490326",
+      "ean": "8721055490326",
+      "offerId": "c7370c33-d9ae-4316-aa3a-bb6df5ea74ff",
+      "eigenPrijs": 8.29,
+      "dichtstbijzijneConcurrent": 9.02,
+      "marge": 0.73
+    },
+    {
+      "product": "6151038377351",
+      "ean": "6151038377351",
+      "offerId": "bfc5acb1-d94d-47e6-b9c5-16fe2152a13b",
+      "eigenPrijs": 39.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "7640158816943",
+      "ean": "7640158816943",
+      "offerId": "9ffb1275-7472-4a60-ac41-1d12a54dc749",
+      "eigenPrijs": 25.95,
+      "dichtstbijzijneConcurrent": 26.95,
+      "marge": 1
     },
     {
       "product": "6151018633699",
@@ -1174,6 +1061,14 @@
       "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "8721055498292",
+      "ean": "8721055498292",
+      "offerId": "e5cb2040-a3c6-4e35-a6cc-e19838fffd6d",
+      "eigenPrijs": 9.99,
+      "dichtstbijzijneConcurrent": 10.3,
+      "marge": 0.31
     },
     {
       "product": "8721055493327",
@@ -1192,28 +1087,12 @@
       "marge": 5
     },
     {
-      "product": "8719214750657",
-      "ean": "8719214750657",
-      "offerId": "81d82070-9607-1675-e053-828b620ae64a",
-      "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": 12.5,
-      "marge": 0
-    },
-    {
-      "product": "8715658350514",
-      "ean": "8715658350514",
-      "offerId": "49effc95-bd0e-49a2-9668-ec184940d548",
-      "eigenPrijs": 14.95,
+      "product": "8715658390251",
+      "ean": "8715658390251",
+      "offerId": "9ed83d91-8041-33c5-e053-4782010a958b",
+      "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "8715658998679",
-      "ean": "8715658998679",
-      "offerId": "9bb70a78-883e-e6e2-e053-4782010a0f89",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 0
     },
     {
       "product": "8719214757465",
@@ -1235,17 +1114,33 @@
       "product": "6291012873902",
       "ean": "6291012873902",
       "offerId": "64fde5ef-0899-400b-a325-4a11be21090d",
-      "eigenPrijs": 10.75,
+      "eigenPrijs": 10.99,
       "dichtstbijzijneConcurrent": 11.5,
-      "marge": 0.75
+      "marge": 0.51
+    },
+    {
+      "product": "8721055495741",
+      "ean": "8721055495741",
+      "offerId": "9e582c85-63d0-4212-9251-e59b0cef23ed",
+      "eigenPrijs": 17.5,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8715658201595",
+      "ean": "8715658201595",
+      "offerId": "062c8855-805f-4598-abc7-bc20ca5a885e",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8721055494850",
       "ean": "8721055494850",
       "offerId": "4a1e959a-b3f1-4eb3-b39f-ae6e8589f1d7",
-      "eigenPrijs": 7.25,
+      "eigenPrijs": 7.29,
       "dichtstbijzijneConcurrent": 7.45,
-      "marge": 0.2
+      "marge": 0.16
     },
     {
       "product": "8719214757823",
@@ -1256,20 +1151,20 @@
       "marge": 0
     },
     {
+      "product": "8715658201601",
+      "ean": "8715658201601",
+      "offerId": "ed188c60-05bb-4929-bf12-4f1f65b1c44f",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "8719214753283",
       "ean": "8719214753283",
       "offerId": "9ce57311-5bfe-1278-e053-4782010a5d77",
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": 14.95,
       "marge": 0
-    },
-    {
-      "product": "7640158814888",
-      "ean": "7640158814888",
-      "offerId": "a3cbf52a-74b1-4b7b-b68f-6552b537b562",
-      "eigenPrijs": 11.89,
-      "dichtstbijzijneConcurrent": 12.57,
-      "marge": 0.68
     },
     {
       "product": "8715658008354",
@@ -1291,6 +1186,14 @@
       "product": "8715658350873",
       "ean": "8715658350873",
       "offerId": "191995f8-8fa8-4d03-a88e-4fefa8ef7377",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8715658201618",
+      "ean": "8715658201618",
+      "offerId": "d27f3524-2bb2-42e4-81e6-6d0e85bf425a",
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
@@ -1347,7 +1250,7 @@
       "product": "6151009790714",
       "ean": "6151009790714",
       "offerId": "0936e6cf-0e8b-43a9-b671-3a056ba3401d",
-      "eigenPrijs": 34.95,
+      "eigenPrijs": 29.75,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -1355,9 +1258,17 @@
       "product": "8715658390237",
       "ean": "8715658390237",
       "offerId": "9bcbf381-41f1-16b4-e053-4782010a671b",
-      "eigenPrijs": 15.95,
+      "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": 15.95,
-      "marge": 0
+      "marge": 1
+    },
+    {
+      "product": "8715658201625",
+      "ean": "8715658201625",
+      "offerId": "b290d320-fe5b-402e-aa56-0452f8571d47",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "6151019059092",
@@ -1382,22 +1293,6 @@
       "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "8718421831425",
-      "ean": "8718421831425",
-      "offerId": "819d13c1-e716-7437-e053-828b620a4314",
-      "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": 12.5,
-      "marge": 0
-    },
-    {
-      "product": "8721055496526",
-      "ean": "8721055496526",
-      "offerId": "62446c04-3c60-4a35-b863-dfad38357e16",
-      "eigenPrijs": 9.95,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 6
     },
     {
       "product": "8721055499619",
@@ -1435,9 +1330,9 @@
       "product": "8715658998631",
       "ean": "8715658998631",
       "offerId": "9bb6ddd4-93f9-bd9e-e053-4782010a32e9",
-      "eigenPrijs": 14.95,
+      "eigenPrijs": 13.95,
       "dichtstbijzijneConcurrent": 14.95,
-      "marge": 0
+      "marge": 1
     },
     {
       "product": "8715658390596",
@@ -1456,20 +1351,20 @@
       "marge": null
     },
     {
-      "product": "8715658361657",
-      "ean": "8715658361657",
-      "offerId": "2da9a7ca-e77d-473f-94c0-abf7f1970bce",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 16,
-      "marge": 1.05
-    },
-    {
       "product": "7640158817322",
       "ean": "7640158817322",
       "offerId": "e29cb0e1-2954-4d95-a75e-4884d3472b91",
-      "eigenPrijs": 11.99,
+      "eigenPrijs": 11.75,
       "dichtstbijzijneConcurrent": 12.57,
-      "marge": 0.58
+      "marge": 0.82
+    },
+    {
+      "product": "6013909650621",
+      "ean": "6013909650621",
+      "offerId": "5848b08d-f5e0-45b7-b9c1-24c1183fc2be",
+      "eigenPrijs": 14.5,
+      "dichtstbijzijneConcurrent": 14.5,
+      "marge": 0
     },
     {
       "product": "8715658350255",
@@ -1510,6 +1405,14 @@
       "eigenPrijs": 12.95,
       "dichtstbijzijneConcurrent": 17.95,
       "marge": 5
+    },
+    {
+      "product": "8715658201632",
+      "ean": "8715658201632",
+      "offerId": "bd347872-b1b3-47b5-a92a-fb0bc9326c0e",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "7640158819180",
@@ -1592,12 +1495,68 @@
       "marge": 0.05
     },
     {
+      "product": "8719214759476",
+      "ean": "8719214759476",
+      "offerId": "0654d1f1-eb13-45a5-94a5-499594f5a08a",
+      "eigenPrijs": 16.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8715658400172",
+      "ean": "8715658400172",
+      "offerId": "9f9bb34f-4bf9-4dbe-b7b2-d186df5f9109",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "6013908853870",
+      "ean": "6013908853870",
+      "offerId": "3f460437-8e91-47ba-ae8c-0f467c14c7c5",
+      "eigenPrijs": 16.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8715658201649",
+      "ean": "8715658201649",
+      "offerId": "9f0df655-56bd-46ad-8046-af83d209375b",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "8719214758332",
       "ean": "8719214758332",
       "offerId": "af305657-1ae0-4bbb-9dbd-dfdf4c05a7a4",
       "eigenPrijs": 12.5,
       "dichtstbijzijneConcurrent": 12.5,
       "marge": 0
+    },
+    {
+      "product": "8715658350279",
+      "ean": "8715658350279",
+      "offerId": "e200054e-a9b2-4ee7-975f-229366e8df31",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721349104250",
+      "ean": "8721349104250",
+      "offerId": "d9dca707-3a5c-47b4-802b-900cdb1d44ec",
+      "eigenPrijs": 12.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8719214750060",
+      "ean": "8719214750060",
+      "offerId": "0ea8abda-7123-4f53-9c0b-e358a19242f8",
+      "eigenPrijs": 16.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8715658410102",
@@ -1608,10 +1567,42 @@
       "marge": 0.3
     },
     {
+      "product": "8721055498858",
+      "ean": "8721055498858",
+      "offerId": "92890c22-9d3d-4557-a80d-9c2025f92015",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8715658350262",
+      "ean": "8715658350262",
+      "offerId": "676e6d14-afa7-4262-8dc7-2e75320a6808",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721055492917",
+      "ean": "8721055492917",
+      "offerId": "2eb60949-4f83-409e-b567-43b2d31956cc",
+      "eigenPrijs": 13.95,
+      "dichtstbijzijneConcurrent": 21.95,
+      "marge": 8
+    },
+    {
       "product": "8715658400882",
       "ean": "8715658400882",
       "offerId": "2cb518e9-8656-418a-87a6-e711ceaa1c58",
       "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721349104229",
+      "ean": "8721349104229",
+      "offerId": "c238337f-bc8f-48c5-91a6-7f7d8d192564",
+      "eigenPrijs": 12.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -1640,11 +1631,11 @@
       "marge": 0
     },
     {
-      "product": "8715658390084",
-      "ean": "8715658390084",
-      "offerId": "9bb6f8b4-e701-dab8-e053-4782010ab717",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": 15.95,
+      "product": "8719214756505",
+      "ean": "8719214756505",
+      "offerId": "a940064b-4f17-4292-9688-39b07066323a",
+      "eigenPrijs": 12.5,
+      "dichtstbijzijneConcurrent": 12.5,
       "marge": 0
     },
     {
@@ -1676,8 +1667,8 @@
       "ean": "7640158817780",
       "offerId": "37902b85-03b1-4050-8161-e2b1f8ebd819",
       "eigenPrijs": 10.45,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 1.05
+      "dichtstbijzijneConcurrent": 11.49,
+      "marge": 1.04
     },
     {
       "product": "6151027816809",
@@ -1694,14 +1685,6 @@
       "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "7640158818015",
-      "ean": "7640158818015",
-      "offerId": "7227b300-adb8-46f0-8a57-061e658ac93b",
-      "eigenPrijs": 11.99,
-      "dichtstbijzijneConcurrent": 12.57,
-      "marge": 0.58
     },
     {
       "product": "6013914322353",
@@ -1736,14 +1719,6 @@
       "marge": null
     },
     {
-      "product": "8721349107510",
-      "ean": "8721349107510",
-      "offerId": "25cc3288-b659-41e9-85fd-4b9e822163a9",
-      "eigenPrijs": 34.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "6151020758748",
       "ean": "6151020758748",
       "offerId": "436d745b-809c-4176-95be-10958dde5ed2",
@@ -1755,6 +1730,14 @@
       "product": "8721055491163",
       "ean": "8721055491163",
       "offerId": "599f53c8-9f5f-4414-a6ea-7813351e23ab",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8716516197968",
+      "ean": "8716516197968",
+      "offerId": "e65682ba-c98b-4458-b569-04f75ba0a36a",
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
@@ -1792,28 +1775,12 @@
       "marge": 7
     },
     {
-      "product": "8715658350262",
-      "ean": "8715658350262",
-      "offerId": "676e6d14-afa7-4262-8dc7-2e75320a6808",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8715658410010",
       "ean": "8715658410010",
       "offerId": "6d0ebe03-fff5-4e4b-abdb-46a001dfc3de",
-      "eigenPrijs": 17.95,
+      "eigenPrijs": 16.95,
       "dichtstbijzijneConcurrent": 17.95,
-      "marge": 0
-    },
-    {
-      "product": "8721055491378",
-      "ean": "8721055491378",
-      "offerId": "58f2c239-aaa7-4fb1-b071-64487210176c",
-      "eigenPrijs": 9.99,
-      "dichtstbijzijneConcurrent": 14.79,
-      "marge": 4.8
+      "marge": 1
     },
     {
       "product": "8721055492832",
@@ -1822,6 +1789,22 @@
       "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": 21.95,
       "marge": 6
+    },
+    {
+      "product": "8719214753313",
+      "ean": "8719214753313",
+      "offerId": "e510198d-33d7-4b7a-9761-d5face342a55",
+      "eigenPrijs": 12.5,
+      "dichtstbijzijneConcurrent": 12.5,
+      "marge": 0
+    },
+    {
+      "product": "8715658420064",
+      "ean": "8715658420064",
+      "offerId": "b5590726-581f-4339-9543-642b785e73e9",
+      "eigenPrijs": 17.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "5414666002103",
@@ -1848,14 +1831,6 @@
       "marge": 0.5
     },
     {
-      "product": "6013908853870",
-      "ean": "6013908853870",
-      "offerId": "3f460437-8e91-47ba-ae8c-0f467c14c7c5",
-      "eigenPrijs": 16.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8721055498155",
       "ean": "8721055498155",
       "offerId": "0081ef5a-d04b-4630-91b8-200c1e6eba22",
@@ -1867,7 +1842,15 @@
       "product": "8721349107534",
       "ean": "8721349107534",
       "offerId": "a5b0e022-faf9-4ac0-8065-bead5d027b86",
-      "eigenPrijs": 34.95,
+      "eigenPrijs": 29.75,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8718421830640",
+      "ean": "8718421830640",
+      "offerId": "e97324a0-5112-400e-8d90-e6db7edee429",
+      "eigenPrijs": 13.5,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -1878,6 +1861,22 @@
       "eigenPrijs": 16.95,
       "dichtstbijzijneConcurrent": 24.95,
       "marge": 8
+    },
+    {
+      "product": "6151037935934",
+      "ean": "6151037935934",
+      "offerId": "99647141-31b9-4c12-8f71-babab5f04f12",
+      "eigenPrijs": 34.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721055492979",
+      "ean": "8721055492979",
+      "offerId": "af130218-567c-4e67-9980-4015049c122c",
+      "eigenPrijs": 34.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "6151015770779",
@@ -1907,9 +1906,17 @@
       "product": "7640158819234",
       "ean": "7640158819234",
       "offerId": "607f444f-90ba-426d-80e7-9e673d74145b",
-      "eigenPrijs": 9.99,
+      "eigenPrijs": 13.95,
       "dichtstbijzijneConcurrent": 21.95,
-      "marge": 11.96
+      "marge": 8
+    },
+    {
+      "product": "7640158818015",
+      "ean": "7640158818015",
+      "offerId": "7227b300-adb8-46f0-8a57-061e658ac93b",
+      "eigenPrijs": 11.75,
+      "dichtstbijzijneConcurrent": 12.25,
+      "marge": 0.5
     },
     {
       "product": "6151018816849",
@@ -1918,6 +1925,14 @@
       "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "7640158814888",
+      "ean": "7640158814888",
+      "offerId": "a3cbf52a-74b1-4b7b-b68f-6552b537b562",
+      "eigenPrijs": 11.75,
+      "dichtstbijzijneConcurrent": 12.57,
+      "marge": 0.82
     },
     {
       "product": "8715658390442",
@@ -1952,6 +1967,22 @@
       "marge": 7
     },
     {
+      "product": "8715658350941",
+      "ean": "8715658350941",
+      "offerId": "ded7a2a0-7bc7-4fe3-88a2-b1ede4335916",
+      "eigenPrijs": 34.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8715658201557",
+      "ean": "8715658201557",
+      "offerId": "4b2dbe77-a3c8-489f-98e9-0e04aa71d893",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "8719214756536",
       "ean": "8719214756536",
       "offerId": "40e5df58-51dd-4c7b-b1a0-2bbfefcb3bce",
@@ -1972,38 +2003,30 @@
       "ean": "8715658002772",
       "offerId": "3ac8ce4e-f602-403c-93b3-50c3a710858e",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 21.95,
+      "marge": 7
     },
     {
       "product": "8721055493983",
       "ean": "8721055493983",
       "offerId": "49ec21d5-3203-4e55-b315-f4d5fd17eec2",
-      "eigenPrijs": 34.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "eigenPrijs": 29.75,
+      "dichtstbijzijneConcurrent": 44.2,
+      "marge": 14.45
     },
     {
       "product": "8715658420200",
       "ean": "8715658420200",
       "offerId": "f02dcdfe-fa77-41c3-9bed-2983ee553784",
       "eigenPrijs": 17.95,
-      "dichtstbijzijneConcurrent": 18.25,
-      "marge": 0.3
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8715658420071",
       "ean": "8715658420071",
       "offerId": "fdbd683e-5fb4-4bf0-bf26-1d7c612f18d4",
       "eigenPrijs": 17.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8715658400172",
-      "ean": "8715658400172",
-      "offerId": "9f9bb34f-4bf9-4dbe-b7b2-d186df5f9109",
-      "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -2024,12 +2047,12 @@
       "marge": 8
     },
     {
-      "product": "8715658420064",
-      "ean": "8715658420064",
-      "offerId": "b5590726-581f-4339-9543-642b785e73e9",
-      "eigenPrijs": 17.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "product": "8718421831425",
+      "ean": "8718421831425",
+      "offerId": "819d13c1-e716-7437-e053-828b620a4314",
+      "eigenPrijs": 10.63,
+      "dichtstbijzijneConcurrent": 10.63,
+      "marge": 0
     },
     {
       "product": "8715658420217",
@@ -2080,14 +2103,6 @@
       "marge": null
     },
     {
-      "product": "8719214754549",
-      "ean": "8719214754549",
-      "offerId": "db38d6f2-13fe-42f9-8694-aab8fb2923ef",
-      "eigenPrijs": 14.75,
-      "dichtstbijzijneConcurrent": 14.75,
-      "marge": 0
-    },
-    {
       "product": "8721349104359",
       "ean": "8721349104359",
       "offerId": "f1c4ef05-543b-437b-8966-974c8b9cd5cc",
@@ -2100,6 +2115,14 @@
       "ean": "8721055493648",
       "offerId": "e7bb6149-fc7d-4b5b-b6b6-521650b1bc59",
       "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "6151037260227",
+      "ean": "6151037260227",
+      "offerId": "f8ae3702-a637-46c8-a58c-69700e86ac66",
+      "eigenPrijs": 29.75,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -2120,20 +2143,12 @@
       "marge": 0.04
     },
     {
-      "product": "8721055495826",
-      "ean": "8721055495826",
-      "offerId": "4f7cb544-eaad-4dd2-8a78-01b07fbecacc",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 21.95,
-      "marge": 7
-    },
-    {
       "product": "8715658391104",
       "ean": "8715658391104",
       "offerId": "c14862c8-8848-41aa-9f01-f1e45658ce29",
       "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
     },
     {
       "product": "6291012005730",
@@ -2248,14 +2263,6 @@
       "marge": 1
     },
     {
-      "product": "8721055494300",
-      "ean": "8721055494300",
-      "offerId": "810731cb-014d-42a5-a00b-3468ba551eeb",
-      "eigenPrijs": 13.95,
-      "dichtstbijzijneConcurrent": 21.95,
-      "marge": 8
-    },
-    {
       "product": "8721055499633",
       "ean": "8721055499633",
       "offerId": "3800530a-c8b4-4acf-a49f-0b76fbc756a6",
@@ -2270,6 +2277,14 @@
       "eigenPrijs": 8.49,
       "dichtstbijzijneConcurrent": 8.49,
       "marge": 0
+    },
+    {
+      "product": "8721055494300",
+      "ean": "8721055494300",
+      "offerId": "810731cb-014d-42a5-a00b-3468ba551eeb",
+      "eigenPrijs": 13.95,
+      "dichtstbijzijneConcurrent": 21.95,
+      "marge": 8
     },
     {
       "product": "8715658350460",
@@ -2360,6 +2375,14 @@
       "marge": 1.05
     },
     {
+      "product": "8721055495567",
+      "ean": "8721055495567",
+      "offerId": "e996a30d-dedd-4044-95cc-8410ec42b550",
+      "eigenPrijs": 12.4,
+      "dichtstbijzijneConcurrent": 12.4,
+      "marge": 0
+    },
+    {
       "product": "7640158817032",
       "ean": "7640158817032",
       "offerId": "46077197-fd5e-4fef-97e1-6a1cbfcbb119",
@@ -2380,8 +2403,8 @@
       "ean": "6291012004955",
       "offerId": "c82dccd1-035f-4762-af92-22cd5ba94511",
       "eigenPrijs": 14.75,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 15.49,
+      "marge": 0.74
     },
     {
       "product": "6291012002616",
@@ -2456,30 +2479,6 @@
       "marge": null
     },
     {
-      "product": "8721055494874",
-      "ean": "8721055494874",
-      "offerId": "156dd04b-6cd3-494d-b8bd-12998765092b",
-      "eigenPrijs": 7.25,
-      "dichtstbijzijneConcurrent": 7.67,
-      "marge": 0.42
-    },
-    {
-      "product": "7640158817476",
-      "ean": "7640158817476",
-      "offerId": "8ee23875-c61f-41e4-94f4-70b064776221",
-      "eigenPrijs": 7.95,
-      "dichtstbijzijneConcurrent": 11.95,
-      "marge": 4
-    },
-    {
-      "product": "8721055496656",
-      "ean": "8721055496656",
-      "offerId": "676ac665-3a5d-414a-84be-77e28bb6f404",
-      "eigenPrijs": 9,
-      "dichtstbijzijneConcurrent": 9,
-      "marge": 0
-    },
-    {
       "product": "8719214751661",
       "ean": "8719214751661",
       "offerId": "b4477362-4aec-eacf-8330-df7e68ba4510",
@@ -2504,18 +2503,10 @@
       "marge": 0
     },
     {
-      "product": "8721055492795",
-      "ean": "8721055492795",
-      "offerId": "fff6b7a9-5310-46b6-ba77-57f6b2dc9df8",
-      "eigenPrijs": 11.95,
-      "dichtstbijzijneConcurrent": 21.95,
-      "marge": 10
-    },
-    {
-      "product": "6151010029070",
-      "ean": "6151010029070",
-      "offerId": "12a1e00b-bf1a-44e2-bfbb-9518e9d666e0",
-      "eigenPrijs": 12.75,
+      "product": "6151035944945",
+      "ean": "6151035944945",
+      "offerId": "10aecb07-8a8a-4faf-b6de-4391cf293e07",
+      "eigenPrijs": 17.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -2524,8 +2515,8 @@
       "ean": "8715658361473",
       "offerId": "42401140-0c76-4bad-aa3f-76c1b4e402e8",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 21.95,
+      "marge": 7
     },
     {
       "product": "6151021328322",
@@ -2544,14 +2535,6 @@
       "marge": null
     },
     {
-      "product": "6291012005518",
-      "ean": "6291012005518",
-      "offerId": "822983b2-330e-44a3-be3b-31f5c6531930",
-      "eigenPrijs": 17.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8721055493075",
       "ean": "8721055493075",
       "offerId": "efcf389e-ef79-4d24-b9b4-0831bba84814",
@@ -2564,8 +2547,8 @@
       "ean": "8721055494324",
       "offerId": "ff63fb85-80cf-428e-bf83-3d2f4c60d6fb",
       "eigenPrijs": 13.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 21.95,
+      "marge": 8
     },
     {
       "product": "8721055493303",
@@ -2580,8 +2563,8 @@
       "ean": "8715658370161",
       "offerId": "72e27218-d691-4508-b95e-657fd627acb3",
       "eigenPrijs": 14.5,
-      "dichtstbijzijneConcurrent": 15.2,
-      "marge": 0.7
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "7640158817704",
@@ -2590,6 +2573,22 @@
       "eigenPrijs": 10.49,
       "dichtstbijzijneConcurrent": 15.95,
       "marge": 5.46
+    },
+    {
+      "product": "8719214750657",
+      "ean": "8719214750657",
+      "offerId": "81d82070-9607-1675-e053-828b620ae64a",
+      "eigenPrijs": 12.5,
+      "dichtstbijzijneConcurrent": 12.5,
+      "marge": 0
+    },
+    {
+      "product": "8719214753344",
+      "ean": "8719214753344",
+      "offerId": "849532e8-c494-448c-9233-a51bcd1fa607",
+      "eigenPrijs": 12.5,
+      "dichtstbijzijneConcurrent": 12.5,
+      "marge": 0
     },
     {
       "product": "8715658390947",
@@ -2627,7 +2626,7 @@
       "product": "7640158819210",
       "ean": "7640158819210",
       "offerId": "5bb89216-cdfa-450c-b1ca-1d0fd5e8cb73",
-      "eigenPrijs": 9.99,
+      "eigenPrijs": 13.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -2635,17 +2634,17 @@
       "product": "8715658370703",
       "ean": "8715658370703",
       "offerId": "5af78707-64db-45b5-bd46-3d6f8f115293",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "eigenPrijs": 13.95,
+      "dichtstbijzijneConcurrent": 14.95,
+      "marge": 1
     },
     {
       "product": "8721055490012",
       "ean": "8721055490012",
       "offerId": "370853d4-8027-402c-83d2-630287b8cf7d",
-      "eigenPrijs": 11.99,
+      "eigenPrijs": 11.75,
       "dichtstbijzijneConcurrent": 12.57,
-      "marge": 0.58
+      "marge": 0.82
     },
     {
       "product": "8715658008576",
@@ -2676,8 +2675,32 @@
       "ean": "8715658370154",
       "offerId": "6b1278d7-2d5b-4e9d-b705-ed387eeea7a1",
       "eigenPrijs": 13.99,
-      "dichtstbijzijneConcurrent": 14.5,
-      "marge": 0.51
+      "dichtstbijzijneConcurrent": 21.95,
+      "marge": 7.96
+    },
+    {
+      "product": "8721055492795",
+      "ean": "8721055492795",
+      "offerId": "fff6b7a9-5310-46b6-ba77-57f6b2dc9df8",
+      "eigenPrijs": 12.25,
+      "dichtstbijzijneConcurrent": 13,
+      "marge": 0.75
+    },
+    {
+      "product": "8719214750770",
+      "ean": "8719214750770",
+      "offerId": "a0a20555-9399-e064-e053-4782010a353e",
+      "eigenPrijs": 8.25,
+      "dichtstbijzijneConcurrent": 9,
+      "marge": 0.75
+    },
+    {
+      "product": "8721055491378",
+      "ean": "8721055491378",
+      "offerId": "58f2c239-aaa7-4fb1-b071-64487210176c",
+      "eigenPrijs": 12.25,
+      "dichtstbijzijneConcurrent": 13,
+      "marge": 0.75
     },
     {
       "product": "6151029534541",
@@ -2715,9 +2738,9 @@
       "product": "8719214759193",
       "ean": "8719214759193",
       "offerId": "77177357-7c54-4266-b7ec-5388f714b49e",
-      "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": 13,
-      "marge": 2.01
+      "eigenPrijs": 8.75,
+      "dichtstbijzijneConcurrent": 9.5,
+      "marge": 0.75
     },
     {
       "product": "8715658390565",
@@ -2732,6 +2755,14 @@
       "ean": "6151021325321",
       "offerId": "fc764f8c-994a-4e6b-8cd0-f6e6a83fc4fa",
       "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721349104243",
+      "ean": "8721349104243",
+      "offerId": "277391bd-0c69-4950-9f58-796c0eaa905b",
+      "eigenPrijs": 12.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -2779,17 +2810,9 @@
       "product": "8721055494218",
       "ean": "8721055494218",
       "offerId": "27736fb6-d9b5-4005-bf04-7a3f5c8803c4",
-      "eigenPrijs": 24.95,
+      "eigenPrijs": 25.95,
       "dichtstbijzijneConcurrent": 26.95,
-      "marge": 2
-    },
-    {
-      "product": "8719214751197",
-      "ean": "8719214751197",
-      "offerId": "39ee7f7b-0df8-048a-6220-402768ba4500",
-      "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": 12.5,
-      "marge": 0
+      "marge": 1
     },
     {
       "product": "8715658997443",
@@ -2811,17 +2834,17 @@
       "product": "7640158814987",
       "ean": "7640158814987",
       "offerId": "e339feff-a2b2-4bfb-bcbc-8b946c9e928b",
-      "eigenPrijs": 11.99,
-      "dichtstbijzijneConcurrent": 12.57,
-      "marge": 0.58
+      "eigenPrijs": 11.75,
+      "dichtstbijzijneConcurrent": 12.25,
+      "marge": 0.5
     },
     {
       "product": "8715658390350",
       "ean": "8715658390350",
       "offerId": "b6888238-a0d5-4bac-8974-ce8b0d380a9e",
       "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 16,
+      "marge": 0.05
     },
     {
       "product": "6291012004825",
@@ -2920,12 +2943,12 @@
       "marge": 0
     },
     {
-      "product": "6013909650621",
-      "ean": "6013909650621",
-      "offerId": "5848b08d-f5e0-45b7-b9c1-24c1183fc2be",
-      "eigenPrijs": 14.5,
-      "dichtstbijzijneConcurrent": 14.5,
-      "marge": 0
+      "product": "8721055491354",
+      "ean": "8721055491354",
+      "offerId": "97741a3c-6fc2-46fb-b85b-c97e7757ad7f",
+      "eigenPrijs": 9.85,
+      "dichtstbijzijneConcurrent": 14.79,
+      "marge": 4.94
     },
     {
       "product": "8715658350446",
@@ -2947,7 +2970,7 @@
       "product": "6151010076081",
       "ean": "6151010076081",
       "offerId": "3b19da4b-a662-45ae-9e0f-76631bc449d6",
-      "eigenPrijs": 34.95,
+      "eigenPrijs": 29.75,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -2976,22 +2999,6 @@
       "marge": null
     },
     {
-      "product": "8721055490500",
-      "ean": "8721055490500",
-      "offerId": "02654581-6dff-464d-ba22-5ee20ea0575b",
-      "eigenPrijs": 6.39,
-      "dichtstbijzijneConcurrent": 6.55,
-      "marge": 0.16
-    },
-    {
-      "product": "8719214756505",
-      "ean": "8719214756505",
-      "offerId": "a940064b-4f17-4292-9688-39b07066323a",
-      "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": 12.5,
-      "marge": 0
-    },
-    {
       "product": "8715658361428",
       "ean": "8715658361428",
       "offerId": "d68e632d-e30f-43b6-be99-4c0f1ddd41c2",
@@ -3011,7 +3018,7 @@
       "product": "6151033193154",
       "ean": "6151033193154",
       "offerId": "7c55d6de-dc4c-4107-88cb-2e54aea3876e",
-      "eigenPrijs": 34.95,
+      "eigenPrijs": 29.75,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -3022,14 +3029,6 @@
       "eigenPrijs": 12.5,
       "dichtstbijzijneConcurrent": 12.5,
       "marge": 0
-    },
-    {
-      "product": "8719214759476",
-      "ean": "8719214759476",
-      "offerId": "0654d1f1-eb13-45a5-94a5-499594f5a08a",
-      "eigenPrijs": 16.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
     },
     {
       "product": "8721055494959",
@@ -3084,8 +3083,8 @@
       "ean": "8715658998563",
       "offerId": "328d849f-b6a8-4d72-94c4-7d3ab82d9800",
       "eigenPrijs": 11.59,
-      "dichtstbijzijneConcurrent": 11.59,
-      "marge": 0
+      "dichtstbijzijneConcurrent": 12.19,
+      "marge": 0.6
     },
     {
       "product": "6151032355362",
@@ -3211,9 +3210,9 @@
       "product": "6291012002692",
       "ean": "6291012002692",
       "offerId": "0d4981e8-e779-4b03-ad6b-fafd1617444c",
-      "eigenPrijs": 16.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "eigenPrijs": 16.45,
+      "dichtstbijzijneConcurrent": 18,
+      "marge": 1.55
     },
     {
       "product": "8715658360995",
@@ -3324,8 +3323,8 @@
       "ean": "8721055496717",
       "offerId": "46674bdf-ca3f-4112-8795-317700d6fa1e",
       "eigenPrijs": 8.99,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 10,
+      "marge": 1.01
     },
     {
       "product": "8721349101075",
@@ -3420,8 +3419,8 @@
       "ean": "8715658370147",
       "offerId": "39112988-fe7d-4a47-9f47-49d34551869e",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 21.95,
+      "marge": 7
     },
     {
       "product": "8721055491477",
@@ -3444,8 +3443,8 @@
       "ean": "8715658380238",
       "offerId": "bcabd3ed-8f82-4308-947b-357e0f6e9811",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 21.95,
+      "marge": 7
     },
     {
       "product": "8721349102614",
@@ -3595,7 +3594,7 @@
       "product": "8718421831586",
       "ean": "8718421831586",
       "offerId": "131a1aaa-94a5-e8b6-63e2-ca6941746961",
-      "eigenPrijs": 14.95,
+      "eigenPrijs": 13.5,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -3603,9 +3602,9 @@
       "product": "7640158819173",
       "ean": "7640158819173",
       "offerId": "f14b535d-cbc5-4093-87a7-2a22b31c2bc1",
-      "eigenPrijs": 9.99,
+      "eigenPrijs": 13.95,
       "dichtstbijzijneConcurrent": 21.95,
-      "marge": 11.96
+      "marge": 8
     },
     {
       "product": "8715658002840",
@@ -3632,36 +3631,12 @@
       "marge": null
     },
     {
-      "product": "8721349104250",
-      "ean": "8721349104250",
-      "offerId": "d9dca707-3a5c-47b4-802b-900cdb1d44ec",
-      "eigenPrijs": 11.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8721055492719",
       "ean": "8721055492719",
       "offerId": "2f127bdd-d1c2-4edf-8214-bb568ef750f7",
       "eigenPrijs": 13.95,
       "dichtstbijzijneConcurrent": 21.95,
       "marge": 8
-    },
-    {
-      "product": "8715658390770",
-      "ean": "8715658390770",
-      "offerId": "57b648c7-54c2-41d9-9435-6755006614f0",
-      "eigenPrijs": 17.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8715658999195",
-      "ean": "8715658999195",
-      "offerId": "9bb6ef02-c2c8-d496-e053-4782010aa133",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 0
     },
     {
       "product": "8721349101129",
@@ -3740,8 +3715,8 @@
       "ean": "5414666016452",
       "offerId": "8137feb2-2410-37ad-e053-828b620afc45",
       "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": 26.95,
-      "marge": 11
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8715658008569",
@@ -3780,6 +3755,14 @@
       "ean": "8721349103659",
       "offerId": "14fecba5-d05b-4643-b3e3-069964b8bcb8",
       "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721349101730",
+      "ean": "8721349101730",
+      "offerId": "3b828b80-142a-46e4-9d80-3f62a24cf321",
+      "eigenPrijs": 18.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -3860,8 +3843,8 @@
       "ean": "6291012871410",
       "offerId": "3b218b1f-ca93-4fa2-b79d-2f35fe6a08f4",
       "eigenPrijs": 17.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 19.99,
+      "marge": 2.04
     },
     {
       "product": "8715658361626",
@@ -3894,14 +3877,6 @@
       "eigenPrijs": 13.5,
       "dichtstbijzijneConcurrent": 13.5,
       "marge": 0
-    },
-    {
-      "product": "8719214756079",
-      "ean": "8719214756079",
-      "offerId": "f3d034b0-1fc3-4b7e-a2f7-a9fe28e75ed7",
-      "eigenPrijs": 17.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
     },
     {
       "product": "8715658350736",
@@ -3992,28 +3967,12 @@
       "marge": null
     },
     {
-      "product": "8719214753313",
-      "ean": "8719214753313",
-      "offerId": "e510198d-33d7-4b7a-9761-d5face342a55",
-      "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": 12.5,
-      "marge": 0
-    },
-    {
       "product": "8721055494003",
       "ean": "8721055494003",
       "offerId": "f66cede8-fee6-43b1-8a62-299f57d53fe2",
       "eigenPrijs": 12.5,
       "dichtstbijzijneConcurrent": 12.5,
       "marge": 0
-    },
-    {
-      "product": "7640158817490",
-      "ean": "7640158817490",
-      "offerId": "88954418-01cb-4d37-8efa-12865f592f0c",
-      "eigenPrijs": 7.95,
-      "dichtstbijzijneConcurrent": 9,
-      "marge": 1.05
     },
     {
       "product": "8715658360896",
@@ -4064,14 +4023,6 @@
       "marge": 2.04
     },
     {
-      "product": "8721055490326",
-      "ean": "8721055490326",
-      "offerId": "c7370c33-d9ae-4316-aa3a-bb6df5ea74ff",
-      "eigenPrijs": 8.69,
-      "dichtstbijzijneConcurrent": 9.02,
-      "marge": 0.33
-    },
-    {
       "product": "8715658420194",
       "ean": "8715658420194",
       "offerId": "595f4725-78a9-4f39-9d0b-925a3157eb72",
@@ -4083,9 +4034,9 @@
       "product": "8715658002574",
       "ean": "8715658002574",
       "offerId": "43994940-ce1d-45fd-b204-404b06882546",
-      "eigenPrijs": 10.59,
-      "dichtstbijzijneConcurrent": 10.59,
-      "marge": 0
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": 11.29,
+      "marge": 0.3
     },
     {
       "product": "8719214754556",
@@ -4100,8 +4051,8 @@
       "ean": "8715658002567",
       "offerId": "2f22da7c-3366-409c-99a9-70ddf56aeb53",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 16,
+      "marge": 1.05
     },
     {
       "product": "8715658390930",
@@ -4203,7 +4154,7 @@
       "product": "6151037194195",
       "ean": "6151037194195",
       "offerId": "900ae87c-9b27-4de1-b916-5f5a5b6ed567",
-      "eigenPrijs": 34.95,
+      "eigenPrijs": 29.75,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -4224,6 +4175,14 @@
       "marge": null
     },
     {
+      "product": "5414666001557",
+      "ean": "5414666001557",
+      "offerId": "8137feb1-3eab-37ad-e053-828b620afc45",
+      "eigenPrijs": 10.5,
+      "dichtstbijzijneConcurrent": 10.5,
+      "marge": 0
+    },
+    {
       "product": "8719214754808",
       "ean": "8719214754808",
       "offerId": "f157b0fe-89a8-41e4-b5bf-ad9d33c64de6",
@@ -4235,9 +4194,9 @@
       "product": "7640158814826",
       "ean": "7640158814826",
       "offerId": "70ced169-ed11-4993-b219-5366fee5700b",
-      "eigenPrijs": 12.49,
-      "dichtstbijzijneConcurrent": 12.94,
-      "marge": 0.45
+      "eigenPrijs": 11.25,
+      "dichtstbijzijneConcurrent": 12.25,
+      "marge": 1
     },
     {
       "product": "6291012876583",
@@ -4276,8 +4235,8 @@
       "ean": "8714319237768",
       "offerId": "e1f07d40-4c02-4602-b511-19968ad1d568",
       "eigenPrijs": 14.25,
-      "dichtstbijzijneConcurrent": 16.21,
-      "marge": 1.96
+      "dichtstbijzijneConcurrent": 15.66,
+      "marge": 1.41
     },
     {
       "product": "8715658401698",
@@ -4301,14 +4260,6 @@
       "offerId": "eb7a1f1d-1da0-47f6-b9a0-6fb914121f38",
       "eigenPrijs": 9.95,
       "dichtstbijzijneConcurrent": 9.95,
-      "marge": 0
-    },
-    {
-      "product": "8721349101242",
-      "ean": "8721349101242",
-      "offerId": "bd39a562-1b58-4c44-8590-67aabedc7be5",
-      "eigenPrijs": 13.3,
-      "dichtstbijzijneConcurrent": 13.3,
       "marge": 0
     },
     {
@@ -4336,14 +4287,6 @@
       "marge": 0
     },
     {
-      "product": "8715658350279",
-      "ean": "8715658350279",
-      "offerId": "e200054e-a9b2-4ee7-975f-229366e8df31",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "6151015850884",
       "ean": "6151015850884",
       "offerId": "1bcf3d6d-4a05-4583-bd0b-ed988016d4b8",
@@ -4364,8 +4307,8 @@
       "ean": "7640158815755",
       "offerId": "f6b76b53-3e8e-40fd-80df-66154a214367",
       "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": 14.03,
-      "marge": 1.53
+      "dichtstbijzijneConcurrent": 13.33,
+      "marge": 0.83
     },
     {
       "product": "8721055492344",
@@ -4395,9 +4338,25 @@
       "product": "8721055497004",
       "ean": "8721055497004",
       "offerId": "e9b282da-5b56-4b4f-97b9-fafbe05559b1",
-      "eigenPrijs": 9.49,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 6.46
+      "eigenPrijs": 9.45,
+      "dichtstbijzijneConcurrent": 10,
+      "marge": 0.55
+    },
+    {
+      "product": "8715658390770",
+      "ean": "8715658390770",
+      "offerId": "57b648c7-54c2-41d9-9435-6755006614f0",
+      "eigenPrijs": 17.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8721349104212",
+      "ean": "8721349104212",
+      "offerId": "e0551030-2179-41cb-bc0b-01bbb0fe8335",
+      "eigenPrijs": 12.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8715658360674",
@@ -4459,7 +4418,7 @@
       "product": "6151037160169",
       "ean": "6151037160169",
       "offerId": "fb7cbcca-0e49-4080-81df-114d1f623844",
-      "eigenPrijs": 34.95,
+      "eigenPrijs": 29.75,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -4468,14 +4427,6 @@
       "ean": "8719214759711",
       "offerId": "512f2f9e-f2fd-40c6-951a-fac86bc0c2fd",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8715658401483",
-      "ean": "8715658401483",
-      "offerId": "be46a66a-0eaa-4c86-a855-f4d9436403ff",
-      "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -4499,9 +4450,9 @@
       "product": "8721055490340",
       "ean": "8721055490340",
       "offerId": "2790d286-541d-4e7b-b4fc-59f9b1ca23c4",
-      "eigenPrijs": 6.95,
+      "eigenPrijs": 6.99,
       "dichtstbijzijneConcurrent": 7.17,
-      "marge": 0.22
+      "marge": 0.18
     },
     {
       "product": "5414666001366",
@@ -4568,14 +4519,6 @@
       "marge": null
     },
     {
-      "product": "8721055496502",
-      "ean": "8721055496502",
-      "offerId": "b06caf02-5f3d-4397-8465-c0041a19bad4",
-      "eigenPrijs": 9.95,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 6
-    },
-    {
       "product": "8721349104342",
       "ean": "8721349104342",
       "offerId": "d01c76b9-c240-4ab1-ab31-a4b2133eb22e",
@@ -4608,6 +4551,22 @@
       "marge": null
     },
     {
+      "product": "8715658201588",
+      "ean": "8715658201588",
+      "offerId": "2965759b-32c5-49c4-b73a-a2d7c05ff987",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8715658370543",
+      "ean": "8715658370543",
+      "offerId": "2378d6b7-006d-4343-94a8-2e6d3e4550da",
+      "eigenPrijs": 9.99,
+      "dichtstbijzijneConcurrent": 16,
+      "marge": 6.01
+    },
+    {
       "product": "7640158817018",
       "ean": "7640158817018",
       "offerId": "d065c5eb-14f9-4071-9fcb-72d3abf85bc0",
@@ -4627,7 +4586,7 @@
       "product": "6151034168151",
       "ean": "6151034168151",
       "offerId": "f39d402a-fb82-4345-9e00-395172d9c363",
-      "eigenPrijs": 34.95,
+      "eigenPrijs": 29.75,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -4696,14 +4655,6 @@
       "marge": null
     },
     {
-      "product": "6151035944945",
-      "ean": "6151035944945",
-      "offerId": "10aecb07-8a8a-4faf-b6de-4391cf293e07",
-      "eigenPrijs": 17.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "5414666001588",
       "ean": "5414666001588",
       "offerId": "0886cb91-bc15-4bf2-9408-9d16baae1a1c",
@@ -4718,14 +4669,6 @@
       "eigenPrijs": 13.95,
       "dichtstbijzijneConcurrent": 21.95,
       "marge": 8
-    },
-    {
-      "product": "8721055496519",
-      "ean": "8721055496519",
-      "offerId": "e63eff60-f563-4bbe-b3cf-2326c9b42e25",
-      "eigenPrijs": 9.95,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 6
     },
     {
       "product": "8721349100443",
@@ -4776,14 +4719,6 @@
       "marge": null
     },
     {
-      "product": "6013906727746",
-      "ean": "6013906727746",
-      "offerId": "c06b4287-dff8-419f-9ec1-6f09db04df2a",
-      "eigenPrijs": 14.5,
-      "dichtstbijzijneConcurrent": 14.5,
-      "marge": 0
-    },
-    {
       "product": "8721349103673",
       "ean": "8721349103673",
       "offerId": "331585ab-2575-453a-927a-a4bef68f8161",
@@ -4792,18 +4727,10 @@
       "marge": null
     },
     {
-      "product": "6151037425473",
-      "ean": "6151037425473",
-      "offerId": "335c23cb-c837-481e-afc3-5ab52a762a46",
-      "eigenPrijs": 34.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8721349107923",
       "ean": "8721349107923",
       "offerId": "bc722897-aa38-435c-a24a-622146210cf3",
-      "eigenPrijs": 34.95,
+      "eigenPrijs": 29.75,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -4812,8 +4739,8 @@
       "ean": "8715658401490",
       "offerId": "52f58fd9-e76a-4e9f-9c40-ac35837af989",
       "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 16,
+      "marge": 0.05
     },
     {
       "product": "8719214759667",
@@ -4936,6 +4863,14 @@
       "marge": null
     },
     {
+      "product": "8721055495826",
+      "ean": "8721055495826",
+      "offerId": "4f7cb544-eaad-4dd2-8a78-01b07fbecacc",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": 21.95,
+      "marge": 7
+    },
+    {
       "product": "8715658013426",
       "ean": "8715658013426",
       "offerId": "52d5d8d1-1fdc-4f15-ba10-9a8b4b03dae6",
@@ -4960,20 +4895,12 @@
       "marge": null
     },
     {
-      "product": "7640158817445",
-      "ean": "7640158817445",
-      "offerId": "76bc4be5-d776-4bb5-9395-687d5fd39c32",
-      "eigenPrijs": 7.95,
-      "dichtstbijzijneConcurrent": 9,
-      "marge": 1.05
-    },
-    {
-      "product": "7640158817469",
-      "ean": "7640158817469",
-      "offerId": "e2bd8054-6aa8-4c31-bb80-fd3a45f1983a",
-      "eigenPrijs": 7.95,
-      "dichtstbijzijneConcurrent": 11.2,
-      "marge": 3.25
+      "product": "8715658201564",
+      "ean": "8715658201564",
+      "offerId": "3266b43c-b5af-41ba-b3ba-c6c79587a17a",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8719214757403",
@@ -5051,9 +4978,9 @@
       "product": "8715658009573",
       "ean": "8715658009573",
       "offerId": "509efe51-3d3f-4911-b239-0e043824f391",
-      "eigenPrijs": 10.59,
-      "dichtstbijzijneConcurrent": 10.59,
-      "marge": 0
+      "eigenPrijs": 11.25,
+      "dichtstbijzijneConcurrent": 11.29,
+      "marge": 0.04
     },
     {
       "product": "8719214756512",
@@ -5062,14 +4989,6 @@
       "eigenPrijs": 12.5,
       "dichtstbijzijneConcurrent": 12.5,
       "marge": 0
-    },
-    {
-      "product": "8721349104243",
-      "ean": "8721349104243",
-      "offerId": "277391bd-0c69-4950-9f58-796c0eaa905b",
-      "eigenPrijs": 11.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
     },
     {
       "product": "8715658360209",
@@ -5104,14 +5023,6 @@
       "marge": 7
     },
     {
-      "product": "8721349100054",
-      "ean": "8721349100054",
-      "offerId": "1f6f152f-8321-4e5b-aecd-f63c013adba1",
-      "eigenPrijs": 13.3,
-      "dichtstbijzijneConcurrent": 13.3,
-      "marge": 0
-    },
-    {
       "product": "8721055491798",
       "ean": "8721055491798",
       "offerId": "53a08d48-e36c-4d7c-982f-31c2af03e83a",
@@ -5120,12 +5031,20 @@
       "marge": 8
     },
     {
+      "product": "8718421831654",
+      "ean": "8718421831654",
+      "offerId": "c493021d-4ad5-48d0-bd96-40b77c024d7b",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "8715658401773",
       "ean": "8715658401773",
       "offerId": "fc7310aa-e85e-4d51-86fb-98306b1b8999",
       "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
     },
     {
       "product": "8715658009115",
@@ -5144,12 +5063,12 @@
       "marge": null
     },
     {
-      "product": "7640158817452",
-      "ean": "7640158817452",
-      "offerId": "deb3635f-2f2f-48e9-84fd-121bf1ae0f87",
-      "eigenPrijs": 7.95,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 3.55
+      "product": "8715658350514",
+      "ean": "8715658350514",
+      "offerId": "49effc95-bd0e-49a2-9668-ec184940d548",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8721055499442",
@@ -5160,12 +5079,20 @@
       "marge": null
     },
     {
+      "product": "8719214756789",
+      "ean": "8719214756789",
+      "offerId": "56d94afd-3f84-45c8-87bf-5c6d32bca26f",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": 14.99,
+      "marge": 4
+    },
+    {
       "product": "8719214752347",
       "ean": "8719214752347",
       "offerId": "08a31359-f873-4fc7-9e56-36f3b5b0de33",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 16,
-      "marge": 1.05
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8715658401278",
@@ -5211,9 +5138,9 @@
       "product": "8715658002536",
       "ean": "8715658002536",
       "offerId": "40cb06d2-6e17-411d-a3cd-7bb9434d088a",
-      "eigenPrijs": 10.59,
-      "dichtstbijzijneConcurrent": 10.59,
-      "marge": 0
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": 11.29,
+      "marge": 0.3
     },
     {
       "product": "8721349102287",
@@ -5243,17 +5170,17 @@
       "product": "8715658380801",
       "ean": "8715658380801",
       "offerId": "8e3710ca-2d4b-439f-84ee-97f8d4637000",
-      "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": 11.59,
-      "marge": 0.6
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": 21.95,
+      "marge": 7
     },
     {
       "product": "8719214757519",
       "ean": "8719214757519",
       "offerId": "c0603272-6f7a-4db9-a7ea-caf5cd82001d",
-      "eigenPrijs": 10.99,
+      "eigenPrijs": 11.95,
       "dichtstbijzijneConcurrent": 12.25,
-      "marge": 1.26
+      "marge": 0.3
     },
     {
       "product": "8715658410119",
@@ -5272,20 +5199,12 @@
       "marge": null
     },
     {
-      "product": "8718421830640",
-      "ean": "8718421830640",
-      "offerId": "e97324a0-5112-400e-8d90-e6db7edee429",
-      "eigenPrijs": 14.5,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8721055493013",
       "ean": "8721055493013",
       "offerId": "72f0aced-4a24-41f1-963c-c9cde67a1ea4",
-      "eigenPrijs": 12.95,
+      "eigenPrijs": 13.95,
       "dichtstbijzijneConcurrent": 14.95,
-      "marge": 2
+      "marge": 1
     },
     {
       "product": "8721055492290",
@@ -5347,7 +5266,7 @@
       "product": "8715658401292",
       "ean": "8715658401292",
       "offerId": "0e9935f9-9292-47b9-aba2-b0813f3cc50b",
-      "eigenPrijs": 14.75,
+      "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -5376,14 +5295,6 @@
       "marge": null
     },
     {
-      "product": "8721055492917",
-      "ean": "8721055492917",
-      "offerId": "2eb60949-4f83-409e-b567-43b2d31956cc",
-      "eigenPrijs": 13.95,
-      "dichtstbijzijneConcurrent": 21.95,
-      "marge": 8
-    },
-    {
       "product": "5414666010511",
       "ean": "5414666010511",
       "offerId": "0043da01-ff23-4c68-85a5-a85d6be6bbd2",
@@ -5408,6 +5319,14 @@
       "marge": 1.05
     },
     {
+      "product": "6151032821898",
+      "ean": "6151032821898",
+      "offerId": "c96d6eb9-42aa-4c3e-9186-e387bc7e674b",
+      "eigenPrijs": 34.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "8721055494287",
       "ean": "8721055494287",
       "offerId": "a39e923b-1a9a-412e-9551-ad7243b8a5fb",
@@ -5424,6 +5343,14 @@
       "marge": 0
     },
     {
+      "product": "8715658401032",
+      "ean": "8715658401032",
+      "offerId": "551d9a62-721e-496a-a54f-a84bb5b6a168",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
+    },
+    {
       "product": "6151016791780",
       "ean": "6151016791780",
       "offerId": "f732c861-faa7-4b90-9000-120c40cddc3e",
@@ -5432,20 +5359,12 @@
       "marge": null
     },
     {
-      "product": "8715658390923",
-      "ean": "8715658390923",
-      "offerId": "5e02fd9f-5b5f-4c16-8fc5-98f1689a14dc",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 0
-    },
-    {
       "product": "6291012002739",
       "ean": "6291012002739",
       "offerId": "a96ce93f-ac52-4092-b389-e5f2330e46da",
-      "eigenPrijs": 17.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "eigenPrijs": 15.75,
+      "dichtstbijzijneConcurrent": 15.99,
+      "marge": 0.24
     },
     {
       "product": "6151020421437",
@@ -5547,17 +5466,17 @@
       "product": "8715658401476",
       "ean": "8715658401476",
       "offerId": "0ced4513-98c0-469f-bfd9-af5604ae5db7",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": 16,
-      "marge": 0.05
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 1
     },
     {
-      "product": "8721055498384",
-      "ean": "8721055498384",
-      "offerId": "97a0fd38-1989-496f-8cbb-af2d186f40e8",
-      "eigenPrijs": 14.59,
-      "dichtstbijzijneConcurrent": 14.99,
-      "marge": 0.4
+      "product": "8715658391043",
+      "ean": "8715658391043",
+      "offerId": "9568fe9d-2054-4e85-aa95-6fadbd754c56",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
     },
     {
       "product": "8715658998952",
@@ -5571,17 +5490,17 @@
       "product": "6291012871731",
       "ean": "6291012871731",
       "offerId": "7807bef9-8748-4b23-bc93-1a153a4469c9",
-      "eigenPrijs": 17.95,
-      "dichtstbijzijneConcurrent": 26.95,
-      "marge": 9
+      "eigenPrijs": 14.25,
+      "dichtstbijzijneConcurrent": 14.99,
+      "marge": 0.74
     },
     {
       "product": "8715658999447",
       "ean": "8715658999447",
       "offerId": "2f850afb-2a27-4bfd-be56-301f3735ea41",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 21.95,
+      "marge": 7
     },
     {
       "product": "8721349100467",
@@ -5614,14 +5533,6 @@
       "eigenPrijs": 13.95,
       "dichtstbijzijneConcurrent": 21.95,
       "marge": 8
-    },
-    {
-      "product": "5414666001557",
-      "ean": "5414666001557",
-      "offerId": "8137feb1-3eab-37ad-e053-828b620afc45",
-      "eigenPrijs": 10.5,
-      "dichtstbijzijneConcurrent": 11.95,
-      "marge": 1.45
     },
     {
       "product": "8715658360698",
@@ -5708,8 +5619,8 @@
       "ean": "6291012871465",
       "offerId": "5d066a00-9da3-4a1e-8861-bb1f467df4d2",
       "eigenPrijs": 17.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 19.99,
+      "marge": 2.04
     },
     {
       "product": "8719214750237",
@@ -5731,9 +5642,9 @@
       "product": "8715658380368",
       "ean": "8715658380368",
       "offerId": "a729a65e-e233-c45b-e053-4782010a469d",
-      "eigenPrijs": 14.95,
+      "eigenPrijs": 13.95,
       "dichtstbijzijneConcurrent": 14.95,
-      "marge": 0
+      "marge": 1
     },
     {
       "product": "8721055499428",
@@ -5904,14 +5815,6 @@
       "marge": null
     },
     {
-      "product": "8719214753344",
-      "ean": "8719214753344",
-      "offerId": "849532e8-c494-448c-9233-a51bcd1fa607",
-      "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": 12.5,
-      "marge": 0
-    },
-    {
       "product": "8719214751104",
       "ean": "8719214751104",
       "offerId": "8f9a1bf1-617f-4183-ab61-95d84f171904",
@@ -5956,8 +5859,8 @@
       "ean": "8715658013006",
       "offerId": "a602cfe1-8189-4c34-ae85-f9877380e747",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 21.95,
+      "marge": 7
     },
     {
       "product": "6291012005082",
@@ -5979,9 +5882,9 @@
       "product": "8721055495802",
       "ean": "8721055495802",
       "offerId": "32c87091-8aed-44ba-8238-cfd61bf352aa",
-      "eigenPrijs": 12.95,
-      "dichtstbijzijneConcurrent": 13.49,
-      "marge": 0.54
+      "eigenPrijs": 10.75,
+      "dichtstbijzijneConcurrent": 10.99,
+      "marge": 0.24
     },
     {
       "product": "6096036236289",
@@ -6067,9 +5970,9 @@
       "product": "7640158814925",
       "ean": "7640158814925",
       "offerId": "8bf91dbc-b318-43c1-b6fc-dd9454262ab0",
-      "eigenPrijs": 11.99,
+      "eigenPrijs": 11.75,
       "dichtstbijzijneConcurrent": 12.57,
-      "marge": 0.58
+      "marge": 0.82
     },
     {
       "product": "8715658350408",
@@ -6078,22 +5981,6 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "6151037935934",
-      "ean": "6151037935934",
-      "offerId": "99647141-31b9-4c12-8f71-babab5f04f12",
-      "eigenPrijs": 34.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8721055493747",
-      "ean": "8721055493747",
-      "offerId": "12655353-6d65-405b-b724-f99f663fa900",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 21.95,
-      "marge": 7
     },
     {
       "product": "8719214756475",
@@ -6144,14 +6031,6 @@
       "marge": null
     },
     {
-      "product": "5414666016216",
-      "ean": "5414666016216",
-      "offerId": "125ab784-586c-425a-a97f-5264f0809e59",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 16,
-      "marge": 1.05
-    },
-    {
       "product": "8715658401643",
       "ean": "8715658401643",
       "offerId": "c92c0c32-ffde-472b-9d3b-5411d19bd108",
@@ -6176,20 +6055,12 @@
       "marge": 2
     },
     {
-      "product": "8721055494829",
-      "ean": "8721055494829",
-      "offerId": "95d63707-3ef3-47ac-ab91-e9afbed33d65",
-      "eigenPrijs": 6.95,
-      "dichtstbijzijneConcurrent": 7.21,
-      "marge": 0.26
-    },
-    {
       "product": "8715658420132",
       "ean": "8715658420132",
       "offerId": "a2c18080-2a2a-4604-95a3-096c6bf3d517",
-      "eigenPrijs": 17.95,
+      "eigenPrijs": 16.95,
       "dichtstbijzijneConcurrent": 17.95,
-      "marge": 0
+      "marge": 1
     },
     {
       "product": "8721055493396",
@@ -6320,14 +6191,6 @@
       "marge": null
     },
     {
-      "product": "6151027512541",
-      "ean": "6151027512541",
-      "offerId": "7fefd352-f612-47ce-a0e5-57cd1e74f533",
-      "eigenPrijs": 14.75,
-      "dichtstbijzijneConcurrent": 14.75,
-      "marge": 0
-    },
-    {
       "product": "5414666007801",
       "ean": "5414666007801",
       "offerId": "813bd145-34d6-7d19-e053-828b620a966d",
@@ -6440,6 +6303,14 @@
       "marge": null
     },
     {
+      "product": "6013906727746",
+      "ean": "6013906727746",
+      "offerId": "c06b4287-dff8-419f-9ec1-6f09db04df2a",
+      "eigenPrijs": 14.5,
+      "dichtstbijzijneConcurrent": 14.5,
+      "marge": 0
+    },
+    {
       "product": "6151038058007",
       "ean": "6151038058007",
       "offerId": "2e0a97ca-9d5b-430b-8f0f-d83cabd1e3c9",
@@ -6452,8 +6323,8 @@
       "ean": "8715658997795",
       "offerId": "091d40db-d2e3-4022-bea6-5ca77276b8a2",
       "eigenPrijs": 11.59,
-      "dichtstbijzijneConcurrent": 11.59,
-      "marge": 0
+      "dichtstbijzijneConcurrent": 12.19,
+      "marge": 0.6
     },
     {
       "product": "8721055493501",
@@ -6468,8 +6339,8 @@
       "ean": "8721055497011",
       "offerId": "9bf02504-3af5-48d6-a4ef-d984f163da88",
       "eigenPrijs": 8.99,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 6.96
+      "dichtstbijzijneConcurrent": 10,
+      "marge": 1.01
     },
     {
       "product": "6151021339366",
@@ -6496,14 +6367,6 @@
       "marge": null
     },
     {
-      "product": "6151032821898",
-      "ean": "6151032821898",
-      "offerId": "c96d6eb9-42aa-4c3e-9186-e387bc7e674b",
-      "eigenPrijs": 34.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "6151029227221",
       "ean": "6151029227221",
       "offerId": "b44f5dc5-f9f5-4b3d-84ca-bd6804fc37c9",
@@ -6512,12 +6375,12 @@
       "marge": null
     },
     {
-      "product": "8715658400585",
-      "ean": "8715658400585",
-      "offerId": "53755a5a-ac91-406d-869d-63447b807ab0",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 0
+      "product": "8718421830695",
+      "ean": "8718421830695",
+      "offerId": "ad0440a1-7958-42e3-b859-e1a6a9dec325",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8715658350507",
@@ -6536,6 +6399,14 @@
       "marge": null
     },
     {
+      "product": "8715658361657",
+      "ean": "8715658361657",
+      "offerId": "2da9a7ca-e77d-473f-94c0-abf7f1970bce",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": 16,
+      "marge": 1.05
+    },
+    {
       "product": "6291012905399",
       "ean": "6291012905399",
       "offerId": "2618b7f0-50e6-4cd7-9d29-336f50535bff",
@@ -6544,12 +6415,12 @@
       "marge": 7
     },
     {
-      "product": "8715658401636",
-      "ean": "8715658401636",
-      "offerId": "cbb7f031-3f5c-42ce-9933-92b943be4cb2",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 0
+      "product": "8721349107510",
+      "ean": "8721349107510",
+      "offerId": "25cc3288-b659-41e9-85fd-4b9e822163a9",
+      "eigenPrijs": 29.75,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "6151009095048",
@@ -6560,36 +6431,12 @@
       "marge": 0
     },
     {
-      "product": "8715658390053",
-      "ean": "8715658390053",
-      "offerId": "9bb6def7-4067-be35-e053-4782010aec2c",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 0
-    },
-    {
       "product": "6151009090036",
       "ean": "6151009090036",
       "offerId": "27326892-c91c-403b-81ee-8b029383b944",
       "eigenPrijs": 12.5,
       "dichtstbijzijneConcurrent": 12.5,
       "marge": 0
-    },
-    {
-      "product": "8719214753269",
-      "ean": "8719214753269",
-      "offerId": "55fdd73e-6b44-427e-80a0-fd82558e0ade",
-      "eigenPrijs": 9,
-      "dichtstbijzijneConcurrent": 9,
-      "marge": 0
-    },
-    {
-      "product": "8715658362012",
-      "ean": "8715658362012",
-      "offerId": "cd08cc55-4736-4446-9b7b-27329a4a8552",
-      "eigenPrijs": 34.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
     },
     {
       "product": "8721349102744",
@@ -6612,30 +6459,6 @@
       "ean": "6151036627663",
       "offerId": "7af1478a-90c9-4334-ba73-1599e60ad76a",
       "eigenPrijs": 39.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8718421831197",
-      "ean": "8718421831197",
-      "offerId": "82783ebb-ab16-73ea-e053-828b620aed91",
-      "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": 12.5,
-      "marge": 0
-    },
-    {
-      "product": "8715658350941",
-      "ean": "8715658350941",
-      "offerId": "ded7a2a0-7bc7-4fe3-88a2-b1ede4335916",
-      "eigenPrijs": 34.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8721055499480",
-      "ean": "8721055499480",
-      "offerId": "92694de0-ef05-4d2c-9ec8-610ba8c27df3",
-      "eigenPrijs": 34.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -6675,14 +6498,6 @@
       "product": "8719214757755",
       "ean": "8719214757755",
       "offerId": "7854b444-475c-4b15-be0a-b584524c6b47",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 0
-    },
-    {
-      "product": "8715658969594",
-      "ean": "8715658969594",
-      "offerId": "9bb6ec23-12d6-cf82-e053-4782010af97e",
       "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": 15.95,
       "marge": 0
@@ -6768,9 +6583,9 @@
       "marge": 7
     },
     {
-      "product": "8721349102317",
-      "ean": "8721349102317",
-      "offerId": "2ec41bbf-d16a-43d8-8d21-5b6a274f5228",
+      "product": "8714319237379",
+      "ean": "8714319237379",
+      "offerId": "909f38d8-476f-4613-b150-7ee73e87735b",
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
@@ -6779,9 +6594,9 @@
       "product": "8715658002932",
       "ean": "8715658002932",
       "offerId": "80d02dbc-f887-4c51-9c7f-7443cedf9ef8",
-      "eigenPrijs": 10.59,
-      "dichtstbijzijneConcurrent": 10.59,
-      "marge": 0
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": 11.29,
+      "marge": 0.3
     },
     {
       "product": "8715658401049",
@@ -6790,14 +6605,6 @@
       "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "8721055492689",
-      "ean": "8721055492689",
-      "offerId": "c370b0e5-b402-4112-b0c3-99db9f4d06a5",
-      "eigenPrijs": 7.95,
-      "dichtstbijzijneConcurrent": 12.95,
-      "marge": 5
     },
     {
       "product": "8719214755805",
@@ -6819,7 +6626,7 @@
       "product": "6151031897801",
       "ean": "6151031897801",
       "offerId": "9aae7386-f21d-4526-8baf-95ccd1c16d78",
-      "eigenPrijs": 34.95,
+      "eigenPrijs": 29.75,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -6883,17 +6690,17 @@
       "product": "8715658400707",
       "ean": "8715658400707",
       "offerId": "d6cc28f9-cf27-4096-9f08-71b6f498ce89",
-      "eigenPrijs": 15.95,
+      "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": 15.95,
-      "marge": 0
+      "marge": 1
     },
     {
       "product": "8721055496731",
       "ean": "8721055496731",
       "offerId": "c6f07278-df78-49d9-9b61-dea2d2c53b6f",
       "eigenPrijs": 9.45,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 10,
+      "marge": 0.55
     },
     {
       "product": "8715658401230",
@@ -6940,8 +6747,16 @@
       "ean": "8715658391067",
       "offerId": "46fdc3e0-6296-4f66-a349-8a723244e3fe",
       "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": 18.25,
-      "marge": 2.3
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
+    },
+    {
+      "product": "8719214753641",
+      "ean": "8719214753641",
+      "offerId": "abcc0127-36e4-479e-bd89-4fc798228f94",
+      "eigenPrijs": 12.5,
+      "dichtstbijzijneConcurrent": 12.5,
+      "marge": 0
     },
     {
       "product": "8715658401513",
@@ -6955,9 +6770,9 @@
       "product": "8715658420231",
       "ean": "8715658420231",
       "offerId": "77bb6d9d-48aa-417d-bea4-3c72fec9115b",
-      "eigenPrijs": 17.95,
+      "eigenPrijs": 16.95,
       "dichtstbijzijneConcurrent": 18.49,
-      "marge": 0.54
+      "marge": 1.54
     },
     {
       "product": "8715658380856",
@@ -6966,22 +6781,6 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": 16,
       "marge": 1.05
-    },
-    {
-      "product": "8721055498858",
-      "ean": "8721055498858",
-      "offerId": "92890c22-9d3d-4557-a80d-9c2025f92015",
-      "eigenPrijs": 8.99,
-      "dichtstbijzijneConcurrent": 9.5,
-      "marge": 0.51
-    },
-    {
-      "product": "8719214753641",
-      "ean": "8719214753641",
-      "offerId": "abcc0127-36e4-479e-bd89-4fc798228f94",
-      "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": 12.5,
-      "marge": 0
     },
     {
       "product": "8715658370598",
@@ -7048,12 +6847,12 @@
       "marge": null
     },
     {
-      "product": "8719214750060",
-      "ean": "8719214750060",
-      "offerId": "0ea8abda-7123-4f53-9c0b-e358a19242f8",
-      "eigenPrijs": 16.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "product": "8721055498384",
+      "ean": "8721055498384",
+      "offerId": "97a0fd38-1989-496f-8cbb-af2d186f40e8",
+      "eigenPrijs": 14.59,
+      "dichtstbijzijneConcurrent": 14.99,
+      "marge": 0.4
     },
     {
       "product": "8715658370093",
@@ -7068,6 +6867,14 @@
       "ean": "8715658350071",
       "offerId": "7ddc21ed-e2ca-4c40-a689-eefc90b5786b",
       "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "6151010029070",
+      "ean": "6151010029070",
+      "offerId": "12a1e00b-bf1a-44e2-bfbb-9518e9d666e0",
+      "eigenPrijs": 12.75,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -7088,20 +6895,28 @@
       "marge": null
     },
     {
+      "product": "8721055496656",
+      "ean": "8721055496656",
+      "offerId": "676ac665-3a5d-414a-84be-77e28bb6f404",
+      "eigenPrijs": 9,
+      "dichtstbijzijneConcurrent": 9,
+      "marge": 0
+    },
+    {
       "product": "7640158816400",
       "ean": "7640158816400",
       "offerId": "6189d2f2-197f-41b1-97ee-95a8c65f436e",
       "eigenPrijs": 11.25,
-      "dichtstbijzijneConcurrent": 12.57,
-      "marge": 1.32
+      "dichtstbijzijneConcurrent": 12.25,
+      "marge": 1
     },
     {
       "product": "8715658998419",
       "ean": "8715658998419",
       "offerId": "a4bdbe6d-29c9-4a0b-a4f4-5d3ae30461da",
       "eigenPrijs": 11.59,
-      "dichtstbijzijneConcurrent": 11.59,
-      "marge": 0
+      "dichtstbijzijneConcurrent": 12.19,
+      "marge": 0.6
     },
     {
       "product": "8719214758561",
@@ -7109,14 +6924,6 @@
       "offerId": "99d4ec94-4eaa-4e1b-a47a-6f01f900ccf4",
       "eigenPrijs": 12.5,
       "dichtstbijzijneConcurrent": 12.5,
-      "marge": 0
-    },
-    {
-      "product": "8715658997283",
-      "ean": "8715658997283",
-      "offerId": "9bb6db10-f212-bb52-e053-4782010a6de7",
-      "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": 15.95,
       "marge": 0
     },
     {
@@ -7128,28 +6935,20 @@
       "marge": null
     },
     {
+      "product": "8721055493747",
+      "ean": "8721055493747",
+      "offerId": "12655353-6d65-405b-b724-f99f663fa900",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": 21.95,
+      "marge": 7
+    },
+    {
       "product": "6151028770735",
       "ean": "6151028770735",
       "offerId": "ee61f3a3-3586-4b8c-962c-66ae586f3687",
       "eigenPrijs": 12.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
-    },
-    {
-      "product": "6151028322347",
-      "ean": "6151028322347",
-      "offerId": "3bb9cffe-4e47-499c-a7f9-74b249526b2c",
-      "eigenPrijs": 24.95,
-      "dichtstbijzijneConcurrent": 24.95,
-      "marge": 0
-    },
-    {
-      "product": "8721055490364",
-      "ean": "8721055490364",
-      "offerId": "eb0ec967-c5fa-4576-bbcb-857c01f65ba3",
-      "eigenPrijs": 6.55,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 9.4
     },
     {
       "product": "8721055493181",
@@ -7188,8 +6987,8 @@
       "ean": "8715658380702",
       "offerId": "40992d73-6afd-43ff-bbc2-03eb88b25173",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 21.95,
+      "marge": 7
     },
     {
       "product": "8721055493341",
@@ -7340,14 +7139,6 @@
       "ean": "8715658401780",
       "offerId": "babf49c4-1bf8-433c-9204-b5bc023a8ace",
       "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8715658390220",
-      "ean": "8715658390220",
-      "offerId": "a5829e65-19bb-ecba-e053-4782010a5390",
-      "eigenPrijs": 15.95,
       "dichtstbijzijneConcurrent": 15.95,
       "marge": 0
     },
@@ -7424,22 +7215,6 @@
       "marge": null
     },
     {
-      "product": "7438235478494",
-      "ean": "7438235478494",
-      "offerId": "98f28a27-7b85-66ac-e053-4782010afba0",
-      "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": 12.5,
-      "marge": 0
-    },
-    {
-      "product": "8718421831555",
-      "ean": "8718421831555",
-      "offerId": "9eadf5b9-a556-ab34-e053-4782010af861",
-      "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": 12.5,
-      "marge": 0
-    },
-    {
       "product": "8719214757229",
       "ean": "8719214757229",
       "offerId": "32c903e5-4ebc-4ce5-9e18-fa30f53e0c0f",
@@ -7476,16 +7251,16 @@
       "ean": "8715658360063",
       "offerId": "c8c70a45-4891-43e9-a945-fd373712548b",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 21.95,
+      "marge": 7
     },
     {
       "product": "8721349108319",
       "ean": "8721349108319",
       "offerId": "94d576f8-5850-47bb-a0ab-877c61e3a43c",
-      "eigenPrijs": 34.95,
+      "eigenPrijs": 29.75,
       "dichtstbijzijneConcurrent": 44.2,
-      "marge": 9.25
+      "marge": 14.45
     },
     {
       "product": "8715658390299",
@@ -7576,14 +7351,6 @@
       "marge": null
     },
     {
-      "product": "8719214753221",
-      "ean": "8719214753221",
-      "offerId": "9cf3e85f-7eed-1f62-e053-4782010a35a0",
-      "eigenPrijs": 12.49,
-      "dichtstbijzijneConcurrent": 12.49,
-      "marge": 0
-    },
-    {
       "product": "6291012007307",
       "ean": "6291012007307",
       "offerId": "d4d2e78d-561a-4685-837f-2d83c19cca2e",
@@ -7606,14 +7373,6 @@
       "eigenPrijs": 14.95,
       "dichtstbijzijneConcurrent": 14.95,
       "marge": 0
-    },
-    {
-      "product": "6291012004931",
-      "ean": "6291012004931",
-      "offerId": "eb5bcd88-eef3-42db-883f-3b15e7831f29",
-      "eigenPrijs": 16.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
     },
     {
       "product": "6151016381301",
@@ -7668,24 +7427,16 @@
       "ean": "8715658380689",
       "offerId": "9f587b49-4db5-4fbb-b556-b620bacd8330",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 21.95,
+      "marge": 7
     },
     {
       "product": "7640158814802",
       "ean": "7640158814802",
       "offerId": "96c1a957-3ddb-4231-82ff-2add708c4957",
-      "eigenPrijs": 11.95,
+      "eigenPrijs": 11.75,
       "dichtstbijzijneConcurrent": 12.57,
-      "marge": 0.62
-    },
-    {
-      "product": "6151028518580",
-      "ean": "6151028518580",
-      "offerId": "cf2fdb7c-b6b1-4921-ad95-73d59dacd4b2",
-      "eigenPrijs": 24.95,
-      "dichtstbijzijneConcurrent": 24.95,
-      "marge": 0
+      "marge": 0.82
     },
     {
       "product": "7640158819258",
@@ -7702,6 +7453,14 @@
       "eigenPrijs": 12.95,
       "dichtstbijzijneConcurrent": 17.95,
       "marge": 5
+    },
+    {
+      "product": "8718421831555",
+      "ean": "8718421831555",
+      "offerId": "9eadf5b9-a556-ab34-e053-4782010af861",
+      "eigenPrijs": 12.5,
+      "dichtstbijzijneConcurrent": 12.5,
+      "marge": 0
     },
     {
       "product": "8715658361534",
@@ -7723,9 +7482,9 @@
       "product": "7640158815731",
       "ean": "7640158815731",
       "offerId": "075473f0-623a-4c7e-bbde-bb70c7a2c2ca",
-      "eigenPrijs": 11.99,
-      "dichtstbijzijneConcurrent": 12.57,
-      "marge": 0.58
+      "eigenPrijs": 11.75,
+      "dichtstbijzijneConcurrent": 12.25,
+      "marge": 0.5
     },
     {
       "product": "6151031843891",
@@ -7752,14 +7511,6 @@
       "marge": 7
     },
     {
-      "product": "7640158816271",
-      "ean": "7640158816271",
-      "offerId": "af152091-7fb8-4e66-9427-89f932003b42",
-      "eigenPrijs": 11.5,
-      "dichtstbijzijneConcurrent": 12.57,
-      "marge": 1.07
-    },
-    {
       "product": "8715658370574",
       "ean": "8715658370574",
       "offerId": "9fbe3ee8-0acd-4910-8682-2f0642d91f38",
@@ -7772,16 +7523,16 @@
       "ean": "8715658401506",
       "offerId": "5a6d11ed-79b0-4947-a35f-023a7214a0ac",
       "eigenPrijs": 15.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 16,
+      "marge": 0.05
     },
     {
       "product": "8721349108296",
       "ean": "8721349108296",
       "offerId": "932bc95e-63e0-487b-bd31-c34c5c1f7dbe",
-      "eigenPrijs": 34.95,
+      "eigenPrijs": 29.75,
       "dichtstbijzijneConcurrent": 44.2,
-      "marge": 9.25
+      "marge": 14.45
     },
     {
       "product": "6151018076038",
@@ -7800,14 +7551,6 @@
       "marge": null
     },
     {
-      "product": "6151037260227",
-      "ean": "6151037260227",
-      "offerId": "f8ae3702-a637-46c8-a58c-69700e86ac66",
-      "eigenPrijs": 34.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "6151035859805",
       "ean": "6151035859805",
       "offerId": "ec5a9c94-d513-4fa9-a938-3728d0cde7b0",
@@ -7816,12 +7559,28 @@
       "marge": null
     },
     {
+      "product": "8715658390015",
+      "ean": "8715658390015",
+      "offerId": "9bb6dc6f-a74d-bc05-e053-4782010a282e",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
+    },
+    {
       "product": "8721055493440",
       "ean": "8721055493440",
       "offerId": "1d2fc58c-cb6f-4751-825b-b6d4e1342668",
       "eigenPrijs": 11.69,
       "dichtstbijzijneConcurrent": 11.76,
       "marge": 0.07
+    },
+    {
+      "product": "8719214753269",
+      "ean": "8719214753269",
+      "offerId": "55fdd73e-6b44-427e-80a0-fd82558e0ade",
+      "eigenPrijs": 9,
+      "dichtstbijzijneConcurrent": 9,
+      "marge": 0
     },
     {
       "product": "8719214757366",
@@ -7868,8 +7627,8 @@
       "ean": "8715658999645",
       "offerId": "f84f37b3-9c69-4396-a9fc-6d09efeeb6b5",
       "eigenPrijs": 11.59,
-      "dichtstbijzijneConcurrent": 11.59,
-      "marge": 0
+      "dichtstbijzijneConcurrent": 12.19,
+      "marge": 0.6
     },
     {
       "product": "6151015756759",
@@ -7880,12 +7639,20 @@
       "marge": null
     },
     {
+      "product": "8721055499480",
+      "ean": "8721055499480",
+      "offerId": "92694de0-ef05-4d2c-9ec8-610ba8c27df3",
+      "eigenPrijs": 29.75,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
       "product": "8721055490234",
       "ean": "8721055490234",
       "offerId": "113c63b1-96ef-4c13-87b8-137cbf123ff1",
-      "eigenPrijs": 11.25,
-      "dichtstbijzijneConcurrent": 12.57,
-      "marge": 1.32
+      "eigenPrijs": 10.49,
+      "dichtstbijzijneConcurrent": 11,
+      "marge": 0.51
     },
     {
       "product": "8719214754167",
@@ -7920,14 +7687,6 @@
       "marge": 9
     },
     {
-      "product": "7640158818053",
-      "ean": "7640158818053",
-      "offerId": "d2d42d8f-2873-4150-b360-25445260f5b8",
-      "eigenPrijs": 17.5,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8721055498377",
       "ean": "8721055498377",
       "offerId": "89aed7d6-7600-42c5-8186-90cbdb0b5b70",
@@ -7948,16 +7707,8 @@
       "ean": "8719214758363",
       "offerId": "733c0456-9c1d-406d-b96f-ec965616eb83",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
-      "product": "8719214750770",
-      "ean": "8719214750770",
-      "offerId": "a0a20555-9399-e064-e053-4782010a353e",
-      "eigenPrijs": 9.99,
-      "dichtstbijzijneConcurrent": 10.3,
-      "marge": 0.31
+      "dichtstbijzijneConcurrent": 15.2,
+      "marge": 0.25
     },
     {
       "product": "6013902726750",
@@ -7979,9 +7730,9 @@
       "product": "8715658002734",
       "ean": "8715658002734",
       "offerId": "43f0f11c-5b2f-47dd-81e0-7482d5c7e89b",
-      "eigenPrijs": 10.59,
-      "dichtstbijzijneConcurrent": 10.59,
-      "marge": 0
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": 11.29,
+      "marge": 0.3
     },
     {
       "product": "8718421830688",
@@ -8004,8 +7755,8 @@
       "ean": "8721055497028",
       "offerId": "d1c54717-bbea-4d13-83d1-28a848503e82",
       "eigenPrijs": 8.59,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 7.36
+      "dichtstbijzijneConcurrent": 9,
+      "marge": 0.41
     },
     {
       "product": "8715658360643",
@@ -8040,6 +7791,14 @@
       "marge": null
     },
     {
+      "product": "8721055490364",
+      "ean": "8721055490364",
+      "offerId": "eb0ec967-c5fa-4576-bbcb-857c01f65ba3",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": 12,
+      "marge": 1.01
+    },
+    {
       "product": "5414666014427",
       "ean": "5414666014427",
       "offerId": "8121d076-095a-2c96-e053-828b620adf20",
@@ -8052,8 +7811,24 @@
       "ean": "6291012878259",
       "offerId": "72fec260-873b-42d9-956c-1c3c0df30b6b",
       "eigenPrijs": 14,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 16,
+      "marge": 2
+    },
+    {
+      "product": "8721055490500",
+      "ean": "8721055490500",
+      "offerId": "02654581-6dff-464d-ba22-5ee20ea0575b",
+      "eigenPrijs": 6.4,
+      "dichtstbijzijneConcurrent": 6.55,
+      "marge": 0.15
+    },
+    {
+      "product": "8721055494829",
+      "ean": "8721055494829",
+      "offerId": "95d63707-3ef3-47ac-ab91-e9afbed33d65",
+      "eigenPrijs": 6.99,
+      "dichtstbijzijneConcurrent": 7.21,
+      "marge": 0.22
     },
     {
       "product": "6151028068092",
@@ -8062,6 +7837,14 @@
       "eigenPrijs": 12.95,
       "dichtstbijzijneConcurrent": null,
       "marge": null
+    },
+    {
+      "product": "8721055494874",
+      "ean": "8721055494874",
+      "offerId": "156dd04b-6cd3-494d-b8bd-12998765092b",
+      "eigenPrijs": 7.29,
+      "dichtstbijzijneConcurrent": 7.67,
+      "marge": 0.38
     },
     {
       "product": "7640158819265",
@@ -8099,9 +7882,65 @@
       "product": "8721055490517",
       "ean": "8721055490517",
       "offerId": "e9dbb4f1-4a9e-44a4-aab9-649960c756c5",
-      "eigenPrijs": 6.95,
+      "eigenPrijs": 6.99,
       "dichtstbijzijneConcurrent": 7.21,
-      "marge": 0.26
+      "marge": 0.22
+    },
+    {
+      "product": "8721055492689",
+      "ean": "8721055492689",
+      "offerId": "c370b0e5-b402-4112-b0c3-99db9f4d06a5",
+      "eigenPrijs": 6.49,
+      "dichtstbijzijneConcurrent": 10.59,
+      "marge": 4.1
+    },
+    {
+      "product": "7640158817469",
+      "ean": "7640158817469",
+      "offerId": "e2bd8054-6aa8-4c31-bb80-fd3a45f1983a",
+      "eigenPrijs": 6.75,
+      "dichtstbijzijneConcurrent": 7.15,
+      "marge": 0.4
+    },
+    {
+      "product": "7640158817452",
+      "ean": "7640158817452",
+      "offerId": "deb3635f-2f2f-48e9-84fd-121bf1ae0f87",
+      "eigenPrijs": 6.75,
+      "dichtstbijzijneConcurrent": 7.15,
+      "marge": 0.4
+    },
+    {
+      "product": "7640158817490",
+      "ean": "7640158817490",
+      "offerId": "88954418-01cb-4d37-8efa-12865f592f0c",
+      "eigenPrijs": 6.75,
+      "dichtstbijzijneConcurrent": 7.15,
+      "marge": 0.4
+    },
+    {
+      "product": "7640158817445",
+      "ean": "7640158817445",
+      "offerId": "76bc4be5-d776-4bb5-9395-687d5fd39c32",
+      "eigenPrijs": 6.75,
+      "dichtstbijzijneConcurrent": 7.15,
+      "marge": 0.4
+    },
+    {
+      "product": "7640158817476",
+      "ean": "7640158817476",
+      "offerId": "8ee23875-c61f-41e4-94f4-70b064776221",
+      "eigenPrijs": 6.75,
+      "dichtstbijzijneConcurrent": 7.15,
+      "marge": 0.4
+    },
+    {
+      "product": "6291012004931",
+      "ean": "6291012004931",
+      "offerId": "eb5bcd88-eef3-42db-883f-3b15e7831f29",
+      "eigenPrijs": 16.95,
+      "dichtstbijzijneConcurrent": 17.99,
+      "marge": 1.04
     },
     {
       "product": "7640158814864",
@@ -8139,17 +7978,17 @@
       "product": "8721055495765",
       "ean": "8721055495765",
       "offerId": "94674120-2d89-474e-b76c-e480e25af5a2",
-      "eigenPrijs": 11.49,
-      "dichtstbijzijneConcurrent": 11.72,
-      "marge": 0.23
+      "eigenPrijs": 10.75,
+      "dichtstbijzijneConcurrent": 10.99,
+      "marge": 0.24
     },
     {
       "product": "8715658370710",
       "ean": "8715658370710",
       "offerId": "158d6d14-8bfb-48b2-9324-177285fe5822",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "eigenPrijs": 13.95,
+      "dichtstbijzijneConcurrent": 14.95,
+      "marge": 1
     },
     {
       "product": "8721055490371",
@@ -8163,9 +8002,9 @@
       "product": "8715658370727",
       "ean": "8715658370727",
       "offerId": "6473c707-4b60-4f8b-b205-1c49dd4bcb23",
-      "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "eigenPrijs": 13.95,
+      "dichtstbijzijneConcurrent": 14.95,
+      "marge": 1
     },
     {
       "product": "8719214755003",
@@ -8188,16 +8027,16 @@
       "ean": "8714319236983",
       "offerId": "3a0fcabe-f4a4-49d0-b211-1d8bc7341f0e",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 16.19,
-      "marge": 1.24
+      "dichtstbijzijneConcurrent": 15.63,
+      "marge": 0.68
     },
     {
       "product": "8715658002512",
       "ean": "8715658002512",
       "offerId": "605d0734-9171-4054-8977-630c0ddee2d8",
       "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": 10.59,
-      "marge": 0.1
+      "dichtstbijzijneConcurrent": 11.19,
+      "marge": 0.7
     },
     {
       "product": "8719214751203",
@@ -8211,17 +8050,17 @@
       "product": "8721055490531",
       "ean": "8721055490531",
       "offerId": "d06fbc84-022e-410b-be2a-f31aed86c8f8",
-      "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": 15.95,
-      "marge": 4.96
+      "eigenPrijs": 8.45,
+      "dichtstbijzijneConcurrent": 9,
+      "marge": 0.55
     },
     {
       "product": "8721055494867",
       "ean": "8721055494867",
       "offerId": "3e0c1f3f-64fe-4dde-a706-37f2a946e597",
-      "eigenPrijs": 6.75,
+      "eigenPrijs": 6.79,
       "dichtstbijzijneConcurrent": 7.03,
-      "marge": 0.28
+      "marge": 0.24
     },
     {
       "product": "6291012899858",
@@ -8243,9 +8082,9 @@
       "product": "8721055493914",
       "ean": "8721055493914",
       "offerId": "c1883bfb-5bee-4f51-965d-a2cea8c7b14f",
-      "eigenPrijs": 24.95,
+      "eigenPrijs": 25.95,
       "dichtstbijzijneConcurrent": 26.95,
-      "marge": 2
+      "marge": 1
     },
     {
       "product": "8715658002543",
@@ -8259,9 +8098,9 @@
       "product": "8719214759179",
       "ean": "8719214759179",
       "offerId": "d05d9f04-2012-4135-933e-4efcb2cd3deb",
-      "eigenPrijs": 7.95,
-      "dichtstbijzijneConcurrent": 10.3,
-      "marge": 2.35
+      "eigenPrijs": 7.99,
+      "dichtstbijzijneConcurrent": 8.5,
+      "marge": 0.51
     },
     {
       "product": "8721055491156",
@@ -8283,9 +8122,33 @@
       "product": "7640158816295",
       "ean": "7640158816295",
       "offerId": "6d16f30c-5080-47c5-92cb-7219935e673b",
-      "eigenPrijs": 11.95,
-      "dichtstbijzijneConcurrent": 12.57,
-      "marge": 0.62
+      "eigenPrijs": 11.75,
+      "dichtstbijzijneConcurrent": 12.25,
+      "marge": 0.5
+    },
+    {
+      "product": "8718421831197",
+      "ean": "8718421831197",
+      "offerId": "82783ebb-ab16-73ea-e053-828b620aed91",
+      "eigenPrijs": 10.63,
+      "dichtstbijzijneConcurrent": 10.63,
+      "marge": 0
+    },
+    {
+      "product": "8715658362012",
+      "ean": "8715658362012",
+      "offerId": "cd08cc55-4736-4446-9b7b-27329a4a8552",
+      "eigenPrijs": 29.75,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
+    },
+    {
+      "product": "8719214756772",
+      "ean": "8719214756772",
+      "offerId": "66c2f331-247f-4c13-a6be-8f6bd66ed7a8",
+      "eigenPrijs": 10.99,
+      "dichtstbijzijneConcurrent": 14.99,
+      "marge": 4
     },
     {
       "product": "8721055498452",
@@ -8315,25 +8178,25 @@
       "product": "8721055496724",
       "ean": "8721055496724",
       "offerId": "6da9b20d-a762-400d-b8d9-0fb4fffc18ea",
-      "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "eigenPrijs": 9.45,
+      "dichtstbijzijneConcurrent": 10,
+      "marge": 0.55
     },
     {
       "product": "8721055491439",
       "ean": "8721055491439",
       "offerId": "d87abf99-efb6-4b1a-881d-72bf91651766",
-      "eigenPrijs": 9.85,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 1
     },
     {
       "product": "8721055490357",
       "ean": "8721055490357",
       "offerId": "b3ea42c4-2185-4f52-a37b-a09b5f1ac67a",
-      "eigenPrijs": 7.59,
+      "eigenPrijs": 7.65,
       "dichtstbijzijneConcurrent": 7.89,
-      "marge": 0.3
+      "marge": 0.24
     },
     {
       "product": "8715658002871",
@@ -8347,9 +8210,9 @@
       "product": "8719214759162",
       "ean": "8719214759162",
       "offerId": "e93e8b1e-c5c2-4963-b7d0-c1a335035ed3",
-      "eigenPrijs": 10.99,
-      "dichtstbijzijneConcurrent": 11,
-      "marge": 0.01
+      "eigenPrijs": 8.45,
+      "dichtstbijzijneConcurrent": 9,
+      "marge": 0.55
     },
     {
       "product": "7640158817797",
@@ -8376,12 +8239,28 @@
       "marge": 0
     },
     {
+      "product": "8715658420163",
+      "ean": "8715658420163",
+      "offerId": "5e0dc7c0-76f2-4704-a443-e5fd6f8eb830",
+      "eigenPrijs": 16.95,
+      "dichtstbijzijneConcurrent": 17.95,
+      "marge": 1
+    },
+    {
+      "product": "8715658420149",
+      "ean": "8715658420149",
+      "offerId": "41040f75-2e8c-4351-84fe-b81fc8f253d8",
+      "eigenPrijs": 16.95,
+      "dichtstbijzijneConcurrent": 17.95,
+      "marge": 1
+    },
+    {
       "product": "8715658998617",
       "ean": "8715658998617",
       "offerId": "9384a60c-29fa-190b-e053-3c82010a5e6a",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": 15.2,
-      "marge": 0.25
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8715658360162",
@@ -8403,9 +8282,9 @@
       "product": "7640158815656",
       "ean": "7640158815656",
       "offerId": "7527779a-125a-4253-adaa-e4d5e7e7eafd",
-      "eigenPrijs": 11.99,
+      "eigenPrijs": 11.75,
       "dichtstbijzijneConcurrent": 12.57,
-      "marge": 0.58
+      "marge": 0.82
     },
     {
       "product": "7640158815717",
@@ -8435,25 +8314,25 @@
       "product": "7640158815557",
       "ean": "7640158815557",
       "offerId": "6479b95c-9e40-4501-ab39-de75cad81913",
-      "eigenPrijs": 13.5,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "eigenPrijs": 11.45,
+      "dichtstbijzijneConcurrent": 11.5,
+      "marge": 0.05
     },
     {
       "product": "7640158815007",
       "ean": "7640158815007",
       "offerId": "c9139afb-7b7e-4c9a-999e-728779c55535",
-      "eigenPrijs": 11.99,
-      "dichtstbijzijneConcurrent": 12.57,
-      "marge": 0.58
+      "eigenPrijs": 11.75,
+      "dichtstbijzijneConcurrent": 12.25,
+      "marge": 0.5
     },
     {
       "product": "7640158815779",
       "ean": "7640158815779",
       "offerId": "4bc17287-5cfc-47b5-9fe2-f96b5ee35e2b",
       "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": 14.03,
-      "marge": 1.53
+      "dichtstbijzijneConcurrent": 13.33,
+      "marge": 0.83
     },
     {
       "product": "8719214759551",
@@ -8464,18 +8343,10 @@
       "marge": 0
     },
     {
-      "product": "8721055492979",
-      "ean": "8721055492979",
-      "offerId": "af130218-567c-4e67-9980-4015049c122c",
-      "eigenPrijs": 34.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
-    },
-    {
       "product": "8721055492931",
       "ean": "8721055492931",
       "offerId": "d870d2e5-add5-4a65-9e49-e8c7b4572d4b",
-      "eigenPrijs": 34.95,
+      "eigenPrijs": 29.75,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -8483,7 +8354,7 @@
       "product": "8721055492955",
       "ean": "8721055492955",
       "offerId": "1467e256-22da-4d40-a863-8ef8e29b3d98",
-      "eigenPrijs": 34.95,
+      "eigenPrijs": 29.75,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -8508,8 +8379,8 @@
       "ean": "8721055493709",
       "offerId": "954dabbe-d299-4c6a-ad52-8f6084932130",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 16,
+      "marge": 1.05
     },
     {
       "product": "8719214751654",
@@ -8564,8 +8435,8 @@
       "ean": "8715658009566",
       "offerId": "86778954-e0c5-4656-9e0a-75ebdc01d0da",
       "eigenPrijs": 10.49,
-      "dichtstbijzijneConcurrent": 10.59,
-      "marge": 0.1
+      "dichtstbijzijneConcurrent": 11.29,
+      "marge": 0.8
     },
     {
       "product": "8715658391128",
@@ -8588,8 +8459,8 @@
       "ean": "8715658370178",
       "offerId": "c3bbcc74-53da-487d-9d3e-98ae380a3d1a",
       "eigenPrijs": 11.59,
-      "dichtstbijzijneConcurrent": 11.59,
-      "marge": 0
+      "dichtstbijzijneConcurrent": 12.19,
+      "marge": 0.6
     },
     {
       "product": "8715658360056",
@@ -8664,6 +8535,14 @@
       "marge": 0
     },
     {
+      "product": "8715658969679",
+      "ean": "8715658969679",
+      "offerId": "1326e353-021e-4087-8d02-3c92f20eea1f",
+      "eigenPrijs": 16.95,
+      "dichtstbijzijneConcurrent": 17.95,
+      "marge": 1
+    },
+    {
       "product": "8719326174709",
       "ean": "8719326174709",
       "offerId": "885c788c-abd1-61c8-e053-828b620ae142",
@@ -8688,20 +8567,60 @@
       "marge": null
     },
     {
+      "product": "8715658401797",
+      "ean": "8715658401797",
+      "offerId": "3b077fe3-5a3c-4b53-88c6-df073db3bef1",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
+    },
+    {
+      "product": "8715658420156",
+      "ean": "8715658420156",
+      "offerId": "725d5fef-b0e7-4543-afb2-2f4989e95357",
+      "eigenPrijs": 16.95,
+      "dichtstbijzijneConcurrent": 17.95,
+      "marge": 1
+    },
+    {
       "product": "8721055494720",
       "ean": "8721055494720",
       "offerId": "60c594b9-ce17-4590-a4ae-8e2848171eeb",
-      "eigenPrijs": 15.99,
-      "dichtstbijzijneConcurrent": 16.65,
-      "marge": 0.66
+      "eigenPrijs": 14.99,
+      "dichtstbijzijneConcurrent": 15.39,
+      "marge": 0.4
+    },
+    {
+      "product": "8715658010579",
+      "ean": "8715658010579",
+      "offerId": "85bf8f85-b651-40f7-ba94-9ff259a4be4d",
+      "eigenPrijs": 16.95,
+      "dichtstbijzijneConcurrent": 17.95,
+      "marge": 1
+    },
+    {
+      "product": "8715658390374",
+      "ean": "8715658390374",
+      "offerId": "45b41d44-2211-4f3f-91fb-0757e812382d",
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 1
     },
     {
       "product": "7640158817483",
       "ean": "7640158817483",
       "offerId": "14302d0f-6de2-4cdd-b555-7e1db26efc85",
-      "eigenPrijs": 7.95,
-      "dichtstbijzijneConcurrent": 11.5,
-      "marge": 3.55
+      "eigenPrijs": 6.49,
+      "dichtstbijzijneConcurrent": 7.9,
+      "marge": 1.41
+    },
+    {
+      "product": "8715658969662",
+      "ean": "8715658969662",
+      "offerId": "35b6f2c9-79a3-47b6-b9ac-d8dd8ea57d1e",
+      "eigenPrijs": 16.95,
+      "dichtstbijzijneConcurrent": 17.95,
+      "marge": 1
     },
     {
       "product": "8718421831579",
@@ -8710,6 +8629,22 @@
       "eigenPrijs": 9.99,
       "dichtstbijzijneConcurrent": 10.93,
       "marge": 0.94
+    },
+    {
+      "product": "8715658390220",
+      "ean": "8715658390220",
+      "offerId": "a5829e65-19bb-ecba-e053-4782010a5390",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
+    },
+    {
+      "product": "8715658007036",
+      "ean": "8715658007036",
+      "offerId": "41d63a4b-f592-41cf-a065-e07daedde518",
+      "eigenPrijs": 10.59,
+      "dichtstbijzijneConcurrent": 11.29,
+      "marge": 0.7
     },
     {
       "product": "8715658997702",
@@ -8723,8 +8658,8 @@
       "product": "7438235478432",
       "ean": "7438235478432",
       "offerId": "1d72d918-3d99-32f8-be20-710068ba4500",
-      "eigenPrijs": 12.5,
-      "dichtstbijzijneConcurrent": 12.5,
+      "eigenPrijs": 10.63,
+      "dichtstbijzijneConcurrent": 10.63,
       "marge": 0
     },
     {
@@ -8755,7 +8690,7 @@
       "product": "6151033525597",
       "ean": "6151033525597",
       "offerId": "9e6d7119-f8d9-4407-a375-88c4d3efe8d4",
-      "eigenPrijs": 34.95,
+      "eigenPrijs": 29.75,
       "dichtstbijzijneConcurrent": null,
       "marge": null
     },
@@ -8763,17 +8698,25 @@
       "product": "8721055495789",
       "ean": "8721055495789",
       "offerId": "5e4f9d63-5d42-4b9f-b5c5-037b13640cd3",
-      "eigenPrijs": 10.45,
-      "dichtstbijzijneConcurrent": 10.82,
-      "marge": 0.37
+      "eigenPrijs": 14.95,
+      "dichtstbijzijneConcurrent": null,
+      "marge": null
     },
     {
       "product": "8721055491392",
       "ean": "8721055491392",
       "offerId": "d24e8cd2-869b-40ff-8df0-3d964804b02c",
       "eigenPrijs": 14.95,
-      "dichtstbijzijneConcurrent": null,
-      "marge": null
+      "dichtstbijzijneConcurrent": 16,
+      "marge": 1.05
+    },
+    {
+      "product": "8715658400721",
+      "ean": "8715658400721",
+      "offerId": "4f4c23a2-641d-4170-90c0-e44c59e319bf",
+      "eigenPrijs": 15.95,
+      "dichtstbijzijneConcurrent": 15.95,
+      "marge": 0
     },
     {
       "product": "8719214754563",
@@ -8795,9 +8738,9 @@
       "product": "8721055492634",
       "ean": "8721055492634",
       "offerId": "9fe7fc50-c16b-4c4d-8dd9-80c89cd41161",
-      "eigenPrijs": 7.95,
-      "dichtstbijzijneConcurrent": 11.2,
-      "marge": 3.25
+      "eigenPrijs": 6.75,
+      "dichtstbijzijneConcurrent": 7.15,
+      "marge": 0.4
     },
     {
       "product": "8719214754150",
@@ -8819,41 +8762,41 @@
       "product": "8721055492658",
       "ean": "8721055492658",
       "offerId": "273df668-16c3-45e6-ba3d-3fd34f37570d",
-      "eigenPrijs": 7.95,
-      "dichtstbijzijneConcurrent": 11.2,
-      "marge": 3.25
+      "eigenPrijs": 6.75,
+      "dichtstbijzijneConcurrent": 7.15,
+      "marge": 0.4
     },
     {
       "product": "8721055492665",
       "ean": "8721055492665",
       "offerId": "7d856bd3-2b28-4592-8de1-dcb1c062cc95",
-      "eigenPrijs": 7.95,
-      "dichtstbijzijneConcurrent": 11.2,
-      "marge": 3.25
+      "eigenPrijs": 6.49,
+      "dichtstbijzijneConcurrent": 10.59,
+      "marge": 4.1
     },
     {
       "product": "8721055492672",
       "ean": "8721055492672",
       "offerId": "0121d0e4-31d6-40fb-8271-bcbac4dc6232",
-      "eigenPrijs": 7.95,
-      "dichtstbijzijneConcurrent": 11.2,
-      "marge": 3.25
+      "eigenPrijs": 6.49,
+      "dichtstbijzijneConcurrent": 10.59,
+      "marge": 4.1
     },
     {
       "product": "8721055492641",
       "ean": "8721055492641",
       "offerId": "48899630-152c-4e86-a93b-1ca07ccd48b6",
-      "eigenPrijs": 7.95,
-      "dichtstbijzijneConcurrent": 11.2,
-      "marge": 3.25
+      "eigenPrijs": 6.75,
+      "dichtstbijzijneConcurrent": 7.15,
+      "marge": 0.4
     },
     {
       "product": "8721055490524",
       "ean": "8721055490524",
       "offerId": "b55b819e-2e98-4ec0-9b50-500e3476ef01",
-      "eigenPrijs": 6.39,
+      "eigenPrijs": 6.4,
       "dichtstbijzijneConcurrent": 6.55,
-      "marge": 0.16
+      "marge": 0.15
     },
     {
       "product": "5414666001953",
@@ -8875,9 +8818,9 @@
       "product": "8719214750787",
       "ean": "8719214750787",
       "offerId": "94653748-1328-3d8c-e053-3c82010a25de",
-      "eigenPrijs": 6.95,
+      "eigenPrijs": 6.99,
       "dichtstbijzijneConcurrent": 7.39,
-      "marge": 0.44
+      "marge": 0.4
     }
   ]
 }
